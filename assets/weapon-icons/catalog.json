@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "megabonk": "Sword",
+    "english": "Iron Fang",
+    "russian": "Железный клык",
+    "file": "icons_256/01_iron-fang.png"
+  },
+  {
+    "id": 2,
+    "megabonk": "Firestaff",
+    "english": "Ember Scepter",
+    "russian": "Угольный скипетр",
+    "file": "icons_256/02_ember-scepter.png"
+  },
+  {
+    "id": 3,
+    "megabonk": "Lightning Staff",
+    "english": "Stormspike",
+    "russian": "Грозовой шип",
+    "file": "icons_256/03_stormspike.png"
+  },
+  {
+    "id": 4,
+    "megabonk": "Flamewalker",
+    "english": "Ashstep",
+    "russian": "Пепельный шаг",
+    "file": "icons_256/04_ashstep.png"
+  },
+  {
+    "id": 5,
+    "megabonk": "Chunkers",
+    "english": "Stone Satellites",
+    "russian": "Каменные спутники",
+    "file": "icons_256/05_stone-satellites.png"
+  },
+  {
+    "id": 6,
+    "megabonk": "Bone",
+    "english": "Gravebone",
+    "russian": "Могильная кость",
+    "file": "icons_256/06_gravebone.png"
+  },
+  {
+    "id": 7,
+    "megabonk": "Bow",
+    "english": "Briarstring",
+    "russian": "Терновый лук",
+    "file": "icons_256/07_briarstring.png"
+  },
+  {
+    "id": 8,
+    "megabonk": "Revolver",
+    "english": "Brass Six",
+    "russian": "Латунная шестёрка",
+    "file": "icons_256/08_brass-six.png"
+  },
+  {
+    "id": 9,
+    "megabonk": "Aegis",
+    "english": "Wardstone",
+    "russian": "Каменный оплот",
+    "file": "icons_256/09_wardstone.png"
+  },
+  {
+    "id": 10,
+    "megabonk": "Bananarang",
+    "english": "Golden Crescent",
+    "russian": "Золотой полумесяц",
+    "file": "icons_256/10_golden-crescent.png"
+  },
+  {
+    "id": 11,
+    "megabonk": "Aura",
+    "english": "Halo Engine",
+    "russian": "Ядро ауры",
+    "file": "icons_256/11_halo-engine.png"
+  },
+  {
+    "id": 12,
+    "megabonk": "Axe",
+    "english": "Twin Cleaver",
+    "russian": "Двойной секач",
+    "file": "icons_256/12_twin-cleaver.png"
+  },
+  {
+    "id": 13,
+    "megabonk": "Space Noodle",
+    "english": "Rift Lash",
+    "russian": "Разломная плеть",
+    "file": "icons_256/13_rift-lash.png"
+  },
+  {
+    "id": 14,
+    "megabonk": "Sniper Rifle",
+    "english": "Longwatch",
+    "russian": "Дальний дозор",
+    "file": "icons_256/14_longwatch.png"
+  },
+  {
+    "id": 15,
+    "megabonk": "Slutty Rocket",
+    "english": "Red Comet",
+    "russian": "Красная комета",
+    "file": "icons_256/15_red-comet.png"
+  },
+  {
+    "id": 16,
+    "megabonk": "Shotgun",
+    "english": "Scrapstorm",
+    "russian": "Шквал дроби",
+    "file": "icons_256/16_scrapstorm.png"
+  },
+  {
+    "id": 17,
+    "megabonk": "Mines",
+    "english": "Redeye Charge",
+    "russian": "Красноглазый заряд",
+    "file": "icons_256/17_redeye-charge.png"
+  },
+  {
+    "id": 18,
+    "megabonk": "Wireless Dagger",
+    "english": "Ghost Needle",
+    "russian": "Призрачное жало",
+    "file": "icons_256/18_ghost-needle.png"
+  },
+  {
+    "id": 19,
+    "megabonk": "Frostwalker",
+    "english": "Froststep",
+    "russian": "Ледяной шаг",
+    "file": "icons_256/19_froststep.png"
+  },
+  {
+    "id": 20,
+    "megabonk": "Tornado",
+    "english": "Whirlcore",
+    "russian": "Сердце вихря",
+    "file": "icons_256/20_whirlcore.png"
+  },
+  {
+    "id": 21,
+    "megabonk": "Dexecutioner",
+    "english": "Verdict",
+    "russian": "Приговор",
+    "file": "icons_256/21_verdict.png"
+  },
+  {
+    "id": 22,
+    "megabonk": "Blood Magic",
+    "english": "Sanguine Heart",
+    "russian": "Алое сердце",
+    "file": "icons_256/22_sanguine-heart.png"
+  },
+  {
+    "id": 23,
+    "megabonk": "Black Hole",
+    "english": "Voidwell",
+    "russian": "Колодец пустоты",
+    "file": "icons_256/23_voidwell.png"
+  },
+  {
+    "id": 24,
+    "megabonk": "Poison Flask",
+    "english": "Viper Flask",
+    "russian": "Колба гадюки",
+    "file": "icons_256/24_viper-flask.png"
+  },
+  {
+    "id": 25,
+    "megabonk": "Katana",
+    "english": "Crimson Arc",
+    "russian": "Багровая дуга",
+    "file": "icons_256/25_crimson-arc.png"
+  },
+  {
+    "id": 26,
+    "megabonk": "Dragon's Breath",
+    "english": "Drakefire",
+    "russian": "Драконий огонь",
+    "file": "icons_256/26_drakefire.png"
+  },
+  {
+    "id": 27,
+    "megabonk": "Dice",
+    "english": "Fatecube",
+    "russian": "Куб судьбы",
+    "file": "icons_256/27_fatecube.png"
+  },
+  {
+    "id": 28,
+    "megabonk": "Hero Sword",
+    "english": "Dawnhammer",
+    "russian": "Рассветный молот",
+    "file": "icons_256/28_dawnhammer.png"
+  },
+  {
+    "id": 29,
+    "megabonk": "Corrupted Sword",
+    "english": "Voidgrasp",
+    "russian": "Хватка бездны",
+    "file": "icons_256/29_voidgrasp.png"
+  },
+  {
+    "id": 30,
+    "megabonk": "Scythe",
+    "english": "Moonreaper",
+    "russian": "Лунный жнец",
+    "file": "icons_256/30_moonreaper.png"
+  }
+]
