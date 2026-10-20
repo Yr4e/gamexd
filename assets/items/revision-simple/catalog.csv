@@ -1,86 +1,86 @@
-﻿id,original_name,new_name_en,new_name_ru,effect_summary_ru,page_url,outline_hex,outline_color_name,mode,balanced_kind,balanced_pixels,restore_before_pixelation,associative,status,file
-1,Anvil,Triune Gear,Тройная шестерня,Дополнительная характеристика при улучшении оружия,https://megabonk.org/database/items/anvil,#FFD928,yellow,edit,,,,False,complete,icons_256/01.png
-2,Bloody Cleaver,Hemoseal,Кровопечать,Кража жизни и удары накладывают метку крови,https://megabonk.org/database/items/bloody-cleaver,#FFD928,yellow,keep,,,True,False,complete,icons_256/02.png
-3,Dragonfire,Embercoal,Жар-уголь,Шанс поджечь противников драконьим огнём,https://megabonk.org/database/items/dragonfire,#FFD928,yellow,generate,,,,False,complete,icons_256/03.png
-4,Energy Core,Noon,Полдень,Сокращение перезарядки и восстановление энергии по описанию сайта,https://megabonk.org/database/items/energy-core,#FFD928,yellow,generate,,,,True,complete,icons_256/04.png
-5,Holy Book,Mercy Bell,Колокол милосердия,Здоровье и регенерация; лечение излучает урон,https://megabonk.org/database/items/holy-book,#FFD928,yellow,scale,regular,48,,False,complete,icons_256/05.png
-6,Joe's Dagger,Fate Shears,Ножницы судьбы,Редкое добивание навсегда повышает урон в забеге,https://megabonk.org/database/items/joes-dagger,#FFD928,yellow,scale,,,True,False,complete,icons_256/06.png
-7,Lightning Orb,Storm Nail,Гвоздь грозы,Молния при ударе с возможностью оглушения,https://megabonk.org/database/items/lightning-orb,#FFD928,yellow,scale,regular,48,,False,complete,icons_256/07.png
-8,Golden Ring,Gilded Promise,Золотое обещание,Эффект оригинала на сайте не подтверждён,https://megabonk.org/database/items/golden-ring,#FFD928,yellow,keep,regular,48,,False,complete,icons_256/08.png
-9,Snek,Venom Abacus,Ядовитые счёты,Четыре стака яда при попадании,https://megabonk.org/database/items/snek,#FFD928,yellow,scale,regular,48,,False,complete,icons_256/09.png
-10,Pot (Stainless Steel),Limit Breaker,Взломщик предела,Повышение предела уровней оружия,https://megabonk.org/database/items/pot-stainless-steel,#FFD928,yellow,edit,,,,False,complete,icons_256/10.png
-11,Soul Harvester,Twin Wisps,Два блуждающих огня,Убийство выпускает две самонаводящиеся души,https://megabonk.org/database/items/soul-harvester,#FFD928,yellow,scale,regular,48,,False,complete,icons_256/11.png
-12,Speed Boi,Crisis Pendulum,Маятник кризиса,При низком здоровье получение урона замедляет время и усиливает атаки,https://megabonk.org/database/items/speed-boi,#FFD928,yellow,keep,regular,48,,False,complete,icons_256/12.png
-13,Sucky Magnet,Shard Vortex,Воронка осколков,Периодически притягивает осколки опыта,https://megabonk.org/database/items/sucky-magnet,#FFD928,yellow,keep,regular,48,,False,complete,icons_256/13.png
-14,Za Warudo,Stillheart Reliquary,Реликварий тишины,Один раз предотвращает смерть и останавливает время,https://megabonk.org/database/items/za-warudo,#FFD928,yellow,generate,,,,False,complete,icons_256/14.png
-15,Overpowered Lamp,Second Spark,Вторая искра,Дополнительный бросок вероятности для эффектов при ударе,https://megabonk.org/database/items/overpowered-lamp,#FFD928,yellow,keep,regular,48,,False,complete,icons_256/15.png
-16,Big Bonk,Thunder Ram,Громовой таран,Редкий удар с очень большим множителем урона,https://megabonk.org/database/items/big-bonk,#FFD928,yellow,keep,regular,48,,False,complete,icons_256/16.png
-17,Chonkplate,Crimson Cistern,Багровая цистерна,Кража жизни и запас лечения сверх максимального здоровья,https://megabonk.org/database/items/chonkplate,#FFD928,yellow,keep,regular,48,,False,complete,icons_256/17.png
-18,Giant Fork,Third Knock,Третий стук,Критические удары превращаются в усиленные мегакриты,https://megabonk.org/database/items/giant-fork,#FFD928,yellow,generate,,,,True,complete,icons_256/18.png
-19,Ice Cube,Long Pause,Долгая пауза,Шанс заморозить противника при попадании,https://megabonk.org/database/items/ice-cube,#FFD928,yellow,generate,,,,True,complete,icons_256/19.png
-20,Power Gloves,Shock Drum,Ударный барабан,"Шанс взрыва, который наносит урон и отбрасывает врагов",https://megabonk.org/database/items/power-gloves,#FFD928,yellow,keep,regular,48,,False,complete,icons_256/20.png
-21,Spicy Meatball,Blast Capsule,Ударная капсула,Атаки могут вызывать взрыв по области,https://megabonk.org/database/items/spicy-meatball,#FFD928,yellow,generate,,,,False,complete,icons_256/21.png
-22,Wizard's Hat,Northbound,На север,Повышение предела уровней томов,https://megabonk.org/database/items/wizards-hat,#FFD928,yellow,generate,,,,True,complete,icons_256/22.png
-23,Bob's Light,Dawn Prism,Призма рассвета,Периодический импульс вокруг персонажа,https://megabonk.org/database/items/bobs-light,#FF239F,pink,keep,regular,48,,False,complete,icons_256/23.png
-24,Cursed Grabbies,Hex Grips,Руки порчи,Проклятие при ударе с ценой в здоровье и сложности,https://megabonk.org/database/items/cursed-grabbies,#FF239F,pink,restore,regular,48,,False,complete,icons_256/24.png
-25,Demonic Soul,Borrowed Trace,Чужой след,Урон накапливается за убийства,https://megabonk.org/database/items/demonic-soul,#FF239F,pink,generate,,,,True,complete,icons_256/25.png
-26,Eagle Claw,Paper Moon,Бумажная луна,Подбрасывание врагов и бонус урона по воздушным целям,https://megabonk.org/database/items/eagle-claw,#FF239F,pink,generate,regular,48,,True,complete,icons_256/26.png
-27,Gamer Goggles,Berserker Fuse,Фитиль берсерка,"Чем меньше здоровья, тем больше урон",https://megabonk.org/database/items/gamer-goggles,#FF239F,pink,keep,regular,48,,False,complete,icons_256/27.png
-28,Gas Mask,Last Stop,Последняя остановка,Броня и запас сверхлечения от отравленных врагов рядом,https://megabonk.org/database/items/gas-mask,#FF239F,pink,generate,,,,True,complete,icons_256/28.png
-29,Grandma's Secret Tonic,Blast Brew,Взрывное пиво,Критические попадания могут взрываться,https://megabonk.org/database/items/grandmas-secret-tonic,#FF239F,pink,restore,regular,48,,False,complete,icons_256/29.png
-30,Shattered Knowledge,Side Road,Обходной путь,Летящие осколки опыта наносят урон врагам,https://megabonk.org/database/items/shattered-knowledge,#FF239F,pink,generate,,,,True,complete,icons_256/30.png
-31,Slutty Cannon,Vengeance Hive,Улей возмездия,Убийства могут выпускать ракеты,https://megabonk.org/database/items/slutty-cannon,#FF239F,pink,generate,recover,48,,False,complete,icons_256/31.png
-32,Toxic Barrel,Dry Season,Сухой сезон,Получение урона выпускает длительное ядовитое облако,https://megabonk.org/database/items/toxic-barrel,#FF239F,pink,generate,,,,True,complete,icons_256/32.png
-33,Turbo Skates,Backbeat,Затакт,Скорость движения преобразуется в скорость атаки,https://megabonk.org/database/items/turbo-skates,#FF239F,pink,generate,,,,True,complete,icons_256/33.png
-34,Kevin,Spite Box,Коробка назло,Удары могут причинять безопасный урон себе и запускать связанные эффекты,https://megabonk.org/database/items/kevin,#1689FF,blue,scale,regular,48,,False,complete,icons_256/34.png
-35,Pumpkin,Reward Pot,Горшок награды,Дополнительные горшки на будущих этапах и усиление наград,https://megabonk.org/database/items/pumpkin,#1689FF,blue,generate,,,,False,complete,icons_256/35.png
-36,Backpack,Second Opinion,Второе мнение,Дополнительный снаряд для оружия,https://megabonk.org/database/items/backpack,#1689FF,blue,generate,,,,True,complete,icons_256/36.png
-37,Beacon,Fifth Corner,Пятый угол,Лечебная область у заряжаемого святилища и дополнительные святилища,https://megabonk.org/database/items/beacon,#1689FF,blue,generate,,,,True,complete,icons_256/37.png
-38,Coward's Cloak,Panic Whistle,Свисток паники,Постоянная скорость движения и ускорение после получения урона,https://megabonk.org/database/items/cowards-cloak,#1689FF,blue,keep,regular,48,,False,complete,icons_256/38.png
-39,Demonic Blade,Suture Needle,Игла сшивания,Критические удары могут лечить,https://megabonk.org/database/items/demonic-blade,#1689FF,blue,keep,regular,48,,False,complete,icons_256/39.png
-40,Demonic Blood,Growth Marrow,Растущий костный мозг,Убийства накапливают максимальное здоровье,https://megabonk.org/database/items/demonic-blood,#1689FF,blue,generate,,,,False,complete,icons_256/40.png
-41,Echo Shard,Postal Wind,Почтовый ветер,Шанс дополнительного осколка опыта за убийство,https://megabonk.org/database/items/echo-shard,#1689FF,blue,generate,,,,True,complete,icons_256/41.png
-42,Golden Glove,Bounty Tag,Жетон добычи,Больше золота за убийства,https://megabonk.org/database/items/golden-glove,#55EDBB,mint,generate,recover,48,,False,complete,icons_256/42.png
-43,Golden Shield,Gilded Bruise,Золотой ушиб,Золото за получение урона,https://megabonk.org/database/items/golden-shield,#1689FF,blue,keep,regular,48,,False,complete,icons_256/43.png
-44,Golden Sneakers,Soft Landing,Мягкая посадка,Золото за пройденное расстояние,https://megabonk.org/database/items/golden-sneakers,#1689FF,blue,generate,,,,True,complete,icons_256/44.png
-45,Gym Sauce,Ironroot,Железный корень,Постоянный бонус к урону,https://megabonk.org/database/items/gym-sauce,#55EDBB,mint,keep,regular,48,,False,complete,icons_256/45.png
-46,Idle Juice,Quiet Guest,Тихий гость,Урон постепенно растёт во время неподвижности,https://megabonk.org/database/items/idle-juice,#1689FF,blue,generate,,,,True,complete,icons_256/46.png
-47,Quin's Mask,Jester's Grin,Улыбка шута,Урон шипами может вызывать взрывы,https://megabonk.org/database/items/quins-mask,#FF239F,pink,restore,regular,48,,False,complete,icons_256/47.png
-48,Leeching Crystal,Leechstone,Кровососный камень,Больше максимального здоровья ценой меньшей регенерации,https://megabonk.org/database/items/leeching-crystal,#1689FF,blue,restore,regular,48,,False,complete,icons_256/48.png
-49,Mirror,Ricochet Prism,Призма рикошета,Отражение урона и краткая неуязвимость после попадания,https://megabonk.org/database/items/mirror,#FF239F,pink,keep,regular,48,,False,complete,icons_256/49.png
-50,Moldy Gloves,Spore Grips,Споровые перчатки,Удары создают длительное ядовитое облако,https://megabonk.org/database/items/moldy-gloves,#1689FF,blue,restore,regular,48,,False,complete,icons_256/50.png
-51,Phantom Shroud,Evasion Hood,Капюшон ускользания,После уклонения усиленный удар и краткие бонусы скорости,https://megabonk.org/database/items/phantom-shroud,#1689FF,blue,restore,light,64,,False,complete,icons_256/51.png
-52,Slippery Ring,Smoke Button,Дымная пуговица,Повышение шанса уклонения,https://megabonk.org/database/items/slippery-ring,#55EDBB,mint,generate,,,,False,complete,icons_256/52.png
-53,Slurp Gloves,Low Tide,Отлив,Магия крови при ударе с уроном по области и лечением,https://megabonk.org/database/items/slurp-gloves,#FF239F,pink,generate,,,,True,complete,icons_256/53.png
-54,Spiky Shield,Sixth Sense,Шестое чувство,Броня усиливает урон шипами,https://megabonk.org/database/items/spiky-shield,#FF239F,pink,generate,,,,True,complete,icons_256/54.png
-55,Thunder Mitts,Long Weekend,Длинные выходные,Периодическая молния при попадании,https://megabonk.org/database/items/thunder-mitts,#1689FF,blue,generate,,,,True,complete,icons_256/55.png
-56,Time Bracelet,After Lunch,После обеда,Увеличение получаемого опыта,https://megabonk.org/database/items/time-bracelet,#55EDBB,mint,generate,,,,True,complete,icons_256/56.png
-57,Unstable Transfusion,Scarlet Spindle,Алое веретено,Удары могут накладывать метку крови,https://megabonk.org/database/items/unstable-transfusion,#1689FF,blue,keep,regular,48,,False,complete,icons_256/57.png
-58,Wrench,Shrine Adjuster,Ключ святилищ,Быстрее заряжаются святилища и выше их награды,https://megabonk.org/database/items/wrench,#55EDBB,mint,restore,,,True,False,complete,icons_256/58.png
-59,Old Mask,Between Lines,Между строк,Больше элитных противников,https://megabonk.org/database/items/old-mask,#55EDBB,mint,generate,,,,True,complete,icons_256/59.png
-60,Battery,Pulse Cell,Импульсная батарея,Постоянный бонус скорости атаки,https://megabonk.org/database/items/battery,#55EDBB,mint,restore,,,True,False,complete,icons_256/60.png
-61,Beefy Ring,Titan Vertebra,Позвонок титана,Урон растёт от максимального здоровья,https://megabonk.org/database/items/beefy-ring,#FF239F,pink,generate,,,,False,complete,icons_256/61.png
-62,Beer,Reckless Pepper,Перец безрассудства,Больше урона ценой части максимального здоровья,https://megabonk.org/database/items/beer,#1689FF,blue,keep,regular,48,,False,complete,icons_256/62.png
-63,Bob (Dead),Wanderer,Бродяга,Пройденное расстояние вызывает атакующего призрака,https://megabonk.org/database/items/bob-dead,#FF239F,pink,restore,regular,48,,False,complete,icons_256/63.png
-64,Borgar,Spare Minute,Запасная минута,Убийства могут оставлять лечебный предмет,https://megabonk.org/database/items/borgar,#55EDBB,mint,generate,,,,True,complete,icons_256/64.png
-65,Boss Buster,Giantbreaker Wedge,Клин исполиноборца,Дополнительный урон элитам и боссам,https://megabonk.org/database/items/boss-buster,#55EDBB,mint,generate,,,,False,complete,icons_256/65.png
-66,Brass Knuckles,Short Answer,Короткий ответ,Дополнительный урон ближайшим врагам,https://megabonk.org/database/items/brass-knuckles,#1689FF,blue,generate,,,,True,complete,icons_256/66.png
-67,Cactus,Spike Pouch,Мешочек шипов,Получение урона выпускает шипы,https://megabonk.org/database/items/cactus,#55EDBB,mint,generate,,,,False,complete,icons_256/67.png
-68,Campfire,Quiet Embers,Тихие угли,Лечение во время неподвижности,https://megabonk.org/database/items/campfire,#1689FF,blue,restore,,,True,False,complete,icons_256/68.png
-69,Clover,Fortune Coin,Монета удачи,Повышение удачи,https://megabonk.org/database/items/clover,#55EDBB,mint,generate,,,,False,complete,icons_256/69.png
-70,Credit Card (Green),Fortune Pass,Пропуск удачи,"Открытие сундуков повышает удачу, но сундуки дорожают",https://megabonk.org/database/items/credit-card-green,#FF239F,pink,restore,,,True,False,complete,icons_256/70.png
-71,Credit Card (Red),Spoils Pass,Трофейный пропуск,Открытие сундуков накапливает урон,https://megabonk.org/database/items/credit-card-red,#1689FF,blue,restore,,,True,False,complete,icons_256/71.png
-72,Cursed Doll,Hex Stitch,Стежок порчи,Проклятие нескольких целей с уроном от их здоровья,https://megabonk.org/database/items/cursed-doll,#55EDBB,mint,generate,,,,False,complete,icons_256/72.png
-73,Electric Plug,Live Plug,Живой контакт,Получение урона вызывает электрический разряд вокруг,https://megabonk.org/database/items/electric-plug,#1689FF,blue,generate,plug,48,,False,complete,icons_256/73.png
-74,Feathers,Spring Step,Пружинный шаг,Усиление прыжка и дополнительный прыжок,https://megabonk.org/database/items/feathers,#1689FF,blue,generate,,,,False,complete,icons_256/74.png
-75,Forbidden Juice,Red Focus,Красный фокус,Повышение шанса критического удара,https://megabonk.org/database/items/forbidden-juice,#55EDBB,mint,generate,,,,False,complete,icons_256/75.png
-76,Ghost,Restless Wisp,Непоседливый дух,Взаимодействия с объектами вызывают призраков,https://megabonk.org/database/items/ghost,#1689FF,blue,restore,,,True,False,complete,icons_256/76.png
-77,Ice Crystal,Frost Splinter,Морозный скол,Заморозка при ударе и добивание ослабленных врагов,https://megabonk.org/database/items/ice-crystal,#55EDBB,mint,generate,,,,False,complete,icons_256/77.png
-78,Key,Free Latch,Свободная защёлка,Шанс бесплатно открыть сундук,https://megabonk.org/database/items/key,#55EDBB,mint,generate,,,,False,complete,icons_256/78.png
-79,Medkit,Field Kit,Полевая аптечка,Постоянная регенерация здоровья,https://megabonk.org/database/items/medkit,#55EDBB,mint,restore,regular,48,,False,complete,icons_256/79.png
-80,Moldy Cheese,Sour Wedge,Кислый ломтик,Шанс отравить врага при попадании,https://megabonk.org/database/items/moldy-cheese,#55EDBB,mint,restore,regular,48,,False,complete,icons_256/80.png
-81,Oats,Iron Wafer,Крепкий сухарь,Повышение максимального здоровья,https://megabonk.org/database/items/oats,#55EDBB,mint,generate,,,,False,complete,icons_256/81.png
-82,Scarf,High Pin,Высотный штифт,Дополнительный урон в воздухе,https://megabonk.org/database/items/scarf,#FF239F,pink,generate,,,,False,complete,icons_256/82.png
-83,Skuleg,Doom Die,Кость рока,Повышение сложности забега,https://megabonk.org/database/items/skuleg,#55EDBB,mint,generate,,,,False,complete,icons_256/83.png
-84,Tactical Glasses,Fresh Edge,Первое лезвие,Бонус урона по противникам с почти полным здоровьем,https://megabonk.org/database/items/tactical-glasses,#55EDBB,mint,generate,,,,False,complete,icons_256/84.png
-85,Turbo Socks,Gale Whorl,Клубок ветра,Повышение скорости движения,https://megabonk.org/database/items/turbo-socks,#55EDBB,mint,generate,,,,False,complete,icons_256/85.png
+﻿id,original_name,new_name_en,new_name_ru,effect_summary_ru,page_url,outline_hex,outline_color_name,mode,balanced_kind,balanced_pixels,restore_before_pixelation,edge_cleanup,slight_pixel_body,associative,status,file
+1,Anvil,Triune Gear,Тройная шестерня,Дополнительная характеристика при улучшении оружия,https://megabonk.org/database/items/anvil,#FFD928,yellow,edit,,,,True,44,False,complete,icons_256/01.png
+2,Bloody Cleaver,Hemoseal,Кровопечать,Кража жизни и удары накладывают метку крови,https://megabonk.org/database/items/bloody-cleaver,#FFD928,yellow,keep,,,True,True,56,False,complete,icons_256/02.png
+3,Dragonfire,Embercoal,Жар-уголь,Шанс поджечь противников драконьим огнём,https://megabonk.org/database/items/dragonfire,#FFD928,yellow,generate,,,,,,False,complete,icons_256/03.png
+4,Energy Core,Noon,Полдень,Сокращение перезарядки и восстановление энергии по описанию сайта,https://megabonk.org/database/items/energy-core,#FFD928,yellow,generate,,,,,,True,complete,icons_256/04.png
+5,Holy Book,Mercy Bell,Колокол милосердия,Здоровье и регенерация; лечение излучает урон,https://megabonk.org/database/items/holy-book,#FFD928,yellow,scale,regular,48,,True,,False,complete,icons_256/05.png
+6,Joe's Dagger,Fate Shears,Ножницы судьбы,Редкое добивание навсегда повышает урон в забеге,https://megabonk.org/database/items/joes-dagger,#FFD928,yellow,scale,,,True,True,56,False,complete,icons_256/06.png
+7,Lightning Orb,Storm Nail,Гвоздь грозы,Молния при ударе с возможностью оглушения,https://megabonk.org/database/items/lightning-orb,#FFD928,yellow,scale,regular,48,,True,,False,complete,icons_256/07.png
+8,Golden Ring,Gilded Promise,Золотое обещание,Эффект оригинала на сайте не подтверждён,https://megabonk.org/database/items/golden-ring,#FFD928,yellow,keep,regular,48,,True,,False,complete,icons_256/08.png
+9,Snek,Venom Abacus,Ядовитые счёты,Четыре стака яда при попадании,https://megabonk.org/database/items/snek,#FFD928,yellow,scale,regular,48,,True,,False,complete,icons_256/09.png
+10,Pot (Stainless Steel),Limit Breaker,Взломщик предела,Повышение предела уровней оружия,https://megabonk.org/database/items/pot-stainless-steel,#FFD928,yellow,edit,,,,,,False,complete,icons_256/10.png
+11,Soul Harvester,Twin Wisps,Два блуждающих огня,Убийство выпускает две самонаводящиеся души,https://megabonk.org/database/items/soul-harvester,#FFD928,yellow,scale,regular,48,,,,False,complete,icons_256/11.png
+12,Speed Boi,Crisis Pendulum,Маятник кризиса,При низком здоровье получение урона замедляет время и усиливает атаки,https://megabonk.org/database/items/speed-boi,#FFD928,yellow,keep,regular,48,,True,,False,complete,icons_256/12.png
+13,Sucky Magnet,Shard Vortex,Воронка осколков,Периодически притягивает осколки опыта,https://megabonk.org/database/items/sucky-magnet,#FFD928,yellow,keep,regular,48,,True,,False,complete,icons_256/13.png
+14,Za Warudo,Stillheart Reliquary,Реликварий тишины,Один раз предотвращает смерть и останавливает время,https://megabonk.org/database/items/za-warudo,#FFD928,yellow,generate,,,,,,False,complete,icons_256/14.png
+15,Overpowered Lamp,Second Spark,Вторая искра,Дополнительный бросок вероятности для эффектов при ударе,https://megabonk.org/database/items/overpowered-lamp,#FFD928,yellow,keep,regular,48,,,,False,complete,icons_256/15.png
+16,Big Bonk,Thunder Ram,Громовой таран,Редкий удар с очень большим множителем урона,https://megabonk.org/database/items/big-bonk,#FFD928,yellow,keep,regular,48,,,,False,complete,icons_256/16.png
+17,Chonkplate,Crimson Cistern,Багровая цистерна,Кража жизни и запас лечения сверх максимального здоровья,https://megabonk.org/database/items/chonkplate,#FFD928,yellow,keep,regular,48,,,,False,complete,icons_256/17.png
+18,Giant Fork,Third Knock,Третий стук,Критические удары превращаются в усиленные мегакриты,https://megabonk.org/database/items/giant-fork,#FFD928,yellow,generate,,,,,,True,complete,icons_256/18.png
+19,Ice Cube,Long Pause,Долгая пауза,Шанс заморозить противника при попадании,https://megabonk.org/database/items/ice-cube,#FFD928,yellow,generate,,,,,,True,complete,icons_256/19.png
+20,Power Gloves,Shock Drum,Ударный барабан,"Шанс взрыва, который наносит урон и отбрасывает врагов",https://megabonk.org/database/items/power-gloves,#FFD928,yellow,keep,regular,48,,,,False,complete,icons_256/20.png
+21,Spicy Meatball,Blast Capsule,Ударная капсула,Атаки могут вызывать взрыв по области,https://megabonk.org/database/items/spicy-meatball,#FFD928,yellow,generate,,,,,,False,complete,icons_256/21.png
+22,Wizard's Hat,Northbound,На север,Повышение предела уровней томов,https://megabonk.org/database/items/wizards-hat,#FFD928,yellow,generate,,,,,,True,complete,icons_256/22.png
+23,Bob's Light,Dawn Prism,Призма рассвета,Периодический импульс вокруг персонажа,https://megabonk.org/database/items/bobs-light,#FF239F,pink,keep,regular,48,,,,False,complete,icons_256/23.png
+24,Cursed Grabbies,Hex Grips,Руки порчи,Проклятие при ударе с ценой в здоровье и сложности,https://megabonk.org/database/items/cursed-grabbies,#FF239F,pink,restore,regular,48,,True,,False,complete,icons_256/24.png
+25,Demonic Soul,Borrowed Trace,Чужой след,Урон накапливается за убийства,https://megabonk.org/database/items/demonic-soul,#FF239F,pink,generate,,,,,,True,complete,icons_256/25.png
+26,Eagle Claw,Paper Moon,Бумажная луна,Подбрасывание врагов и бонус урона по воздушным целям,https://megabonk.org/database/items/eagle-claw,#FF239F,pink,generate,regular,48,,,,True,complete,icons_256/26.png
+27,Gamer Goggles,Berserker Fuse,Фитиль берсерка,"Чем меньше здоровья, тем больше урон",https://megabonk.org/database/items/gamer-goggles,#FF239F,pink,keep,regular,48,,True,,False,complete,icons_256/27.png
+28,Gas Mask,Last Stop,Последняя остановка,Броня и запас сверхлечения от отравленных врагов рядом,https://megabonk.org/database/items/gas-mask,#FF239F,pink,generate,,,,,,True,complete,icons_256/28.png
+29,Grandma's Secret Tonic,Blast Brew,Взрывное пиво,Критические попадания могут взрываться,https://megabonk.org/database/items/grandmas-secret-tonic,#FF239F,pink,restore,regular,48,,True,,False,complete,icons_256/29.png
+30,Shattered Knowledge,Side Road,Обходной путь,Летящие осколки опыта наносят урон врагам,https://megabonk.org/database/items/shattered-knowledge,#FF239F,pink,generate,,,,,,True,complete,icons_256/30.png
+31,Slutty Cannon,Vengeance Hive,Улей возмездия,Убийства могут выпускать ракеты,https://megabonk.org/database/items/slutty-cannon,#FF239F,pink,generate,recover,48,,,,False,complete,icons_256/31.png
+32,Toxic Barrel,Dry Season,Сухой сезон,Получение урона выпускает длительное ядовитое облако,https://megabonk.org/database/items/toxic-barrel,#FF239F,pink,generate,,,,,,True,complete,icons_256/32.png
+33,Turbo Skates,Backbeat,Затакт,Скорость движения преобразуется в скорость атаки,https://megabonk.org/database/items/turbo-skates,#FF239F,pink,generate,,,,,,True,complete,icons_256/33.png
+34,Kevin,Spite Box,Коробка назло,Удары могут причинять безопасный урон себе и запускать связанные эффекты,https://megabonk.org/database/items/kevin,#1689FF,blue,scale,regular,48,,,,False,complete,icons_256/34.png
+35,Pumpkin,Reward Pot,Горшок награды,Дополнительные горшки на будущих этапах и усиление наград,https://megabonk.org/database/items/pumpkin,#1689FF,blue,generate,,,,,,False,complete,icons_256/35.png
+36,Backpack,Second Opinion,Второе мнение,Дополнительный снаряд для оружия,https://megabonk.org/database/items/backpack,#1689FF,blue,generate,,,,,,True,complete,icons_256/36.png
+37,Beacon,Fifth Corner,Пятый угол,Лечебная область у заряжаемого святилища и дополнительные святилища,https://megabonk.org/database/items/beacon,#1689FF,blue,generate,,,,,,True,complete,icons_256/37.png
+38,Coward's Cloak,Panic Whistle,Свисток паники,Постоянная скорость движения и ускорение после получения урона,https://megabonk.org/database/items/cowards-cloak,#1689FF,blue,keep,regular,48,,True,,False,complete,icons_256/38.png
+39,Demonic Blade,Suture Needle,Игла сшивания,Критические удары могут лечить,https://megabonk.org/database/items/demonic-blade,#1689FF,blue,keep,regular,48,,,,False,complete,icons_256/39.png
+40,Demonic Blood,Growth Marrow,Растущий костный мозг,Убийства накапливают максимальное здоровье,https://megabonk.org/database/items/demonic-blood,#1689FF,blue,generate,,,,,,False,complete,icons_256/40.png
+41,Echo Shard,Postal Wind,Почтовый ветер,Шанс дополнительного осколка опыта за убийство,https://megabonk.org/database/items/echo-shard,#1689FF,blue,generate,,,,,,True,complete,icons_256/41.png
+42,Golden Glove,Bounty Tag,Жетон добычи,Больше золота за убийства,https://megabonk.org/database/items/golden-glove,#55EDBB,mint,generate,recover,48,,,,False,complete,icons_256/42.png
+43,Golden Shield,Gilded Bruise,Золотой ушиб,Золото за получение урона,https://megabonk.org/database/items/golden-shield,#1689FF,blue,keep,regular,48,,,,False,complete,icons_256/43.png
+44,Golden Sneakers,Soft Landing,Мягкая посадка,Золото за пройденное расстояние,https://megabonk.org/database/items/golden-sneakers,#1689FF,blue,generate,,,,,,True,complete,icons_256/44.png
+45,Gym Sauce,Ironroot,Железный корень,Постоянный бонус к урону,https://megabonk.org/database/items/gym-sauce,#55EDBB,mint,keep,regular,48,,,,False,complete,icons_256/45.png
+46,Idle Juice,Quiet Guest,Тихий гость,Урон постепенно растёт во время неподвижности,https://megabonk.org/database/items/idle-juice,#1689FF,blue,generate,,,,,,True,complete,icons_256/46.png
+47,Quin's Mask,Jester's Grin,Улыбка шута,Урон шипами может вызывать взрывы,https://megabonk.org/database/items/quins-mask,#FF239F,pink,restore,regular,48,,True,,False,complete,icons_256/47.png
+48,Leeching Crystal,Leechstone,Кровососный камень,Больше максимального здоровья ценой меньшей регенерации,https://megabonk.org/database/items/leeching-crystal,#1689FF,blue,restore,regular,48,,,,False,complete,icons_256/48.png
+49,Mirror,Ricochet Prism,Призма рикошета,Отражение урона и краткая неуязвимость после попадания,https://megabonk.org/database/items/mirror,#FF239F,pink,keep,regular,48,,,,False,complete,icons_256/49.png
+50,Moldy Gloves,Spore Grips,Споровые перчатки,Удары создают длительное ядовитое облако,https://megabonk.org/database/items/moldy-gloves,#1689FF,blue,restore,regular,48,,True,,False,complete,icons_256/50.png
+51,Phantom Shroud,Evasion Hood,Капюшон ускользания,После уклонения усиленный удар и краткие бонусы скорости,https://megabonk.org/database/items/phantom-shroud,#1689FF,blue,restore,light,64,,True,,False,complete,icons_256/51.png
+52,Slippery Ring,Smoke Button,Дымная пуговица,Повышение шанса уклонения,https://megabonk.org/database/items/slippery-ring,#55EDBB,mint,generate,,,,,,False,complete,icons_256/52.png
+53,Slurp Gloves,Low Tide,Отлив,Магия крови при ударе с уроном по области и лечением,https://megabonk.org/database/items/slurp-gloves,#FF239F,pink,generate,,,,,,True,complete,icons_256/53.png
+54,Spiky Shield,Sixth Sense,Шестое чувство,Броня усиливает урон шипами,https://megabonk.org/database/items/spiky-shield,#FF239F,pink,generate,,,,,,True,complete,icons_256/54.png
+55,Thunder Mitts,Long Weekend,Длинные выходные,Периодическая молния при попадании,https://megabonk.org/database/items/thunder-mitts,#1689FF,blue,generate,,,,,,True,complete,icons_256/55.png
+56,Time Bracelet,After Lunch,После обеда,Увеличение получаемого опыта,https://megabonk.org/database/items/time-bracelet,#55EDBB,mint,generate,,,,,,True,complete,icons_256/56.png
+57,Unstable Transfusion,Scarlet Spindle,Алое веретено,Удары могут накладывать метку крови,https://megabonk.org/database/items/unstable-transfusion,#1689FF,blue,keep,regular,48,,,,False,complete,icons_256/57.png
+58,Wrench,Shrine Adjuster,Ключ святилищ,Быстрее заряжаются святилища и выше их награды,https://megabonk.org/database/items/wrench,#55EDBB,mint,restore,,,True,,,False,complete,icons_256/58.png
+59,Old Mask,Between Lines,Между строк,Больше элитных противников,https://megabonk.org/database/items/old-mask,#55EDBB,mint,generate,,,,,,True,complete,icons_256/59.png
+60,Battery,Pulse Cell,Импульсная батарея,Постоянный бонус скорости атаки,https://megabonk.org/database/items/battery,#55EDBB,mint,restore,,,True,,,False,complete,icons_256/60.png
+61,Beefy Ring,Titan Vertebra,Позвонок титана,Урон растёт от максимального здоровья,https://megabonk.org/database/items/beefy-ring,#FF239F,pink,generate,,,,,,False,complete,icons_256/61.png
+62,Beer,Reckless Pepper,Перец безрассудства,Больше урона ценой части максимального здоровья,https://megabonk.org/database/items/beer,#1689FF,blue,keep,regular,48,,,,False,complete,icons_256/62.png
+63,Bob (Dead),Wanderer,Бродяга,Пройденное расстояние вызывает атакующего призрака,https://megabonk.org/database/items/bob-dead,#FF239F,pink,restore,regular,48,,True,,False,complete,icons_256/63.png
+64,Borgar,Spare Minute,Запасная минута,Убийства могут оставлять лечебный предмет,https://megabonk.org/database/items/borgar,#55EDBB,mint,generate,,,,,,True,complete,icons_256/64.png
+65,Boss Buster,Giantbreaker Wedge,Клин исполиноборца,Дополнительный урон элитам и боссам,https://megabonk.org/database/items/boss-buster,#55EDBB,mint,generate,,,,,,False,complete,icons_256/65.png
+66,Brass Knuckles,Short Answer,Короткий ответ,Дополнительный урон ближайшим врагам,https://megabonk.org/database/items/brass-knuckles,#1689FF,blue,generate,,,,,,True,complete,icons_256/66.png
+67,Cactus,Spike Pouch,Мешочек шипов,Получение урона выпускает шипы,https://megabonk.org/database/items/cactus,#55EDBB,mint,generate,,,,,,False,complete,icons_256/67.png
+68,Campfire,Quiet Embers,Тихие угли,Лечение во время неподвижности,https://megabonk.org/database/items/campfire,#1689FF,blue,restore,,,True,,,False,complete,icons_256/68.png
+69,Clover,Fortune Coin,Монета удачи,Повышение удачи,https://megabonk.org/database/items/clover,#55EDBB,mint,generate,,,,,,False,complete,icons_256/69.png
+70,Credit Card (Green),Fortune Pass,Пропуск удачи,"Открытие сундуков повышает удачу, но сундуки дорожают",https://megabonk.org/database/items/credit-card-green,#FF239F,pink,restore,,,True,,,False,complete,icons_256/70.png
+71,Credit Card (Red),Spoils Pass,Трофейный пропуск,Открытие сундуков накапливает урон,https://megabonk.org/database/items/credit-card-red,#1689FF,blue,restore,,,True,,,False,complete,icons_256/71.png
+72,Cursed Doll,Hex Stitch,Стежок порчи,Проклятие нескольких целей с уроном от их здоровья,https://megabonk.org/database/items/cursed-doll,#55EDBB,mint,generate,,,,,,False,complete,icons_256/72.png
+73,Electric Plug,Live Plug,Живой контакт,Получение урона вызывает электрический разряд вокруг,https://megabonk.org/database/items/electric-plug,#1689FF,blue,generate,plug,48,,,,False,complete,icons_256/73.png
+74,Feathers,Spring Step,Пружинный шаг,Усиление прыжка и дополнительный прыжок,https://megabonk.org/database/items/feathers,#1689FF,blue,generate,,,,,,False,complete,icons_256/74.png
+75,Forbidden Juice,Red Focus,Красный фокус,Повышение шанса критического удара,https://megabonk.org/database/items/forbidden-juice,#55EDBB,mint,generate,,,,,,False,complete,icons_256/75.png
+76,Ghost,Restless Wisp,Непоседливый дух,Взаимодействия с объектами вызывают призраков,https://megabonk.org/database/items/ghost,#1689FF,blue,restore,,,True,True,,False,complete,icons_256/76.png
+77,Ice Crystal,Frost Splinter,Морозный скол,Заморозка при ударе и добивание ослабленных врагов,https://megabonk.org/database/items/ice-crystal,#55EDBB,mint,generate,,,,,,False,complete,icons_256/77.png
+78,Key,Free Latch,Свободная защёлка,Шанс бесплатно открыть сундук,https://megabonk.org/database/items/key,#55EDBB,mint,generate,,,,,,False,complete,icons_256/78.png
+79,Medkit,Field Kit,Полевая аптечка,Постоянная регенерация здоровья,https://megabonk.org/database/items/medkit,#55EDBB,mint,restore,regular,48,,True,,False,complete,icons_256/79.png
+80,Moldy Cheese,Sour Wedge,Кислый ломтик,Шанс отравить врага при попадании,https://megabonk.org/database/items/moldy-cheese,#55EDBB,mint,restore,regular,48,,True,,False,complete,icons_256/80.png
+81,Oats,Iron Wafer,Крепкий сухарь,Повышение максимального здоровья,https://megabonk.org/database/items/oats,#55EDBB,mint,generate,,,,,,False,complete,icons_256/81.png
+82,Scarf,High Pin,Высотный штифт,Дополнительный урон в воздухе,https://megabonk.org/database/items/scarf,#FF239F,pink,generate,,,,,,False,complete,icons_256/82.png
+83,Skuleg,Doom Die,Кость рока,Повышение сложности забега,https://megabonk.org/database/items/skuleg,#55EDBB,mint,generate,,,,,,False,complete,icons_256/83.png
+84,Tactical Glasses,Fresh Edge,Первое лезвие,Бонус урона по противникам с почти полным здоровьем,https://megabonk.org/database/items/tactical-glasses,#55EDBB,mint,generate,,,,,,False,complete,icons_256/84.png
+85,Turbo Socks,Gale Whorl,Клубок ветра,Повышение скорости движения,https://megabonk.org/database/items/turbo-socks,#55EDBB,mint,generate,,,,True,,False,complete,icons_256/85.png

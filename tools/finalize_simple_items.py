@@ -5,6 +5,8 @@ import hashlib
 import json
 import zipfile
 from PIL import Image
+import numpy as np
+from scipy import ndimage as ndi
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'assets/items/revision-simple'
@@ -30,7 +32,7 @@ def main():
         hashes.append(digest)
         for field in ('original_name', 'effect_summary_ru', 'outline_hex', 'page_url'):
             assert e[field] == previous[e['id']][field], (e['id'], field)
-        if e['mode'] == 'keep' and not e.get('pixelate_existing') and not e.get('balanced_fix') and not e.get('restore_before_pixelation'):
+        if e['mode'] == 'keep' and not e.get('pixelate_existing') and not e.get('balanced_fix') and not e.get('restore_before_pixelation') and not e.get('edge_cleanup'):
             assert path.read_bytes() == (OLD / e['icon_file']).read_bytes(), e['id']
         if e['mode'] in ('generate', 'edit'):
             generated.append(e['id'])
@@ -63,7 +65,8 @@ def main():
     rolled_back = [e['id'] for e in entries if e.get('restore_before_pixelation')]
     untouched = []
     bounds = {}
-    if balanced:
+    edge_ids = [e['id'] for e in entries if e.get('edge_cleanup')]
+    if balanced and not edge_ids:
         expected_regular = {5,7,8,9,11,12,13,15,16,17,20,23,24,26,27,29,34,38,39,43,45,47,48,49,50,57,62,63,79,80}
         assert set(balanced) == expected_regular | {31,42,51,73}
         assert set(rolled_back) == {2,6,58,60,68,70,71,76}
@@ -87,6 +90,32 @@ def main():
         assert len(untouched) == 43
         assert (OUT / 'raw/73-lightning.png').is_file()
         assert (OUT / 'prompts/73-lightning.txt').is_file()
+    if edge_ids:
+        assert set(edge_ids) == {1,2,5,6,7,8,9,12,13,24,27,29,38,47,50,51,63,76,79,80,85}
+        assert {e['id'] for e in entries if e.get('slight_pixel_body')} == {1,2,6}
+        baseline = json.loads((OUT / 'before-outline-fix/baseline.json').read_text(encoding='utf-8'))
+        for e in entries:
+            if e['id'] not in edge_ids:
+                assert e['sha256'] == baseline[str(e['id'])], e['id']
+                untouched.append(e['id'])
+                continue
+            assert e['sha256'] != baseline[str(e['id'])], e['id']
+            image = Image.open(OUT / e['file']).convert('RGBA')
+            a = np.asarray(image)
+            body = np.asarray(Image.open(OUT / 'edge-masks' / f'{e["id"]:02d}.png')) > 0
+            distance = ndi.distance_transform_edt(~body)
+            exterior = ~ndi.binary_fill_holes(body)
+            dark_band = exterior & (distance>0) & (distance<=1)
+            rare_band = exterior & (distance>1) & (distance<=3)
+            rgb = tuple(int(e['outline_hex'][k:k+2],16) for k in (1,3,5))
+            assert np.all(a[dark_band] == np.array((16,17,24,255))), e['id']
+            assert np.all(a[rare_band] == np.array(rgb+(255,))), e['id']
+            assert np.array_equal(a[:,:,3]>0, body|dark_band|rare_band), e['id']
+            before = Image.open(OUT / 'before-outline-fix' / f'{e["id"]:02d}.png')
+            old_box = before.getchannel('A').point(lambda a:255 if a>=128 else 0).getbbox()
+            box = image.getchannel('A').getbbox()
+            assert max(abs(x-y) for x,y in zip(old_box,box)) <= 7, (e['id'],old_box,box)
+        assert len(untouched) == 64
     report = {
         'total': 85, 'unique_pngs': 85, 'rgba_size': [256, 256],
         'transparent_margins': True, 'original_effects_and_rarity_preserved': True,
@@ -94,12 +123,14 @@ def main():
         'generated_ids': generated, 'associative_ids': associative,
         'associative_percent': round(len(associative) / 85 * 100, 2),
         'pixelated_existing_ids': pixelated,
-        'other_images_byte_identical_to_previous_revision': len(untouched)==43 if balanced else bool(pixelated),
+        'other_images_byte_identical_to_previous_revision': len(untouched)==64 if edge_ids else len(untouched)==43 if balanced else bool(pixelated),
         'balanced_fix_ids': balanced,
         'balanced_sprite_bounds': bounds,
         'rolled_back_ids': rolled_back,
         'untouched_ids': untouched,
         'exact_scope_verified': bool(balanced),
+        'edge_cleanup_ids': edge_ids,
+        'single_separated_outer_rarity_band_verified': bool(edge_ids),
         'grid_size': list(Image.open(OUT / 'items-simple-grid.png').size),
     }
     (OUT / 'validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
