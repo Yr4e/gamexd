@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghost Item — Effect & Unlock | Megabonk</title>
+  <meta name="description" content="Verified guide to Megabonk's Ghost item: what it does (summons ghosts when you use interactables), how to unlock it (survive Final Swarm for 60s), plus safe community-tested synergies.">
+  <link rel="canonical" href="https://megabonk.org/database/items/ghost">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-V5X87M8JFL');
+  </script>
+
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920" crossorigin="anonymous"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ghost — Megabonk Item Guide">
+  <meta property="og:description" content="Effect: summons ghosts when you use interactables. Unlock: survive Final Swarm for 60s.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://megabonk.org/database/items/ghost">
+  <meta property="og:image" content="https://megabonk.org/images/Items/Item_Ghost.png">
+
+  <!-- JSON-LD (in section D duplicates) will be embedded near the end -->
+
+  <style>
+    /* ======= Preserved Style (trimmed to essentials; from your Kevin page) ======= */
+    :root{
+      --bg-primary:#0f1419;--bg-secondary:#16213e;--bg-card:rgba(22,33,62,.6);
+      --border-color:rgba(233,69,96,.3);--text-primary:#e94560;--text-secondary:#f1f1f1;
+      --text-muted:#a4a4a4;--accent-gold:#ffd700;--rare-purple:#9b59b6;--rare-glow:rgba(155,89,182,.4);
+      --danger-red:#ff4757;--success-green:#26de81;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Cantarell,sans-serif;background:linear-gradient(135deg,#0f1419 0%,#16213e 50%,#1a1a2e 100%);color:var(--text-secondary);line-height:1.6;min-height:100vh}
+    nav{background:rgba(15,20,25,.95);backdrop-filter:blur(10px);border-bottom:2px solid var(--border-color);position:sticky;top:0;z-index:1000}
+    .nav-container{max-width:1400px;margin:0 auto;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-size:1.5rem;font-weight:700;color:var(--text-primary);text-decoration:none;text-shadow:0 0 10px var(--rare-glow)}
+    .nav-links{display:flex;gap:2rem;list-style:none}
+    .nav-links a{color:var(--text-secondary);text-decoration:none;font-weight:500}
+    .nav-links a:hover{color:var(--text-primary)}
+    .breadcrumb{max-width:1400px;margin:0 auto;padding:1.5rem 2rem .5rem;font-size:.9rem}
+    .breadcrumb a{color:var(--text-primary);text-decoration:none}
+    .breadcrumb a:hover{text-decoration:underline}
+    .breadcrumb span{color:var(--text-muted);margin:0 .5rem}
+    .container{max-width:1400px;margin:0 auto;padding:2rem}
+    .item-hero{background:linear-gradient(135deg,rgba(155,89,182,.2) 0%,rgba(233,69,96,.2) 100%);border-radius:15px;padding:3rem;margin-bottom:2rem;border:2px solid var(--rare-purple);box-shadow:0 0 30px var(--rare-glow);display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center}
+    .item-icon-large{width:150px;height:150px;object-fit:contain;filter:drop-shadow(0 0 20px var(--rare-glow));animation:floatAnimation 3s ease-in-out infinite}
+    @keyframes floatAnimation{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .item-hero-content h1{font-size:2.5rem;color:var(--rare-purple);margin-bottom:.5rem;text-shadow:0 0 20px var(--rare-glow)}
+    .item-rarity{display:inline-block;padding:.4rem 1rem;background:linear-gradient(135deg,#2ecc71,#27ae60);color:#fff;border-radius:20px;font-weight:700;font-size:.9rem;margin-bottom:1rem;box-shadow:0 0 15px rgba(46,204,113,.4)}
+    .item-effect{background:rgba(0,0,0,.4);padding:1.5rem;border-radius:10px;border-left:4px solid var(--rare-purple);margin-top:1rem;font-size:1.1rem}
+    .quick-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem}
+    .stat-card{background:var(--bg-card);padding:1.5rem;border-radius:10px;border:2px solid var(--border-color);text-align:center;transition:.3s}
+    .stat-card:hover{transform:translateY(-5px);border-color:var(--rare-purple);box-shadow:0 10px 20px var(--rare-glow)}
+    .stat-label{font-size:.9rem;color:var(--text-muted);text-transform:uppercase;margin-bottom:.5rem}
+    .stat-value{font-size:1.25rem;font-weight:700;color:var(--rare-purple)}
+    .content-section{background:var(--bg-card);padding:2rem;border-radius:15px;margin-bottom:2rem;border:2px solid var(--border-color)}
+    .content-section h2{color:var(--text-primary);font-size:1.8rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid var(--border-color)}
+    .content-section h3{color:var(--rare-purple);font-size:1.4rem;margin:1.25rem 0}
+    .alert{padding:1.25rem;border-radius:10px;margin:1.25rem 0;border-left:4px solid}
+    .alert-info{background:rgba(52,152,219,.15);border-left-color:#3498db}
+    .alert-warning{background:rgba(255,193,7,.15);border-left-color:#ffc107}
+    .synergy-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+    .synergy-card{background:rgba(0,0,0,.3);padding:1rem;border-radius:10px;border:2px solid var(--border-color)}
+    .synergy-card img{width:60px;height:60px;object-fit:contain;margin-bottom:.5rem}
+    .items-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:1rem}
+    .item-nav-card{background:rgba(22,33,62,.6);padding:1rem;border-radius:10px;border:2px solid var(--border-color);text-align:center;text-decoration:none;color:var(--text-secondary);transition:.3s}
+    .item-nav-card:hover{transform:translateY(-5px);border-color:var(--text-primary);box-shadow:0 5px 15px rgba(233,69,96,.3)}
+    .item-nav-card img{width:60px;height:60px;object-fit:contain;margin-bottom:.5rem}
+    .cta-buttons{display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem}
+    .btn{padding:.8rem 2rem;border-radius:25px;text-decoration:none;font-weight:700;display:inline-block}
+    .btn-primary{background:linear-gradient(135deg,var(--text-primary),#c0392b);color:#fff}
+    .btn-secondary{background:linear-gradient(135deg,var(--rare-purple),#8e44ad);color:#fff}
+    @media (max-width:768px){.item-hero{grid-template-columns:1fr;text-align:center}.item-icon-large{margin:0 auto}.nav-links{display:none}}
+  </style>
+</head>
+<body><a href="https://megabonk.org/cdn-cgi/content?id=IvVwXzL7760y8JvJojmqA1N8wYYMHAJH0H1cOZGRxaA-1792520271.042487-1.2.1.1-TCRrvW8C5_IIOL8QAI2N02ViQHOK26sW_Nrwa.b55.kj4PUudSn7lomrkh0KLFmx" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+      <ul class="nav-links">
+        <li><a href="https://megabonk.org/database/">Database</a></li>
+        <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+        <li><a href="https://megabonk.org/guides/">Guides</a></li>
+        <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="https://megabonk.org/">Home</a><span>›</span>
+    <a href="https://megabonk.org/database/">Database</a><span>›</span>
+    <a href="https://megabonk.org/database/items/">Items</a><span>›</span>
+    <span>Ghost</span>
+  </div>
+
+  <!-- Main -->
+  <div class="container">
+    <!-- Hero -->
+    <div class="item-hero">
+      <img src="https://megabonk.org/images/Items/Item_Ghost.png" alt="Ghost item icon" class="item-icon-large">
+      <div class="item-hero-content">
+        <h1>Ghost</h1>
+        <span class="item-rarity">✔ COMMON ITEM</span>
+        <div class="item-effect">
+          <strong>Effect:</strong> Summons ghosts whenever you use an <em>interactable</em> (e.g., pots, shrines). Great for map control without direct weapon use.
+        </div>
+        <div class="alert alert-info" style="margin-top:1rem">
+          <strong>Quick tip:</strong> New to items? Browse the full <a href="https://megabonk.org/database/items/">Items index</a> to plan unlocks and builds.
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <section class="quick-stats">
+      <div class="stat-card"><div class="stat-label">Rarity</div><div class="stat-value">Common</div></div>
+      <div class="stat-card"><div class="stat-label">Activation</div><div class="stat-value">Use Interactables</div></div>
+      <div class="stat-card"><div class="stat-label">Unlock</div><div class="stat-value">Survive Final Swarm 60s</div></div>
+      <div class="stat-card"><div class="stat-label">Best Use Case</div><div class="stat-value">Pacifist/No-Weapon runs</div></div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="content-section" id="how">
+      <h2>How Ghost Works</h2>
+      <p>Ghost creates temporary allies each time you interact with stage objects. Typical triggers include <strong>pots</strong> and certain <strong>shrines</strong>. This lets you convert map interaction into extra damage and crowd control even when you’re not attacking directly.</p>
+      <div class="alert alert-warning">
+        <strong>Heads-up:</strong> Effect consistency depends on how often a stage offers interactables. Routes with dense pots/shrines naturally produce more ghosts.
+      </div>
+      <h3>Why players pick Ghost</h3>
+      <ul>
+        <li><strong>Synergy with pacifist runs:</strong> reliable damage without a weapon.</li>
+        <li><strong>Safe chip damage:</strong> helps clear crowds while you kite or objective-play.</li>
+        <li><strong>Low rarity:</strong> being Common means it appears relatively often.</li>
+      </ul>
+    </section>
+
+    <!-- Unlock -->
+    <section class="content-section" id="unlock">
+      <h2>How to Unlock Ghost</h2>
+      <p><strong>Requirement:</strong> Survive the <em>Final Swarm</em> for <strong>60 seconds</strong>.</p>
+      <ol>
+        <li>Bring a durable setup (Armor/Thorns/Lifesteal/Movement) and keep space to maneuver.</li>
+        <li>Prioritize survival over greed; you only need the timer, not kills.</li>
+        <li>Use map knowledge to funnel enemies and avoid being surrounded.</li>
+      </ol>
+    </section>
+
+    <!-- Community-tested Synergies -->
+    <section class="content-section" id="synergy">
+      <h2>Community-Tested Picks & Pairings</h2>
+      <p>The following items are frequently recommended alongside Ghost in pacifist/survival-leaning routes:</p>
+      <div class="synergy-grid">
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Spiky_Shield.png" alt="Spiky Shield">
+          <h3>Spiky Shield</h3>
+          <p>Passive reflection fits hands-off playstyles that Ghost favors.</p>
+          <p><a href="https://megabonk.org/database/items/spiky-shield">See Spiky Shield →</a></p>
+        </div>
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Mirror.png" alt="Mirror">
+          <h3>Mirror</h3>
+          <p>Mitigates pressure by reflecting damage during swarms.</p>
+          <p><a href="https://megabonk.org/database/items/mirror">See Mirror →</a></p>
+        </div>
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Electric_Plug.png" alt="Electric Plug">
+          <h3>Electric Plug</h3>
+          <p>Ambient AoE to supplement Ghost’s crowd control.</p>
+          <p><a href="https://megabonk.org/database/items/electric-plug">See Electric Plug →</a></p>
+        </div>
+      </div>
+      <div class="alert alert-info">
+        These picks come from pacifist-challenge guides and item roundups tested by the community.
+      </div>
+    </section>
+
+    <!-- Weapon gallery (site cross-promo as requested) -->
+    <section class="content-section" id="weapons">
+      <h2>Explore Weapons</h2>
+      <div class="items-grid">
+        <a class="item-nav-card" href="https://megabonk.org/database/weapons/aura">
+          <img src="https://megabonk.org/images/database/weapons/Aura.png" alt="Aura weapon"><span>Aura</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/database/weapons/firestaff">
+          <img src="https://megabonk.org/images/database/weapons/Firestaff.png" alt="Firestaff weapon"><span>Firestaff</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/database/weapons/bow">
+          <img src="https://megabonk.org/images/database/weapons/Bow.png" alt="Bow weapon"><span>Bow</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/database/weapons/black-hole">
+          <img src="https://megabonk.org/images/database/weapons/Black_Hole.png" alt="Black Hole weapon"><span>Black Hole</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Related Items -->
+    <section class="content-section" id="related">
+      <h2>Related / See Also</h2>
+      <div class="items-grid">
+        <a class="item-nav-card" href="https://megabonk.org/database/items/mirror">
+          <img src="https://megabonk.org/images/Items/Item_Mirror.png" alt="Mirror item"><span>Mirror</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/database/items/spiky-shield">
+          <img src="https://megabonk.org/images/Items/Item_Spiky_Shield.png" alt="Spiky Shield item"><span>Spiky Shield</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/database/items/electric-plug">
+          <img src="https://megabonk.org/images/Items/Item_Electric_Plug.png" alt="Electric Plug item"><span>Electric Plug</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/guides/challenges/">
+          <img src="https://megabonk.org/images/Items/Item_Za_Warudo.png" alt="Challenges hub"><span>Challenges Hub</span>
+        </a>
+      </div>
+      <div class="cta-buttons">
+        <a class="btn btn-primary" href="https://megabonk.org/database/items/">Browse All Items</a>
+        <a class="btn btn-secondary" href="https://megabonk.org/guides/builds/">See Builds</a>
+      </div>
+    </section>
+  </div>
+
+  <footer style="background:rgba(15,20,25,.95);padding:2rem;text-align:center;border-top:2px solid var(--border-color)">
+    <div style="max-width:1400px;margin:0 auto">
+      <p>&copy; <span data-current-year>2026</span> Megabonk.org — Unofficial Fan Resource</p>
+      <p style="margin-top:.5rem">Not affiliated with the official Megabonk development team</p>
+      <p style="margin-top:1rem">
+        <a href="https://megabonk.org/">Home</a> |
+        <a href="https://megabonk.org/database/">Database</a> |
+        <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+        <a href="https://megabonk.org/guides/">Guides</a> |
+        <a href="https://megabonk.org/leaderboard/">Leaderboard</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Minimal progressive animations -->
+  <script>
+    document.querySelectorAll('.content-section, .stat-card').forEach(el=>{
+      el.style.opacity='0';el.style.transform='translateY(20px)';el.style.transition='opacity .6s ease-out, transform .6s ease-out';
+      new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)';}})},{threshold:.1,rootMargin:'0px 0px -50px 0px'}).observe(el);
+    });
+    // image fallback
+    document.querySelectorAll('img').forEach(img=>{
+      img.addEventListener('error',()=>{img.style.opacity='.5';img.style.filter='grayscale(100%)';});
+    });
+  </script>
+
+  <!-- D) JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"What does the Ghost item do?",
+        "acceptedAnswer":{"@type":"Answer","text":"Ghost summons ghosts whenever you use interactables (e.g., pots, shrines)."}
+      },
+      {
+        "@type":"Question",
+        "name":"How do you unlock Ghost?",
+        "acceptedAnswer":{"@type":"Answer","text":"Survive the Final Swarm for 60 seconds."}
+      },
+      {
+        "@type":"Question",
+        "name":"What is Ghost's rarity?",
+        "acceptedAnswer":{"@type":"Answer","text":"Common."}
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "headline":"Ghost Item — Effect & Unlock | Megabonk",
+    "url":"https://megabonk.org/database/items/ghost",
+    "description":"Verified guide to Megabonk's Ghost item: effect, unlock requirement, and community-tested pairings."
+  }
+  </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da058df98e1f99',t:'MTc5MjUyMDI3MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

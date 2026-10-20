@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Plug — Shock on Damage | Megabonk</title>
+    <meta name="description" content="Electric Plug item guide: releases an electric shock when you take damage. Default unlock, verified effect, and safe build tips with Kevin & lightning tools.">
+    <meta name="keywords" content="megabonk electric plug, electric plug item, shock on damage, megabonk items, kevin synergy">
+
+    <link rel="canonical" href="https://megabonk.org/database/items/electric-plug">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-V5X87M8JFL');
+    </script>
+
+    <!-- AdSense (optional) -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+     crossorigin="anonymous"></script>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Electric Plug - Megabonk Item Database">
+    <meta property="og:description" content="Sends out an electric shock when you take damage. Default unlock. Verified effect and usage tips.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://megabonk.org/database/items/electric-plug">
+    <meta property="og:image" content="https://megabonk.org/images/Items/Item_Electric_Plug.png">
+
+    <!-- Schema.org (added at bottom as JSON-LD too) -->
+
+    <style>
+        :root {
+            --bg-primary: #0f1419;
+            --bg-secondary: #16213e;
+            --bg-card: rgba(22, 33, 62, 0.6);
+            --border-color: rgba(233, 69, 96, 0.3);
+            --text-primary: #e94560;
+            --text-secondary: #f1f1f1;
+            --text-muted: #a4a4a4;
+            --accent-gold: #ffd700;
+            --rare-purple: #9b59b6;
+            --rare-glow: rgba(155, 89, 182, 0.4);
+            --danger-red: #ff4757;
+            --success-green: #26de81;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f1419 0%, #16213e 50%, #1a1a2e 100%);
+            color: var(--text-secondary);
+            line-height: 1.6; min-height: 100vh;
+        }
+        nav { background: rgba(15,20,25,0.95); backdrop-filter: blur(10px); border-bottom: 2px solid var(--border-color); position: sticky; top: 0; z-index: 1000; }
+        .nav-container { max-width: 1400px; margin: 0 auto; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--text-primary); text-decoration: none; text-shadow: 0 0 10px var(--rare-glow); }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: var(--text-secondary); text-decoration: none; font-weight: 500; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--text-primary); }
+        .breadcrumb { max-width: 1400px; margin: 0 auto; padding: 1.5rem 2rem 0.5rem; font-size: 0.9rem; }
+        .breadcrumb a { color: var(--text-primary); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb span { color: var(--text-muted); margin: 0 0.5rem; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+
+        /* Hero */
+        .item-hero {
+            background: linear-gradient(135deg, rgba(155, 89, 182, 0.2) 0%, rgba(233, 69, 96, 0.2) 100%);
+            border-radius: 15px; padding: 3rem; margin-bottom: 2rem;
+            border: 2px solid var(--rare-purple); box-shadow: 0 0 30px var(--rare-glow);
+            display: grid; grid-template-columns: auto 1fr; gap: 2rem; align-items: center;
+        }
+        .item-icon-large { width: 150px; height: 150px; object-fit: contain; filter: drop-shadow(0 0 20px var(--rare-glow)); animation: floatAnimation 3s ease-in-out infinite; }
+        @keyframes floatAnimation { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+        .item-hero-content h1 { font-size: 2.5rem; color: var(--rare-purple); margin-bottom: .5rem; text-shadow: 0 0 20px var(--rare-glow); }
+        .item-rarity { display: inline-block; padding: .4rem 1rem; background: linear-gradient(135deg, #3a7bd5, #00d2ff); color: #fff; border-radius: 20px; font-weight: bold; font-size: .9rem; margin-bottom: 1rem; box-shadow: 0 0 15px rgba(58,123,213,0.4); }
+        .item-effect { background: rgba(0,0,0,0.4); padding: 1.5rem; border-radius: 10px; border-left: 4px solid var(--rare-purple); margin-top: 1rem; font-size: 1.1rem; }
+        .item-effect strong { color: var(--accent-gold); }
+
+        /* Quick Stats */
+        .quick-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 1rem; margin-bottom: 2rem; }
+        .stat-card { background: var(--bg-card); padding: 1.5rem; border-radius: 10px; border: 2px solid var(--border-color); text-align: center; transition: all .3s; }
+        .stat-card:hover { transform: translateY(-5px); border-color: var(--rare-purple); box-shadow: 0 10px 20px var(--rare-glow); }
+        .stat-label { font-size: .9rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: .5rem; }
+        .stat-value { font-size: 1.3rem; font-weight: bold; color: var(--rare-purple); }
+
+        /* Sections */
+        .content-section { background: var(--bg-card); padding: 2rem; border-radius: 15px; margin-bottom: 2rem; border: 2px solid var(--border-color); }
+        .content-section h2 { color: var(--text-primary); font-size: 1.8rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 2px solid var(--border-color); }
+        .content-section h3 { color: var(--rare-purple); font-size: 1.4rem; margin: 1.5rem 0 1rem; }
+        .alert { padding: 1.5rem; border-radius: 10px; margin: 1.5rem 0; border-left: 4px solid; }
+        .alert-info { background: rgba(52,152,219,.15); border-left-color:#3498db; }
+        .related-items { background: rgba(15,20,25,.6); padding: 2rem; border-radius: 15px; border: 2px solid var(--border-color); }
+        .items-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+        .item-nav-card { background: rgba(22,33,62,.6); padding: 1rem; border-radius: 10px; border: 2px solid var(--border-color); text-align: center; transition: .3s; text-decoration: none; color: var(--text-secondary); }
+        .item-nav-card:hover { transform: translateY(-5px); border-color: var(--text-primary); box-shadow: 0 5px 15px rgba(233,69,96,.3); }
+        .item-nav-card img { width: 60px; height: 60px; object-fit: contain; margin-bottom: .5rem; }
+        .item-nav-card span { display:block; font-size:.85rem; font-weight:600; }
+        .cta-buttons { display:flex; gap:1rem; flex-wrap:wrap; margin-top:2rem; }
+        .btn { padding:.8rem 2rem; border-radius:25px; text-decoration:none; font-weight:bold; transition:.3s; display:inline-block; }
+        .btn-primary { background: linear-gradient(135deg, var(--text-primary), #c0392b); color:#fff; box-shadow: 0 5px 15px rgba(233,69,96,.4); }
+        .btn-secondary { background: linear-gradient(135deg, var(--rare-purple), #8e44ad); color:#fff; box-shadow: 0 5px 15px var(--rare-glow); }
+
+        footer { background: rgba(15,20,25,.95); padding:2rem; text-align:center; margin-top:4rem; border-top:2px solid var(--border-color); }
+        footer a { color: var(--text-primary); text-decoration:none; }
+        footer a:hover { text-decoration: underline; }
+
+        /* Responsive */
+        @media (max-width:768px){
+            .item-hero{ grid-template-columns:1fr; text-align:center; }
+            .item-icon-large{ margin:0 auto; }
+            .nav-links{ display:none; }
+            .items-grid{ grid-template-columns: repeat(auto-fill, minmax(90px,1fr)); }
+        }
+    </style>
+</head>
+<body><a href="https://megabonk.org/cdn-cgi/content?id=pIQ9x3U_Xga80asvMRljHspgJ2Y7.KRA3XIP_.ZY2Hk-1792520270.7938406-1.2.1.1-NOOvOk5BAL9sk4R4LwYwOzsouSkMjgLG38GyUJX2idMrjibZqOQhJltuBxPqC_8z" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+            <ul class="nav-links">
+                <li><a href="https://megabonk.org/database/">Database</a></li>
+                <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+                <li><a href="https://megabonk.org/guides/">Guides</a></li>
+                <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="https://megabonk.org/">Home</a>
+        <span>›</span>
+        <a href="https://megabonk.org/database/">Database</a>
+        <span>›</span>
+        <a href="https://megabonk.org/database/items/">Items</a>
+        <span>›</span>
+        <span>Electric Plug</span>
+    </div>
+
+    <!-- Main -->
+    <div class="container">
+        <!-- Hero -->
+        <div class="item-hero">
+            <img src="https://megabonk.org/images/Items/Item_Electric_Plug.png" alt="Electric Plug item icon" class="item-icon-large">
+            <div class="item-hero-content">
+                <h1>Electric Plug</h1>
+                <span class="item-rarity">🔷 UNCOMMON (community-verified)</span>
+
+                <div class="item-effect">
+                    <strong>Effect:</strong> When <em>you</em> take damage, Electric Plug sends out an electric shock to nearby enemies. (Default unlock)
+                </div>
+
+                <div class="alert alert-info" style="margin-top:1rem">
+                    <p style="margin-bottom:.5rem"><strong>Quick jump:</strong> Browse <a href="https://megabonk.org/database/items/">all items database</a> for more effects and unlocks.</p>
+                    <p style="font-size:.95rem; color:var(--text-muted)">Rarity label is based on community sources; no official numeric stats are published.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="quick-stats">
+            <div class="stat-card">
+                <div class="stat-label">Unlock</div>
+                <div class="stat-value">Unlocked by default</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Trigger Type</div>
+                <div class="stat-value">On damage taken</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Rarity</div>
+                <div class="stat-value">Uncommon (blue)</div>
+            </div>
+        </div>
+
+        <!-- How it works -->
+        <section class="content-section">
+            <h2>How Electric Plug Works</h2>
+            <p>Electric Plug is a reactive utility item: whenever you take a hit, it emits a brief electric shock that can hit <em>nearby</em> enemies. There are no officially published numbers for its damage or radius, so treat it as a light crowd-control tool that rewards intentional tanking and proximity play.</p>
+            <h3>Reliable points</h3>
+            <ul>
+                <li><strong>Default unlock:</strong> appears in your pool from the start of the game.</li>
+                <li><strong>Trigger:</strong> procs when you take damage; does not require you to hit enemies.</li>
+                <li><strong>Range:</strong> affects enemies around you (non-official radius; empirical community observation).</li>
+            </ul>
+        </section>
+
+        <!-- Synergy -->
+        <section class="content-section">
+            <h2>Synergies & Usage Tips</h2>
+            <h3>Self-damage engines</h3>
+            <p><a href="https://megabonk.org/database/items/kevin">Kevin</a> can repeatedly make you count as “getting hit,” which in turn triggers Electric Plug for steady passive AoE. This approach requires solid sustain (regen/lifesteal) and careful play.</p>
+
+            <div class="items-grid" style="margin-top:1rem">
+                <figure class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Kevin.png" alt="Kevin item icon">
+                    <figcaption><span>Kevin (self-hit engine)</span></figcaption>
+                </figure>
+                <figure class="item-nav-card">
+                    <img src="https://megabonk.org/images/database/weapons/Lightning_Staff.png" alt="Lightning Staff weapon">
+                    <figcaption><span>Lightning Staff (theme pairing)</span></figcaption>
+                </figure>
+                <figure class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Thunder_Mitts.png" alt="Thunder Mitts item">
+                    <figcaption><span>Thunder Mitts (lightning hit)</span></figcaption>
+                </figure>
+            </div>
+
+            <h3 style="margin-top:1.25rem">Play tips</h3>
+            <ul>
+                <li>With Kevin builds, stack sustain first; then leverage Electric Plug for hands-free clearing.</li>
+                <li>Stay mobile: allow enemies to clump so the shock hits multiple targets.</li>
+                <li>Pair with lightning-themed tools (e.g., <a href="https://megabonk.org/database/weapons/lightning-staff">Lightning Staff</a>) for cohesive damage patterns.</li>
+            </ul>
+        </section>
+
+        <!-- Related Items / Navigation -->
+        <section class="related-items">
+            <h2 style="color: var(--text-primary); margin-bottom: 1rem;">Related & Nearby Pages</h2>
+            <div class="items-grid">
+                <a href="https://megabonk.org/database/items/kevin" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Kevin.png" alt="Kevin item">
+                    <span>Kevin</span>
+                </a>
+                <a href="https://megabonk.org/database/items/moldy-cheese" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Moldy_Cheese.png" alt="Moldy Cheese item">
+                    <span>Moldy Cheese</span>
+                </a>
+                <a href="https://megabonk.org/database/items/wrench" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Wrench.png" alt="Wrench item">
+                    <span>Wrench</span>
+                </a>
+                <a href="https://megabonk.org/database/items/clover" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Clover.png" alt="Clover item">
+                    <span>Clover</span>
+                </a>
+            </div>
+
+            <div class="cta-buttons" style="justify-content:center; margin-top:1.75rem;">
+                <a class="btn btn-primary" href="https://megabonk.org/database/items/">View All Items</a>
+                <a class="btn btn-secondary" href="https://megabonk.org/guides/builds/lightning-staff-stun-chain">Lightning Staff Build</a>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="content-section">
+            <h2>FAQ</h2>
+            <div class="alert alert-info">
+                <p><strong>Q: How do I unlock Electric Plug?</strong><br>It is available by default and appears in your item pool from the beginning.</p>
+            </div>
+            <div class="alert alert-info">
+                <p><strong>Q: What exactly does it do?</strong><br>Whenever you take damage, it emits an electric shock that can hit nearby enemies. No official numeric stats are published.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <p>&copy; <span data-current-year>2026</span> Megabonk.org - Unofficial Fan Resource</p>
+            <p style="margin-top: .5rem;">Not affiliated with the official Megabonk development team</p>
+            <p style="margin-top: 1.5rem;">
+                <a href="https://megabonk.org/">Home</a> |
+                <a href="https://megabonk.org/database/">Database</a> |
+                <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+                <a href="https://megabonk.org/guides/">Guides</a> |
+                <a href="https://megabonk.org/leaderboard/">Leaderboard</a>
+            </p>
+            <p style="margin-top: 1rem; font-size: .85rem; color: var(--text-muted);">
+                Game assets and trademarks are property of their respective owners
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(a=>{
+            a.addEventListener('click',e=>{
+                e.preventDefault();
+                const t=document.querySelector(a.getAttribute('href'));
+                if(t){ t.scrollIntoView({behavior:'smooth', block:'start'}); }
+            });
+        });
+        // Image graceful fallback
+        document.querySelectorAll('img').forEach(img=>{
+            img.addEventListener('error', function(){
+                this.style.opacity='0.5'; this.style.filter='grayscale(100%)';
+            });
+        });
+        // Reveal on scroll
+        const observer=new IntersectionObserver((entries)=>{
+            entries.forEach(entry=>{
+                if(entry.isIntersecting){
+                    entry.target.style.opacity='1'; entry.target.style.transform='translateY(0)';
+                }
+            });
+        },{threshold:0.1, rootMargin:'0px 0px -50px 0px'});
+        document.querySelectorAll('.content-section, .stat-card').forEach(el=>{
+            el.style.opacity='0'; el.style.transform='translateY(20px)';
+            el.style.transition='opacity .6s ease-out, transform .6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+
+    <!-- JSON-LD injected below -->
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"ItemPage",
+      "name":"Electric Plug — Megabonk Item",
+      "url":"https://megabonk.org/database/items/electric-plug",
+      "image":"https://megabonk.org/images/Items/Item_Electric_Plug.png",
+      "description":"When you take damage, Electric Plug releases an electric shock that can hit nearby enemies. Default unlock.",
+      "inLanguage":"en"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"FAQPage",
+      "mainEntity":[
+        {
+          "@type":"Question",
+          "name":"How do I unlock Electric Plug?",
+          "acceptedAnswer":{"@type":"Answer","text":"It is available by default and appears in your item pool from the beginning."}
+        },
+        {
+          "@type":"Question",
+          "name":"What does Electric Plug do?",
+          "acceptedAnswer":{"@type":"Answer","text":"When you take damage, it emits an electric shock that can hit nearby enemies. No official numeric stats are published."}
+        }
+      ]
+    }
+    </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da058c7c320686',t:'MTc5MjUyMDI3MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

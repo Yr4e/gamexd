@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power Gloves — 8% On-Hit Blast | Megabonk</title>
+  <meta name="description" content="Power Gloves creates a giant blast on 8% of hits and knocks enemies away. See rarity, unlock method, and best synergies with Aura, Bananarang, and Firestaff.">
+  <meta name="keywords" content="megabonk power gloves, power gloves item, megabonk items, on-hit blast, knockback build">
+
+  <link rel="canonical" href="https://megabonk.org/database/items/power-gloves">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-V5X87M8JFL');
+  </script>
+
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920" crossorigin="anonymous"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Power Gloves — Megabonk Item Database">
+  <meta property="og:description" content="Legendary item that creates a giant blast on 8% of hits. Rarity, unlock, synergies, and strategies.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://megabonk.org/database/items/power-gloves">
+  <meta property="og:image" content="https://megabonk.org/images/Items/Item_Power_Gloves.png">
+
+  <!-- Schema.org (see JSON-LD block near the end) -->
+
+  <style>
+    :root {
+      --bg-primary: #0f1419;
+      --bg-secondary: #16213e;
+      --bg-card: rgba(22, 33, 62, 0.6);
+      --border-color: rgba(233, 69, 96, 0.3);
+      --text-primary: #e94560;
+      --text-secondary: #f1f1f1;
+      --text-muted: #a4a4a4;
+      --accent-gold: #ffd700;
+      --rare-purple: #9b59b6;
+      --rare-glow: rgba(155, 89, 182, 0.4);
+      --danger-red: #ff4757;
+      --success-green: #26de81;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;
+      background:linear-gradient(135deg,#0f1419 0%,#16213e 50%,#1a1a2e 100%);
+      color:var(--text-secondary);line-height:1.6;min-height:100vh
+    }
+    nav{background:rgba(15,20,25,.95);backdrop-filter:blur(10px);border-bottom:2px solid var(--border-color);position:sticky;top:0;z-index:1000}
+    .nav-container{max-width:1400px;margin:0 auto;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-size:1.5rem;font-weight:bold;color:var(--text-primary);text-decoration:none;text-shadow:0 0 10px var(--rare-glow)}
+    .nav-links{display:flex;gap:2rem;list-style:none}
+    .nav-links a{color:var(--text-secondary);text-decoration:none;font-weight:500;transition:color .3s}
+    .nav-links a:hover{color:var(--text-primary)}
+    .breadcrumb{max-width:1400px;margin:0 auto;padding:1.5rem 2rem .5rem;font-size:.9rem}
+    .breadcrumb a{color:var(--text-primary);text-decoration:none}
+    .breadcrumb a:hover{text-decoration:underline}
+    .breadcrumb span{color:var(--text-muted);margin:0 .5rem}
+    .container{max-width:1400px;margin:0 auto;padding:2rem}
+    .item-hero{
+      background:linear-gradient(135deg, rgba(255,215,0,0.15) 0%, rgba(233,69,96,0.15) 100%);
+      border-radius:15px;padding:3rem;margin-bottom:2rem;border:2px solid var(--accent-gold);
+      box-shadow:0 0 30px rgba(255,215,0,0.25);display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center
+    }
+    .item-icon-large{width:150px;height:150px;object-fit:contain;filter:drop-shadow(0 0 20px rgba(255,215,0,0.3));animation:floatAnimation 3s ease-in-out infinite}
+    @keyframes floatAnimation{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .item-hero-content h1{font-size:2.5rem;color:var(--accent-gold);margin-bottom:.5rem;text-shadow:0 0 20px rgba(255,215,0,0.25)}
+    .item-rarity{display:inline-block;padding:.4rem 1rem;background:linear-gradient(135deg,#f1c40f,#f39c12);color:#1a1a2e;border-radius:20px;font-weight:bold;font-size:.9rem;margin-bottom:1rem;box-shadow:0 0 15px rgba(255,215,0,0.3)}
+    .item-effect{background:rgba(0,0,0,0.4);padding:1.5rem;border-radius:10px;border-left:4px solid var(--accent-gold);margin-top:1rem;font-size:1.1rem}
+    .item-effect strong{color:var(--accent-gold)}
+    .quick-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem}
+    .stat-card{background:var(--bg-card);padding:1.5rem;border-radius:10px;border:2px solid var(--border-color);text-align:center;transition:all .3s}
+    .stat-card:hover{transform:translateY(-5px);border-color:var(--accent-gold);box-shadow:0 10px 20px rgba(255,215,0,0.2)}
+    .stat-label{font-size:.9rem;color:var(--text-muted);text-transform:uppercase;margin-bottom:.5rem}
+    .stat-value{font-size:1.3rem;font-weight:bold;color:var(--accent-gold)}
+    .content-section{background:var(--bg-card);padding:2rem;border-radius:15px;margin-bottom:2rem;border:2px solid var(--border-color)}
+    .content-section h2{color:var(--text-primary);font-size:1.8rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid var(--border-color)}
+    .content-section h3{color:var(--accent-gold);font-size:1.3rem;margin-top:1.2rem;margin-bottom:.8rem}
+    .alert{padding:1.2rem;border-radius:10px;margin:1.2rem 0;border-left:4px solid}
+    .alert-info{background:rgba(52,152,219,0.15);border-left-color:#3498db}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1.5rem 0}
+    .pros,.cons{padding:1.5rem;border-radius:10px}
+    .pros{background:rgba(38,222,129,0.1);border-left:4px solid var(--success-green)}
+    .cons{background:rgba(255,71,87,0.1);border-left:4px solid var(--danger-red)}
+    .synergy-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem;margin-top:1rem}
+    .synergy-card{background:rgba(0,0,0,0.3);padding:1.2rem;border-radius:10px;border:2px solid var(--border-color);transition:all .3s}
+    .synergy-card:hover{transform:translateY(-5px);border-color:var(--success-green);box-shadow:0 10px 20px rgba(38,222,129,0.2)}
+    .synergy-card img{width:60px;height:60px;object-fit:contain;margin-bottom:.6rem;filter:drop-shadow(0 0 10px rgba(233,69,96,0.35))}
+    .related-items{background:rgba(15,20,25,0.6);padding:2rem;border-radius:15px;margin-top:3rem;border:2px solid var(--border-color)}
+    .items-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:1rem;margin-top:1.5rem}
+    .item-nav-card{background:rgba(22,33,62,0.6);padding:1rem;border-radius:10px;border:2px solid var(--border-color);text-align:center;transition:all .3s;text-decoration:none;color:var(--text-secondary)}
+    .item-nav-card:hover{transform:translateY(-5px);border-color:var(--text-primary);box-shadow:0 5px 15px rgba(233,69,96,0.3)}
+    .item-nav-card img{width:60px;height:60px;object-fit:contain;margin-bottom:.5rem}
+    .item-nav-card span{display:block;font-size:.85rem;font-weight:600}
+    footer{background:rgba(15,20,25,0.95);padding:2rem;text-align:center;margin-top:4rem;border-top:2px solid var(--border-color)}
+    footer a{color:var(--text-primary);text-decoration:none}
+    footer a:hover{text-decoration:underline}
+    @media (max-width:768px){
+      .item-hero{grid-template-columns:1fr;text-align:center}
+      .item-icon-large{margin:0 auto}
+      .nav-links{display:none}
+      .quick-stats{grid-template-columns:1fr}
+      .pros-cons{grid-template-columns:1fr}
+      .synergy-grid{grid-template-columns:1fr}
+      .items-grid{grid-template-columns:repeat(auto-fill,minmax(90px,1fr))}
+    }
+    .text-center{text-align:center}
+  </style>
+</head>
+<body><a href="https://megabonk.org/cdn-cgi/content?id=8GNbtLA1ukbjK4wwd5W3lk6WfIBnPtDM.2Xexj.HJTE-1792520267.3118577-1.2.1.1-32IRl.t0ZyqZ2SCiFGhznnrRFkZPRdAFufwzynvCBFywnChZby4pWFQqj66jfWPq" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+      <ul class="nav-links">
+        <li><a href="https://megabonk.org/database/">Database</a></li>
+        <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+        <li><a href="https://megabonk.org/guides/">Guides</a></li>
+        <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="https://megabonk.org/">Home</a><span>›</span>
+    <a href="https://megabonk.org/database/">Database</a><span>›</span>
+    <a href="https://megabonk.org/database/items/">Items</a><span>›</span>
+    <span>Power Gloves</span>
+  </div>
+
+  <!-- Main -->
+  <div class="container">
+    <!-- Hero -->
+    <div class="item-hero">
+      <img src="https://megabonk.org/images/Items/Item_Power_Gloves.png" alt="Power Gloves item icon" class="item-icon-large">
+      <div class="item-hero-content">
+        <h1>Power Gloves</h1>
+        <span class="item-rarity">⭐ LEGENDARY ITEM</span>
+        <div class="item-effect">
+          <strong>Effect:</strong> 8% chance on hit to create a giant blast, damaging and knocking enemies away.
+        </div>
+        <p style="margin-top:1rem;opacity:.9">
+          Looking for more items? Browse the full <a href="https://megabonk.org/database/items/">Items Database</a>.
+        </p>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="quick-stats">
+      <div class="stat-card">
+        <div class="stat-label">Rarity</div>
+        <div class="stat-value">Legendary</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Proc Chance</div>
+        <div class="stat-value">8% (on hit)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Unlock</div>
+        <div class="stat-value">Unlocked by default</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Knockback</div>
+        <div class="stat-value">Yes (blast pushes)</div>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <section class="content-section">
+      <h2>🧪 How Power Gloves Works</h2>
+      <p>
+        Power Gloves adds a small, reliable <strong>on-hit blast</strong> to any build. Each successful hit has an 8% chance to trigger a circular explosion that
+        <strong>damages and knocks back</strong> nearby enemies. In v1.0.49, its base damage and blast radius were increased and its minimum cooldown was reduced; the official notes do not publish the new numeric values.
+      </p>
+
+      <div class="pros-cons">
+        <div class="pros">
+          <h3>Advantages</h3>
+          <ul>
+            <li>Hands-free crowd control via knockback</li>
+            <li>Scales with hit frequency and multi-projectile builds</li>
+            <li>Great safety tool during dense waves</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h3>Considerations</h3>
+          <ul>
+            <li>Low proc rate means inconsistent DPS</li>
+            <li>Knockback can push enemies out of melee range</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Synergies -->
+    <section class="content-section">
+      <h2>🔗 Synergies & Play Tips</h2>
+      <h3>Works best with high hit-count weapons</h3>
+      <div class="synergy-grid">
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/database/weapons/Aura.png" alt="Aura weapon">
+          <h4><a href="https://megabonk.org/database/weapons/aura">Aura</a></h4>
+          <p>Constant ticks mean more on-hit rolls, producing frequent protective blasts.</p>
+        </div>
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/database/weapons/Firestaff.png" alt="Firestaff weapon">
+          <h4><a href="https://megabonk.org/database/weapons/firestaff">Firestaff</a></h4>
+          <p>Rapid streams of fireball hits feed the 8% roll and help clear lanes.</p>
+        </div>
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/database/weapons/Bananarang.png" alt="Bananarang weapon">
+          <h4><a href="https://megabonk.org/database/weapons/bananarang">Bananarang</a></h4>
+          <p>Multi-bounces = lots of hit events → more blast procs across the pack.</p>
+        </div>
+      </div>
+
+      <h3>Helpful Tomes</h3>
+      <div class="synergy-grid">
+        <div class="synergy-card">
+          <h4><a href="https://megabonk.org/database/tomes/quantity-tome">Quantity Tome</a></h4>
+          <p>More projectiles → more hit checks for the blast.</p>
+        </div>
+        <div class="synergy-card">
+          <h4><a href="https://megabonk.org/database/tomes/damage-tome">Damage Tome</a></h4>
+          <p>Raises the value of each successful blast and your baseline clear speed.</p>
+        </div>
+      </div>
+
+      <div class="alert alert-info">
+        <strong>Tip:</strong> If you play melee, angle movement so knockback pushes enemies into your weapon arcs rather than out of range.
+      </div>
+    </section>
+
+    <!-- Related / See also -->
+    <section class="related-items">
+      <h2 style="color: var(--text-primary); margin-bottom: .5rem;">Related Pages</h2>
+      <div class="items-grid">
+        <a href="https://megabonk.org/database/items/" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Beefy_Ring.png" alt="Items index">
+          <span>All Items</span>
+        </a>
+        <a href="https://megabonk.org/database/weapons/aura" class="item-nav-card">
+          <img src="https://megabonk.org/images/database/weapons/Aura.png" alt="Aura weapon">
+          <span>Aura (Weapon)</span>
+        </a>
+        <a href="https://megabonk.org/database/weapons/firestaff" class="item-nav-card">
+          <img src="https://megabonk.org/images/database/weapons/Firestaff.png" alt="Firestaff weapon">
+          <span>Firestaff (Weapon)</span>
+        </a>
+        <a href="https://megabonk.org/database/weapons/bananarang" class="item-nav-card">
+          <img src="https://megabonk.org/images/database/weapons/Bananarang.png" alt="Bananarang weapon">
+          <span>Bananarang (Weapon)</span>
+        </a>
+        <a href="https://megabonk.org/database/tomes/quantity-tome" class="item-nav-card">
+          <img src="https://megabonk.org/images/Tomes/Quantity_Tome.png" alt="Quantity Tome">
+          <span>Quantity Tome</span>
+        </a>
+        <a href="https://megabonk.org/database/tomes/damage-tome" class="item-nav-card">
+          <img src="https://megabonk.org/images/Tomes/Damage_Tome.png" alt="Damage Tome">
+          <span>Damage Tome</span>
+        </a>
+      </div>
+      <div class="text-center" style="margin-top:1.2rem;">
+        <a href="https://megabonk.org/guides/builds/" class="logo" style="font-size:1rem;">Browse Builds</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div style="max-width:1400px;margin:0 auto;">
+      <p>&copy; <span data-current-year>2026</span> Megabonk.org - Unofficial Fan Resource</p>
+      <p style="margin-top:.5rem;">Not affiliated with the official Megabonk development team</p>
+      <p style="margin-top:1.5rem;">
+        <a href="https://megabonk.org/">Home</a> |
+        <a href="https://megabonk.org/database/">Database</a> |
+        <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+        <a href="https://megabonk.org/guides/">Guides</a> |
+        <a href="https://megabonk.org/leaderboard/">Leaderboard</a>
+      </p>
+      <p style="margin-top:1rem;font-size:.85rem;color:var(--text-muted);">
+        Game assets and trademarks are property of their respective owners
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll for same-page anchors (kept for compatibility)
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const t=document.querySelector(a.getAttribute('href'));
+        if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});}
+      });
+    });
+    // Image fallback styling
+    document.querySelectorAll('img').forEach(img=>{
+      img.addEventListener('error',function(){this.style.opacity='.5';this.style.filter='grayscale(100%)';});
+    });
+    // Fade-up on scroll
+    const observer=new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){entry.target.style.opacity='1';entry.target.style.transform='translateY(0)';}
+      });
+    },{threshold:.1,rootMargin:'0px 0px -50px 0px'});
+    document.querySelectorAll('.content-section, .stat-card').forEach(el=>{
+      el.style.opacity='0';el.style.transform='translateY(20px)';
+      el.style.transition='opacity .6s ease-out, transform .6s ease-out';
+      observer.observe(el);
+    });
+  </script>
+
+  <!-- JSON-LD: Item + FAQPage (verified fields only) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Item",
+    "name": "Power Gloves",
+    "description": "Legendary item in Megabonk. 8% on-hit chance to create a giant blast that damages and knocks enemies back.",
+    "image": "https://megabonk.org/images/Items/Item_Power_Gloves.png",
+    "url": "https://megabonk.org/database/items/power-gloves",
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Proc Chance",
+        "value": "8%",
+        "valueReference": "On-hit"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Rarity",
+        "value": "Legendary"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Unlock",
+        "value": "Unlocked by default"
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does Power Gloves do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It gives an 8% chance on hit to create a giant blast that damages and knocks enemies away."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do you unlock Power Gloves?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is unlocked by default and can appear in runs without any prerequisite."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Power Gloves good for melee?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It provides safety via knockback, but can push targets out of melee range—plan positioning accordingly."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Cloudflare beacon (kept if you use it sitewide) -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" crossorigin="anonymous"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da0576aee50053',t:'MTc5MjUyMDI2Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

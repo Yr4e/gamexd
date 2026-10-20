@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snek Item Guide — Effect, Unlock & Best Uses | Megabonk</title>
+    <meta name="description"
+        content="Snek item guide - Legendary poison item that applies 4 poison stacks on hit. Learn how to unlock Snek in the Crypt secret room and best synergies.">
+    <meta name="keywords"
+        content="megabonk snek, snek item, megabonk poison build, crypt secret, snek unlock, megabonk legendary items">
+
+    <link rel="canonical" href="https://megabonk.org/database/items/snek">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-V5X87M8JFL');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+        crossorigin="anonymous"></script>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Snek - Megabonk Item Database">
+    <meta property="og:description"
+        content="Legendary poison item that applies 4 poison stacks on hit. Complete guide to unlocking Snek in the Crypt secret room.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://megabonk.org/database/items/snek">
+    <meta property="og:image" content="https://megabonk.org/images/Items/Item_Snek.png">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Snek Item Guide - Megabonk Database",
+      "description": "Complete guide to the Snek item in Megabonk including unlock method, synergies, and strategies",
+      "image": "https://megabonk.org/images/Items/Item_Snek.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Megabonk.org"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Megabonk.org"
+      },
+      "datePublished": "2026-01-29",
+      "dateModified": "2026-01-29"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you unlock Snek in Megabonk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Find the secret room in Crypt with a pressure plate. Step on the plate, then jump into the lava to enter a hidden tunnel and acquire Snek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Snek do in Megabonk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Snek applies 4 stacks of poison to enemies on hit, making it extremely powerful for poison-focused builds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Snek a good item?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Snek is considered S-tier for poison builds. The 4 poison stacks per hit creates massive damage-over-time, especially with lifesteal synergies."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --bg-primary: #0f1419;
+            --bg-secondary: #16213e;
+            --bg-card: rgba(22, 33, 62, 0.6);
+            --border-color: rgba(233, 69, 96, 0.3);
+            --text-primary: #e94560;
+            --text-secondary: #f1f1f1;
+            --text-muted: #a4a4a4;
+            --accent-gold: #ffd700;
+            --legendary-orange: #ff9f43;
+            --legendary-glow: rgba(255, 159, 67, 0.4);
+            --poison-green: #26de81;
+            --danger-red: #ff4757;
+            --success-green: #26de81;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f1419 0%, #16213e 50%, #1a1a2e 100%);
+            color: var(--text-secondary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        nav {
+            background: rgba(15, 20, 25, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--text-primary);
+            text-decoration: none;
+            text-shadow: 0 0 10px var(--legendary-glow);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: var(--text-muted);
+            margin: 0 0.5rem;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Hero Section */
+        .item-hero {
+            background: linear-gradient(135deg, rgba(255, 159, 67, 0.2) 0%, rgba(38, 222, 129, 0.2) 100%);
+            border-radius: 15px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            border: 2px solid var(--legendary-orange);
+            box-shadow: 0 0 30px var(--legendary-glow);
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .item-icon-large {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            filter: drop-shadow(0 0 20px var(--legendary-glow));
+            animation: floatAnimation 3s ease-in-out infinite;
+        }
+
+        @keyframes floatAnimation {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .item-hero-content h1 {
+            font-size: 2.5rem;
+            color: var(--legendary-orange);
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 20px var(--legendary-glow);
+        }
+
+        .item-rarity {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background: linear-gradient(135deg, var(--legendary-orange), #f39c12);
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 15px var(--legendary-glow);
+        }
+
+        .item-effect {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--legendary-orange);
+            margin-top: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .item-effect strong {
+            color: var(--accent-gold);
+        }
+
+        /* Quick Stats */
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--legendary-orange);
+            box-shadow: 0 10px 20px var(--legendary-glow);
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--legendary-orange);
+        }
+
+        /* Content Sections */
+        .content-section {
+            background: var(--bg-card);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            border: 2px solid var(--border-color);
+        }
+
+        .content-section h2 {
+            color: var(--text-primary);
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .content-section h3 {
+            color: var(--legendary-orange);
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-section h4 {
+            color: var(--accent-gold);
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Alert Boxes */
+        .alert {
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            border-left: 4px solid;
+        }
+
+        .alert-success {
+            background: rgba(38, 222, 129, 0.15);
+            border-left-color: var(--success-green);
+        }
+
+        .alert-warning {
+            background: rgba(255, 193, 7, 0.15);
+            border-left-color: #ffc107;
+        }
+
+        .alert-info {
+            background: rgba(52, 152, 219, 0.15);
+            border-left-color: #3498db;
+        }
+
+        .alert-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Unlock Steps */
+        .unlock-steps {
+            background: rgba(255, 215, 0, 0.05);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 2px solid var(--accent-gold);
+            margin: 1.5rem 0;
+        }
+
+        .unlock-steps h3 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .steps-list {
+            counter-reset: step-counter;
+            list-style: none;
+            padding: 0;
+        }
+
+        .steps-list li {
+            counter-increment: step-counter;
+            margin-bottom: 1.5rem;
+            padding-left: 3rem;
+            position: relative;
+        }
+
+        .steps-list li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2rem;
+            height: 2rem;
+            background: var(--accent-gold);
+            color: var(--bg-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* Synergy Grid */
+        .synergy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .synergy-card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s;
+        }
+
+        .synergy-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--success-green);
+            box-shadow: 0 10px 20px rgba(38, 222, 129, 0.2);
+        }
+
+        .synergy-card img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 0 10px rgba(233, 69, 96, 0.5));
+        }
+
+        .synergy-rating {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .synergy-excellent {
+            background: var(--success-green);
+            color: white;
+        }
+
+        .synergy-good {
+            background: #3498db;
+            color: white;
+        }
+
+        /* FAQ */
+        .faq-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--legendary-orange);
+        }
+
+        .faq-question {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-answer {
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(15, 20, 25, 0.95);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+            border-top: 2px solid var(--border-color);
+        }
+
+        footer a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .item-hero {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .item-icon-large {
+                margin: 0 auto;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .quick-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .synergy-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Utility */
+        ol,
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: var(--text-primary);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background: rgba(255, 215, 0, 0.2);
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body><a href="https://megabonk.org/cdn-cgi/content?id=EI3lSfC0FgkjQ1oqz7EVo.cbD3376GRCPGZ1J4aGV0c-1792520266.4927351-1.2.1.1-W0sgRmm.LyykubHss8M5tf0tVOnCxZsMNhEgmlR1d9BsRDFxiK02lVcw_ATBkQBE" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+            <ul class="nav-links">
+                <li><a href="https://megabonk.org/database/">Database</a></li>
+                <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+                <li><a href="https://megabonk.org/guides/">Guides</a></li>
+                <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="https://megabonk.org/">Home</a>
+        <span>›</span>
+        <a href="https://megabonk.org/database/">Database</a>
+        <span>›</span>
+        <a href="https://megabonk.org/database/items/">Items</a>
+        <span>›</span>
+        <span>Snek</span>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="item-hero">
+            <img src="https://megabonk.org/images/Items/Item_Snek.png" alt="Snek Item" class="item-icon-large">
+            <div class="item-hero-content">
+                <h1>Snek</h1>
+                <span class="item-rarity">🐍 LEGENDARY ITEM</span>
+
+                <div class="item-effect">
+                    <strong>Effect:</strong> Applies <span class="highlight">4 stacks of poison</span> to enemies on
+                    hit.
+                </div>
+
+                <div class="alert alert-success" style="margin-top: 1rem;">
+                    <div class="alert-title">
+                        <span>🔥</span>
+                        S-Tier for Poison Builds
+                    </div>
+                    <p>Snek is the cornerstone of any poison strategy, providing massive DoT damage with just one item
+                        pickup.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="quick-stats">
+            <div class="stat-card">
+                <div class="stat-label">Rarity</div>
+                <div class="stat-value">⭐ Legendary</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Source</div>
+                <div class="stat-value">🏰 Crypt Secret</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Poison Stacks</div>
+                <div class="stat-value" style="color:#26de81">+4 per Hit</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Difficulty</div>
+                <div class="stat-value" style="color:#26de81">Easy</div>
+            </div>
+        </div>
+
+        <!-- How to Unlock -->
+        <section class="content-section" id="unlock">
+            <h2>🔓 How to Unlock Snek</h2>
+
+            <p>Snek is hidden in a secret room within the <strong>Crypt</strong> area of the Graveyard map. Unlike most
+                items, you don't need to complete a challenge—just find and reach the secret.</p>
+
+            <div class="unlock-steps">
+                <h3>🐍 Step-by-Step Guide</h3>
+                <ol class="steps-list">
+                    <li><strong>Enter the Crypt:</strong> Access the Crypt area in the Graveyard map. You'll need 4
+                        Crypt Keys.</li>
+                    <li><strong>Find the Secret Room:</strong> Look for a room with a "high-low" layout—platforms in the
+                        middle with a significant drop. Check for a room with a huge vertical drop-off.</li>
+                    <li><strong>Activate the Pressure Plate:</strong> On the lower platform, locate the pressure plate.
+                        Step on it and listen for the activation sound.</li>
+                    <li><strong>Jump into the Lava:</strong> After activating the plate, a hidden passage opens in the
+                        lava. Jump in at the correct spot and follow the tunnel.</li>
+                    <li><strong>Collect Snek:</strong> Interact with the snake at the end of the tunnel. It goes
+                        directly into your inventory!</li>
+                </ol>
+            </div>
+
+            <div class="alert alert-warning">
+                <div class="alert-title">
+                    <span>💡</span>
+                    Pro Tip
+                </div>
+                <p>The snake's location often mirrors the layout. Check the minimap—Snek is usually on the side with the
+                    high treasure chest. Characters with low HP (like Clank at 50 HP) may struggle in the lava, so use a
+                    tankier character for easier unlocking.</p>
+            </div>
+        </section>
+
+        <!-- Mechanics -->
+        <section class="content-section" id="mechanics">
+            <h2>⚙️ Mechanics Deep Dive</h2>
+
+            <h3>Poison Stack Application</h3>
+            <p>Each time you hit an enemy, Snek applies <strong>4 poison stacks</strong>. These stacks deal damage over
+                time and can be amplified by other poison-related effects.</p>
+
+            <h3>Synergy with Lifesteal</h3>
+            <p>At 100% lifesteal, <strong>each poison tick heals you for 1 HP</strong>. With 4 stacks ticking
+                simultaneously on multiple enemies, you can achieve absurd sustain levels, making you nearly unkillable
+                in crowded situations.</p>
+
+            <h3>Best Characters for Snek</h3>
+            <ul>
+                <li><strong>Amog:</strong> Native poison synergy with "Plague" passive causes poisoned enemies to
+                    explode and spread poison on death.</li>
+                <li><strong>Steve / Big Bob:</strong> Starting a run with Snek as an extra legendary gives massive early
+                    advantage.</li>
+                <li><strong>Any lifesteal character:</strong> Combine with lifesteal items for incredible sustain.</li>
+            </ul>
+        </section>
+
+        <!-- Synergies -->
+        <section class="content-section" id="synergies">
+            <h2>🔗 Best Synergies</h2>
+
+            <div class="synergy-grid">
+                <div class="synergy-card">
+                    <span class="synergy-rating synergy-excellent">S-TIER</span>
+                    <h4>Leeching Crystal</h4>
+                    <p>100% lifesteal turns every poison tick into healing. Combined with Snek's 4 stacks, you heal
+                        constantly from multiple enemies.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <span class="synergy-rating synergy-excellent">S-TIER</span>
+                    <h4>Amog's Plague Passive</h4>
+                    <p>Poisoned enemies explode on death, spreading poison to nearby enemies. Creates devastating chain
+                        reactions.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <span class="synergy-rating synergy-good">A-TIER</span>
+                    <h4>Poison Flask Weapon</h4>
+                    <p>Additional poison application stacks with Snek for even more DoT damage.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <span class="synergy-rating synergy-good">A-TIER</span>
+                    <h4>Multi-Hit Weapons</h4>
+                    <p>Weapons with fast attack speed or multiple projectiles apply Snek's poison more frequently.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="content-section" id="faq">
+            <h2>❓ Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">How do you unlock Snek in Megabonk?</div>
+                <div class="faq-answer">Find the secret room in the Crypt area. Look for a high-low room with platforms,
+                    step on the pressure plate on the lower level, then jump into the lava to enter the hidden tunnel
+                    where Snek awaits.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What does Snek do?</div>
+                <div class="faq-answer">Snek applies 4 stacks of poison to enemies every time you hit them, creating
+                    massive damage-over-time potential.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Is Snek worth getting?</div>
+                <div class="faq-answer">Absolutely! Snek is considered S-tier for poison builds and remains useful in
+                    almost any build due to the strong DoT damage and lifesteal synergy.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I start a run with Snek?</div>
+                <div class="faq-answer">Once unlocked, Snek can appear in the item pool during runs. Some players
+                    "bridge" the Snek discovery into a run with Steve or Big Bob for an early legendary advantage.</div>
+            </div>
+        </section>
+
+        <!-- Related -->
+        <section class="content-section">
+            <h2>📖 Related Pages</h2>
+            <ul>
+                <li><a href="https://megabonk.org/guides/characters/amog-guide">Amog Character Guide</a> - Best
+                    character for poison builds</li>
+                <li><a href="https://megabonk.org/database/items/kevin">Kevin Item Guide</a> - Another high-synergy item
+                </li>
+                <li><a href="https://megabonk.org/guides/patch-notes/V1.0.64">v1.0.64 Patch Notes</a> - Latest game
+                    updates</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p><a href="https://megabonk.org/">Megabonk.org</a> - Your Complete Megabonk Resource</p>
+        <p style="margin-top: 0.5rem; opacity: 0.7; font-size: 0.9rem;">
+            <a href="https://megabonk.org/database/">Database</a> |
+            <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+            <a href="https://megabonk.org/guides/">Guides</a>
+        </p>
+        <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">Last Updated: January 29, 2026 | Verified with
+            v1.0.64</p>
+    </footer>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da05719c3c909a',t:'MTc5MjUyMDI2Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

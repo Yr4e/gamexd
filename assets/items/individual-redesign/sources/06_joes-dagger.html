@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joe’s Dagger — Effect & Unlock | Megabonk</title>
+  <meta name="description" content="Legendary item with 1% execute chance and +1% damage per execute. Learn the exact unlock (10,000 Dexecutioner kills) and the v1.0.12 cap: 200% damage/min per dagger.">
+  <link rel="canonical" href="https://megabonk.org/database/items/joes-dagger">
+
+  <!-- GA -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date()); gtag('config', 'G-V5X87M8JFL');
+  </script>
+
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920" crossorigin="anonymous"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Joe’s Dagger — Effect & Unlock | Megabonk">
+  <meta property="og:description" content="1% execute, +1% damage per execute. Unlock via 10,000 Dexecutioner kills. v1.0.12 adds a 200%/min cap per dagger.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://megabonk.org/database/items/joes-dagger">
+  <meta property="og:image" content="https://megabonk.org/images/Items/Item_Joes_Dagger.png">
+
+  <!-- 兼容你提供的 Kevin 页面样式（原样保留） -->
+  <style>
+    /* —— 此处为你提供的样式表，原样保留 —— */
+    :root{--bg-primary:#0f1419;--bg-secondary:#16213e;--bg-card:rgba(22,33,62,.6);--border-color:rgba(233,69,96,.3);--text-primary:#e94560;--text-secondary:#f1f1f1;--text-muted:#a4a4a4;--accent-gold:#ffd700;--rare-purple:#9b59b6;--rare-glow:rgba(155,89,182,.4);--danger-red:#ff4757;--success-green:#26de81}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:linear-gradient(135deg,#0f1419 0%,#16213e 50%,#1a1a2e 100%);color:var(--text-secondary);line-height:1.6;min-height:100vh}
+    nav{background:rgba(15,20,25,.95);backdrop-filter:blur(10px);border-bottom:2px solid var(--border-color);position:sticky;top:0;z-index:1000}
+    .nav-container{max-width:1400px;margin:0 auto;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-size:1.5rem;font-weight:bold;color:var(--text-primary);text-decoration:none;text-shadow:0 0 10px var(--rare-glow)}
+    .nav-links{display:flex;gap:2rem;list-style:none}
+    .nav-links a{color:var(--text-secondary);text-decoration:none;font-weight:500;transition:color .3s}
+    .nav-links a:hover{color:var(--text-primary)}
+    .breadcrumb{max-width:1400px;margin:0 auto;padding:1.5rem 2rem .5rem;font-size:.9rem}
+    .breadcrumb a{color:var(--text-primary);text-decoration:none}
+    .breadcrumb a:hover{text-decoration:underline}
+    .breadcrumb span{color:var(--text-muted);margin:0 .5rem}
+    .container{max-width:1400px;margin:0 auto;padding:2rem}
+    .item-hero{background:linear-gradient(135deg,rgba(255,215,0,.18) 0%,rgba(233,69,96,.18) 100%);border-radius:15px;padding:3rem;margin-bottom:2rem;border:2px solid var(--accent-gold);box-shadow:0 0 30px rgba(255,215,0,.25);display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center}
+    .item-icon-large{width:150px;height:150px;object-fit:contain;filter:drop-shadow(0 0 20px rgba(255,215,0,.35));animation:floatAnimation 3s ease-in-out infinite}
+    @keyframes floatAnimation{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .item-hero-content h1{font-size:2.5rem;color:var(--accent-gold);margin-bottom:.5rem;text-shadow:0 0 20px rgba(255,215,0,.35)}
+    .item-rarity{display:inline-block;padding:.4rem 1rem;background:linear-gradient(135deg,#f6d365,#fda085);color:#222;border-radius:20px;font-weight:bold;font-size:.9rem;margin-bottom:1rem;box-shadow:0 0 15px rgba(255,215,0,.3)}
+    .item-effect{background:rgba(0,0,0,.4);padding:1.5rem;border-radius:10px;border-left:4px solid var(--accent-gold);margin-top:1rem;font-size:1.1rem}
+    .item-effect strong{color:var(--accent-gold)}
+    .quick-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem}
+    .stat-card{background:var(--bg-card);padding:1.5rem;border-radius:10px;border:2px solid var(--border-color);text-align:center;transition:.3s}
+    .stat-card:hover{transform:translateY(-5px);border-color:var(--accent-gold);box-shadow:0 10px 20px rgba(255,215,0,.25)}
+    .stat-label{font-size:.9rem;color:var(--text-muted);text-transform:uppercase;margin-bottom:.5rem}
+    .stat-value{font-size:1.3rem;font-weight:bold;color:var(--accent-gold)}
+    .content-section{background:var(--bg-card);padding:2rem;border-radius:15px;margin-bottom:2rem;border:2px solid var(--border-color)}
+    .content-section h2{color:var(--text-primary);font-size:1.8rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid var(--border-color)}
+    .content-section h3{color:var(--accent-gold);font-size:1.3rem;margin:1.2rem 0}
+    .alert{padding:1.5rem;border-radius:10px;margin:1.5rem 0;border-left:4px solid}
+    .alert-info{background:rgba(52,152,219,.15);border-left-color:#3498db}
+    .alert-warning{background:rgba(255,193,7,.15);border-left-color:#ffc107}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1.5rem 0}
+    .pros,.cons{padding:1.5rem;border-radius:10px}
+    .pros{background:rgba(38,222,129,.1);border-left:4px solid var(--success-green)}
+    .cons{background:rgba(255,71,87,.1);border-left:4px solid var(--danger-red)}
+    .synergy-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;margin-top:1rem}
+    .synergy-card{background:rgba(0,0,0,.3);padding:1.2rem;border-radius:10px;border:2px solid var(--border-color)}
+    .synergy-card img{width:60px;height:60px;object-fit:contain;margin-bottom:.6rem;filter:drop-shadow(0 0 10px rgba(255,215,0,.35))}
+    .related-items{background:rgba(15,20,25,.6);padding:2rem;border-radius:15px;margin-top:3rem;border:2px solid var(--border-color)}
+    .items-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:1rem;margin-top:1.5rem}
+    .item-nav-card{background:rgba(22,33,62,.6);padding:1rem;border-radius:10px;border:2px solid var(--border-color);text-align:center;text-decoration:none;color:var(--text-secondary);transition:.3s}
+    .item-nav-card:hover{transform:translateY(-5px);border-color:var(--text-primary);box-shadow:0 5px 15px rgba(233,69,96,.3)}
+    @media (max-width:768px){.item-hero{grid-template-columns:1fr;text-align:center}.item-icon-large{margin:0 auto}.pros-cons{grid-template-columns:1fr}}
+    a{color:var(--text-primary)} a:hover{text-decoration:underline}
+  </style>
+</head>
+<body><a href="https://megabonk.org/cdn-cgi/content?id=M8eiG4wQnyWgULmAne0wRU_lL3x1lTOnwy.QIxVNZMg-1792520266.1019614-1.2.1.1-S8j.0s1t74SLJJ9B4VbshVPb0Qsr3RXi3TqGATDoWtADuJWZ9WOtYydS9PfAag5h" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+  <!-- Nav -->
+  <nav>
+    <div class="nav-container">
+      <a class="logo" href="https://megabonk.org/">Megabonk.org</a>
+      <ul class="nav-links">
+        <li><a href="https://megabonk.org/database/">Database</a></li>
+        <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+        <li><a href="https://megabonk.org/guides/">Guides</a></li>
+        <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="https://megabonk.org/">Home</a><span>›</span>
+    <a href="https://megabonk.org/database/">Database</a><span>›</span>
+    <a href="https://megabonk.org/database/items/">Items</a><span>›</span>
+    <span>Joe’s Dagger</span>
+  </div>
+
+  <div class="container">
+
+    <!-- Hero -->
+    <section class="item-hero">
+      <img class="item-icon-large" src="https://megabonk.org/images/Items/Item_Joes_Dagger.png" alt="Joe’s Dagger item icon">
+      <div class="item-hero-content">
+        <h1>Joe’s Dagger</h1>
+        <span class="item-rarity">⭐ LEGENDARY ITEM</span>
+        <div class="item-effect">
+          <strong>Effect:</strong> 1% chance to instantly <em>Execute</em> a regular enemy. Each successful execute permanently increases your damage by <strong>+1%</strong> for the rest of the run.
+        </div>
+        <div class="alert alert-info" style="margin-top:1rem">
+          <div class="alert-title">Patch v1.0.12</div>
+          <p>Per dagger, damage increase is capped at <strong>+200% per minute</strong> (10 daggers ⇒ <strong>+2000%/min</strong>). This is a cap on the <em>damage increase</em>, not on “rolls.”</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="quick-stats">
+      <div class="stat-card"><div class="stat-label">Rarity</div><div class="stat-value">Legendary</div></div>
+      <div class="stat-card"><div class="stat-label">Execute Chance</div><div class="stat-value">1%</div></div>
+      <div class="stat-card"><div class="stat-label">Scaling</div><div class="stat-value">+1% dmg / execute</div></div>
+      <div class="stat-card"><div class="stat-label">Cap (v1.0.12)</div><div class="stat-value">+200%/min per dagger</div></div>
+    </section>
+
+    <!-- Overview -->
+    <section class="content-section">
+      <h2>Overview</h2>
+      <p>
+        Joe’s Dagger is a late-game scaling item that rewards long, enemy-dense stages. If you’re new to items, browse the
+        <a href="https://megabonk.org/database/items/">Items Database</a>
+        first; below we focus on the precise unlock and post-v1.0.12 mechanics.
+      </p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h3>Pros</h3>
+          <ul>
+            <li>Permanent damage growth during a run</li>
+            <li>Excellent in long stages with heavy mob density</li>
+            <li>Pairs well with multi-hit / AoE weapons to create more execute opportunities</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h3>Cons</h3>
+          <ul>
+            <li>Execute does not apply to bosses (and typically not to elites)</li>
+            <li>Scaling is capped per minute after v1.0.12</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Unlock -->
+    <section class="content-section">
+      <h2>How to Unlock Joe’s Dagger</h2>
+      <h3>Requirement</h3>
+      <p><strong>Kill 10,000 enemies using the <a href="https://megabonk.org/database/weapons/dexecutioner">Dexecutioner</a>.</strong></p>
+
+      <h3>About Dexecutioner (pre-requisite knowledge)</h3>
+      <ul>
+        <li>To access Dexecutioner, many players first grind toward its unlock via <strong>12,500 total Sword kills</strong> (community-documented path).</li>
+        <li>Once you have Dexecutioner, farm T1/T2 maps with fast spawns to accumulate the 10,000 required kills.</li>
+      </ul>
+
+      <div class="alert alert-warning">
+        <div class="alert-title">Tip</div>
+        <p>Use enemy-dense weapons (e.g., <a href="https://megabonk.org/database/weapons/aura">Aura</a>, <a href="https://megabonk.org/database/weapons/tornado">Tornado</a>, <a href="https://megabonk.org/database/weapons/katana">Katana</a>) while leveling toward Dexecutioner unlocks and for the 10k-kill grind.</p>
+      </div>
+    </section>
+
+    <!-- Interactions & Limits -->
+    <section class="content-section">
+      <h2>Interactions & Limits (v1.0.12+)</h2>
+      <h3>Cap Explained</h3>
+      <p>Each dagger can grant at most <strong>+200% damage per minute</strong>. If you hold multiple daggers, the cap stacks additively (e.g., 10 daggers ⇒ +2000%/min).</p>
+
+      <h3>Boss/Elite Targets</h3>
+      <p>Execute applies to regular enemies. For bosses (and usually elites), treat the item as <em>scaling only via mob clears</em>.</p>
+
+      <h3>Unconfirmed Behavior</h3>
+      <p><em>Do other execute sources (e.g., Shadow Step, the execute on Dexecutioner hits) add stacks to Joe’s Dagger?</em> Community reports conflict and no explicit developer note was found. We mark this as <strong>Unconfirmed</strong>. Build around what is guaranteed: high hit-count weapons and dense maps.</p>
+    </section>
+
+    <!-- Synergies (safe & generic) -->
+    <section class="content-section">
+      <h2>Practical Synergies</h2>
+      <div class="synergy-grid">
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/database/weapons/Dexecutioner.png" alt="Dexecutioner weapon">
+          <h3>Dexecutioner</h3>
+          <p>Mandatory for the unlock; afterwards, its crowd control and kill-speed help feed more executes on regular enemies.</p>
+          <p><a href="https://megabonk.org/guides/builds/katana-dexecutioner-execute-melee">See an execute-focused build</a></p>
+        </div>
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/database/weapons/Aura.png" alt="Aura weapon">
+          <h3>High-hit AoE (Aura/Tornado)</h3>
+          <p>More hits → more kill throughput → more execute chances across mobs.</p>
+        </div>
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/database/weapons/Katana.png" alt="Katana weapon">
+          <h3>Fast Melee (Katana)</h3>
+          <p>High swing rate helps clear waves quickly to realize dagger scaling over time.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related -->
+    <section class="related-items">
+      <h2 style="color:var(--text-primary);margin-bottom:1rem;">Related / See also</h2>
+      <div class="items-grid">
+        <a class="item-nav-card" href="https://megabonk.org/database/weapons/dexecutioner">
+          <img src="https://megabonk.org/images/database/weapons/Dexecutioner.png" alt="Dexecutioner">
+          <span>Dexecutioner (Weapon)</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/guides/builds/katana-dexecutioner-execute-melee">
+          <img src="https://megabonk.org/images/database/weapons/Katana.png" alt="Katana Execute Build">
+          <span>Execute Melee Build</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/tier-lists/items/">
+          <img src="https://megabonk.org/images/Items/Item_Beefy_Ring.png" alt="Items Tier List">
+          <span>Items Tier List</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/leaderboard/">
+          <img src="https://megabonk.org/images/database/weapons/Black_Hole.png" alt="Leaderboard">
+          <span>Leaderboard</span>
+        </a>
+      </div>
+      <div class="cta-buttons text-center" style="margin-top:2rem">
+        <a href="https://megabonk.org/database/items/" class="btn btn-primary">View All Items</a>
+        <a href="https://megabonk.org/guides/builds/" class="btn btn-secondary">All Builds</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div style="max-width:1400px;margin:0 auto;text-align:center">
+      <p>&copy; <span data-current-year>2026</span> Megabonk.org — Unofficial Fan Resource</p>
+      <p style="margin-top:.5rem;">Not affiliated with the official Megabonk dev team</p>
+      <p style="margin-top:1rem;font-size:.85rem;color:var(--text-muted)">Game assets and trademarks are property of their respective owners.</p>
+    </div>
+  </footer>
+
+  <!-- Minor UX scripts (from your template) -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const t=document.querySelector(a.getAttribute('href')); if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}
+      });
+    });
+    document.querySelectorAll('img').forEach(img=>{
+      img.addEventListener('error',function(){this.style.opacity='.5';this.style.filter='grayscale(100%)';});
+    });
+  </script>
+
+  <!-- JSON-LD in section D -->
+   <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "name":"Joe’s Dagger — Effect & Unlock | Megabonk",
+  "url":"https://megabonk.org/database/items/joes-dagger",
+  "description":"Legendary item with 1% execute and +1% damage per execute. Unlock via 10,000 Dexecutioner kills. v1.0.12 adds a 200%/min cap per dagger.",
+  "image":"https://megabonk.org/images/Items/Item_Joes_Dagger.png",
+  "inLanguage":"en"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"How do I unlock Joe’s Dagger?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Kill 10,000 enemies using the Dexecutioner weapon. Once reached, Joe’s Dagger enters your item pool for future runs."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"What changed in v1.0.12?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Each dagger’s damage increase is capped at +200% per minute (e.g., 10 daggers ⇒ +2000%/min). This is a cap on damage increase, not on execute rolls."
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Does Execute work on bosses?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Guides consistently note the dagger’s Execute applies to regular enemies; treat bosses as unaffected."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da056f2935dbc9',t:'MTc5MjUyMDI2Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"><!-- fixed -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card (Green) Guide: +2% Luck Effect | Megabonk</title>
+    <meta name="description"
+        content="Learn how this Rare item grants +2% Luck per chest, why it scales on chest-heavy runs, and how it synergizes with Clover and the Key.">
+    <meta name="keywords"
+        content="megabonk credit card green, credit card green item, megabonk luck item, megabonk items, megabonk luck build">
+
+    <link rel="canonical" href="https://megabonk.org/database/items/credit-card-green">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-V5X87M8JFL');
+    </script>
+
+    <!-- AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+        crossorigin="anonymous"></script>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Credit Card (Green) - Megabonk Item Database">
+    <meta property="og:description"
+        content="Rare item that adds +2% Luck per chest you open. Complete guide to synergies, strategies, and FAQs.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://megabonk.org/database/items/credit-card-green">
+    <meta property="og:image" content="https://megabonk.org/images/Items/Item_Credit_Card_Green.png">
+
+    <!-- Article schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Credit Card (Green) Item Guide - Megabonk Database",
+      "description": "Complete guide to the Credit Card (Green) item in Megabonk including its effect, synergies, and strategies for luck-based builds.",
+      "image": "https://megabonk.org/images/Items/Item_Credit_Card_Green.png",
+      "url": "https://megabonk.org/database/items/credit-card-green",
+      "author": { "@type": "Organization", "name": "Megabonk.org" },
+      "publisher": { "@type": "Organization", "name": "Megabonk.org" }
+    }
+    </script>
+
+    <!-- FAQ schema (corrected) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does Credit Card (Green) work in Megabonk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each time you open a chest—including free and golden chests—the item adds +2% Luck for the rest of the run. The bonus stacks with every chest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the +2% Luck from Credit Card (Green) permanent forever?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The 'permanent' boost applies only to your current run. The Luck bonus resets when you start a new run."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does Luck do in Megabonk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Luck increases the likelihood of higher-tier loot and upgrade options during a run, improving your chances to see Rare, Epic, and Legendary rewards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between Credit Card (Green) and Credit Card (Red)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Credit Card (Green) adds +2% Luck per chest (long-term scaling). Credit Card (Red) adds +2.5% Damage per chest (immediate power growth)."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --bg-primary: #0f1419;
+            --bg-secondary: #16213e;
+            --bg-card: rgba(22, 33, 62, 0.6);
+            --border-color: rgba(233, 69, 96, 0.3);
+            --text-primary: #e94560;
+            --text-secondary: #f1f1f1;
+            --text-muted: #a4a4a4;
+            --accent-gold: #ffd700;
+            /* Rare (blue) styling for this page */
+            --rare-blue: #3498db;
+            --rare-glow: rgba(52, 152, 219, 0.35);
+            --danger-red: #ff4757;
+            --success-green: #26de81;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f1419 0%, #16213e 50%, #1a1a2e 100%);
+            color: var(--text-secondary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        nav {
+            background: rgba(15, 20, 25, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--text-primary);
+            text-decoration: none;
+            text-shadow: 0 0 10px var(--rare-glow);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: var(--text-muted);
+            margin: 0 0.5rem;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Hero Section */
+        .item-hero {
+            background: linear-gradient(135deg, rgba(52, 152, 219, 0.18) 0%, rgba(233, 69, 96, 0.18) 100%);
+            border-radius: 15px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            border: 2px solid var(--rare-blue);
+            box-shadow: 0 0 30px var(--rare-glow);
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .item-icon-large {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            filter: drop-shadow(0 0 20px var(--rare-glow));
+            animation: floatAnimation 3s ease-in-out infinite;
+        }
+
+        @keyframes floatAnimation {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .item-hero-content h1 {
+            font-size: 2.5rem;
+            color: var(--rare-blue);
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 20px var(--rare-glow);
+        }
+
+        .item-rarity {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background: linear-gradient(135deg, var(--rare-blue), #2c81ba);
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 15px var(--rare-glow);
+        }
+
+        .item-effect {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--rare-blue);
+            margin-top: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .item-effect strong {
+            color: var(--accent-gold);
+        }
+
+        /* Quick Stats */
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--rare-blue);
+            box-shadow: 0 10px 20px var(--rare-glow);
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--rare-blue);
+        }
+
+        /* Content Sections */
+        .content-section {
+            background: var(--bg-card);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            border: 2px solid var(--border-color);
+        }
+
+        .content-section h2 {
+            color: var(--text-primary);
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .content-section h3 {
+            color: var(--rare-blue);
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-section h4 {
+            color: var(--accent-gold);
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Alerts */
+        .alert {
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            border-left: 4px solid;
+        }
+
+        .alert-danger {
+            background: rgba(255, 71, 87, 0.15);
+            border-left-color: var(--danger-red);
+        }
+
+        .alert-warning {
+            background: rgba(255, 193, 7, 0.15);
+            border-left-color: #ffc107;
+        }
+
+        .alert-success {
+            background: rgba(38, 222, 129, 0.15);
+            border-left-color: var(--success-green);
+        }
+
+        .alert-info {
+            background: rgba(52, 152, 219, 0.15);
+            border-left-color: #3498db;
+        }
+
+        .alert-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Pros & Cons */
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .pros,
+        .cons {
+            padding: 1.5rem;
+            border-radius: 10px;
+        }
+
+        .pros {
+            background: rgba(38, 222, 129, 0.1);
+            border-left: 4px solid var(--success-green);
+        }
+
+        .cons {
+            background: rgba(255, 71, 87, 0.1);
+            border-left: 4px solid var(--danger-red);
+        }
+
+        .pros h4,
+        .cons h4 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .pros h4 {
+            color: var(--success-green);
+        }
+
+        .cons h4 {
+            color: var(--danger-red);
+        }
+
+        .pros ul,
+        .cons ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .pros li,
+        .cons li {
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .pros li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success-green);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .cons li::before {
+            content: "✗";
+            position: absolute;
+            left: 0;
+            color: var(--danger-red);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Unlock */
+        .unlock-steps {
+            background: rgba(255, 215, 0, 0.05);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 2px solid var(--accent-gold);
+            margin: 1.5rem 0;
+        }
+
+        .unlock-steps h3 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .steps-list {
+            counter-reset: step-counter;
+            list-style: none;
+            padding: 0;
+        }
+
+        .steps-list li {
+            counter-increment: step-counter;
+            margin-bottom: 1.5rem;
+            padding-left: 3rem;
+            position: relative;
+        }
+
+        .steps-list li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2rem;
+            height: 2rem;
+            background: var(--accent-gold);
+            color: var(--bg-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* Synergy Grid */
+        .synergy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .synergy-card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s;
+        }
+
+        .synergy-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--success-green);
+            box-shadow: 0 10px 20px rgba(38, 222, 129, 0.2);
+        }
+
+        .synergy-card.anti-synergy {
+            border-color: rgba(255, 71, 87, 0.5);
+        }
+
+        .synergy-card.anti-synergy:hover {
+            border-color: var(--danger-red);
+            box-shadow: 0 10px 20px rgba(255, 71, 87, 0.2);
+        }
+
+        .synergy-card img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 0 10px rgba(233, 69, 96, 0.5));
+        }
+
+        .synergy-rating {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .synergy-excellent {
+            background: var(--success-green);
+            color: white;
+        }
+
+        .synergy-good {
+            background: #3498db;
+            color: white;
+        }
+
+        .synergy-avoid {
+            background: var(--danger-red);
+            color: white;
+        }
+
+        /* FAQ */
+        .faq-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--rare-blue);
+        }
+
+        .faq-question {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-answer {
+            color: var(--text-secondary);
+        }
+
+        /* Related Items Navigation */
+        .related-items {
+            background: rgba(15, 20, 25, 0.6);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 3rem;
+            border: 2px solid var(--border-color);
+        }
+
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .item-nav-card {
+            background: rgba(22, 33, 62, 0.6);
+            padding: 1rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s;
+            text-decoration: none;
+            color: var(--text-secondary);
+        }
+
+        .item-nav-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--text-primary);
+            box-shadow: 0 5px 15px rgba(233, 69, 96, 0.3);
+        }
+
+        .item-nav-card.current {
+            border-color: var(--rare-blue);
+            background: rgba(52, 152, 219, 0.2);
+            box-shadow: 0 0 20px var(--rare-glow);
+        }
+
+        .item-nav-card img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 0.5rem;
+        }
+
+        .item-nav-card span {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* CTA Buttons */
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--text-primary), #c0392b);
+            color: white;
+            box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(233, 69, 96, 0.6);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, var(--rare-blue), #2c81ba);
+            color: white;
+            box-shadow: 0 5px 15px var(--rare-glow);
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px var(--rare-glow);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(15, 20, 25, 0.95);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+            border-top: 2px solid var(--border-color);
+        }
+
+        footer a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .item-hero {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .item-icon-large {
+                margin: 0 auto;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .quick-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+
+            .synergy-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .items-grid {
+                grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            }
+        }
+
+        /* Utility */
+        .text-center {
+            text-align: center;
+        }
+
+        .highlight {
+            background: rgba(255, 215, 0, 0.2);
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        .emoji {
+            font-size: 1.3rem;
+            margin-right: 0.5rem;
+        }
+
+        ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: var(--text-primary);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body><a href="https://megabonk.org/cdn-cgi/content?id=6xicBYbQNSh4lBU_KD0VA2LeS.r4IGZhmnmdt8OvFJw-1792520270.6591325-1.2.1.1-J2h7pf5Z9QdYlosuR09qY5u4QGlN628AN00B_ikyOVFZEWH06nEcuYslZou2cwAf" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+    <nav>
+        <div class="nav-container">
+            <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+            <ul class="nav-links">
+                <li><a href="https://megabonk.org/database/">Database</a></li>
+                <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+                <li><a href="https://megabonk.org/guides/">Guides</a></li>
+                <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb">
+        <a href="https://megabonk.org/">Home</a><span>›</span>
+        <a href="https://megabonk.org/database/">Database</a><span>›</span>
+        <a href="https://megabonk.org/database/items/">Items</a><span>›</span>
+        <span>Credit Card (Green)</span>
+    </div>
+
+    <div class="container">
+        <div class="item-hero">
+            <img src="https://megabonk.org/images/Items/Item_Credit_Card_Green.png" alt="Credit Card (Green) Item Icon"
+                class="item-icon-large">
+            <div class="item-hero-content">
+                <h1>Credit Card (Green)</h1>
+                <span class="item-rarity">⭐⭐ RARE ITEM</span>
+
+                <div class="item-effect">
+                    <strong>Effect:</strong> Gain <strong>+2% Luck</strong> each time you open a chest (applies for the
+                    current run). <span style="color: #ff9f43;">⚠️ Each card also increases chest prices by +10% (added
+                        in v1.0.49).</span>
+                </div>
+
+                <div class="alert alert-success" style="margin-top: 1rem;">
+                    <div class="alert-title"><span class="emoji">📈</span> Long-Term Investment</div>
+                    <p>Scales best when found early on chest-heavy routes—open more chests, get more Luck, see
+                        higher-tier rewards later.</p>
+                </div>
+
+                <div class="alert alert-warning">
+                    <div class="alert-title"><span class="emoji">💰</span> v1.0.49 Nerf</div>
+                    <p><strong>Each Green Credit Card now increases chest prices by +10%.</strong> Stacking multiple
+                        cards can make chests very expensive. Balance Luck gains against gold cost.</p>
+                </div>
+
+                <div class="alert alert-info">
+                    <div class="alert-title"><span class="emoji">🎨</span> Naming Note</div>
+                    <p>“Green” refers to the card’s color, <em>not</em> item rarity. The item’s rarity is <strong>Rare
+                            (blue)</strong>.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="quick-stats">
+            <div class="stat-card">
+                <div class="stat-label">Rarity</div>
+                <div class="stat-value">Rare</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Type</div>
+                <div class="stat-value">Item</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Effect</div>
+                <div class="stat-value">+2% Luck / Chest</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Stacks?</div>
+                <div class="stat-value">Yes (per chest; no known cap)</div>
+            </div>
+        </div>
+
+        <section class="content-section">
+            <h2>🧪 How Credit Card (Green) Works</h2>
+            <p><strong>Credit Card (Green)</strong> is a Rare passive <a
+                    href="https://megabonk.org/database/items/">Item</a>. Every chest you open adds <strong>+2%
+                    Luck</strong> for the rest of that run. This applies to regular, free, and golden chests.</p>
+
+            <h3>Mechanics Breakdown</h3>
+            <ul>
+                <li><strong>Triggers on any chest:</strong> Includes free and golden chests.</li>
+                <li><strong>Run-scoped:</strong> The Luck bonus resets when the run ends.</li>
+                <li><strong>Scaling:</strong> Stacks with each chest; players report reaching very high Luck in long
+                    runs.</li>
+                <li><strong>What Luck does:</strong> Improves the odds of higher-tier loot and upgrades during the run.
+                </li>
+            </ul>
+
+            <div class="alert alert-info">
+                <div class="alert-title"><span class="emoji">🔬</span> Technical Note</div>
+                <p>The +2% Luck stacks additively with other Luck sources (e.g., <a
+                        href="https://megabonk.org/database/items/clover">Clover</a>, tomes), enhancing your overall
+                    chance to see Rare/Epic/Legendary rewards.</p>
+            </div>
+
+            <h3>Why Use It?</h3>
+            <p>It’s a classic <strong>scale-now, snowball-later</strong> item. Early pickups can dramatically improve
+                your item quality by mid-/late-game.</p>
+
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>✓ Advantages</h4>
+                    <ul>
+                        <li>Strong long-term scaling</li>
+                        <li>Significantly improves loot quality over time</li>
+                        <li>Passive—no activation required</li>
+                        <li>Great in full-clear/chest-farm routes</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>✗ Disadvantages</h4>
+                    <ul>
+                        <li>No immediate combat stats</li>
+                        <li>Much weaker if found late</li>
+                        <li>Relies on chest RNG</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>🔓 How to Unlock Credit Card (Green)</h2>
+            <div class="unlock-steps">
+                <h3>Unlock Requirement</h3>
+                <p style="font-size: 1.1rem; margin-bottom: 1.5rem;"><strong>Available by default.</strong></p>
+                <ol class="steps-list">
+                    <li><strong>No Unlock Needed</strong><br><span style="color: var(--text-muted);">It’s in the base
+                            item pool from your first run.</span></li>
+                    <li><strong>Find in chests or as rewards</strong><br><span style="color: var(--text-muted);">Appears
+                            at lower odds than commons due to its Rare tier.</span></li>
+                </ol>
+            </div>
+
+            <div class="alert alert-warning">
+                <div class="alert-title"><span class="emoji">💡</span> Pro Tip: See More Epics/Legendaries</div>
+                <p>Increasing overall <strong>Luck</strong> (e.g., Clover, Luck-focused tomes) improves the chance that
+                    higher-tier rewards are offered later in the run.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>🔗 Best Synergies & Build Strategies</h2>
+
+            <h3>Core Synergy Items</h3>
+            <p>Two levers make Green Card shine: <strong>more Luck</strong> and <strong>more chests</strong>.</p>
+
+            <div class="synergy-grid">
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Items/Item_Clover.png" alt="Clover Item Icon">
+                    <span class="synergy-rating synergy-excellent">⭐⭐⭐⭐⭐ EXCELLENT</span>
+                    <h4>Clover</h4>
+                    <p>Flat Luck boost that multiplies the value of each +2% stack from opened chests.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <span class="synergy-rating synergy-good">⭐⭐⭐⭐ GOOD</span>
+                    <h4>Luck-focused Tomes</h4>
+                    <p>Persistent Luck increases during the run raise the average rarity of your offers, compounding
+                        Green Card’s payoff.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <span class="synergy-rating synergy-good">⭐⭐⭐⭐ GOOD</span>
+                    <h4>Key</h4>
+                    <p>Grants a chance to open chests for free—more chests opened overall means more +2% stacks for the
+                        same gold budget.</p>
+                </div>
+            </div>
+
+            <h3>⚠️ Anti-Synergies (Situational)</h3>
+            <div class="synergy-grid">
+                <div class="synergy-card anti-synergy">
+                    <span class="synergy-rating synergy-avoid">❌ AVOID LATE</span>
+                    <h4>Picking It Very Late</h4>
+                    <p>Near the final stage, there’s no time for it to stack—combat stats usually outperform.</p>
+                </div>
+
+                <div class="synergy-card anti-synergy">
+                    <span class="synergy-rating synergy-avoid">❌ SPEEDRUNS</span>
+                    <h4>Skip-Chest Routes</h4>
+                    <p>If you skip optional chests, Green Card won’t scale.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>❓ Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: How does Credit Card (Green) work in Megabonk?</div>
+                <div class="faq-answer"><strong>Each time you open any chest</strong> (including free or golden), it
+                    adds <strong>+2% Luck</strong> for the rest of the run.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Is the +2% Luck permanent forever?</div>
+                <div class="faq-answer"><strong>No.</strong> It’s permanent for the <strong>current run</strong> only.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What does Luck do?</div>
+                <div class="faq-answer">Luck improves the odds of seeing <strong>higher-tier rewards</strong> from
+                    chests and upgrade choices during a run.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: How is it different from Credit Card (Red)?</div>
+                <div class="faq-answer"><a href="https://megabonk.org/database/items/credit-card-red">Red Card</a> adds
+                    <strong>+2.5% Damage per chest</strong>—more immediate power, less long-term loot scaling.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Is Credit Card (Green) good?</div>
+                <div class="faq-answer"><strong>Excellent if found early</strong>; mediocre when found late. Value
+                    tracks how many chests you can still open.</div>
+            </div>
+        </section>
+
+        <section class="related-items">
+            <h2 style="color: var(--text-primary); margin-bottom: 1rem;">Related Items</h2>
+            <div class="items-grid">
+                <a href="https://megabonk.org/database/items/credit-card-green" class="item-nav-card current">
+                    <img src="https://megabonk.org/images/Items/Item_Credit_Card_Green.png" alt="Credit Card (Green)">
+                    <span>Credit Card (Green)</span>
+                </a>
+                <a href="https://megabonk.org/database/items/credit-card-red" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Credit_Card_Red.png" alt="Credit Card (Red)">
+                    <span>Credit Card (Red)</span>
+                </a>
+                <a href="https://megabonk.org/database/items/clover" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Clover.png" alt="Clover">
+                    <span>Clover</span>
+                </a>
+                <a href="https://megabonk.org/database/items/borgar" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Borgar.png" alt="Borgar">
+                    <span>Borgar</span>
+                </a>
+                <a href="https://megabonk.org/database/items/wrench" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Wrench.png" alt="Wrench">
+                    <span>Wrench</span>
+                </a>
+                <a href="https://megabonk.org/database/items/moldy-cheese" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Moldy_Cheese.png" alt="Moldy Cheese">
+                    <span>Moldy Cheese</span>
+                </a>
+            </div>
+
+            <div class="cta-buttons text-center" style="margin-top: 2rem;">
+                <a href="https://megabonk.org/database/items/" class="btn btn-primary">View All Items</a>
+                <a href="https://megabonk.org/tier-lists/items/" class="btn btn-secondary">Items Tier List</a>
+            </div>
+        </section>
+
+        <section class="content-section text-center">
+            <h2>Master the Power of Luck in Megabonk</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9;">Ready to try a Luck-based build? Explore
+                more advanced strategies.</p>
+
+            <div class="cta-buttons" style="justify-content: center;">
+                <a href="https://megabonk.org/guides/builds/one-lucky-fox" class="btn btn-primary">One Lucky Fox
+                    Build</a>
+                <a href="https://megabonk.org/guides/builds/" class="btn btn-secondary">All Builds</a>
+                <a href="https://megabonk.org/guides/characters/" class="btn btn-secondary">Character Guides</a>
+            </div>
+
+            <div style="margin-top: 2.5rem;">
+                <h3>Join the Community</h3>
+                <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
+                    <a href="https://www.reddit.com/search/?q=Megabonk" target="_blank" rel="noopener"
+                        style="color: #ff4500; text-decoration: none; font-weight: bold;">📱 Reddit</a>
+                    <a href="https://x.com/megabonkgame" target="_blank" rel="noopener"
+                        style="color: #1da1f2; text-decoration: none; font-weight: bold;">🐦 Twitter</a>
+                    <a href="https://store.steampowered.com/app/3405340/Megabonk/" target="_blank" rel="noopener"
+                        style="color: #66c0f4; text-decoration: none; font-weight: bold;">🎮 Steam</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <p>&copy; <span data-current-year>2026</span> Megabonk.org - Unofficial Fan Resource</p>
+            <p style="margin-top: 0.5rem;">Not affiliated with the official Megabonk development team</p>
+            <p style="margin-top: 1.5rem;">
+                <a href="https://megabonk.org/">Home</a> |
+                <a href="https://megabonk.org/database/">Database</a> |
+                <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+                <a href="https://megabonk.org/guides/">Guides</a> |
+                <a href="https://megabonk.org/leaderboard/">Leaderboard</a>
+            </p>
+            <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                Game assets and trademarks are property of their respective owners
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Image error handling
+        document.querySelectorAll('img').forEach(img => {
+            img.addEventListener('error', function () {
+                this.style.opacity = '0.5';
+                this.style.filter = 'grayscale(100%)';
+            });
+        });
+
+        // Highlight current item in related items
+        const currentPath = window.location.pathname;
+        document.querySelectorAll('.item-nav-card').forEach(card => {
+            const cardPath = new URL(card.getAttribute('href')).pathname;
+            if (currentPath === cardPath) card.classList.add('current');
+        });
+
+        // Reveal animation on scroll
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.content-section, .stat-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da058b9a9fd9ce',t:'MTc5MjUyMDI3MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

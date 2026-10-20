@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giant Fork — Effect, Unlock & Synergies</title>
+  <meta name="description"
+    content="Giant Fork guide: Megacrits deal 4x damage by default, plus 0.15 per additional Fork stack. See its current effect, bug-fix history and crit synergies." />
+  <meta name="keywords" content="Megabonk Giant Fork, Megacrits, crit build, Katana, CL4NK, best items">
+
+  <link rel="canonical" href="https://megabonk.org/database/items/giant-fork">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-V5X87M8JFL');
+  </script>
+
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+    crossorigin="anonymous"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Giant Fork — Megabonk Item Guide">
+  <meta property="og:description"
+    content="Legendary item that can convert crits into Megacrits. Effect, unlock, synergies & FAQs.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://megabonk.org/database/items/giant-fork">
+  <meta property="og:image" content="https://megabonk.org/images/Items/Item_Giant_Fork.png">
+
+  <!-- Schema.org (minimal; full JSON-LD at section D) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "name":"Giant Fork — Effect, Unlock & Synergies",
+    "url":"https://megabonk.org/database/items/giant-fork",
+    "primaryImageOfPage":"https://megabonk.org/images/Items/Item_Giant_Fork.png",
+    "about":{
+      "@type":"Thing",
+      "name":"Giant Fork (Megabonk item)",
+      "description":"Legendary item that can convert crits into Megacrits."
+    }
+  }
+  </script>
+
+  <style>
+    /* === retained / compatible styles from your template === */
+    :root {
+      --bg-primary: #0f1419;
+      --bg-secondary: #16213e;
+      --bg-card: rgba(22, 33, 62, .6);
+      --border-color: rgba(233, 69, 96, .3);
+      --text-primary: #e94560;
+      --text-secondary: #f1f1f1;
+      --text-muted: #a4a4a4;
+      --accent-gold: #ffd700;
+      --rare-purple: #9b59b6;
+      --rare-glow: rgba(155, 89, 182, .4);
+      --danger-red: #ff4757;
+      --success-green: #26de81;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #0f1419 0%, #16213e 50%, #1a1a2e 100%);
+      color: var(--text-secondary);
+      line-height: 1.6;
+      min-height: 100vh
+    }
+
+    nav {
+      background: rgba(15, 20, 25, .95);
+      backdrop-filter: blur(10px);
+      border-bottom: 2px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 1000
+    }
+
+    .nav-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--text-primary);
+      text-decoration: none;
+      text-shadow: 0 0 10px var(--rare-glow)
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none
+    }
+
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color .3s
+    }
+
+    .nav-links a:hover {
+      color: var(--text-primary)
+    }
+
+    .breadcrumb {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem .5rem;
+      font-size: .9rem
+    }
+
+    .breadcrumb a {
+      color: var(--text-primary);
+      text-decoration: none
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline
+    }
+
+    .breadcrumb span {
+      color: var(--text-muted);
+      margin: 0 .5rem
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem
+    }
+
+    .item-hero {
+      background: linear-gradient(135deg, rgba(155, 89, 182, .2) 0%, rgba(233, 69, 96, .2) 100%);
+      border-radius: 15px;
+      padding: 3rem;
+      margin-bottom: 2rem;
+      border: 2px solid var(--rare-purple);
+      box-shadow: 0 0 30px var(--rare-glow);
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 2rem;
+      align-items: center
+    }
+
+    .item-icon-large {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      filter: drop-shadow(0 0 20px var(--rare-glow));
+      animation: floatAnimation 3s ease-in-out infinite
+    }
+
+    @keyframes floatAnimation {
+
+      0%,
+      100% {
+        transform: translateY(0)
+      }
+
+      50% {
+        transform: translateY(-10px)
+      }
+    }
+
+    .item-hero-content h1 {
+      font-size: 2.5rem;
+      color: var(--rare-purple);
+      margin-bottom: .5rem;
+      text-shadow: 0 0 20px var(--rare-glow)
+    }
+
+    .item-rarity {
+      display: inline-block;
+      padding: .4rem 1rem;
+      background: linear-gradient(135deg, var(--rare-purple), #8e44ad);
+      color: #fff;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: .9rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 15px var(--rare-glow)
+    }
+
+    .item-effect {
+      background: rgba(0, 0, 0, .4);
+      padding: 1.5rem;
+      border-radius: 10px;
+      border-left: 4px solid var(--rare-purple);
+      margin-top: 1rem;
+      font-size: 1.1rem
+    }
+
+    .item-effect strong {
+      color: var(--accent-gold)
+    }
+
+    .content-section {
+      background: var(--bg-card);
+      padding: 2rem;
+      border-radius: 15px;
+      margin-bottom: 2rem;
+      border: 2px solid var(--border-color)
+    }
+
+    .content-section h2 {
+      color: var(--text-primary);
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--border-color)
+    }
+
+    .content-section h3 {
+      color: var(--rare-purple);
+      font-size: 1.4rem;
+      margin: 1.5rem 0 1rem
+    }
+
+    .alert {
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin: 1.5rem 0;
+      border-left: 4px solid
+    }
+
+    .alert-info {
+      background: rgba(52, 152, 219, .15);
+      border-left-color: #3498db
+    }
+
+    .alert-warning {
+      background: rgba(255, 193, 7, .15);
+      border-left-color: #ffc107
+    }
+
+    .synergy-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem
+    }
+
+    .synergy-card {
+      background: rgba(0, 0, 0, .3);
+      padding: 1.5rem;
+      border-radius: 10px;
+      border: 2px solid var(--border-color);
+      transition: all .3s
+    }
+
+    .synergy-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--success-green);
+      box-shadow: 0 10px 20px rgba(38, 222, 129, .2)
+    }
+
+    .synergy-card img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 1rem;
+      filter: drop-shadow(0 0 10px rgba(233, 69, 96, .5))
+    }
+
+    .items-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem
+    }
+
+    .item-nav-card {
+      background: rgba(22, 33, 62, .6);
+      padding: 1rem;
+      border-radius: 10px;
+      border: 2px solid var(--border-color);
+      text-align: center;
+      transition: all .3s;
+      text-decoration: none;
+      color: var(--text-secondary)
+    }
+
+    .item-nav-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--text-primary);
+      box-shadow: 0 5px 15px rgba(233, 69, 96, .3)
+    }
+
+    .item-nav-card img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: .5rem
+    }
+
+    footer {
+      background: rgba(15, 20, 25, .95);
+      padding: 2rem;
+      text-align: center;
+      margin-top: 4rem;
+      border-top: 2px solid var(--border-color)
+    }
+
+    @media (max-width:768px) {
+      .item-hero {
+        grid-template-columns: 1fr;
+        text-align: center
+      }
+
+      .item-icon-large {
+        margin: 0 auto
+      }
+    }
+
+    a {
+      color: var(--text-primary)
+    }
+
+    a:hover {
+      text-decoration: underline
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2rem
+    }
+
+    .btn {
+      padding: .8rem 2rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all .3s;
+      display: inline-block
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--text-primary), #c0392b);
+      color: #fff;
+      box-shadow: 0 5px 15px rgba(233, 69, 96, .4)
+    }
+
+    .btn-secondary {
+      background: linear-gradient(135deg, var(--rare-purple), #8e44ad);
+      color: #fff;
+      box-shadow: 0 5px 15px var(--rare-glow)
+    }
+  </style>
+</head>
+
+<body><a href="https://megabonk.org/cdn-cgi/content?id=VJngjX3vm2OBC.PwQfRKJjchkP7pmNPFIupzRdnwA2o-1792520266.9614742-1.2.1.1-.VPhd.EgQg5DszzBN_.pg3E4BcpK2aQJh6Y98OEDjauNKZ7VkI0jSA9.XdkdxiK3" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+      <ul class="nav-links">
+        <li><a href="https://megabonk.org/database/">Database</a></li>
+        <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+        <li><a href="https://megabonk.org/guides/">Guides</a></li>
+        <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="https://megabonk.org/">Home</a><span>›</span>
+    <a href="https://megabonk.org/database/">Database</a><span>›</span>
+    <a href="https://megabonk.org/database/items/">Items</a><span>›</span>
+    <span>Giant Fork</span>
+  </div>
+
+  <!-- Main -->
+  <div class="container">
+    <!-- Hero -->
+    <div class="item-hero">
+      <img src="https://megabonk.org/images/Items/Item_Giant_Fork.png" alt="Giant Fork item icon"
+        class="item-icon-large">
+      <div class="item-hero-content">
+        <h1>Giant Fork</h1>
+        <span class="item-rarity">⭐ LEGENDARY ITEM</span>
+        <div class="item-effect">
+          <strong>Effect:</strong> Converts qualifying critical hits into <em>Megacrits</em>. A Megacrit deals
+          <strong>4x damage by default</strong>, increased by <strong>+0.15 per additional Giant Fork stack</strong>.
+        </div>
+        <!-- early internal link per rule a) -->
+        <p style="margin-top:1rem;color:var(--text-muted)">Looking for more items? Check the full <a
+            href="https://megabonk.org/database/items/">Megabonk item database</a>.</p>
+      </div>
+    </div>
+
+    <!-- How It Works -->
+    <section class="content-section" id="how-it-works">
+      <h2>🧪 How Giant Fork Works</h2>
+      <p>Giant Fork introduces a roll on your <strong>critical hits</strong> to upgrade them into
+        <strong>Megacrits</strong>. Official v1.0.49 notes define the current damage multiplier as <strong>4x by
+        default</strong>, with <strong>+0.15 added for each additional Fork stack</strong>.
+      </p>
+      <div class="alert alert-info">
+        <h3>What we can verify</h3>
+        <ul>
+          <li><strong>Rarity:</strong> Legendary.</li>
+          <li><strong>Unlock:</strong> Available by default (no challenge required).</li>
+          <li><strong>Current Multiplier:</strong> 4x damage by default; +0.15 for every additional Fork stack.</li>
+        </ul>
+        <p style="margin-top:.5rem;color:var(--text-muted)">The patch notes publish the damage multiplier, but not the
+          underlying conversion chance.</p>
+      </div>
+
+      <div class="alert alert-warning">
+        <h3>Megacrit bug status</h3>
+        <p>The official <strong>Spooky Update (Dec 14, 2025)</strong> fixed the bug that prevented Giant Fork's Megacrit from working. It is no longer an unresolved current-version warning.
+        </p>
+      </div>
+
+      <div class="alert alert-info" style="border-left-color:#26de81">
+        <h3>🎄 v1.0.49 Buff (Christmas Patch)</h3>
+        <p><strong>Current scaling:</strong> a Megacrit deals 4x damage by default, and each additional Giant Fork adds
+          0.15 to that multiplier. This makes extra Fork stacks directly improve Megacrit damage.</p>
+      </div>
+    </section>
+
+    <!-- Synergy -->
+    <section class="content-section" id="synergies">
+      <h2>🔗 Best Synergies</h2>
+
+      <h3>Crit Engine Staples</h3>
+      <div class="synergy-grid">
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Forbidden_Juice.png" alt="Forbidden Juice">
+          <h4><a href="https://megabonk.org/database/items/forbidden-juice">Forbidden Juice</a></h4>
+          <p>Boosts crit consistency (widely reported as +10% Crit Chance). Pairs perfectly to create more opportunities
+            for Megacrit rolls.</p>
+        </div>
+
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Grandmas_Secret_Tonic.png" alt="Grandma's Secret Tonic">
+          <h4><a href="https://megabonk.org/database/items/grandmas-secret-tonic">Grandma’s Secret Tonic</a></h4>
+          <p>Crits have a chance to explode for extra AoE damage (reported 50% for 50% damage), compounding Fork’s burst
+            windows.</p>
+        </div>
+
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/database/weapons/Katana.png" alt="Katana weapon">
+          <h4><a href="https://megabonk.org/database/weapons/katana">Katana</a></h4>
+          <p>Fits melee crit builds and over-crit setups; common in community crit meta combos.</p>
+        </div>
+      </div>
+
+      <h3 style="margin-top:1.5rem">Who loves Fork?</h3>
+      <p>Characters that naturally stack Crit (e.g., <a
+          href="https://megabonk.org/guides/characters/cl4nk-guide">CL4NK</a>) and builds centered on <a
+          href="https://megabonk.org/guides/builds/katana-dexecutioner-execute-melee">Katana + Dexecutioner</a> benefit
+        the most from Fork’s Megacrit upgrade chance.</p>
+
+      <!-- optional flavor figure with weapon image -->
+      <figure style="margin-top:1rem;text-align:center">
+        <img src="https://megabonk.org/images/database/weapons/Dexecutioner.png" alt="Dexecutioner weapon icon"
+          style="width:120px;height:120px;object-fit:contain">
+        <figcaption style="color:var(--text-muted)">Dexecutioner also appears in popular crit combos.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Unlock -->
+    <section class="content-section" id="unlock">
+      <h2>🔓 How to Unlock</h2>
+      <p><strong>Unlocked by default.</strong> Giant Fork is in your item pool from the start—no quest, kill count, or
+        tome prerequisite needed.</p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="content-section" id="faq">
+      <h2>❓ Frequently Asked Questions</h2>
+
+      <div class="faq-item"
+        style="background:rgba(0,0,0,.3);padding:1.5rem;border-radius:10px;border-left:4px solid var(--rare-purple);margin-bottom:1rem">
+        <div class="faq-question" style="color:var(--accent-gold);font-weight:bold">Is Giant Fork unlocked by default?
+        </div>
+        <div class="faq-answer">Yes. It’s available without any unlock requirement.</div>
+      </div>
+
+      <div class="faq-item"
+        style="background:rgba(0,0,0,.3);padding:1.5rem;border-radius:10px;border-left:4px solid var(--rare-purple);margin-bottom:1rem">
+        <div class="faq-question" style="color:var(--accent-gold);font-weight:bold">What is the Giant Fork Megacrit multiplier?</div>
+        <div class="faq-answer">The current official value is 4x damage by default, plus 0.15 for each additional Fork stack. The conversion chance is not specified in the patch notes.</div>
+      </div>
+
+      <div class="faq-item"
+        style="background:rgba(0,0,0,.3);padding:1.5rem;border-radius:10px;border-left:4px solid var(--rare-purple)">
+        <div class="faq-question" style="color:var(--accent-gold);font-weight:bold">Is the “Fork bug” real?</div>
+        <div class="faq-answer"><strong style="color:#26de81">Fixed.</strong> The official Spooky Update on Dec 14, 2025
+          fixed the issue where Giant Fork's Megacrit did not work.</div>
+      </div>
+    </section>
+
+    <!-- Related / See also -->
+    <section class="content-section">
+      <h2>🧭 Related & See also</h2>
+      <div class="items-grid">
+        <a href="https://megabonk.org/database/items/forbidden-juice" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Forbidden_Juice.png" alt="Forbidden Juice"><span>Forbidden
+            Juice</span>
+        </a>
+        <a href="https://megabonk.org/database/items/grandmas-secret-tonic" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Grandmas_Secret_Tonic.png"
+            alt="Grandma's Secret Tonic"><span>Grandma’s Secret Tonic</span>
+        </a>
+        <a href="https://megabonk.org/database/weapons/katana" class="item-nav-card">
+          <img src="https://megabonk.org/images/database/weapons/Katana.png" alt="Katana"><span>Katana</span>
+        </a>
+        <a href="https://megabonk.org/guides/characters/cl4nk-guide" class="item-nav-card">
+          <img src="https://megabonk.org/images/guides/characters/CL4NK.png" alt="CL4NK"><span>CL4NK Guide</span>
+        </a>
+      </div>
+
+      <div class="cta-buttons" style="justify-content:center">
+        <a class="btn btn-primary" href="https://megabonk.org/database/items/">View All Items</a>
+        <a class="btn btn-secondary" href="https://megabonk.org/guides/builds/">All Builds</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div style="max-width:1400px;margin:0 auto;">
+      <p>&copy; <span data-current-year>2026</span> Megabonk.org - Unofficial Fan Resource</p>
+      <p style="margin-top:.5rem;">Not affiliated with the official Megabonk development team</p>
+      <p style="margin-top:1.5rem;">
+        <a href="https://megabonk.org/">Home</a> |
+        <a href="https://megabonk.org/database/">Database</a> |
+        <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+        <a href="https://megabonk.org/guides/">Guides</a> |
+        <a href="https://megabonk.org/leaderboard/">Leaderboard</a>
+      </p>
+      <p style="margin-top:1rem;font-size:.85rem;color:var(--text-muted)">Game assets and trademarks are property of
+        their respective owners</p>
+    </div>
+  </footer>
+
+  <script>
+    // smooth scroll, image error hint, intersection animations (retained)
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const t = document.querySelector(a.getAttribute('href'));
+        if (t) { t.scrollIntoView({ behavior: 'smooth', block: 'start' }) }
+      });
+    });
+    document.querySelectorAll('img').forEach(img => {
+      img.addEventListener('error', function () { this.style.opacity = '0.5'; this.style.filter = 'grayscale(100%)'; });
+    });
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) { entry.target.style.opacity = '1'; entry.target.style.transform = 'translateY(0)'; }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('.content-section').forEach(el => {
+      el.style.opacity = '0'; el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity .6s ease-out, transform .6s ease-out';
+      observer.observe(el);
+    });
+  </script>
+
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+    crossorigin="anonymous"></script>
+  <!-- Code injected by live-server -->
+  <script>
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            parent.appendChild(elem);
+          }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == 'reload') window.location.reload();
+          else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          console.log('Live reload enabled.');
+          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+      })();
+    }
+    else {
+      console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>
+  </script>
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da057479a3d2a0',t:'MTc5MjUyMDI2Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

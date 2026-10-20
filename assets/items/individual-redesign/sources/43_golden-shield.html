@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Shield Guide — Gold on Hit (Unlock & Uses)</title>
+  <meta name="description"
+    content="Megabonk Golden Shield: gain gold when you take damage. Verified effect, default unlock, safe synergies (Kevin, Electric Plug), and build tips.">
+  <meta name="keywords"
+    content="megabonk golden shield, golden shield item, gain gold when hit, megabonk items, kevin synergy">
+  <link rel="canonical" href="https://megabonk.org/database/items/golden-shield">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date()); gtag('config', 'G-V5X87M8JFL');
+  </script>
+
+  <!-- AdSense (optional) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+    crossorigin="anonymous"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Golden Shield - Megabonk Item Database">
+  <meta property="og:description"
+    content="Gain gold when you take damage. Learn the verified effect, unlock status, and safe synergies.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://megabonk.org/database/items/golden-shield">
+  <meta property="og:image" content="https://megabonk.org/images/Items/Item_Golden_Shield.png">
+
+  <!-- Schema.org (minimal; full JSON-LD below in body footer) -->
+
+  <style>
+    /* ======= retained style from provided template (compact) ======= */
+    :root {
+      --bg-primary: #0f1419;
+      --bg-secondary: #16213e;
+      --bg-card: rgba(22, 33, 62, .6);
+      --border-color: rgba(233, 69, 96, .3);
+      --text-primary: #e94560;
+      --text-secondary: #f1f1f1;
+      --text-muted: #a4a4a4;
+      --accent-gold: #ffd700;
+      --rare-purple: #9b59b6;
+      --rare-glow: rgba(155, 89, 182, .4);
+      --danger-red: #ff4757;
+      --success-green: #26de81;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #0f1419 0%, #16213e 50%, #1a1a2e 100%);
+      color: var(--text-secondary);
+      line-height: 1.6;
+      min-height: 100vh
+    }
+
+    nav {
+      background: rgba(15, 20, 25, .95);
+      backdrop-filter: blur(10px);
+      border-bottom: 2px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 1000
+    }
+
+    .nav-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--text-primary);
+      text-decoration: none;
+      text-shadow: 0 0 10px var(--rare-glow)
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none
+    }
+
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color .3s
+    }
+
+    .nav-links a:hover {
+      color: var(--text-primary)
+    }
+
+    .breadcrumb {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem .5rem;
+      font-size: .9rem
+    }
+
+    .breadcrumb a {
+      color: var(--text-primary);
+      text-decoration: none
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline
+    }
+
+    .breadcrumb span {
+      color: var(--text-muted);
+      margin: 0 .5rem
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem
+    }
+
+    .item-hero {
+      background: linear-gradient(135deg, rgba(155, 89, 182, .2) 0%, rgba(233, 69, 96, .2) 100%);
+      border-radius: 15px;
+      padding: 3rem;
+      margin-bottom: 2rem;
+      border: 2px solid var(--rare-purple);
+      box-shadow: 0 0 30px var(--rare-glow);
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 2rem;
+      align-items: center
+    }
+
+    .item-icon-large {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      filter: drop-shadow(0 0 20px var(--rare-glow));
+      animation: floatAnimation 3s ease-in-out infinite
+    }
+
+    @keyframes floatAnimation {
+
+      0%,
+      100% {
+        transform: translateY(0)
+      }
+
+      50% {
+        transform: translateY(-10px)
+      }
+    }
+
+    .item-hero-content h1 {
+      font-size: 2.5rem;
+      color: var(--accent-gold);
+      margin-bottom: .5rem;
+      text-shadow: 0 0 20px rgba(255, 215, 0, .3)
+    }
+
+    .item-effect {
+      background: rgba(0, 0, 0, .4);
+      padding: 1.2rem;
+      border-radius: 10px;
+      border-left: 4px solid var(--accent-gold);
+      margin-top: 1rem;
+      font-size: 1.05rem
+    }
+
+    .quick-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0 2rem
+    }
+
+    .stat-card {
+      background: var(--bg-card);
+      padding: 1.2rem;
+      border-radius: 10px;
+      border: 2px solid var(--border-color);
+      text-align: center;
+      transition: all .3s
+    }
+
+    .stat-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent-gold);
+      box-shadow: 0 10px 20px rgba(255, 215, 0, .2)
+    }
+
+    .stat-label {
+      font-size: .85rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: .5rem
+    }
+
+    .stat-value {
+      font-size: 1.15rem;
+      font-weight: bold;
+      color: var(--accent-gold)
+    }
+
+    .content-section {
+      background: var(--bg-card);
+      padding: 2rem;
+      border-radius: 15px;
+      margin-bottom: 2rem;
+      border: 2px solid var(--border-color)
+    }
+
+    .content-section h2 {
+      color: var(--text-primary);
+      font-size: 1.8rem;
+      margin-bottom: 1.2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--border-color)
+    }
+
+    .alert {
+      padding: 1.2rem;
+      border-radius: 10px;
+      margin: 1rem 0;
+      border-left: 4px solid
+    }
+
+    .alert-info {
+      background: rgba(52, 152, 219, .15);
+      border-left-color: #3498db
+    }
+
+    .alert-warning {
+      background: rgba(255, 193, 7, .15);
+      border-left-color: #ffc107
+    }
+
+    .alert-success {
+      background: rgba(38, 222, 129, .15);
+      border-left-color: var(--success-green)
+    }
+
+    .synergy-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.2rem;
+      margin-top: 1rem
+    }
+
+    .synergy-card {
+      background: rgba(0, 0, 0, .3);
+      padding: 1.2rem;
+      border-radius: 10px;
+      border: 2px solid var(--border-color);
+      transition: all .3s
+    }
+
+    .synergy-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--success-green);
+      box-shadow: 0 10px 20px rgba(38, 222, 129, .2)
+    }
+
+    .synergy-card img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: .6rem;
+      filter: drop-shadow(0 0 10px rgba(233, 69, 96, .5))
+    }
+
+    .related-items {
+      background: rgba(15, 20, 25, .6);
+      padding: 2rem;
+      border-radius: 15px;
+      border: 2px solid var(--border-color)
+    }
+
+    .items-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem
+    }
+
+    .item-nav-card {
+      background: rgba(22, 33, 62, .6);
+      padding: 1rem;
+      border-radius: 10px;
+      border: 2px solid var(--border-color);
+      text-align: center;
+      transition: all .3s;
+      text-decoration: none;
+      color: var(--text-secondary)
+    }
+
+    .item-nav-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--text-primary);
+      box-shadow: 0 5px 15px rgba(233, 69, 96, .3)
+    }
+
+    .item-nav-card img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: .5rem
+    }
+
+    .btn {
+      padding: .8rem 1.2rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all .3s;
+      display: inline-block
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--text-primary), #c0392b);
+      color: #fff;
+      box-shadow: 0 5px 15px rgba(233, 69, 96, .4)
+    }
+
+    .btn-secondary {
+      background: linear-gradient(135deg, var(--rare-purple), #8e44ad);
+      color: #fff;
+      box-shadow: 0 5px 15px rgba(155, 89, 182, .4)
+    }
+
+    @media (max-width:768px) {
+      .item-hero {
+        grid-template-columns: 1fr;
+        text-align: center
+      }
+
+      .item-icon-large {
+        margin: 0 auto
+      }
+
+      .nav-links {
+        display: none
+      }
+    }
+
+    .text-muted {
+      color: var(--text-muted)
+    }
+  </style>
+</head>
+
+<body><a href="https://megabonk.org/cdn-cgi/content?id=goOEgSA.4R57FPZRCN_9Q4y8GJWxf.PT1ssv345JDEA-1792520268.8101342-1.2.1.1-rdaPLMDMd7pdNy6LbRx7e032.rmm7VZmAIdXwILPFR0HTqHusl1ha_AztMi3D4U5" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+      <ul class="nav-links">
+        <li><a href="https://megabonk.org/database/">Database</a></li>
+        <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+        <li><a href="https://megabonk.org/guides/">Guides</a></li>
+        <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="https://megabonk.org/">Home</a><span>›</span>
+    <a href="https://megabonk.org/database/">Database</a><span>›</span>
+    <a href="https://megabonk.org/database/items/">Items</a><span>›</span>
+    <span>Golden Shield</span>
+  </div>
+
+  <!-- Main -->
+  <div class="container">
+    <!-- Hero -->
+    <div class="item-hero">
+      <img src="https://megabonk.org/images/Items/Item_Golden_Shield.png" alt="Golden Shield item icon"
+        class="item-icon-large">
+      <div class="item-hero-content">
+        <h1>Golden Shield</h1>
+        <div class="item-effect">
+          <strong>Effect:</strong> Gain gold when you take damage. <span class="text-muted">(Effect text verified;
+            numeric values not officially published.)</span>
+        </div>
+        <div class="alert alert-info" style="margin-top:1rem">
+          <strong>Quick link:</strong> Browse the full <a href="https://megabonk.org/database/items/">Items Database</a>
+          to compare economy items like <em>Golden Glove</em> and <em>Golden Sneakers</em>.
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="quick-stats">
+      <div class="stat-card">
+        <div class="stat-label">Unlock</div>
+        <div class="stat-value">Unlocked by default</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Trigger</div>
+        <div class="stat-value">On taking damage</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Rarity</div>
+        <div class="stat-value">Unconfirmed (likely “Uncommon”)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Type</div>
+        <div class="stat-value">Item</div>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <section class="content-section">
+      <h2>How Golden Shield Works</h2>
+      <p>Golden Shield converts each instance of <em>you being hit</em> into gold. This makes it an economy tool that
+        rewards controlled chip damage, rather than pure avoidance. Because the exact gold value per hit is not
+        disclosed by official notes or media, treat it as a qualitative bonus and build accordingly.</p>
+
+      <div class="alert alert-warning">
+        <strong>No official number:</strong> As of October 2025, no official patch note or press guide publishes a fixed
+        gold-per-hit value. If a future update exposes a number, we’ll revise this page.
+      </div>
+    </section>
+
+    <!-- Synergies (safe, practical) -->
+    <section class="content-section">
+      <h2>Safe Synergies & Use Cases</h2>
+      <div class="synergy-grid">
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Kevin.png" alt="Kevin">
+          <h4>Kevin (self-hit engine)</h4>
+          <p>Community-tested: Kevin's self-damage procs "on damage taken" effects frequently, enabling steady Golden
+            Shield income. Play with sustain.</p>
+          <p style="color:#ff9f43;margin-top:0.5rem"><strong>⚠️ v1.0.49 Balance:</strong> Golden Shield now grants more gold when taking damage, but
+            damage caused by Kevin or Leeching Crystal produces a reduced amount. The official notes do not publish an exact reduction percentage.</p>
+          <p><a href="https://megabonk.org/database/items/kevin">View Kevin →</a></p>
+        </div>
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Electric_Plug.png" alt="Electric Plug">
+          <h4>Electric Plug</h4>
+          <p>Also triggers when you’re hit, adding passive AoE while you farm gold.</p>
+          <p><a href="https://megabonk.org/database/items/electric-plug">Electric Plug →</a></p>
+        </div>
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Spiky_Shield.png" alt="Spiky Shield">
+          <h4>Spiky Shield</h4>
+          <p>Defensive counter-damage pairs naturally with any “take-damage” economy plan.</p>
+          <p><a href="https://megabonk.org/database/items/spiky-shield">Spiky Shield →</a></p>
+        </div>
+      </div>
+
+      <div class="alert alert-success" style="margin-top:1rem">
+        <strong>Gold-scaling characters:</strong> Consider builds that benefit from large coin inflows (e.g., <a
+          href="https://megabonk.org/guides/builds/robinette-best-build">Robinette gold build</a>).
+      </div>
+    </section>
+
+    <!-- (Optional) Weapons browse block with images -->
+    <section class="content-section">
+      <h2>Popular Weapons to Browse</h2>
+      <div class="items-grid">
+        <a class="item-nav-card" href="https://megabonk.org/database/weapons/aegis">
+          <img src="https://megabonk.org/images/database/weapons/Aegis.png" alt="Aegis weapon"><span>Aegis</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/database/weapons/aura">
+          <img src="https://megabonk.org/images/database/weapons/Aura.png" alt="Aura weapon"><span>Aura</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/database/weapons/katana">
+          <img src="https://megabonk.org/images/database/weapons/Katana.png" alt="Katana weapon"><span>Katana</span>
+        </a>
+      </div>
+      <p class="text-muted" style="margin-top:.75rem">Note: Weapon links are for browsing; they are not strict synergies
+        with Golden Shield.</p>
+    </section>
+
+    <!-- FAQ (only verified facts) -->
+    <section class="content-section">
+      <h2>FAQ</h2>
+      <div class="alert alert-info">
+        <strong>What does Golden Shield do?</strong><br>
+        It grants extra gold whenever <em>you</em> take damage (verified description; no official numeric value).
+      </div>
+      <div class="alert alert-info">
+        <strong>How do I unlock Golden Shield?</strong><br>
+        It is available by default (no special unlock required).
+      </div>
+      <div class="alert alert-info">
+        <strong>What is its rarity?</strong><br>
+        Unconfirmed by multiple independent sources. Community wiki lists it as “Uncommon”; we mark it as “Unconfirmed”
+        until a second source corroborates.
+      </div>
+    </section>
+
+    <!-- Related Items -->
+    <section class="related-items">
+      <h2 style="color: var(--text-primary);">Related Items</h2>
+      <div class="items-grid">
+        <a href="https://megabonk.org/database/items/golden-glove" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Golden_Glove.png" alt="Golden Glove"><span>Golden
+            Glove</span>
+        </a>
+        <a href="https://megabonk.org/database/items/golden-sneakers" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Golden_Sneakers.png" alt="Golden Sneakers"><span>Golden
+            Sneakers</span>
+        </a>
+        <a href="https://megabonk.org/database/items/kevin" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Kevin.png" alt="Kevin"><span>Kevin</span>
+        </a>
+        <a href="https://megabonk.org/database/items/mirror" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Mirror.png" alt="Mirror"><span>Mirror</span>
+        </a>
+        <a href="https://megabonk.org/database/items/electric-plug" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Electric_Plug.png" alt="Electric Plug"><span>Electric
+            Plug</span>
+        </a>
+      </div>
+
+      <div style="text-align:center;margin-top:1.5rem">
+        <a href="https://megabonk.org/database/items/" class="btn btn-primary">View All Items</a>
+        <a href="https://megabonk.org/tier-lists/items/" class="btn btn-secondary">Items Tier List</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer
+    style="background:rgba(15,20,25,.95);padding:2rem;text-align:center;border-top:2px solid var(--border-color);margin-top:3rem">
+    <p>&copy; <span data-current-year>2026</span> Megabonk.org - Unofficial Fan Resource</p>
+    <p style="margin-top:.5rem">Not affiliated with the official Megabonk development team</p>
+    <p style="margin-top:1rem;font-size:.9rem;color:var(--text-muted)">Game assets and trademarks are property of their
+      respective owners</p>
+  </footer>
+
+  <script>
+    // Smooth scrolling for in-page anchors
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const t = document.querySelector(a.getAttribute('href')); if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      });
+    });
+    // Lazy fade-in
+    const obs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.style.opacity = 1; e.target.style.transform = 'translateY(0)'; } }), { threshold: .1, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('.content-section,.stat-card').forEach(el => { el.style.opacity = 0; el.style.transform = 'translateY(20px)'; el.style.transition = 'opacity .6s ease-out, transform .6s ease-out'; obs.observe(el); });
+  </script>
+
+  <!-- JSON-LD below -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Item",
+    "name":"Golden Shield",
+    "description":"Grants gold when the player takes damage. Unlock: available by default.",
+    "url":"https://megabonk.org/database/items/golden-shield",
+    "image":"https://megabonk.org/images/Items/Item_Golden_Shield.png"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"What does Golden Shield do?",
+        "acceptedAnswer":{"@type":"Answer","text":"It grants extra gold whenever you take damage. No official numeric value is published."}
+      },
+      {
+        "@type":"Question",
+        "name":"How do I unlock Golden Shield?",
+        "acceptedAnswer":{"@type":"Answer","text":"It’s unlocked by default; no special requirement is needed."}
+      },
+      {
+        "@type":"Question",
+        "name":"What is Golden Shield’s rarity?",
+        "acceptedAnswer":{"@type":"Answer","text":"Unconfirmed by multiple independent sources as of Oct 2025. Community wiki lists it as Uncommon."}
+      }
+    ]
+  }
+  </script>
+  <!-- Code injected by live-server -->
+  <script>
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            parent.appendChild(elem);
+          }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == 'reload') window.location.reload();
+          else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          console.log('Live reload enabled.');
+          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+      })();
+    }
+    else {
+      console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>
+  </script>
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da05800cc735fc',t:'MTc5MjUyMDI2OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

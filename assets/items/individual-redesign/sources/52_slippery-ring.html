@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slippery Ring Guide — +15% Evasion Effect & Best Builds</title>
+    <meta name="description" content="Adds +15% evasion chance to dodge attacks. Learn mechanics, diminishing returns, best synergies with Ninja, Calcium and evasion builds.">
+    <meta name="keywords" content="megabonk slippery ring, slippery ring evasion, evasion item, ninja build, calcium build, megabonk items">
+
+    <link rel="canonical" href="https://megabonk.org/database/items/slippery-ring">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-V5X87M8JFL');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+     crossorigin="anonymous"></script>
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Slippery Ring - Megabonk Item Database">
+    <meta property="og:description" content="Default item providing +15% evasion chance. Complete guide to using Slippery Ring effectively in evasion builds.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://megabonk.org/database/items/slippery-ring">
+    <meta property="og:image" content="https://megabonk.org/images/Items/Item_Slippery_Ring.png">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Slippery Ring Item Guide - Megabonk Database",
+      "description": "Complete guide to the Slippery Ring item in Megabonk including evasion mechanics, synergies, and optimal build strategies",
+      "image": "https://megabonk.org/images/Items/Item_Slippery_Ring.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Megabonk.org"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Megabonk.org"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much evasion does Slippery Ring provide?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Slippery Ring grants +15% to your internal evasion stat. However, due to diminishing returns, the actual effective evasion gain decreases as your existing evasion increases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you stack multiple Slippery Rings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Slippery Rings can be stacked. However, due to evasion's diminishing returns formula, stacking more than 3-4 rings provides minimal benefit. The soft cap for effective evasion is around 70%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Slippery Ring good for Ninja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Slippery Ring is excellent for Ninja because his Shadowstep passive executes enemies when you evade their attacks. Higher evasion means more executions."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <style>
+        :root {
+            --bg-primary: #0f1419;
+            --bg-secondary: #16213e;
+            --bg-card: rgba(22, 33, 62, 0.6);
+            --border-color: rgba(233, 69, 96, 0.3);
+            --text-primary: #e94560;
+            --text-secondary: #f1f1f1;
+            --text-muted: #a4a4a4;
+            --accent-gold: #ffd700;
+            --default-green: #4caf50;
+            --default-glow: rgba(76, 175, 80, 0.4);
+            --danger-red: #ff4757;
+            --success-green: #26de81;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f1419 0%, #16213e 50%, #1a1a2e 100%);
+            color: var(--text-secondary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        nav {
+            background: rgba(15, 20, 25, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--text-primary);
+            text-decoration: none;
+            text-shadow: 0 0 10px var(--default-glow);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: var(--text-muted);
+            margin: 0 0.5rem;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Hero Section */
+        .item-hero {
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.2) 0%, rgba(233, 69, 96, 0.2) 100%);
+            border-radius: 15px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            border: 2px solid var(--default-green);
+            box-shadow: 0 0 30px var(--default-glow);
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .item-icon-large {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            filter: drop-shadow(0 0 20px var(--default-glow));
+            animation: floatAnimation 3s ease-in-out infinite;
+        }
+
+        @keyframes floatAnimation {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .item-hero-content h1 {
+            font-size: 2.5rem;
+            color: var(--default-green);
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 20px var(--default-glow);
+        }
+
+        .item-rarity {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background: linear-gradient(135deg, var(--default-green), #388e3c);
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 15px var(--default-glow);
+        }
+
+        .item-effect {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--default-green);
+            margin-top: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .item-effect strong {
+            color: var(--accent-gold);
+        }
+
+        /* Quick Stats */
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--default-green);
+            box-shadow: 0 10px 20px var(--default-glow);
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--default-green);
+        }
+
+        /* Content Sections */
+        .content-section {
+            background: var(--bg-card);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            border: 2px solid var(--border-color);
+        }
+
+        .content-section h2 {
+            color: var(--text-primary);
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .content-section h3 {
+            color: var(--default-green);
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-section h4 {
+            color: var(--accent-gold);
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Alert Boxes */
+        .alert {
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            border-left: 4px solid;
+        }
+
+        .alert-danger {
+            background: rgba(255, 71, 87, 0.15);
+            border-left-color: var(--danger-red);
+        }
+
+        .alert-warning {
+            background: rgba(255, 193, 7, 0.15);
+            border-left-color: #ffc107;
+        }
+
+        .alert-success {
+            background: rgba(38, 222, 129, 0.15);
+            border-left-color: var(--success-green);
+        }
+
+        .alert-info {
+            background: rgba(52, 152, 219, 0.15);
+            border-left-color: #3498db;
+        }
+
+        .alert-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Pros and Cons */
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .pros, .cons {
+            padding: 1.5rem;
+            border-radius: 10px;
+        }
+
+        .pros {
+            background: rgba(38, 222, 129, 0.1);
+            border-left: 4px solid var(--success-green);
+        }
+
+        .cons {
+            background: rgba(255, 71, 87, 0.1);
+            border-left: 4px solid var(--danger-red);
+        }
+
+        .pros h4, .cons h4 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .pros h4 { color: var(--success-green); }
+        .cons h4 { color: var(--danger-red); }
+
+        .pros ul, .cons ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .pros li, .cons li {
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .pros li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success-green);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .cons li::before {
+            content: "✗";
+            position: absolute;
+            left: 0;
+            color: var(--danger-red);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Synergy Grid */
+        .synergy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .synergy-card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s;
+        }
+
+        .synergy-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--success-green);
+            box-shadow: 0 10px 20px rgba(38, 222, 129, 0.2);
+        }
+
+        .synergy-card.anti-synergy {
+            border-color: rgba(255, 71, 87, 0.5);
+        }
+
+        .synergy-card.anti-synergy:hover {
+            border-color: var(--danger-red);
+            box-shadow: 0 10px 20px rgba(255, 71, 87, 0.2);
+        }
+
+        .synergy-card img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 0 10px rgba(233, 69, 96, 0.5));
+        }
+
+        .synergy-rating {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .synergy-excellent {
+            background: var(--success-green);
+            color: white;
+        }
+
+        .synergy-good {
+            background: #3498db;
+            color: white;
+        }
+
+        .synergy-avoid {
+            background: var(--danger-red);
+            color: white;
+        }
+
+        /* FAQ */
+        .faq-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--default-green);
+        }
+
+        .faq-question {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-answer {
+            color: var(--text-secondary);
+        }
+
+        /* Related Items Navigation */
+        .related-items {
+            background: rgba(15, 20, 25, 0.6);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 3rem;
+            border: 2px solid var(--border-color);
+        }
+
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .item-nav-card {
+            background: rgba(22, 33, 62, 0.6);
+            padding: 1rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s;
+            text-decoration: none;
+            color: var(--text-secondary);
+        }
+
+        .item-nav-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--text-primary);
+            box-shadow: 0 5px 15px rgba(233, 69, 96, 0.3);
+        }
+
+        .item-nav-card.current {
+            border-color: var(--default-green);
+            background: rgba(76, 175, 80, 0.2);
+            box-shadow: 0 0 20px var(--default-glow);
+        }
+
+        .item-nav-card img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 0.5rem;
+        }
+
+        .item-nav-card span {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* CTA Buttons */
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--text-primary), #c0392b);
+            color: white;
+            box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(233, 69, 96, 0.6);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, var(--default-green), #388e3c);
+            color: white;
+            box-shadow: 0 5px 15px var(--default-glow);
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px var(--default-glow);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(15, 20, 25, 0.95);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+            border-top: 2px solid var(--border-color);
+        }
+
+        footer a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .item-hero {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .item-icon-large {
+                margin: 0 auto;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .quick-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+
+            .synergy-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .items-grid {
+                grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            }
+        }
+
+        /* Utility */
+        .text-center {
+            text-align: center;
+        }
+
+        .highlight {
+            background: rgba(255, 215, 0, 0.2);
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        .emoji {
+            font-size: 1.3rem;
+            margin-right: 0.5rem;
+        }
+
+        ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: var(--text-primary);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body><a href="https://megabonk.org/cdn-cgi/content?id=dGElwuja9WLDMBEVkwQPFT5oVftwFpJsuABdmdCvy18-1792520269.3707697-1.2.1.1-tE9gdPS4.isWHeyhuRVWeEC6hpPBBViqI5Htq.5rfL8LqELe61xu.fdBD0bmtiNE" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+            <ul class="nav-links">
+                <li><a href="https://megabonk.org/database/">Database</a></li>
+                <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+                <li><a href="https://megabonk.org/guides/">Guides</a></li>
+                <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="https://megabonk.org/">Home</a>
+        <span>›</span>
+        <a href="https://megabonk.org/database/">Database</a>
+        <span>›</span>
+        <a href="https://megabonk.org/database/items/">Items</a>
+        <span>›</span>
+        <span>Slippery Ring</span>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="item-hero">
+            <img src="https://megabonk.org/images/Items/Item_Slippery_Ring.png" alt="Slippery Ring Item" class="item-icon-large">
+            <div class="item-hero-content">
+                <h1>Slippery Ring</h1>
+                <span class="item-rarity">✓ DEFAULT ITEM</span>
+                
+                <div class="item-effect">
+                    <strong>Effect:</strong> +15% Evasion chance to completely avoid incoming damage.
+                </div>
+
+                <div class="alert alert-success" style="margin-top: 1rem;">
+                    <div class="alert-title">
+                        <span class="emoji">✨</span>
+                        Simple Yet Powerful
+                    </div>
+                    <p>Slippery Ring is one of the most reliable defensive items in Megabonk. It provides a straightforward evasion boost that works for any build, with zero downsides.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="quick-stats">
+            <div class="stat-card">
+                <div class="stat-label">Rarity</div>
+                <div class="stat-value">Default</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Evasion Bonus</div>
+                <div class="stat-value">+15%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Unlock Requirement</div>
+                <div class="stat-value">None</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Stackable?</div>
+                <div class="stat-value">Yes</div>
+            </div>
+        </div>
+
+        <!-- How It Works -->
+        <section class="content-section">
+            <h2>🛡️ How Slippery Ring Works</h2>
+            
+            <p>Slippery Ring is a <a href="https://megabonk.org/database/items/">default item</a> that provides a simple yet effective defensive layer: <strong>+15% to your internal Evasion stat</strong>. When you evade an attack, you take no damage at all and the game does not register you as being "hit."</p>
+
+            <h3>Evasion Mechanics Explained</h3>
+            <p>Understanding how evasion works is critical to maximizing Slippery Ring's value:</p>
+
+            <ul>
+                <li><strong>Chance-Based Defense:</strong> Each incoming attack triggers an evasion roll. Your evasion percentage is your chance to completely dodge that attack</li>
+                <li><strong>No Hit Status:</strong> When you evade, the game treats it as if you were never touched. This prevents speed loss, maintains buffs, and keeps you untouchable</li>
+                <li><strong>Hyperbolic Scaling:</strong> Evasion uses the formula <code>Effective Evasion = Internal Value / (1 + Internal Value)</code>, meaning diminishing returns kick in as you stack more evasion</li>
+                <li><strong>Soft Cap at ~70%:</strong> Due to the scaling formula, effective evasion practically caps around 70%, even with extremely high internal values</li>
+            </ul>
+
+            <div class="alert alert-info">
+                <div class="alert-title">
+                    <span class="emoji">📊</span>
+                    Diminishing Returns Example
+                </div>
+                <p>When you have <strong>35% existing evasion</strong> and pick up Slippery Ring, it will only add approximately <strong>5% actual evasion</strong> (not the full 15% stated). This is because evasion has built-in diminishing returns that become more pronounced at higher values.</p>
+                <p style="margin-top: 0.5rem;"><em>Source: Community testing via Steam Discussions</em></p>
+            </div>
+
+            <h3>Why Slippery Ring is Good</h3>
+            <p>Despite the diminishing returns, Slippery Ring remains one of the best defensive items:</p>
+
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>✓ Advantages</h4>
+                    <ul>
+                        <li>Available from the start - no unlock required</li>
+                        <li>Zero downside - pure defense with no tradeoffs</li>
+                        <li>Universal compatibility with all builds</li>
+                        <li>Prevents "hit" status, preserving speed and buffs</li>
+                        <li>Excellent value in early game when evasion is low</li>
+                        <li>Stacks well with <a href="https://megabonk.org/database/tomes/evasion-tome">Evasion Tome</a></li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>✗ Limitations</h4>
+                    <ul>
+                        <li>Diminishing returns make stacking 4+ rings inefficient</li>
+                        <li>RNG-dependent - can fail when you need it most</li>
+                        <li>Less effective after reaching ~50% base evasion</li>
+                        <li>Doesn't help against bosses immune to evasion</li>
+                        <li>Requires complementary defense (HP/Shield) as backup</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Characters & Builds -->
+        <section class="content-section">
+            <h2>👤 Best Characters for Slippery Ring</h2>
+
+            <h3>Top-Tier Characters</h3>
+
+            <h4><a href="https://megabonk.org/guides/characters/ninja-unlock-guide">🥷 Ninja</a> - Perfect Synergy</h4>
+            <div style="background: rgba(76, 175, 80, 0.1); padding: 1.5rem; border-radius: 10px; margin-bottom: 1.5rem; border-left: 4px solid var(--success-green);">
+                <p><strong>Why It Works:</strong> Ninja's <em>Shadowstep</em> passive executes enemies when you evade their attacks. Higher evasion = more executions = more kills.</p>
+                <p style="margin-top: 0.5rem;"><strong>Passive Bonus:</strong> Ninja gains +0.5% evasion per level, making Slippery Ring's bonus even more valuable</p>
+                <p style="margin-top: 0.5rem;"><strong>Recommended Stack:</strong> 2-3 Slippery Rings + <a href="https://megabonk.org/database/tomes/evasion-tome">Evasion Tome</a> to reach 50-60% effective evasion</p>
+                <p style="margin-top: 0.5rem;"><a href="https://megabonk.org/guides/builds/ninja-best-build"><strong>→ Full Ninja Build Guide</strong></a></p>
+            </div>
+
+            <h4><a href="https://megabonk.org/guides/characters/calcium-guide">⚡ Calcium</a> - Speed Demon Build</h4>
+            <div style="background: rgba(52, 152, 219, 0.1); padding: 1.5rem; border-radius: 10px; margin-bottom: 1.5rem; border-left: 4px solid #3498db;">
+                <p><strong>Why It Works:</strong> Calcium's <em>Speed Demon</em> passive makes his damage and speed scale with movement speed. However, <strong>taking damage cuts your speed (and damage) in half</strong>.</p>
+                <p style="margin-top: 0.5rem;"><strong>Critical Rule:</strong> You <strong>cannot afford to get hit</strong> when playing Calcium. Slippery Ring is essential for maintaining maximum velocity and damage output</p>
+                <p style="margin-top: 0.5rem;"><strong>Combo With:</strong> <a href="https://megabonk.org/database/items/phantom-shroud">Phantom Shroud</a>, Turbo Socks, Coward's Cloak</p>
+                <p style="margin-top: 0.5rem;"><a href="https://megabonk.org/guides/builds/calcium-best-build"><strong>→ Calcium Speed Build Guide</strong></a></p>
+            </div>
+
+            <h4>Other Strong Characters</h4>
+            <ul>
+                <li><strong><a href="https://megabonk.org/guides/characters/fox-kitsune-guide">Fox</a>:</strong> High mobility benefits from evasion to stay airborne longer</li>
+                <li><strong><a href="https://megabonk.org/guides/characters/robinette-guide">Robinette</a>:</strong> Low base HP makes evasion valuable for survival</li>
+                <li><strong><a href="https://megabonk.org/guides/characters/athena-guide">Athena</a>:</strong> Pairs evasion with shield mechanics for layered defense</li>
+            </ul>
+        </section>
+
+        <!-- Synergies -->
+        <section class="content-section">
+            <h2>🔗 Best Synergies & Item Combos</h2>
+
+            <h3>Perfect Synergy Items</h3>
+            
+            <div class="synergy-grid">
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Items/Item_Phantom_Shroud.png" alt="Phantom Shroud">
+                    <span class="synergy-rating synergy-excellent">⭐⭐⭐⭐⭐ EXCELLENT</span>
+                    <h4>Phantom Shroud</h4>
+                    <p><strong>Effect:</strong> After evading, deal 2x damage on next attack + gain temporary speed/attack speed</p>
+                    <p style="margin-top: 0.5rem;"><strong>Synergy:</strong> Slippery Ring increases evasion chance → More Phantom Shroud procs → Higher sustained DPS</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Tomes/Evasion_Tome.png" alt="Evasion Tome">
+                    <span class="synergy-rating synergy-excellent">⭐⭐⭐⭐⭐ EXCELLENT</span>
+                    <h4>Evasion Tome</h4>
+                    <p><strong>Effect:</strong> Increases evasion per level (multiplicative stacking)</p>
+                    <p style="margin-top: 0.5rem;"><strong>Synergy:</strong> Stacks with Slippery Ring to reach 50-70% effective evasion. Prioritize early levels for best value.</p>
+                    <p style="margin-top: 0.5rem;"><a href="https://megabonk.org/database/tomes/evasion-tome"><strong>→ Evasion Tome Guide</strong></a></p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Items/Item_Cowards_Cloak.png" alt="Coward's Cloak">
+                    <span class="synergy-rating synergy-good">⭐⭐⭐⭐ GOOD</span>
+                    <h4>Coward's Cloak</h4>
+                    <p><strong>Effect:</strong> +15% move speed, extra boost when hit</p>
+                    <p style="margin-top: 0.5rem;"><strong>Synergy:</strong> Evasion prevents hits, maintaining maximum movement speed for kiting and repositioning</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Items/Item_Turbo_Socks.png" alt="Turbo Socks">
+                    <span class="synergy-rating synergy-good">⭐⭐⭐⭐ GOOD</span>
+                    <h4>Turbo Socks / Turbo Skates</h4>
+                    <p><strong>Effect:</strong> Converts movement speed into damage/attack speed</p>
+                    <p style="margin-top: 0.5rem;"><strong>Synergy:</strong> Essential for Calcium Speed Demon builds. Evasion prevents speed loss from damage.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/database/weapons/Aegis.png" alt="Aegis">
+                    <span class="synergy-rating synergy-good">⭐⭐⭐⭐ GOOD</span>
+                    <h4>Aegis (Weapon)</h4>
+                    <p><strong>Effect:</strong> Provides shields that absorb damage</p>
+                    <p style="margin-top: 0.5rem;"><strong>Synergy:</strong> Layered defense - evasion as primary layer, shield as backup when evasion fails</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/database/weapons/Katana.png" alt="Katana">
+                    <span class="synergy-rating synergy-good">⭐⭐⭐⭐ GOOD</span>
+                    <h4>Katana (Weapon)</h4>
+                    <p><strong>Effect:</strong> Ninja's starter weapon, scales with Size/Damage</p>
+                    <p style="margin-top: 0.5rem;"><strong>Synergy:</strong> Executing evaded enemies with Ninja's passive while wielding Katana creates devastating combos</p>
+                </div>
+            </div>
+
+            <h3>⚠️ Diminishing Returns Warning</h3>
+            <div class="alert alert-warning">
+                <div class="alert-title">
+                    <span class="emoji">⚖️</span>
+                    Optimal Stacking Strategy
+                </div>
+                <p><strong>Community Consensus:</strong> Stacking more than <span class="highlight">3-4 Slippery Rings</span> provides minimal benefit due to the soft cap at ~70% effective evasion.</p>
+                <p style="margin-top: 0.5rem;"><strong>Best Practice:</strong></p>
+                <ul style="margin-top: 0.5rem;">
+                    <li>Take 1-2 Slippery Rings early game (15-30% base evasion)</li>
+                    <li>Add Evasion Tome for exponential growth</li>
+                    <li>Stop investing in evasion once you hit 50-60% effective</li>
+                    <li>Diversify into HP, Armor, or Shield for additional layers</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Build Recommendations -->
+        <section class="content-section">
+            <h2>🛠️ Recommended Builds with Slippery Ring</h2>
+
+            <h3>1. Ninja Execution Build</h3>
+            <div style="background: rgba(76, 175, 80, 0.1); padding: 1.5rem; border-radius: 10px; margin-bottom: 1.5rem; border-left: 4px solid var(--success-green);">
+                <p><strong>Core Strategy:</strong> Stack evasion to execute thousands of enemies via Ninja's Shadowstep passive</p>
+                <p><strong>Items:</strong> 2-3x Slippery Ring + Phantom Shroud + Feathers (mobility)</p>
+                <p><strong>Tomes:</strong> Evasion Tome (priority), Size Tome, Damage Tome</p>
+                <p><strong>Weapons:</strong> Katana (starter), Dexecutioner, Wireless Dagger</p>
+                <p><strong>Target Evasion:</strong> 50-60% effective (sweet spot for execution frequency)</p>
+                <p style="margin-top: 1rem;"><a href="https://megabonk.org/guides/builds/ninja-best-build"><strong>→ Full Build Guide</strong></a></p>
+            </div>
+
+            <h3>2. Calcium Speed Demon Build</h3>
+            <div style="background: rgba(52, 152, 219, 0.1); padding: 1.5rem; border-radius: 10px; margin-bottom: 1.5rem; border-left: 4px solid #3498db;">
+                <p><strong>Core Strategy:</strong> Maximize movement speed for damage scaling while avoiding all hits via evasion</p>
+                <p><strong>Items:</strong> 2x Slippery Ring + Turbo Socks + Turbo Skates + Coward's Cloak + Phantom Shroud</p>
+                <p><strong>Tomes:</strong> Agility Tome (priority), Evasion Tome, Cooldown Tome</p>
+                <p><strong>Weapons:</strong> Aura, Flamewalker, Revolver (speed-agnostic weapons)</p>
+                <p><strong>Critical Rule:</strong> <strong>DO NOT GET HIT</strong> or you lose 50% speed and damage</p>
+                <p style="margin-top: 1rem;"><a href="https://megabonk.org/guides/builds/calcium-best-build"><strong>→ Full Build Guide</strong></a></p>
+            </div>
+
+            <h3>3. Fox Luck Stack Build</h3>
+            <div style="background: rgba(255, 193, 7, 0.1); padding: 1.5rem; border-radius: 10px; border-left: 4px solid #ffc107;">
+                <p><strong>Core Strategy:</strong> Stack Luck to get legendary items while using evasion for survivability</p>
+                <p><strong>Items:</strong> 1-2x Slippery Ring + Clover + Credit Card (Green) + Borgar</p>
+                <p><strong>Tomes:</strong> Luck Tome (priority), XP Tome, Evasion Tome (tertiary)</p>
+                <p><strong>Why Slippery Ring:</strong> Fox is fragile early game. Evasion buys time while Luck scaling kicks in</p>
+                <p style="margin-top: 1rem;"><a href="https://megabonk.org/guides/builds/fox-best-build"><strong>→ Full Build Guide</strong></a></p>
+            </div>
+
+            <div class="alert alert-info">
+                <div class="alert-title">
+                    <span class="emoji">💡</span>
+                    Universal Wisdom
+                </div>
+                <p>Slippery Ring is a <strong>safe pick</strong> in almost every run. Even if you're not building specifically for evasion, having 1-2 rings provides valuable defensive coverage with zero opportunity cost.</p>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="content-section">
+            <h2>❓ Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: How much evasion does Slippery Ring actually provide?</div>
+                <div class="faq-answer">
+                    <strong>Short Answer:</strong> +15% to internal evasion stat, but actual effective evasion gain varies based on your existing evasion due to diminishing returns.
+                    <p style="margin-top: 0.5rem;"><strong>Example:</strong> At 0% base evasion, Slippery Ring adds ~13% effective. At 35% base evasion, it only adds ~5% effective.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Can you stack multiple Slippery Rings?</div>
+                <div class="faq-answer">
+                    <strong>Yes</strong>, Slippery Rings are stackable. However, due to evasion's hyperbolic scaling formula, stacking more than 3-4 rings provides minimal benefit. The community recommends stopping at 2-3 rings and diversifying your defense instead.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Is there an evasion cap?</div>
+                <div class="faq-answer">
+                    <strong>Soft cap at ~70%.</strong> While there's no hard cap, evasion's diminishing returns formula makes it practically impossible to exceed 70% effective evasion, even with extremely high internal values. Some players report reaching 82-95% in extreme cases, but these are outliers.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Does Slippery Ring work against bosses?</div>
+                <div class="faq-answer">
+                    <strong>Yes, but with exceptions.</strong> Evasion works against most boss attacks. However, some boss abilities or mechanics may bypass evasion entirely. Additionally, relying solely on RNG-based evasion against bosses is risky - always have backup defense layers.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Should I prioritize Slippery Ring or Evasion Tome?</div>
+                <div class="faq-answer">
+                    <strong>Both are excellent.</strong> Slippery Ring provides an immediate +15% boost (great early game), while Evasion Tome scales with levels. For Ninja builds, prioritize Evasion Tome early, then add 2-3 Slippery Rings mid-game. For other builds, 1-2 rings is sufficient.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Is Slippery Ring good for beginners?</div>
+                <div class="faq-answer">
+                    <strong>Absolutely.</strong> Slippery Ring is one of the best beginner items because it:
+                    <ul style="margin-top: 0.5rem;">
+                        <li>Has no unlock requirement</li>
+                        <li>Provides pure defense with no downsides</li>
+                        <li>Works universally across all characters</li>
+                        <li>Teaches the value of evasion mechanics</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Does Luck affect evasion?</div>
+                <div class="faq-answer">
+                    <strong>No.</strong> Luck only affects item drops and critical hit chance. It does <strong>not</strong> influence evasion rolls or any defensive mechanics. This has been confirmed by multiple community tests.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What's the best character to use Slippery Ring with?</div>
+                <div class="faq-answer">
+                    <strong>Ninja</strong> is the absolute best due to his execution passive and natural evasion scaling. <strong>Calcium</strong> is a close second for Speed Demon builds that cannot afford to get hit. However, Slippery Ring is viable on every character.
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Items -->
+        <section class="related-items">
+            <h2 style="color: var(--text-primary); margin-bottom: 1rem;">Related Items & Tomes</h2>
+            
+            <div class="items-grid">
+                <a href="https://megabonk.org/database/items/phantom-shroud" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Phantom_Shroud.png" alt="Phantom Shroud">
+                    <span>Phantom Shroud</span>
+                </a>
+
+                <a href="https://megabonk.org/database/tomes/evasion-tome" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Tomes/Evasion_Tome.png" alt="Evasion Tome">
+                    <span>Evasion Tome</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/cowards-cloak" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Cowards_Cloak.png" alt="Coward's Cloak">
+                    <span>Coward's Cloak</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/feathers" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Feathers.png" alt="Feathers">
+                    <span>Feathers</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/turbo-socks" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Turbo_Socks.png" alt="Turbo Socks">
+                    <span>Turbo Socks</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/turbo-skates" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Turbo_Skates.png" alt="Turbo Skates">
+                    <span>Turbo Skates</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/golden-shield" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Golden_Shield.png" alt="Golden Shield">
+                    <span>Golden Shield</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/mirror" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Mirror.png" alt="Mirror">
+                    <span>Mirror</span>
+                </a>
+            </div>
+
+            <div class="cta-buttons text-center" style="margin-top: 2rem;">
+                <a href="https://megabonk.org/database/items/" class="btn btn-primary">View All Items</a>
+                <a href="https://megabonk.org/tier-lists/items/" class="btn btn-secondary">Items Tier List</a>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="content-section text-center">
+            <h2>Master Evasion and Dominate Megabonk</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9;">Ready to build unstoppable evasion-focused characters? Explore proven strategies.</p>
+            
+            <div class="cta-buttons" style="justify-content: center;">
+                <a href="https://megabonk.org/guides/builds/ninja-best-build" class="btn btn-primary">Ninja Execution Build</a>
+                <a href="https://megabonk.org/guides/builds/calcium-best-build" class="btn btn-secondary">Calcium Speed Build</a>
+                <a href="https://megabonk.org/guides/builds/" class="btn btn-secondary">All Builds</a>
+            </div>
+
+            <div style="margin-top: 2.5rem;">
+                <h3>Join the Community</h3>
+                <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
+                    <a href="https://www.reddit.com/search/?q=Megabonk" target="_blank" rel="noopener" style="color: #ff4500; text-decoration: none; font-weight: bold;">📱 Reddit</a>
+                    <a href="https://x.com/megabonkgame" target="_blank" rel="noopener" style="color: #1da1f2; text-decoration: none; font-weight: bold;">🐦 Twitter</a>
+                    <a href="https://store.steampowered.com/app/3405340/Megabonk/" target="_blank" rel="noopener" style="color: #66c0f4; text-decoration: none; font-weight: bold;">🎮 Steam</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <p>&copy; <span data-current-year>2026</span> Megabonk.org - Unofficial Fan Resource</p>
+            <p style="margin-top: 0.5rem;">Not affiliated with the official Megabonk development team</p>
+            <p style="margin-top: 1.5rem;">
+                <a href="https://megabonk.org/">Home</a> |
+                <a href="https://megabonk.org/database/">Database</a> |
+                <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+                <a href="https://megabonk.org/guides/">Guides</a> |
+                <a href="https://megabonk.org/leaderboard/">Leaderboard</a>
+            </p>
+            <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                Game assets and trademarks are property of their respective owners
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Image error handling
+        document.querySelectorAll('img').forEach(img => {
+            img.addEventListener('error', function() {
+                this.style.opacity = '0.5';
+                this.style.filter = 'grayscale(100%)';
+            });
+        });
+
+        // Highlight current item in related items
+        const currentPath = window.location.pathname;
+        document.querySelectorAll('.item-nav-card').forEach(card => {
+            if (currentPath.includes(card.getAttribute('href'))) {
+                card.classList.add('current');
+            }
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.content-section, .stat-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+
+    <!--
+    Source Notes:
+    - Slippery Ring effect (+15% Evasion): Steam Community Guide (ID: 3584119024), GameRant (Oct 2024), Khelnow (Oct 2025)
+    - Default/unlocked by default: Multiple Steam guides and community wikis confirm default availability
+    - Diminishing returns mechanism: Steam Discussion (ID: 600792156684448487), Amiibodoctor (Oct 2025) with formula verification
+    - Evasion soft cap (~70%): Steam Discussion (ID: 600790905291971207), FindingDulcinea (Oct 2025), OfzenAndComputing (Oct 2025)
+    - Stacking recommendations (3-4 max): Steam Discussion (ID: 600790905291949155) community consensus
+    - Ninja synergy: GameRant (Oct 2025), FindingDulcinea (Oct 2025), ProGameGuides (Oct 2025)
+    - Calcium Speed Demon synergy: GAM3S.GG (Oct 2025), Megabonk.org/builds
+    - Phantom Shroud synergy: Megabonk.wiki (Oct 2025), Megabonk.org/builds/athena-best-build
+    - Evasion mechanics & formula: Megabonk.org/database/tomes/evasion-tome, Amiibodoctor stat calculations (Oct 2025)
+    - Luck doesn't affect evasion: Steam Discussion (ID: 600792156684448487) confirmed by community testing
+    -->
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da0583883f5d84',t:'MTc5MjUyMDI2OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

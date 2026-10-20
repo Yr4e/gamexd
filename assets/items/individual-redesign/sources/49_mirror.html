@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mirror Guide — Reflect & I-frames | Megabonk</title>
+  <meta name="description" content="Mirror reflects incoming damage and grants brief invulnerability when hit. Learn its effect, unlock status, patch 1.0.7 changes, and safe Kevin synergy tips.">
+  <meta name="keywords" content="megabonk mirror, mirror item, reflect damage, invulnerability, kevin mirror, electric plug synergy">
+
+  <link rel="canonical" href="https://megabonk.org/database/items/mirror">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-V5X87M8JFL');
+  </script>
+
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920" crossorigin="anonymous"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mirror - Megabonk Item Database">
+  <meta property="og:description" content="Reflect damage and gain brief invulnerability when hit. Effect, unlock, and safe post-1.0.7 synergies.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://megabonk.org/database/items/mirror">
+  <meta property="og:image" content="https://megabonk.org/images/Items/Item_Mirror.png">
+
+  <!-- Schema.org (inserted later as JSON-LD block) -->
+
+  <style>
+    /* ==== original styles from your Kevin template (unchanged) ==== */
+    :root {
+      --bg-primary:#0f1419; --bg-secondary:#16213e; --bg-card:rgba(22,33,62,.6);
+      --border-color:rgba(233,69,96,.3); --text-primary:#e94560; --text-secondary:#f1f1f1; --text-muted:#a4a4a4;
+      --accent-gold:#ffd700; --rare-purple:#9b59b6; --rare-glow:rgba(155,89,182,.4);
+      --danger-red:#ff4757; --success-green:#26de81;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:linear-gradient(135deg,#0f1419 0%,#16213e 50%,#1a1a2e 100%);color:var(--text-secondary);line-height:1.6;min-height:100vh}
+    nav{background:rgba(15,20,25,.95);backdrop-filter:blur(10px);border-bottom:2px solid var(--border-color);position:sticky;top:0;z-index:1000}
+    .nav-container{max-width:1400px;margin:0 auto;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-size:1.5rem;font-weight:bold;color:var(--text-primary);text-decoration:none;text-shadow:0 0 10px var(--rare-glow)}
+    .nav-links{display:flex;gap:2rem;list-style:none}
+    .nav-links a{color:var(--text-secondary);text-decoration:none;font-weight:500;transition:color .3s}
+    .nav-links a:hover{color:var(--text-primary)}
+    .breadcrumb{max-width:1400px;margin:0 auto;padding:1.5rem 2rem .5rem;font-size:.9rem}
+    .breadcrumb a{color:var(--text-primary);text-decoration:none}
+    .breadcrumb a:hover{text-decoration:underline}
+    .breadcrumb span{color:var(--text-muted);margin:0 .5rem}
+    .container{max-width:1400px;margin:0 auto;padding:2rem}
+    .item-hero{background:linear-gradient(135deg,rgba(155,89,182,.2) 0%,rgba(233,69,96,.2) 100%);border-radius:15px;padding:3rem;margin-bottom:2rem;border:2px solid var(--rare-purple);box-shadow:0 0 30px var(--rare-glow);display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center}
+    .item-icon-large{width:150px;height:150px;object-fit:contain;filter:drop-shadow(0 0 20px var(--rare-glow));animation:floatAnimation 3s ease-in-out infinite}
+    @keyframes floatAnimation{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .item-hero-content h1{font-size:2.5rem;color:var(--rare-purple);margin-bottom:.5rem;text-shadow:0 0 20px var(--rare-glow)}
+    .item-rarity{display:inline-block;padding:.4rem 1rem;background:linear-gradient(135deg,var(--rare-purple),#8e44ad);color:#fff;border-radius:20px;font-weight:bold;font-size:.9rem;margin-bottom:1rem;box-shadow:0 0 15px var(--rare-glow)}
+    .item-effect{background:rgba(0,0,0,.4);padding:1.5rem;border-radius:10px;border-left:4px solid var(--rare-purple);margin-top:1rem;font-size:1.05rem}
+    .item-effect strong{color:var(--accent-gold)}
+    .quick-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem}
+    .stat-card{background:var(--bg-card);padding:1.5rem;border-radius:10px;border:2px solid var(--border-color);text-align:center;transition:all .3s}
+    .stat-card:hover{transform:translateY(-5px);border-color:var(--rare-purple);box-shadow:0 10px 20px var(--rare-glow)}
+    .stat-label{font-size:.9rem;color:var(--text-muted);text-transform:uppercase;margin-bottom:.5rem}
+    .stat-value{font-size:1.3rem;font-weight:bold;color:var(--rare-purple)}
+    .content-section{background:var(--bg-card);padding:2rem;border-radius:15px;margin-bottom:2rem;border:2px solid var(--border-color)}
+    .content-section h2{color:var(--text-primary);font-size:1.8rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid var(--border-color)}
+    .content-section h3{color:var(--rare-purple);font-size:1.4rem;margin:1.2rem 0}
+    .content-section h4{color:var(--accent-gold);font-size:1.1rem;margin:.8rem 0 .4rem}
+    .alert{padding:1.5rem;border-radius:10px;margin:1.2rem 0;border-left:4px solid}
+    .alert-info{background:rgba(52,152,219,.15);border-left-color:#3498db}
+    .alert-warning{background:rgba(255,193,7,.15);border-left-color:#ffc107}
+    .alert-success{background:rgba(38,222,129,.15);border-left-color:var(--success-green)}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1.5rem 0}
+    .pros,.cons{padding:1.5rem;border-radius:10px}
+    .pros{background:rgba(38,222,129,.1);border-left:4px solid var(--success-green)}
+    .cons{background:rgba(255,71,87,.1);border-left:4px solid var(--danger-red)}
+    .synergy-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;margin-top:1rem}
+    .synergy-card{background:rgba(0,0,0,.3);padding:1.5rem;border-radius:10px;border:2px solid var(--border-color);transition:.3s}
+    .synergy-card:hover{transform:translateY(-5px);border-color:var(--success-green);box-shadow:0 10px 20px rgba(38,222,129,.2)}
+    .synergy-card img{width:60px;height:60px;object-fit:contain;margin-bottom:1rem;filter:drop-shadow(0 0 10px rgba(233,69,96,.5))}
+    .related-items{background:rgba(15,20,25,.6);padding:2rem;border-radius:15px;margin-top:3rem;border:2px solid var(--border-color)}
+    .items-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:1rem;margin-top:1.5rem}
+    .item-nav-card{background:rgba(22,33,62,.6);padding:1rem;border-radius:10px;border:2px solid var(--border-color);text-align:center;transition:.3s;text-decoration:none;color:var(--text-secondary)}
+    .item-nav-card:hover{transform:translateY(-5px);border-color:var(--text-primary);box-shadow:0 5px 15px rgba(233,69,96,.3)}
+    .item-nav-card.current{border-color:var(--rare-purple);background:rgba(155,89,182,.2);box-shadow:0 0 20px var(--rare-glow)}
+    .item-nav-card img{width:60px;height:60px;object-fit:contain;margin-bottom:.5rem}
+    .btn{padding:.8rem 2rem;border-radius:25px;text-decoration:none;font-weight:bold;transition:.3s;display:inline-block}
+    .btn-primary{background:linear-gradient(135deg,var(--text-primary),#c0392b);color:#fff;box-shadow:0 5px 15px rgba(233,69,96,.4)}
+    .btn-secondary{background:linear-gradient(135deg,var(--rare-purple),#8e44ad);color:#fff;box-shadow:0 5px 15px var(--rare-glow)}
+    footer{background:rgba(15,20,25,.95);padding:2rem;text-align:center;margin-top:4rem;border-top:2px solid var(--border-color)}
+    @media (max-width:768px){.item-hero{grid-template-columns:1fr;text-align:center}.item-icon-large{margin:0 auto}.nav-links{display:none}.pros-cons{grid-template-columns:1fr}.synergy-grid{grid-template-columns:1fr}.items-grid{grid-template-columns:repeat(auto-fill,minmax(80px,1fr))}}
+    .text-center{text-align:center}.emoji{font-size:1.2rem;margin-right:.4rem}
+  </style>
+</head>
+<body><a href="https://megabonk.org/cdn-cgi/content?id=x4w6w71KMw1NRAH762Lk58ryCAqZKQxCJALslj.lY.Q-1792520269.199811-1.2.1.1-a5EJyuBJ_WUNVJhBPkhLcC9MQMhCbWH69DJM2GjUsT3tAWEJtIiRBMsrlQEF.AUS" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+      <ul class="nav-links">
+        <li><a href="https://megabonk.org/database/">Database</a></li>
+        <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+        <li><a href="https://megabonk.org/guides/">Guides</a></li>
+        <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="https://megabonk.org/">Home</a><span>›</span>
+    <a href="https://megabonk.org/database/">Database</a><span>›</span>
+    <a href="https://megabonk.org/database/items/">Items</a><span>›</span>
+    <span>Mirror</span>
+  </div>
+
+  <!-- Main -->
+  <div class="container">
+    <!-- Hero -->
+    <div class="item-hero">
+      <img src="https://megabonk.org/images/Items/Item_Mirror.png" alt="Mirror item icon" class="item-icon-large">
+      <div class="item-hero-content">
+        <h1>Mirror</h1>
+        <!-- Rarity intentionally not asserted; show neutral badge -->
+        <span class="item-rarity">⭐ COMMUNITY: RARE (Unconfirmed)</span>
+
+        <div class="item-effect">
+          <strong>Effect:</strong> Reflect incoming damage to attackers and grant a brief window of invulnerability when you’re hit.
+        </div>
+
+        <div class="alert alert-info" style="margin-top:1rem;">
+          <div class="alert-title"><span class="emoji">ℹ️</span>About rarity</div>
+          <p>Official docs don’t list rarities. Community databases typically label Mirror as <em>Rare</em>. We avoid asserting rarity until officially documented.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="quick-stats">
+      <div class="stat-card">
+        <div class="stat-label">Unlock</div>
+        <div class="stat-value">Unlocked by default</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Core Use</div>
+        <div class="stat-value">Damage reflect + I-frames</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Patch Note</div>
+        <div class="stat-value">1.0.7 fixed i-frame exploit</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Getting Started</div>
+        <div class="stat-value"><a href="https://megabonk.org/database/items/">Items Index →</a></div>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <section class="content-section">
+      <h2>🧪 How Mirror Works</h2>
+      <p>
+        Mirror is a defensive item that turns enemy aggression against them: when you’re hit, you <strong>reflect the incoming damage</strong> and gain a <strong>brief invulnerability window</strong> (“I-frames”). This helps you push through dense waves or survive sudden bursts. 
+        If you’re new to items, check the full <a href="https://megabonk.org/database/items/">Items database</a> for context and comparisons.
+      </p>
+
+      <h3>Key Properties</h3>
+      <ul>
+        <li>Triggers on being hit (contact or projectiles), returning damage to the source.</li>
+        <li>Grants short I-frames so follow-up hits in that window won’t land.</li>
+        <li>Pairs well with “on-take-damage” effects and sustain to stay safe while reflecting.</li>
+      </ul>
+
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>✓ Advantages</h4>
+          <ul>
+            <li>Mitigates burst via I-frames.</li>
+            <li>Converts defense into damage (reflect).</li>
+            <li>Enables on-damage proc builds.</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>✗ Considerations</h4>
+          <ul>
+            <li>I-frames are brief — not a permanent shield.</li>
+            <li>Still need positioning and sustain.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="alert alert-warning">
+        <div class="alert-title"><span class="emoji">🛠️</span>Patch 1.0.7 & later</div>
+        <p>Past “near-immortal” interactions (e.g., Kevin + Mirror i-frame abuse) were fixed in v1.0.7 and follow-up hotfixes. The combo remains playable, just no longer game-breaking.</p>
+      </div>
+    </section>
+
+    <!-- Synergies -->
+    <section class="content-section">
+      <h2>🔗 Recommended Combos & Synergies</h2>
+
+      <h3>On-damage Proc Package</h3>
+      <div class="synergy-grid">
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Electric_Plug.png" alt="Electric Plug icon">
+          <h4>Electric Plug</h4>
+          <p>Emits a shock when you take damage — Mirror’s I-frames let you punish hits safely.</p>
+          <p><a href="https://megabonk.org/database/items/electric-plug">See Electric Plug →</a></p>
+        </div>
+
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Thunder_Mitts.png" alt="Thunder Mitts icon">
+          <h4>Thunder Mitts</h4>
+          <p>Adds lightning strikes on hit (cooldowned). Works well when occasional hits are unavoidable.</p>
+          <p><a href="https://megabonk.org/database/items/thunder-mitts">See Thunder Mitts →</a></p>
+        </div>
+
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Spiky_Shield.png" alt="Spiky Shield icon">
+          <h4>Spiky Shield</h4>
+          <p>Thorns/armor-based retaliation complements reflect for passive wave clear.</p>
+          <p><a href="https://megabonk.org/database/items/spiky-shield">See Spiky Shield →</a></p>
+        </div>
+      </div>
+
+      <h3>Notable Interaction</h3>
+      <div class="alert alert-success">
+        <div class="alert-title"><span class="emoji">💡</span>Kevin + Mirror</div>
+        <p>Historically infamous; after 1.0.7 it’s balanced but still viable for retaliation-style builds. Ensure you have healing/regen before attempting.</p>
+        <p><a href="https://megabonk.org/database/items/kevin">Learn about Kevin →</a></p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="content-section">
+      <h2>❓ FAQ</h2>
+
+      <div class="faq-item">
+        <div class="faq-question">Does Mirror completely negate boss burst?</div>
+        <div class="faq-answer">No. Mirror grants a <em>brief</em> invulnerability window; it mitigates burst but is not a permanent shield.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How do I unlock Mirror?</div>
+        <div class="faq-answer">It’s available from the start (unlocked by default).</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Is Kevin + Mirror still worth trying?</div>
+        <div class="faq-answer">Yes, but it’s no longer an exploit. After v1.0.7 fixes, treat it as a normal retaliation combo with proper sustain.</div>
+      </div>
+    </section>
+
+    <!-- Related -->
+    <section class="related-items">
+      <h2 style="color: var(--text-primary); margin-bottom: 1rem;">Related Items</h2>
+      <div class="items-grid">
+        <a href="https://megabonk.org/database/items/kevin" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Kevin.png" alt="Kevin item icon"><span>Kevin</span>
+        </a>
+        <a href="https://megabonk.org/database/items/electric-plug" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Electric_Plug.png" alt="Electric Plug icon"><span>Electric Plug</span>
+        </a>
+        <a href="https://megabonk.org/database/items/thunder-mitts" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Thunder_Mitts.png" alt="Thunder Mitts icon"><span>Thunder Mitts</span>
+        </a>
+        <a href="https://megabonk.org/database/items/spiky-shield" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Spiky_Shield.png" alt="Spiky Shield icon"><span>Spiky Shield</span>
+        </a>
+      </div>
+
+      <div class="text-center" style="margin-top:2rem;">
+        <a href="https://megabonk.org/database/items/" class="btn btn-primary">View All Items</a>
+        <a href="https://megabonk.org/guides/builds/" class="btn btn-secondary">Explore Builds</a>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="content-section text-center">
+      <h2>Turn Hits Into Damage</h2>
+      <p style="opacity:.9">Use Mirror to punish enemies safely. Then layer in on-damage procs and sustain to scale.</p>
+      <div class="btn-row" style="margin-top:1rem;">
+        <a class="btn btn-primary" href="https://megabonk.org/guides/builds/">Build Ideas</a>
+        <a class="btn btn-secondary" href="https://megabonk.org/guides/characters/">Character Guides</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div style="max-width:1400px;margin:0 auto;">
+      <p>&copy; <span data-current-year>2026</span> Megabonk.org - Unofficial Fan Resource</p>
+      <p style="margin-top:.5rem;">Not affiliated with the official Megabonk development team</p>
+      <p style="margin-top:1.5rem;">
+        <a href="https://megabonk.org/">Home</a> |
+        <a href="https://megabonk.org/database/">Database</a> |
+        <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+        <a href="https://megabonk.org/guides/">Guides</a> |
+        <a href="https://megabonk.org/leaderboard/">Leaderboard</a>
+      </p>
+      <p style="margin-top:1rem;font-size:.85rem;color:var(--text-muted);">Game assets and trademarks are property of their respective owners</p>
+    </div>
+  </footer>
+
+  <!-- Smooth scroll & small UX scripts (unchanged) -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        e.preventDefault();
+        const t=document.querySelector(a.getAttribute('href'));
+        if(t){t.scrollIntoView({behavior:'smooth',block:'start'})}
+      })
+    });
+    document.querySelectorAll('img').forEach(img=>{
+      img.addEventListener('error',function(){this.style.opacity='.5';this.style.filter='grayscale(100%)'})
+    });
+    const currentPath=window.location.pathname;
+    document.querySelectorAll('.item-nav-card').forEach(card=>{
+      if(currentPath.includes(card.getAttribute('href'))){card.classList.add('current')}
+    });
+    const obs=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)'}})},{threshold:.1,rootMargin:'0px 0px -50px 0px'});
+    document.querySelectorAll('.content-section,.stat-card').forEach(el=>{
+      el.style.opacity='0';el.style.transform='translateY(20px)';el.style.transition='opacity .6s ease-out, transform .6s ease-out';obs.observe(el)
+    });
+  </script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "name":"Mirror Item Guide — Megabonk",
+    "url":"https://megabonk.org/database/items/mirror",
+    "description":"Mirror reflects incoming damage and grants brief invulnerability when hit. Effect, unlock status, and safe post-1.0.7 synergies.",
+    "image":"https://megabonk.org/images/Items/Item_Mirror.png"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"What does Mirror do in Megabonk?",
+        "acceptedAnswer":{"@type":"Answer","text":"When you're hit, Mirror reflects the incoming damage and grants a brief invulnerability window."}
+      },
+      {
+        "@type":"Question",
+        "name":"How do you unlock Mirror?",
+        "acceptedAnswer":{"@type":"Answer","text":"Mirror is unlocked by default and available from the start."}
+      },
+      {
+        "@type":"Question",
+        "name":"Is Kevin + Mirror still viable after patch 1.0.7?",
+        "acceptedAnswer":{"@type":"Answer","text":"Yes, but the old i-frame exploit was fixed in v1.0.7. Treat it as a normal retaliation combo with proper sustain."}
+      }
+    ]
+  }
+  </script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da05827893e282',t:'MTc5MjUyMDI2OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

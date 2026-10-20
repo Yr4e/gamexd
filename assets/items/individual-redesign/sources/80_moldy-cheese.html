@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moldy Cheese (Megabonk): Effect, 40% Poison & Synergies</title>
+    <meta name="description" content="Default item in Megabonk with 40% on-hit poison. See effect, stacking, and synergies: Gas Mask, Moldy Gloves, Toxic Barrel, Overpowered Lamp.">
+    <meta name="keywords" content="megabonk moldy cheese, poison build, moldy cheese synergies, megabonk poison, default items, DOT damage">
+
+    <link rel="canonical" href="https://megabonk.org/database/items/moldy-cheese">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-V5X87M8JFL');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920"
+     crossorigin="anonymous"></script>
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Moldy Cheese - Megabonk Item Database">
+    <meta property="og:description" content="Default starting item with 40% poison chance. Complete guide to poison builds and synergies.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://megabonk.org/database/items/moldy-cheese">
+    <meta property="og:image" content="https://megabonk.org/images/Items/Item_Moldy_Cheese.png">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Moldy Cheese Item Guide - Megabonk Database",
+      "description": "Complete guide to the Moldy Cheese item in Megabonk including poison mechanics, synergies, and build strategies",
+      "image": "https://megabonk.org/images/Items/Item_Moldy_Cheese.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Megabonk.org"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Megabonk.org"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does Moldy Cheese do in Megabonk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Moldy Cheese provides a 40% chance to poison enemies on hit, dealing damage over time. It's a Default starting item available from the beginning of the game."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Moldy Cheese stack with other poison items?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Moldy Cheese stacks with other poison items like Gas Mask, Moldy Gloves, and Toxic Barrel to create powerful poison-focused builds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you have multiple Moldy Cheeses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can obtain multiple Moldy Cheese items through drops, shops, or duplication (Microwave). Multiple copies stack and increase poison application frequency."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <style>
+        :root {
+            --bg-primary: #0f1419;
+            --bg-secondary: #16213e;
+            --bg-card: rgba(22, 33, 62, 0.6);
+            --border-color: rgba(233, 69, 96, 0.3);
+            --text-primary: #e94560;
+            --text-secondary: #f1f1f1;
+            --text-muted: #a4a4a4;
+            --accent-gold: #ffd700;
+            --default-green: #2ecc71;
+            --default-glow: rgba(46, 204, 113, 0.4);
+            --poison-green: #27ae60;
+            --poison-dark: #1e8449;
+            --danger-red: #ff4757;
+            --success-green: #26de81;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f1419 0%, #16213e 50%, #1a1a2e 100%);
+            color: var(--text-secondary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        nav {
+            background: rgba(15, 20, 25, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--text-primary);
+            text-decoration: none;
+            text-shadow: 0 0 10px var(--default-glow);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: var(--text-muted);
+            margin: 0 0.5rem;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Hero Section */
+        .item-hero {
+            background: linear-gradient(135deg, rgba(46, 204, 113, 0.2) 0%, rgba(39, 174, 96, 0.2) 100%);
+            border-radius: 15px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            border: 2px solid var(--default-green);
+            box-shadow: 0 0 30px var(--default-glow);
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .item-icon-large {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            filter: drop-shadow(0 0 20px var(--default-glow));
+            animation: floatAnimation 3s ease-in-out infinite;
+        }
+
+        @keyframes floatAnimation {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .item-hero-content h1 {
+            font-size: 2.5rem;
+            color: var(--default-green);
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 20px var(--default-glow);
+        }
+
+        .item-rarity {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background: linear-gradient(135deg, var(--default-green), var(--poison-dark));
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 15px var(--default-glow);
+        }
+
+        .item-effect {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--poison-green);
+            margin-top: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .item-effect strong {
+            color: var(--accent-gold);
+        }
+
+        /* Quick Stats */
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--default-green);
+            box-shadow: 0 10px 20px var(--default-glow);
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--default-green);
+        }
+
+        /* Content Sections */
+        .content-section {
+            background: var(--bg-card);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            border: 2px solid var(--border-color);
+        }
+
+        .content-section h2 {
+            color: var(--text-primary);
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .content-section h3 {
+            color: var(--default-green);
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-section h4 {
+            color: var(--accent-gold);
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Alert Boxes */
+        .alert {
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            border-left: 4px solid;
+        }
+
+        .alert-success {
+            background: rgba(38, 222, 129, 0.15);
+            border-left-color: var(--success-green);
+        }
+
+        .alert-info {
+            background: rgba(52, 152, 219, 0.15);
+            border-left-color: #3498db;
+        }
+
+        .alert-warning {
+            background: rgba(255, 193, 7, 0.15);
+            border-left-color: #ffc107;
+        }
+
+        .alert-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Pros and Cons */
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .pros, .cons {
+            padding: 1.5rem;
+            border-radius: 10px;
+        }
+
+        .pros {
+            background: rgba(38, 222, 129, 0.1);
+            border-left: 4px solid var(--success-green);
+        }
+
+        .cons {
+            background: rgba(255, 71, 87, 0.1);
+            border-left: 4px solid var(--danger-red);
+        }
+
+        .pros h4, .cons h4 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .pros h4 { color: var(--success-green); }
+        .cons h4 { color: var(--danger-red); }
+
+        .pros ul, .cons ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .pros li, .cons li {
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .pros li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success-green);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .cons li::before {
+            content: "✗";
+            position: absolute;
+            left: 0;
+            color: var(--danger-red);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Synergy Grid */
+        .synergy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .synergy-card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s;
+        }
+
+        .synergy-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--success-green);
+            box-shadow: 0 10px 20px rgba(38, 222, 129, 0.2);
+        }
+
+        .synergy-card img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 0 10px rgba(46, 204, 113, 0.5));
+        }
+
+        .synergy-rating {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .synergy-excellent {
+            background: var(--success-green);
+            color: white;
+        }
+
+        .synergy-good {
+            background: #3498db;
+            color: white;
+        }
+
+        /* Build Cards */
+        .build-card {
+            background: rgba(46, 204, 113, 0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--poison-green);
+        }
+
+        /* FAQ */
+        .faq-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--default-green);
+        }
+
+        .faq-question {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-answer {
+            color: var(--text-secondary);
+        }
+
+        /* Related Items Navigation */
+        .related-items {
+            background: rgba(15, 20, 25, 0.6);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 3rem;
+            border: 2px solid var(--border-color);
+        }
+
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .item-nav-card {
+            background: rgba(22, 33, 62, 0.6);
+            padding: 1rem;
+            border-radius: 10px;
+            border: 2px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s;
+            text-decoration: none;
+            color: var(--text-secondary);
+        }
+
+        .item-nav-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--text-primary);
+            box-shadow: 0 5px 15px rgba(233, 69, 96, 0.3);
+        }
+
+        .item-nav-card.current {
+            border-color: var(--default-green);
+            background: rgba(46, 204, 113, 0.2);
+            box-shadow: 0 0 20px var(--default-glow);
+        }
+
+        .item-nav-card img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 0.5rem;
+        }
+
+        .item-nav-card span {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* CTA Buttons */
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--text-primary), #c0392b);
+            color: white;
+            box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(233, 69, 96, 0.6);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, var(--default-green), var(--poison-dark));
+            color: white;
+            box-shadow: 0 5px 15px var(--default-glow);
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px var(--default-glow);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(15, 20, 25, 0.95);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+            border-top: 2px solid var(--border-color);
+        }
+
+        footer a {
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .item-hero {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .item-icon-large {
+                margin: 0 auto;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .quick-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+
+            .synergy-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .items-grid {
+                grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            }
+        }
+
+        /* Utility */
+        .text-center {
+            text-align: center;
+        }
+
+        .highlight {
+            background: rgba(46, 204, 113, 0.2);
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: var(--default-green);
+            font-weight: 600;
+        }
+
+        .emoji {
+            font-size: 1.3rem;
+            margin-right: 0.5rem;
+        }
+
+        ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: var(--text-primary);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body><a href="https://megabonk.org/cdn-cgi/content?id=pBvOVAghfFI5t0o6R3FJi8lEJb8X5q.HS7t_W14314k-1792520271.3366783-1.2.1.1-p3Lk7230BEDkdRcmmUXe.asfQWIVVSSBCknfZmVGFNK7qYkm.WXCRT20uaNFpSej" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+            <ul class="nav-links">
+                <li><a href="https://megabonk.org/database/">Database</a></li>
+                <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+                <li><a href="https://megabonk.org/guides/">Guides</a></li>
+                <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="https://megabonk.org/">Home</a>
+        <span>›</span>
+        <a href="https://megabonk.org/database/">Database</a>
+        <span>›</span>
+        <a href="https://megabonk.org/database/items/">Items</a>
+        <span>›</span>
+        <span>Moldy Cheese</span>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="item-hero">
+            <img src="https://megabonk.org/images/Items/Item_Moldy_Cheese.png" alt="Moldy Cheese Item" class="item-icon-large">
+            <div class="item-hero-content">
+                <h1>Moldy Cheese</h1>
+                <span class="item-rarity">✓ DEFAULT ITEM</span>
+                
+                <div class="item-effect">
+                    <strong>Effect:</strong> 40% chance to poison enemies on hit, dealing damage over time.
+                </div>
+
+                <div class="alert alert-success" style="margin-top: 1rem;">
+                    <div class="alert-title">
+                        <span class="emoji">🧀</span>
+                        Beginner-Friendly Poison Powerhouse
+                    </div>
+                    <p>Moldy Cheese is available from the start, making it the perfect foundation for poison-focused builds. Its high proc rate ensures consistent DOT damage throughout your run.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="quick-stats">
+            <div class="stat-card">
+                <div class="stat-label">Rarity</div>
+                <div class="stat-value">Default</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Poison Chance</div>
+                <div class="stat-value">40%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Availability</div>
+                <div class="stat-value">Always</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Best For</div>
+                <div class="stat-value">DOT Builds</div>
+            </div>
+        </div>
+
+        <!-- How It Works -->
+        <section class="content-section">
+            <h2>🧪 How Moldy Cheese Works</h2>
+            
+            <p>Moldy Cheese is one of the most consistent <strong>damage-over-time (DOT)</strong> items in Megabonk. Its 40% proc rate makes it reliable for applying poison to large groups of enemies, allowing you to focus on survival while your poison does the work.</p>
+
+            <h3>Poison Mechanics</h3>
+            <ul>
+                <li><strong>Proc Rate:</strong> 40% chance per hit to apply poison</li>
+                <li><strong>Damage Type:</strong> Deals damage over time (DOT) with regular ticks</li>
+                <li><strong>Stacking:</strong> Multiple poison applications can refresh duration and stack damage</li>
+                <li><strong>Visibility:</strong> Poisoned enemies have a green particle effect</li>
+                <li><strong>Scaling:</strong> Poison damage scales with your base weapon damage and % damage modifiers</li>
+            </ul>
+
+            <div class="alert alert-info">
+                <div class="alert-title">
+                    <span class="emoji">🔬</span>
+                    Poison Damage Calculation
+                </div>
+                <p>Poison damage scales with your <strong>base weapon damage</strong> and any <strong>% damage modifiers</strong> from tomes and items. The more damage you deal, the stronger your poison ticks become.</p>
+            </div>
+
+            <h3>Why Moldy Cheese is Essential</h3>
+            <p>Unlike many rare items, Moldy Cheese is <span class="highlight">available from the start</span>, making it a cornerstone for early-game survival and late-game poison builds. Here's why it's so powerful:</p>
+
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>✓ Advantages</h4>
+                    <ul>
+                        <li>Available immediately - no unlock required</li>
+                        <li>40% proc rate = consistent poison application</li>
+                        <li>Excellent for crowd control and passive damage</li>
+                        <li>Synergizes with multiple build archetypes</li>
+                        <li>Poison continues damaging enemies while you kite</li>
+                        <li>Can obtain multiple copies via drops/shops/Microwave duplication</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>✗ Limitations</h4>
+                    <ul>
+                        <li>Requires complementary items to maximize effectiveness</li>
+                        <li>Poison damage is delayed - not instant</li>
+                        <li>Less effective against bosses with high HP pools alone</li>
+                        <li>Needs consistent hits to trigger reliably</li>
+                        <li>Not ideal for burst damage builds</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Synergies -->
+        <section class="content-section">
+            <h2>🔗 Best Synergies & Combos</h2>
+
+            <h3>Core Poison Synergy Items</h3>
+            <p>These items transform Moldy Cheese from good to <strong>game-breaking</strong>:</p>
+
+            <div class="synergy-grid">
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Items/Item_Gas_Mask.png" alt="Gas Mask">
+                    <span class="synergy-rating synergy-excellent">⭐⭐⭐⭐⭐ EXCELLENT</span>
+                    <h4>Gas Mask</h4>
+                    <p><strong>Effect:</strong> Gain armor and lifesteal for every poisoned enemy</p>
+                    <p>Essential survivability item that scales with poison application. More poisoned enemies = more tankiness and sustain.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Items/Item_Moldy_Gloves.png" alt="Moldy Gloves">
+                    <span class="synergy-rating synergy-excellent">⭐⭐⭐⭐⭐ EXCELLENT</span>
+                    <h4>Moldy Gloves</h4>
+                    <p><strong>Effect:</strong> Create a moldy cloud upon hitting an enemy</p>
+                    <p>Generates poison clouds on hit, spreading poison to nearby enemies. Excellent for area denial and crowd control.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Items/Item_Toxic_Barrel.png" alt="Toxic Barrel">
+                    <span class="synergy-rating synergy-excellent">⭐⭐⭐⭐⭐ EXCELLENT</span>
+                    <h4>Toxic Barrel</h4>
+                    <p><strong>Effect:</strong> Releases toxic waste upon taking damage, poisoning nearby enemies</p>
+                    <p>Defensive item that turns damage taken into poison AOE. Excellent when combined with tanky builds.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Items/Item_Overpowered_Lamp.png" alt="Overpowered Lamp">
+                    <span class="synergy-rating synergy-excellent">⭐⭐⭐⭐⭐ EXCELLENT</span>
+                    <h4>Overpowered Lamp</h4>
+                    <p><strong>Effect:</strong> +1 chance to proc on-hit effects</p>
+                    <p>Essentially doubles your poison application rate by giving an extra proc roll. Core item for any on-hit focused build.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Items/Item_Slurp_Gloves.png" alt="Slurp Gloves">
+                    <span class="synergy-rating synergy-good">⭐⭐⭐⭐ GOOD</span>
+                    <h4>Slurp Gloves</h4>
+                    <p><strong>Effect:</strong> Cast blood magic on hit, healing you for 7.5% (9s cooldown)</p>
+                    <p>Provides consistent healing through on-hit effects. Works well in poison builds for sustained survivability.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/Items/Item_Demonic_Soul.png" alt="Demonic Soul">
+                    <span class="synergy-rating synergy-good">⭐⭐⭐⭐ GOOD</span>
+                    <h4>Demonic Soul</h4>
+                    <p><strong>Effect:</strong> +0.1% damage per kill (up to +100%)</p>
+                    <p>Snowballs damage throughout the run. Synergizes with poison's passive killing power.</p>
+                </div>
+            </div>
+
+            <h3>Best Weapons for Moldy Cheese</h3>
+            <div class="synergy-grid">
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/database/weapons/Bow.png" alt="Bow">
+                    <h4><a href="https://megabonk.org/database/weapons/bow">Bow</a></h4>
+                    <p>Pierce mechanic allows poison to spread through enemy lines efficiently.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/database/weapons/Lightning_Staff.png" alt="Lightning Staff">
+                    <h4><a href="https://megabonk.org/database/weapons/lightning-staff">Lightning Staff</a></h4>
+                    <p>Chain lightning procs poison on multiple enemies simultaneously.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/database/weapons/Tornado.png" alt="Tornado">
+                    <h4><a href="https://megabonk.org/database/weapons/tornado">Tornado</a></h4>
+                    <p>Continuous hits = constant poison application on grouped enemies.</p>
+                </div>
+
+                <div class="synergy-card">
+                    <img src="https://megabonk.org/images/database/weapons/Revolver.png" alt="Revolver">
+                    <h4><a href="https://megabonk.org/database/weapons/revolver">Revolver</a></h4>
+                    <p>High damage per shot = stronger poison ticks. Great for bosses.</p>
+                </div>
+            </div>
+
+            <h3>Best Characters for Poison Builds</h3>
+            <div class="alert alert-info">
+                <p><strong>Top Picks:</strong></p>
+                <ul style="margin-top: 0.5rem;">
+                    <li><a href="https://megabonk.org/guides/characters/fox-kitsune-guide">Fox</a> - +1.5% Luck per level improves reward quality; Luck does not increase Moldy Cheese's proc chance</li>
+                    <li><a href="https://megabonk.org/guides/characters/athena-guide">Athena</a> - Balanced offense/defense with Aegis for sustained poison application</li>
+                    <li><a href="https://megabonk.org/guides/characters/vlad-guide">Vlad</a> - +1% Lifesteal per level complements poison survivability builds</li>
+                    <li><a href="https://megabonk.org/guides/characters/robinette-guide">Robinette</a> - Ranged pierce specialist with Stonks passive (damage scales with gold)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Build Recommendations -->
+        <section class="content-section">
+            <h2>🛠️ Recommended Poison Builds</h2>
+
+            <h3>1. Poison Survival Build</h3>
+            <div class="build-card">
+                <p><strong>Core Items:</strong> Moldy Cheese + Gas Mask + Toxic Barrel + Moldy Gloves</p>
+                <p><strong>Strategy:</strong> Apply poison while building armor/lifesteal from Gas Mask. Toxic Barrel releases poison when you take damage, creating a defensive poison field.</p>
+                <p><strong>Best Weapons:</strong> <a href="https://megabonk.org/database/weapons/bow">Bow</a>, <a href="https://megabonk.org/database/weapons/lightning-staff">Lightning Staff</a></p>
+                <p><strong>Best Character:</strong> <a href="https://megabonk.org/guides/characters/vlad-guide">Vlad</a> or <a href="https://megabonk.org/guides/characters/athena-guide">Athena</a></p>
+            </div>
+
+            <h3>2. High Proc Poison Build</h3>
+            <div class="build-card">
+                <p><strong>Core Items:</strong> Moldy Cheese + Overpowered Lamp + Moldy Gloves + Demonic Soul</p>
+                <p><strong>Strategy:</strong> Overpowered Lamp doubles on-hit proc chances. Stack with Cooldown Tome for maximum hit frequency.</p>
+                <p><strong>Best Weapons:</strong> <a href="https://megabonk.org/database/weapons/tornado">Tornado</a>, <a href="https://megabonk.org/database/weapons/lightning-staff">Lightning Staff</a></p>
+                <p><strong>Key Tome:</strong> <a href="https://megabonk.org/database/tomes/cooldown-tome">Cooldown Tome</a> for attack speed</p>
+            </div>
+
+            <h3>3. Tanky Poison Cloud Build</h3>
+            <div class="build-card">
+                <p><strong>Core Items:</strong> Moldy Cheese + Toxic Barrel + Gas Mask + Slurp Gloves</p>
+                <p><strong>Strategy:</strong> Focus on taking damage to trigger Toxic Barrel's poison release. Gas Mask provides armor/lifesteal scaling with poisoned enemies.</p>
+                <p><strong>Best Character:</strong> <a href="https://megabonk.org/guides/characters/megachad-guide">Megachad</a> or <a href="https://megabonk.org/guides/characters/calcium-guide">Calcium</a></p>
+                <p><strong>Playstyle:</strong> Frontline tanking with poison AOE</p>
+            </div>
+
+            <div class="alert alert-warning">
+                <div class="alert-title">
+                    <span class="emoji">💡</span>
+                    Build Priority
+                </div>
+                <p><strong>Early Game:</strong> Focus on getting Gas Mask first for survivability scaling with poison.</p>
+                <p style="margin-top: 0.5rem;"><strong>Mid Game:</strong> Add Overpowered Lamp or Moldy Gloves to increase poison application.</p>
+                <p style="margin-top: 0.5rem;"><strong>Late Game:</strong> Complete the build with Toxic Barrel for defensive poison or Demonic Soul for scaling damage.</p>
+            </div>
+        </section>
+
+        <!-- Strategy Tips -->
+        <section class="content-section">
+            <h2>📚 Strategy & Tips</h2>
+
+            <h3>Maximizing Moldy Cheese Effectiveness</h3>
+            
+            <h4>1. Attack Speed from Cooldown Tome</h4>
+            <p>The more hits you land, the more poison you apply. Prioritize <a href="https://megabonk.org/database/tomes/cooldown-tome">Cooldown Tome</a> for attack speed, not Agility Tome (which affects movement/positioning).</p>
+
+            <h4>2. AOE Weapons Multiply Value</h4>
+            <p>Weapons that hit multiple enemies (Lightning Staff, Tornado, Bow with Pierce) can apply poison to entire groups simultaneously, maximizing your 40% proc rate.</p>
+
+            <h4>3. Kiting Strategy</h4>
+            <p>Poison is a <strong>fire-and-forget</strong> damage source. Apply poison, then kite enemies while the DOT finishes them off. This playstyle is safer than face-tanking.</p>
+
+            <h4>4. Boss Fight Tips</h4>
+            <p>Against bosses, maintain poison uptime. Stack <a href="https://megabonk.org/database/tomes/damage-tome">Damage Tome</a> levels to increase poison tick damage, as bosses have massive HP pools.</p>
+
+            <h4>5. Multiple Copies Work</h4>
+            <p>Unlike some items, you CAN obtain multiple Moldy Cheeses through drops, shops, or Microwave duplication. Multiple copies stack effects and increase poison frequency.</p>
+
+            <div class="alert alert-info">
+                <div class="alert-title">
+                    <span class="emoji">🎯</span>
+                    Advanced Technique: "Poison Stacking"
+                </div>
+                <p>With Moldy Gloves (poison clouds) and high hit rate via Cooldown Tome, you can maintain constant poison pressure on groups. Each application refreshes duration and can stack damage.</p>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="content-section">
+            <h2>❓ Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What does Moldy Cheese do in Megabonk?</div>
+                <div class="faq-answer">
+                    Moldy Cheese provides a <strong>40% chance to poison enemies on hit</strong>, dealing damage over time (DOT). It's a Default starting item available from the beginning of the game, making it excellent for early poison builds.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Does Moldy Cheese stack with other poison items?</div>
+                <div class="faq-answer">
+                    Yes! Moldy Cheese stacks with items like <strong>Gas Mask</strong> (armor/lifesteal scaling), <strong>Moldy Gloves</strong> (poison clouds), and <strong>Toxic Barrel</strong> (poison release on taking damage). Combining multiple poison items creates synergistic builds.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What are the best items to combo with Moldy Cheese?</div>
+                <div class="faq-answer">
+                    The best synergies are: <strong>Gas Mask</strong> (armor/lifesteal per poisoned enemy), <strong>Overpowered Lamp</strong> (+1 on-hit proc), <strong>Moldy Gloves</strong> (poison clouds), and <strong>Toxic Barrel</strong> (defensive poison). These form the core of most poison builds.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Is Moldy Cheese good for boss fights?</div>
+                <div class="faq-answer">
+                    Moldy Cheese is <strong>decent but not optimal</strong> for bosses alone. Poison's strength is in passive, sustained damage, which works better against groups. For bosses, combine Moldy Cheese with damage scaling from <a href="https://megabonk.org/database/tomes/damage-tome">Damage Tome</a> and high weapon damage to make poison ticks meaningful.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Can you have multiple Moldy Cheeses?</div>
+                <div class="faq-answer">
+                    <strong>Yes!</strong> You can obtain multiple Moldy Cheese items through drops, shops, or duplication via Microwave (part of Moldy Gloves unlock quest). Multiple copies stack effects and increase poison application frequency.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Does poison damage scale with my weapon damage?</div>
+                <div class="faq-answer">
+                    <strong>Yes!</strong> Poison damage scales with your base weapon damage and any % damage modifiers from <a href="https://megabonk.org/database/tomes/damage-tome">Damage Tome</a> and other damage-boosting items. The stronger your base damage, the harder your poison ticks hit.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What's the best character for Moldy Cheese builds?</div>
+                <div class="faq-answer">
+                    <a href="https://megabonk.org/guides/characters/fox-kitsune-guide">Fox</a> (+Luck per level) and <a href="https://megabonk.org/guides/characters/vlad-guide">Vlad</a> (+Lifesteal per level) are excellent choices. <a href="https://megabonk.org/guides/characters/robinette-guide">Robinette</a> works well for ranged poison builds with pierce weapons.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Is Moldy Cheese viable in late game?</div>
+                <div class="faq-answer">
+                    <strong>Absolutely.</strong> Moldy Cheese scales into late game when paired with the right items. A full poison build (Moldy Cheese + Gas Mask + Overpowered Lamp + Moldy Gloves + Toxic Barrel) can easily carry you through Tier 5+ content.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What does Gas Mask actually do?</div>
+                <div class="faq-answer">
+                    Gas Mask grants <strong>armor and lifesteal for every poisoned enemy</strong>, NOT bonus damage. It's a defensive/survivability item that scales with the number of enemies you've poisoned, making it essential for tanky poison builds.
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Items -->
+        <section class="related-items">
+            <h2 style="color: var(--text-primary); margin-bottom: 1rem;">Related Poison Items</h2>
+            
+            <div class="items-grid">
+                <div class="item-nav-card current">
+                    <img src="https://megabonk.org/images/Items/Item_Moldy_Cheese.png" alt="Moldy Cheese">
+                    <span>Moldy Cheese</span>
+                </div>
+
+                <a href="https://megabonk.org/database/items/gas-mask" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Gas_Mask.png" alt="Gas Mask">
+                    <span>Gas Mask</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/moldy-gloves" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Moldy_Gloves.png" alt="Moldy Gloves">
+                    <span>Moldy Gloves</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/toxic-barrel" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Toxic_Barrel.png" alt="Toxic Barrel">
+                    <span>Toxic Barrel</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/slurp-gloves" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Slurp_Gloves.png" alt="Slurp Gloves">
+                    <span>Slurp Gloves</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/overpowered-lamp" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Overpowered_Lamp.png" alt="Overpowered Lamp">
+                    <span>Overpowered Lamp</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/demonic-soul" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Demonic_Soul.png" alt="Demonic Soul">
+                    <span>Demonic Soul</span>
+                </a>
+
+                <a href="https://megabonk.org/database/items/kevin" class="item-nav-card">
+                    <img src="https://megabonk.org/images/Items/Item_Kevin.png" alt="Kevin">
+                    <span>Kevin</span>
+                </a>
+            </div>
+
+            <div class="cta-buttons text-center" style="margin-top: 2rem;">
+                <a href="https://megabonk.org/database/items/" class="btn btn-primary">View All Items</a>
+                <a href="https://megabonk.org/tier-lists/items/" class="btn btn-secondary">Items Tier List</a>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="content-section text-center">
+            <h2>Master Poison Builds with Moldy Cheese</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9;">Ready to melt enemies with damage-over-time? Explore poison synergies and dominate Megabonk.</p>
+            
+            <div class="cta-buttons" style="justify-content: center;">
+                <a href="https://megabonk.org/guides/builds/poison-lifesteal" class="btn btn-primary">Poison Build Guides</a>
+                <a href="https://megabonk.org/guides/builds/" class="btn btn-secondary">All Builds</a>
+                <a href="https://megabonk.org/guides/characters/" class="btn btn-secondary">Character Guides</a>
+            </div>
+
+            <div style="margin-top: 2.5rem;">
+                <h3>Join the Community</h3>
+                <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
+                    <a href="https://www.reddit.com/search/?q=Megabonk" target="_blank" rel="noopener" style="color: #ff4500; text-decoration: none; font-weight: bold;">📱 Reddit</a>
+                    <a href="https://x.com/megabonkgame" target="_blank" rel="noopener" style="color: #1da1f2; text-decoration: none; font-weight: bold;">🐦 Twitter</a>
+                    <a href="https://store.steampowered.com/app/3405340/Megabonk/" target="_blank" rel="noopener" style="color: #66c0f4; text-decoration: none; font-weight: bold;">🎮 Steam</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <p>&copy; <span data-current-year>2026</span> Megabonk.org - Unofficial Fan Resource</p>
+            <p style="margin-top: 0.5rem;">Not affiliated with the official Megabonk development team</p>
+            <p style="margin-top: 1.5rem;">
+                <a href="https://megabonk.org/">Home</a> |
+                <a href="https://megabonk.org/database/">Database</a> |
+                <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+                <a href="https://megabonk.org/guides/">Guides</a> |
+                <a href="https://megabonk.org/leaderboard/">Leaderboard</a>
+            </p>
+            <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+                Game assets and trademarks are property of their respective owners
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Image error handling
+        document.querySelectorAll('img').forEach(img => {
+            img.addEventListener('error', function() {
+                this.style.opacity = '0.5';
+                this.style.filter = 'grayscale(100%)';
+            });
+        });
+
+        // Highlight current item in related items
+        const currentPath = window.location.pathname;
+        document.querySelectorAll('.item-nav-card').forEach(card => {
+            if (currentPath.includes(card.getAttribute('href'))) {
+                card.classList.add('current');
+            }
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.content-section, .stat-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+
+    <!--
+    CORRECTED INFORMATION SOURCES (Updated 2025-10-30):
+    - Moldy Cheese: 40% poison chance, Default item (Megabonk Wiki, GameRant 2025-10-06)
+    - Gas Mask: Armor + Lifesteal per poisoned enemy (Destructoid 2025-09-30)
+    - Moldy Gloves: Creates poison clouds on hit (Megabonk Wiki 2026-10-30)
+    - Toxic Barrel: Releases poison upon taking damage (Megabonk Wiki 2026-10-30)
+    - Slurp Gloves: Blood magic healing 7.5% per 9s (Megabonk Wiki 2026-10-30)
+    - Overpowered Lamp: +1 on-hit proc chance (Megabonk Wiki 2026-10-30)
+    - Demonic Soul: +0.1% damage per kill (Megabonk Wiki 2026-10-30)
+    - Fox: +1% Luck per level, not attack speed (ProGameGuide 2026-10-06)
+    - Vlad: +1% Lifesteal per level (ProGameGuide 2026-10)
+    - Cooldown Tome: Primary attack speed source (Steam Community 2025-09-15)
+    - Multiple Moldy Cheese: Possible via duplication (Steam/Reddit 2025-10)
+    -->
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da058fd9fdd2df',t:'MTc5MjUyMDI3MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

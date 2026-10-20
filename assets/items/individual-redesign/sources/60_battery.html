@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battery — Effect & Unlock (Cooldown Lv. 5) | Megabonk</title>
+  <meta name="description" content="Battery grants +8% Attack Speed in Megabonk. See the exact unlock requirement (Cooldown Tome Lv. 5), usage tips, and weapon pairings like Firestaff and Lightning Staff.">
+  <meta name="keywords" content="megabonk battery, battery item, attack speed item, cooldown tome level 5, megabonk items">
+
+  <link rel="canonical" href="https://megabonk.org/database/items/battery">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-V5X87M8JFL');
+  </script>
+
+  <!-- AdSense (optional) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920" crossorigin="anonymous"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Battery — Megabonk Item Guide">
+  <meta property="og:description" content="Unlock Battery (Cooldown Tome Lv. 5) and gain +8% Attack Speed. Tips, synergies, and weapon pairings.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://megabonk.org/database/items/battery">
+  <meta property="og:image" content="https://megabonk.org/images/Items/Item_Battery.png">
+
+  <!-- Schema.org (in page) – kept minimal; full JSON-LD below -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "name":"Battery — Effect & Unlock (Cooldown Lv. 5) | Megabonk",
+    "url":"https://megabonk.org/database/items/battery",
+    "description":"Battery grants +8% Attack Speed in Megabonk. See the exact unlock requirement (Cooldown Tome Lv. 5), usage tips, and weapon pairings."
+  }
+  </script>
+
+  <!-- ===== Styles (unchanged from your template; color tokens, layout, animations) ===== -->
+  <style>
+    :root {
+      --bg-primary:#0f1419; --bg-secondary:#16213e; --bg-card:rgba(22,33,62,.6);
+      --border-color:rgba(233,69,96,.3); --text-primary:#e94560; --text-secondary:#f1f1f1;
+      --text-muted:#a4a4a4; --accent-gold:#ffd700; --rare-purple:#9b59b6; --rare-glow:rgba(155,89,182,.4);
+      --danger-red:#ff4757; --success-green:#26de81;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:linear-gradient(135deg,#0f1419 0%,#16213e 50%,#1a1a2e 100%);color:var(--text-secondary);line-height:1.6;min-height:100vh}
+    nav{background:rgba(15,20,25,.95);backdrop-filter:blur(10px);border-bottom:2px solid var(--border-color);position:sticky;top:0;z-index:1000}
+    .nav-container{max-width:1400px;margin:0 auto;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-size:1.5rem;font-weight:bold;color:var(--text-primary);text-decoration:none;text-shadow:0 0 10px var(--rare-glow)}
+    .nav-links{display:flex;gap:2rem;list-style:none}
+    .nav-links a{color:var(--text-secondary);text-decoration:none;font-weight:500;transition:color .3s}
+    .nav-links a:hover{color:var(--text-primary)}
+    .breadcrumb{max-width:1400px;margin:0 auto;padding:1.5rem 2rem .5rem;font-size:.9rem}
+    .breadcrumb a{color:var(--text-primary);text-decoration:none}
+    .breadcrumb a:hover{text-decoration:underline}
+    .breadcrumb span{color:var(--text-muted);margin:0 .5rem}
+    .container{max-width:1400px;margin:0 auto;padding:2rem}
+    .item-hero{background:linear-gradient(135deg,rgba(155,89,182,.2) 0%,rgba(233,69,96,.2) 100%);border-radius:15px;padding:3rem;margin-bottom:2rem;border:2px solid var(--rare-purple);box-shadow:0 0 30px var(--rare-glow);display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center}
+    .item-icon-large{width:150px;height:150px;object-fit:contain;filter:drop-shadow(0 0 20px var(--rare-glow));animation:floatAnimation 3s ease-in-out infinite}
+    @keyframes floatAnimation{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .item-hero-content h1{font-size:2.5rem;color:var(--rare-purple);margin-bottom:.5rem;text-shadow:0 0 20px var(--rare-glow)}
+    .item-rarity{display:inline-block;padding:.4rem 1rem;background:linear-gradient(135deg,#2ecc71,#27ae60);color:#fff;border-radius:20px;font-weight:bold;font-size:.9rem;margin-bottom:1rem;box-shadow:0 0 15px rgba(46,204,113,.35)}
+    .item-effect{background:rgba(0,0,0,.4);padding:1.5rem;border-radius:10px;border-left:4px solid #2ecc71;margin-top:1rem;font-size:1.1rem}
+    .item-effect strong{color:var(--accent-gold)}
+    .quick-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem}
+    .stat-card{background:var(--bg-card);padding:1.5rem;border-radius:10px;border:2px solid var(--border-color);text-align:center;transition:all .3s}
+    .stat-card:hover{transform:translateY(-5px);border-color:#2ecc71;box-shadow:0 10px 20px rgba(46,204,113,.25)}
+    .stat-label{font-size:.9rem;color:var(--text-muted);text-transform:uppercase;margin-bottom:.5rem}
+    .stat-value{font-size:1.3rem;font-weight:bold;color:#2ecc71}
+    .content-section{background:var(--bg-card);padding:2rem;border-radius:15px;margin-bottom:2rem;border:2px solid var(--border-color)}
+    .content-section h2{color:var(--text-primary);font-size:1.8rem;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:2px solid var(--border-color)}
+    .content-section h3{color:#2ecc71;font-size:1.35rem;margin-top:1.2rem;margin-bottom:.8rem}
+    .alert{padding:1.5rem;border-radius:10px;margin:1.5rem 0;border-left:4px solid}
+    .alert-info{background:rgba(52,152,219,.15);border-left-color:#3498db}
+    .alert-warning{background:rgba(255,193,7,.15);border-left-color:#ffc107}
+    .alert-success{background:rgba(38,222,129,.15);border-left-color:var(--success-green)}
+    .unlock-steps{background:rgba(255,215,0,.05);padding:2rem;border-radius:10px;border:2px solid var(--accent-gold);margin:1.5rem 0}
+    .steps-list{counter-reset:step;list-style:none;padding:0}
+    .steps-list li{counter-increment:step;margin-bottom:1.2rem;padding-left:3rem;position:relative}
+    .steps-list li::before{content:counter(step);position:absolute;left:0;top:0;width:2rem;height:2rem;background:var(--accent-gold);color:var(--bg-primary);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:1.1rem}
+    .items-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:1rem;margin-top:1.5rem}
+    .item-nav-card{background:rgba(22,33,62,.6);padding:1rem;border-radius:10px;border:2px solid var(--border-color);text-align:center;transition:all .3s;text-decoration:none;color:var(--text-secondary)}
+    .item-nav-card:hover{transform:translateY(-5px);border-color:var(--text-primary);box-shadow:0 5px 15px rgba(233,69,96,.3)}
+    .item-nav-card img{width:60px;height:60px;object-fit:contain;margin-bottom:.5rem}
+    .weapon-spotlight{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin-top:1rem}
+    .weapon-card{background:rgba(0,0,0,.3);padding:1rem;border-radius:10px;border:2px solid var(--border-color)}
+    .weapon-card img{width:80px;height:80px;object-fit:contain;display:block;margin:.5rem auto}
+    .cta-buttons{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+    .btn{padding:.8rem 2rem;border-radius:25px;text-decoration:none;font-weight:bold;transition:all .3s;display:inline-block}
+    .btn-primary{background:linear-gradient(135deg,var(--text-primary),#c0392b);color:#fff;box-shadow:0 5px 15px rgba(233,69,96,.4)}
+    .btn-secondary{background:linear-gradient(135deg,#2ecc71,#27ae60);color:#fff;box-shadow:0 5px 15px rgba(46,204,113,.35)}
+    footer{background:rgba(15,20,25,.95);padding:2rem;text-align:center;margin-top:4rem;border-top:2px solid var(--border-color)}
+    @media(max-width:768px){.item-hero{grid-template-columns:1fr;text-align:center}.item-icon-large{margin:0 auto}.nav-links{display:none}}
+  </style>
+</head>
+<body><a href="https://megabonk.org/cdn-cgi/content?id=5HDiDhq0gQLTrNFzxZUXMcE.QMHHZe26q4aZF3vyUdk-1792520269.9297502-1.2.1.1-BZS9e8dIMHdXty.r8M8v_PB5_A8jZR.fikrARuNHSnMlPk2L1yjAUvyOH7A3X_eu" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+      <ul class="nav-links">
+        <li><a href="https://megabonk.org/database/">Database</a></li>
+        <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+        <li><a href="https://megabonk.org/guides/">Guides</a></li>
+        <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="https://megabonk.org/">Home</a><span>›</span>
+    <a href="https://megabonk.org/database/">Database</a><span>›</span>
+    <a href="https://megabonk.org/database/items/">Items</a><span>›</span>
+    <span>Battery</span>
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Hero -->
+    <div class="item-hero">
+      <img src="https://megabonk.org/images/Items/Item_Battery.png" alt="Battery item icon" class="item-icon-large">
+      <div class="item-hero-content">
+        <h1>Battery</h1>
+        <span class="item-rarity">Common (unconfirmed)</span>
+        <div class="item-effect">
+          <strong>Effect:</strong> Grants <strong>+8% Attack Speed</strong>. <br>
+          <strong>Unlock:</strong> Reach <strong>Cooldown Tome Lv. 5</strong>.
+        </div>
+        <p style="margin-top:1rem;opacity:.95">
+          New to items? Browse the full listing on the <a href="https://megabonk.org/database/items/">Items Database</a> to plan unlocks and builds.
+        </p>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="quick-stats">
+      <div class="stat-card">
+        <div class="stat-label">Category</div><div class="stat-value">Item</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Effect Value</div><div class="stat-value">+8% ATK SPD</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Unlock Requirement</div><div class="stat-value">Cooldown Tome Lv. 5</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Rarity</div><div class="stat-value">Common (unconfirmed)</div>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <section class="content-section">
+      <h2>🧪 How Battery Works</h2>
+      <p>
+        Battery is a straightforward tempo booster: increasing <span class="highlight">Attack Speed by 8%</span> helps more hits land in the same window, which benefits sustained-fire weapons and “on-hit” effects. Attack Speed doesn’t alter raw damage per hit; it raises your <em>damage throughput</em> by letting your weapons act more frequently.
+      </p>
+      <div class="alert alert-info">
+        <div class="alert-title">Tip</div>
+        <p>Attack Speed scales especially well once your area coverage and projectile count are adequate—then speeding up delivery yields visible gains.</p>
+      </div>
+    </section>
+
+    <!-- Unlock -->
+    <section class="content-section">
+      <h2>🔓 How to Unlock Battery</h2>
+      <div class="unlock-steps">
+        <h3>Requirement</h3>
+        <p style="font-size:1.05rem;margin-bottom:1rem">
+          Raise <strong>Cooldown Tome</strong> to <strong>Level 5</strong>. Once reached, Battery enters your item pool for future runs.
+        </p>
+        <ol class="steps-list">
+          <li><strong>Prioritize Cooldown Tome</strong> early until Lv. 5; delay non-essential tome upgrades.</li>
+          <li><strong>Open chests consistently</strong> to expand your item pool during the run.</li>
+          <li><strong>Reset slow starts</strong> if progress stalls; fast maps help cycle unlocks faster.</li>
+        </ol>
+      </div>
+      <div class="alert alert-success">
+        <div class="alert-title">Verified</div>
+        <p>Effect (+8% Attack Speed) and unlock (Cooldown Tome Lv. 5) corroborated by multiple independent sources.</p>
+      </div>
+    </section>
+
+    <!-- Weapon Pairings (images required by your brief) -->
+    <section class="content-section">
+      <h2>🎯 Weapon Pairings (Examples)</h2>
+      <p>These rapid or chain-hit weapons tend to showcase Attack Speed gains particularly well:</p>
+      <div class="weapon-spotlight">
+        <div class="weapon-card">
+          <a href="https://megabonk.org/database/weapons/firestaff">
+            <img src="https://megabonk.org/images/database/weapons/Firestaff.png" alt="Firestaff weapon">
+            <h4 class="text-center">Firestaff</h4>
+          </a>
+          <p class="text-center" style="opacity:.9">Frequent projectiles benefit from tighter firing intervals.</p>
+        </div>
+        <div class="weapon-card">
+          <a href="https://megabonk.org/database/weapons/lightning-staff">
+            <img src="https://megabonk.org/images/database/weapons/Lightning_Staff.png" alt="Lightning Staff weapon">
+            <h4 class="text-center">Lightning Staff</h4>
+          </a>
+          <p class="text-center" style="opacity:.9">Stuns/chain hits feel stronger with faster procs.</p>
+        </div>
+        <div class="weapon-card">
+          <a href="https://megabonk.org/database/weapons/bananarang">
+            <img src="https://megabonk.org/images/database/weapons/Bananarang.png" alt="Bananarang weapon">
+            <h4 class="text-center">Bananarang</h4>
+          </a>
+          <p class="text-center" style="opacity:.9">Boomerang style benefits from more casts per window.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs (only verified) -->
+    <section class="content-section">
+      <h2>❓ Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-question">How do I unlock Battery?</div>
+        <div class="faq-answer">Reach <strong>Cooldown Tome Level 5</strong>. After that, Battery can appear in your runs.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">What does Battery do?</div>
+        <div class="faq-answer"><strong>+8% Attack Speed</strong> (passive).</div>
+      </div>
+    </section>
+
+    <!-- Related Links -->
+    <section class="content-section">
+      <h2>🔗 Related / See also</h2>
+      <div class="items-grid">
+        <a class="item-nav-card" href="https://megabonk.org/database/tomes/cooldown-tome">
+          <img src="https://megabonk.org/images/Tomes/Cooldown_Tome.png" alt="Cooldown Tome"><span>Cooldown Tome</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/database/items/clover">
+          <img src="https://megabonk.org/images/Items/Item_Clover.png" alt="Clover"><span>Clover</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/database/items/time-bracelet">
+          <img src="https://megabonk.org/images/Items/Item_Time_Bracelet.png" alt="Time Bracelet"><span>Time Bracelet</span>
+        </a>
+        <a class="item-nav-card" href="https://megabonk.org/database/items/gym-sauce">
+          <img src="https://megabonk.org/images/Items/Item_Gym_Sauce.png" alt="Gym Sauce"><span>Gym Sauce</span>
+        </a>
+      </div>
+      <div class="cta-buttons" style="justify-content:center">
+        <a href="https://megabonk.org/database/items/" class="btn btn-primary">View All Items</a>
+        <a href="https://megabonk.org/guides/builds/" class="btn btn-secondary">Explore Builds</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div style="max-width:1400px;margin:0 auto">
+      <p>&copy; <span data-current-year>2026</span> Megabonk.org - Unofficial Fan Resource</p>
+      <p style="margin-top:.5rem">Not affiliated with the official Megabonk development team</p>
+      <p style="margin-top:1.5rem">
+        <a href="https://megabonk.org/">Home</a> |
+        <a href="https://megabonk.org/database/">Database</a> |
+        <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+        <a href="https://megabonk.org/guides/">Guides</a> |
+        <a href="https://megabonk.org/leaderboard/">Leaderboard</a>
+      </p>
+      <p style="margin-top:1rem;font-size:.85rem;color:var(--text-muted)">
+        Game assets and trademarks are property of their respective owners
+      </p>
+    </div>
+  </footer>
+
+  <!-- Utilities / Animations / Robustness -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        e.preventDefault();
+        const t=document.querySelector(a.getAttribute('href'));
+        if(t){t.scrollIntoView({behavior:'smooth',block:'start'});}
+      });
+    });
+    document.querySelectorAll('img').forEach(img=>{
+      img.addEventListener('error',function(){this.style.opacity='.5';this.style.filter='grayscale(100%)';});
+    });
+    const observer=new IntersectionObserver(entries=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.style.opacity='1';
+          entry.target.style.transform='translateY(0)';
+        }
+      });
+    },{threshold:.1,rootMargin:'0px 0px -50px 0px'});
+    document.querySelectorAll('.content-section,.stat-card').forEach(el=>{
+      el.style.opacity='0';el.style.transform='translateY(20px)';
+      el.style.transition='opacity .6s ease-out, transform .6s ease-out';
+      observer.observe(el);
+    });
+  </script>
+
+  <!-- JSON-LD FAQ (only verified fields) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"How do I unlock Battery?",
+        "acceptedAnswer":{"@type":"Answer","text":"Reach Cooldown Tome Level 5. After that, Battery can appear in your runs."}
+      },
+      {
+        "@type":"Question",
+        "name":"What does Battery do?",
+        "acceptedAnswer":{"@type":"Answer","text":"Battery passively grants +8% Attack Speed."}
+      }
+    ]
+  }
+  </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da05870ca335e7',t:'MTc5MjUyMDI2OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

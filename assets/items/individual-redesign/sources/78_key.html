@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Key Item Guide — Free Chest Chance & Unlock</title>
+  <meta name="description" content="Key is a Common item in Megabonk that adds a chance for chests to open for free. Learn the unlock requirement (25 paid chests), stacking behavior, and smart ways to use it." />
+  <meta name="keywords" content="megabonk key, key item, free chest chance, megabonk items, chest unlock, economy build">
+
+  <link rel="canonical" href="https://megabonk.org/database/items/key" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5X87M8JFL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-V5X87M8JFL');
+  </script>
+
+  <!-- AdSense (optional) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8830315294299920" crossorigin="anonymous"></script>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Key - Megabonk Item Database">
+  <meta property="og:description" content="Common item that adds a chance for chests to open for free. Full unlock and stacking guide.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://megabonk.org/database/items/key">
+  <meta property="og:image" content="https://megabonk.org/images/Items/Item_Key.png">
+
+  <!-- Schema.org FAQPage injected at bottom for clarity -->
+
+  <style>
+    /* ====== (Preserved) Site Theme & Components ====== */
+    :root {
+      --bg-primary: #0f1419;
+      --bg-secondary: #16213e;
+      --bg-card: rgba(22, 33, 62, 0.6);
+      --border-color: rgba(233, 69, 96, 0.3);
+      --text-primary: #e94560;
+      --text-secondary: #f1f1f1;
+      --text-muted: #a4a4a4;
+      --accent-gold: #ffd700;
+      --rare-purple: #9b59b6;
+      --rare-glow: rgba(155, 89, 182, 0.4);
+      --danger-red: #ff4757;
+      --success-green: #26de81;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #0f1419 0%, #16213e 50%, #1a1a2e 100%);
+      color: var(--text-secondary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    nav { background: rgba(15, 20, 25, 0.95); backdrop-filter: blur(10px); border-bottom: 2px solid var(--border-color); position: sticky; top: 0; z-index: 1000; }
+    .nav-container { max-width: 1400px; margin: 0 auto; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 1.5rem; font-weight: bold; color: var(--text-primary); text-decoration: none; text-shadow: 0 0 10px var(--rare-glow); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { color: var(--text-secondary); text-decoration:none; font-weight:500; }
+    .nav-links a:hover { color: var(--text-primary); }
+    .breadcrumb { max-width: 1400px; margin: 0 auto; padding: 1.5rem 2rem 0.5rem; font-size: 0.9rem; }
+    .breadcrumb a { color: var(--text-primary); text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; }
+    .breadcrumb span { color: var(--text-muted); margin: 0 0.5rem; }
+    .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+
+    .item-hero {
+      background: linear-gradient(135deg, rgba(155, 89, 182, 0.2) 0%, rgba(233, 69, 96, 0.2) 100%);
+      border-radius: 15px; padding: 3rem; margin-bottom: 2rem;
+      border: 2px solid var(--rare-purple); box-shadow: 0 0 30px var(--rare-glow);
+      display: grid; grid-template-columns: auto 1fr; gap: 2rem; align-items: center;
+    }
+    .item-icon-large { width: 150px; height: 150px; object-fit: contain; filter: drop-shadow(0 0 20px var(--rare-glow)); animation: floatAnimation 3s ease-in-out infinite; }
+    @keyframes floatAnimation { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+    .item-hero-content h1 { font-size: 2.5rem; color: var(--rare-purple); margin-bottom: 0.5rem; text-shadow: 0 0 20px var(--rare-glow); }
+    .item-rarity { display:inline-block; padding:0.4rem 1rem; background:linear-gradient(135deg,#2ecc71,#27ae60); color:#fff; border-radius:20px; font-weight:bold; font-size:0.9rem; margin-bottom:1rem; box-shadow:0 0 15px rgba(46,204,113,.35); }
+    .item-effect { background: rgba(0,0,0,0.4); padding:1.5rem; border-radius:10px; border-left:4px solid #2ecc71; margin-top:1rem; font-size:1.1rem; }
+    .item-effect strong { color: var(--accent-gold); }
+
+    .quick-stats { display:grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap:1rem; margin-bottom:2rem; }
+    .stat-card { background: var(--bg-card); padding:1.5rem; border-radius:10px; border:2px solid var(--border-color); text-align:center; transition: all .3s; }
+    .stat-card:hover { transform: translateY(-5px); border-color:#2ecc71; box-shadow:0 10px 20px rgba(46,204,113,.25); }
+    .stat-label { font-size:.9rem; color:var(--text-muted); text-transform:uppercase; margin-bottom:.5rem; }
+    .stat-value { font-size:1.3rem; font-weight:bold; color:#2ecc71; }
+
+    .content-section { background: var(--bg-card); padding:2rem; border-radius:15px; margin-bottom:2rem; border:2px solid var(--border-color); }
+    .content-section h2 { color: var(--text-primary); font-size:1.8rem; margin-bottom:1.5rem; padding-bottom:1rem; border-bottom:2px solid var(--border-color); }
+    .content-section h3 { color:#2ecc71; font-size:1.4rem; margin:1.5rem 0 1rem; }
+    .content-section h4 { color:var(--accent-gold); font-size:1.1rem; margin:1rem 0 .5rem; }
+
+    .alert { padding:1.5rem; border-radius:10px; margin:1.5rem 0; border-left:4px solid; }
+    .alert-info { background: rgba(52,152,219,.15); border-left-color:#3498db; }
+    .alert-warning { background: rgba(255,193,7,.15); border-left-color:#ffc107; }
+
+    .synergy-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap:1.5rem; margin-top:1.5rem; }
+    .synergy-card { background: rgba(0,0,0,.3); padding:1.5rem; border-radius:10px; border:2px solid var(--border-color); transition:.3s; }
+    .synergy-card:hover { transform: translateY(-5px); border-color:#3498db; box-shadow:0 10px 20px rgba(52,152,219,.2); }
+    .synergy-card img { width:60px; height:60px; object-fit:contain; margin-bottom:1rem; filter: drop-shadow(0 0 10px rgba(233,69,96,.5)); }
+
+    .related-items { background: rgba(15,20,25,.6); padding:2rem; border-radius:15px; margin-top:3rem; border:2px solid var(--border-color); }
+    .items-grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(120px,1fr)); gap:1rem; margin-top:1.5rem; }
+    .item-nav-card { background: rgba(22,33,62,.6); padding:1rem; border-radius:10px; border:2px solid var(--border-color); text-align:center; transition:.3s; text-decoration:none; color:var(--text-secondary); }
+    .item-nav-card:hover { transform: translateY(-5px); border-color: var(--text-primary); box-shadow: 0 5px 15px rgba(233,69,96,.3); }
+    .item-nav-card img { width:60px; height:60px; object-fit:contain; margin-bottom:.5rem; }
+    .item-nav-card span { display:block; font-size:.85rem; font-weight:600; }
+
+    .cta-buttons { display:flex; gap:1rem; flex-wrap:wrap; margin-top:2rem; }
+    .btn { padding:.8rem 2rem; border-radius:25px; text-decoration:none; font-weight:bold; transition:.3s; display:inline-block; }
+    .btn-primary { background: linear-gradient(135deg, var(--text-primary), #c0392b); color:#fff; box-shadow: 0 5px 15px rgba(233,69,96,.4); }
+    .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(233,69,96,.6); }
+    .btn-secondary { background: linear-gradient(135deg, #3498db, #2c82c9); color:#fff; box-shadow: 0 5px 15px rgba(52,152,219,.35); }
+    .btn-secondary:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(52,152,219,.5); }
+
+    footer { background: rgba(15,20,25,.95); padding:2rem; text-align:center; margin-top:4rem; border-top:2px solid var(--border-color); }
+    footer a { color: var(--text-primary); text-decoration:none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width:768px){
+      .item-hero { grid-template-columns:1fr; text-align:center; }
+      .item-icon-large { margin:0 auto; }
+      .nav-links { display:none; }
+      .items-grid { grid-template-columns: repeat(auto-fill,minmax(90px,1fr)); }
+    }
+  </style>
+</head>
+<body><a href="https://megabonk.org/cdn-cgi/content?id=i5D93Ov9TJntnSsu8J6exuC_AB5fHsZV5S4wtOHpjXM-1792520271.1366231-1.2.1.1-kwHZb1q.IYfFHYRCuxMzMzfnp2TRts86_xV0KJ1fpYtnO1QnaYTHf5S0DJnpYtoE" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="https://megabonk.org/" class="logo">Megabonk.org</a>
+      <ul class="nav-links">
+        <li><a href="https://megabonk.org/database/">Database</a></li>
+        <li><a href="https://megabonk.org/tier-lists/">Tier Lists</a></li>
+        <li><a href="https://megabonk.org/guides/">Guides</a></li>
+        <li><a href="https://megabonk.org/guides/builds/">Builds</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="https://megabonk.org/">Home</a><span>›</span>
+    <a href="https://megabonk.org/database/">Database</a><span>›</span>
+    <a href="https://megabonk.org/database/items/">Items</a><span>›</span>
+    <span>Key</span>
+  </div>
+
+  <!-- Main -->
+  <div class="container">
+    <!-- Hero -->
+    <div class="item-hero">
+      <img src="https://megabonk.org/images/Items/Item_Key.png" alt="Key item icon" class="item-icon-large" />
+      <div class="item-hero-content">
+        <h1>Key</h1>
+        <span class="item-rarity">🟢 COMMON ITEM</span>
+        <div class="item-effect">
+          <strong>Effect:</strong> Adds a chance for chests to open for free (base +10%).<br/>
+          <small style="opacity:.9">Stacking is <em>non-linear</em> (not simple +10% per Key). See the Stacking Note below.</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="quick-stats">
+      <div class="stat-card">
+        <div class="stat-label">Rarity</div>
+        <div class="stat-value">Common</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Category</div>
+        <div class="stat-value">Item</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Base Effect</div>
+        <div class="stat-value">+10% free chest</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Unlock</div>
+        <div class="stat-value">Purchase/Open 25 chests</div>
+      </div>
+    </div>
+
+    <!-- Overview -->
+    <section class="content-section">
+      <h2>Overview</h2>
+      <p>
+        The <strong>Key</strong> is a simple but powerful economy item that lets you save gold by occasionally opening chests for free. 
+        If you’re new to items, browse the full <a href="https://megabonk.org/database/items/">Items database</a> to understand how economy pieces fit into your build.
+      </p>
+
+      <div class="alert alert-info">
+        <h4>Stacking Note (Community-verified)</h4>
+        <p style="margin:.5rem 0 0">
+          Multiple player tests indicate Key’s free-chest chance uses <em>independent rolls</em> per Key rather than linear addition. A common model is 
+          <code>Chance ≈ 1 − (0.9^n)</code>, where <code>n</code> is your Key count (e.g., ~65% at 10 Keys). Some wikis report alternative figures (e.g., 50% at 10 Keys). 
+          Until developers publish exact math, treat the effect as <strong>non-linear</strong> and plan accordingly.
+        </p>
+      </div>
+    </section>
+
+    <!-- Unlock -->
+    <section class="content-section">
+      <h2>How to Unlock Key</h2>
+      <div class="alert alert-warning">
+        <h4>Requirement</h4>
+        <p>Purchase or open <strong>25 paid chests</strong> across your runs. Paid chest interactions count toward this milestone.</p>
+      </div>
+
+      <h3>Tips to Unlock Faster</h3>
+      <ul>
+        <li>Grab <a href="https://megabonk.org/database/tomes/golden-tome">Golden Tome</a> early when possible to boost economy.</li>
+        <li>Play chest-dense stages and route toward shrines/chests.</li>
+        <li>Consider Luck-focused runs (e.g., <a href="https://megabonk.org/guides/builds/one-lucky-fox">One Lucky Fox</a>) to improve overall loot quality while you farm gold.</li>
+      </ul>
+    </section>
+
+    <!-- Strategy & Synergies -->
+    <section class="content-section">
+      <h2>Strategy & Synergies</h2>
+      <p>Key shines in <strong>economy-forward</strong> routes: more free chests = more upgrades with less gold spent.</p>
+
+      <div class="synergy-grid">
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Credit_Card_Green.png" alt="Credit Card (Green) icon" />
+          <h4>Credit Card (Green)</h4>
+          <p>Grants Luck when opening chests; pairs naturally with Key’s free-chest procs to snowball reward quality.</p>
+          <p><a href="https://megabonk.org/guides/builds/one-lucky-fox">See a Luck-centric build</a></p>
+        </div>
+
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Items/Item_Credit_Card_Red.png" alt="Credit Card (Red) icon" />
+          <h4>Credit Card (Red)</h4>
+          <p>A chest-interaction damage scaler in many guides; leverage more chest opens for incremental power.</p>
+        </div>
+
+        <div class="synergy-card">
+          <img src="https://megabonk.org/images/Tomes/Luck_Tome.png" alt="Luck Tome icon" />
+          <h4>Luck Tome</h4>
+          <p>Luck improves <em>reward quality</em> from level-ups/shrines/drops, complementing Key’s chest volume. Use it to chase better rolls.</p>
+          <p><a href="https://megabonk.org/database/tomes/luck-tome">Learn what Luck affects</a></p>
+        </div>
+      </div>
+
+      <h3>Play Tips</h3>
+      <ul>
+        <li>Don’t over-index on Keys early; blend with damage/sustain so you can reach and clear chest events safely.</li>
+        <li>Because stacking is non-linear, the first few Keys are the most impactful per-copy; evaluate marginal benefit mid-run.</li>
+      </ul>
+    </section>
+
+    <!-- FAQ -->
+    <section class="content-section">
+      <h2>FAQ</h2>
+
+      <div class="faq-item" style="background:rgba(0,0,0,.3); padding:1.5rem; border-radius:10px; border-left:4px solid #3498db; margin-bottom:1rem;">
+        <div class="faq-question" style="color:var(--accent-gold); font-weight:bold;">Does Luck increase the Key free-chest chance?</div>
+        <div class="faq-answer">
+          Not confirmed by developers. Most media explain Luck as improving reward <em>quality</em> (rarity) from level-ups, shrines and drops, not on-hit/proc chances. Treat Key as independent of Luck’s proc scaling.
+        </div>
+      </div>
+
+      <div class="faq-item" style="background:rgba(0,0,0,.3); padding:1.5rem; border-radius:10px; border-left:4px solid #3498db;">
+        <div class="faq-question" style="color:var(--accent-gold); font-weight:bold;">What’s the best way to farm the unlock?</div>
+        <div class="faq-answer">
+          Prioritize chest routes, bank gold with economy picks (Golden Tome, movement for faster clears), and consider Luck-focused runs to increase the value of what you find.
+        </div>
+      </div>
+    </section>
+
+    <!-- Related -->
+    <section class="related-items">
+      <h2 style="color: var(--text-primary); margin-bottom: 1rem;">Related Pages</h2>
+      <div class="items-grid">
+        <a href="https://megabonk.org/database/items/" class="item-nav-card">
+          <img src="https://megabonk.org/images/Items/Item_Wrench.png" alt="Items index icon" />
+          <span>All Items</span>
+        </a>
+        <a href="https://megabonk.org/database/tomes/luck-tome" class="item-nav-card">
+          <img src="https://megabonk.org/images/Tomes/Luck_Tome.png" alt="Luck Tome icon" />
+          <span>Luck Tome</span>
+        </a>
+        <a href="https://megabonk.org/database/tomes/golden-tome" class="item-nav-card">
+          <img src="https://megabonk.org/images/Tomes/Golden_Tome.png" alt="Golden Tome icon" />
+          <span>Golden Tome</span>
+        </a>
+        <a href="https://megabonk.org/guides/builds/one-lucky-fox" class="item-nav-card">
+          <img src="https://megabonk.org/images/guides/characters/Fox.png" alt="Fox build thumbnail" />
+          <span>One Lucky Fox</span>
+        </a>
+      </div>
+
+      <div class="cta-buttons" style="justify-content:center; margin-top:1.75rem;">
+        <a href="https://megabonk.org/database/items/" class="btn btn-primary">Browse Items</a>
+        <a href="https://megabonk.org/guides/builds/" class="btn btn-secondary">See More Builds</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div style="max-width: 1400px; margin: 0 auto;">
+      <p>&copy; <span data-current-year>2026</span> Megabonk.org - Unofficial Fan Resource</p>
+      <p style="margin-top:.5rem;">Not affiliated with the official Megabonk development team</p>
+      <p style="margin-top:1.5rem;">
+        <a href="https://megabonk.org/">Home</a> |
+        <a href="https://megabonk.org/database/">Database</a> |
+        <a href="https://megabonk.org/tier-lists/">Tier Lists</a> |
+        <a href="https://megabonk.org/guides/">Guides</a> |
+        <a href="https://megabonk.org/leaderboard/">Leaderboard</a>
+      </p>
+      <p style="margin-top:1rem; font-size:.85rem; color:var(--text-muted);">Game assets and trademarks are property of their respective owners</p>
+    </div>
+  </footer>
+
+  <!-- Intersection animations -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        e.preventDefault();
+        const t=document.querySelector(a.getAttribute('href'));
+        if(t) t.scrollIntoView({behavior:'smooth',block:'start'});
+      });
+    });
+    document.querySelectorAll('img').forEach(img=>{
+      img.addEventListener('error', function(){
+        this.style.opacity='0.5'; this.style.filter='grayscale(100%)';
+      });
+    });
+    const observer=new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){ entry.target.style.opacity='1'; entry.target.style.transform='translateY(0)'; }
+      });
+    },{threshold:.1, rootMargin:'0px 0px -50px 0px'});
+    document.querySelectorAll('.content-section, .stat-card').forEach(el=>{
+      el.style.opacity='0'; el.style.transform='translateY(20px)';
+      el.style.transition='opacity .6s ease-out, transform .6s ease-out';
+      observer.observe(el);
+    });
+  </script>
+
+  <!-- JSON-LD: FAQ (only verified or non-assertive content) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do you unlock the Key item?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Purchase or open 25 paid chests across your runs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does Key do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It adds a chance for chests to open for free (base +10%), helping you save gold."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Key stack?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Community testing suggests a non-linear, independent-roll model (often approximated as 1 − 0.9^n), but exact developer math has not been formally published."
+        }
+      }
+    ]
+  }
+  </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+    <script src="/js/current-year.js" defer></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4da058e9d8edc9c',t:'MTc5MjUyMDI3MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
