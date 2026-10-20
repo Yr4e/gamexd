@@ -1,6 +1,7 @@
 """Extract existing artwork without regenerating it; retain coloured edge emission."""
 from pathlib import Path
 import csv
+import hashlib
 import json
 import shutil
 
@@ -129,7 +130,7 @@ def main():
         writer = csv.DictWriter(f,fieldnames=entries[0].keys())
         writer.writeheader()
         writer.writerows(entries)
-    cards=''.join(f'<div><img src="{e["file"]}" alt="{e["english"]}"></div>' for e in entries)
+    cards=''.join(f'<div><img src="{e["file"]}?v={hashlib.sha256((OUT/e["file"]).read_bytes()).hexdigest()[:10]}" alt="{e["english"]}"></div>' for e in entries)
     (OUT/'preview.html').write_text('<!doctype html><meta charset="utf-8"><title>Weapon icons</title><style>body{margin:24px;background:#222}.grid{display:grid;grid-template-columns:repeat(6,128px);gap:12px}.grid>div{background:repeating-conic-gradient(#ddd 0% 25%,#aaa 0% 50%) 0/16px 16px}img{display:block;width:128px;height:128px;image-rendering:pixelated}body.light .grid>div{background:#eee}body.dark .grid>div{background:#181818}button{margin:0 8px 16px 0;padding:8px}</style><button onclick="document.body.className=\'\'">Шахматная подложка</button><button onclick="document.body.className=\'light\'">Светлая</button><button onclick="document.body.className=\'dark\'">Тёмная</button><div class="grid">'+cards+'</div>',encoding='utf-8')
     print(f'Extracted and checked {len(entries)} RGBA icons to {icons}')
     print('Soft-alpha pixels:', sum(np.count_nonzero((np.array(Image.open(icons/Path(e['file']).name).getchannel('A')) > 0) & (np.array(Image.open(icons/Path(e['file']).name).getchannel('A')) < 255)) for e in entries))
