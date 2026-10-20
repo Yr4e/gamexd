@@ -1,0 +1,439 @@
+{
+  "count": 85,
+  "unique_raw": 85,
+  "unique_icons": 85,
+  "generation_receipts": 85,
+  "mode": "RGBA",
+  "size": [
+    256,
+    256
+  ],
+  "status": "all_complete",
+  "outline_checks": [
+    {
+      "id": 1,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1429
+    },
+    {
+      "id": 2,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1384
+    },
+    {
+      "id": 3,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1486
+    },
+    {
+      "id": 4,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1331
+    },
+    {
+      "id": 5,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1867
+    },
+    {
+      "id": 6,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 2133
+    },
+    {
+      "id": 7,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1210
+    },
+    {
+      "id": 8,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1246
+    },
+    {
+      "id": 9,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1453
+    },
+    {
+      "id": 10,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1751
+    },
+    {
+      "id": 11,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1547
+    },
+    {
+      "id": 12,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1204
+    },
+    {
+      "id": 13,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1815
+    },
+    {
+      "id": 14,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1553
+    },
+    {
+      "id": 15,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1663
+    },
+    {
+      "id": 16,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1275
+    },
+    {
+      "id": 17,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1162
+    },
+    {
+      "id": 18,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1715
+    },
+    {
+      "id": 19,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1709
+    },
+    {
+      "id": 20,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1292
+    },
+    {
+      "id": 21,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1658
+    },
+    {
+      "id": 22,
+      "outline_hex": "#FFD928",
+      "opaque_outline_pixels": 1362
+    },
+    {
+      "id": 23,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1437
+    },
+    {
+      "id": 24,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1846
+    },
+    {
+      "id": 25,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 2186
+    },
+    {
+      "id": 26,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 2642
+    },
+    {
+      "id": 27,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1472
+    },
+    {
+      "id": 28,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1706
+    },
+    {
+      "id": 29,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1651
+    },
+    {
+      "id": 30,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1415
+    },
+    {
+      "id": 31,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1254
+    },
+    {
+      "id": 32,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1539
+    },
+    {
+      "id": 33,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 2217
+    },
+    {
+      "id": 34,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1216
+    },
+    {
+      "id": 35,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1307
+    },
+    {
+      "id": 36,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1570
+    },
+    {
+      "id": 37,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1548
+    },
+    {
+      "id": 38,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 2238
+    },
+    {
+      "id": 39,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 2348
+    },
+    {
+      "id": 40,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1279
+    },
+    {
+      "id": 41,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1593
+    },
+    {
+      "id": 42,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1866
+    },
+    {
+      "id": 43,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1574
+    },
+    {
+      "id": 44,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1452
+    },
+    {
+      "id": 45,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1792
+    },
+    {
+      "id": 46,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1839
+    },
+    {
+      "id": 47,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1788
+    },
+    {
+      "id": 48,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1172
+    },
+    {
+      "id": 49,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1622
+    },
+    {
+      "id": 50,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1746
+    },
+    {
+      "id": 51,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1995
+    },
+    {
+      "id": 52,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1605
+    },
+    {
+      "id": 53,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 2727
+    },
+    {
+      "id": 54,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1432
+    },
+    {
+      "id": 55,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1470
+    },
+    {
+      "id": 56,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 929
+    },
+    {
+      "id": 57,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1859
+    },
+    {
+      "id": 58,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1496
+    },
+    {
+      "id": 59,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1604
+    },
+    {
+      "id": 60,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 2063
+    },
+    {
+      "id": 61,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1410
+    },
+    {
+      "id": 62,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1673
+    },
+    {
+      "id": 63,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 2211
+    },
+    {
+      "id": 64,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1570
+    },
+    {
+      "id": 65,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1249
+    },
+    {
+      "id": 66,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1190
+    },
+    {
+      "id": 67,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 2073
+    },
+    {
+      "id": 68,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1838
+    },
+    {
+      "id": 69,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1787
+    },
+    {
+      "id": 70,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1280
+    },
+    {
+      "id": 71,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1497
+    },
+    {
+      "id": 72,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1596
+    },
+    {
+      "id": 73,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1675
+    },
+    {
+      "id": 74,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 2208
+    },
+    {
+      "id": 75,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1196
+    },
+    {
+      "id": 76,
+      "outline_hex": "#1689FF",
+      "opaque_outline_pixels": 1485
+    },
+    {
+      "id": 77,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1640
+    },
+    {
+      "id": 78,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1533
+    },
+    {
+      "id": 79,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1654
+    },
+    {
+      "id": 80,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1817
+    },
+    {
+      "id": 81,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1670
+    },
+    {
+      "id": 82,
+      "outline_hex": "#FF239F",
+      "opaque_outline_pixels": 1913
+    },
+    {
+      "id": 83,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1247
+    },
+    {
+      "id": 84,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1283
+    },
+    {
+      "id": 85,
+      "outline_hex": "#55EDBB",
+      "opaque_outline_pixels": 1725
+    }
+  ]
+}
