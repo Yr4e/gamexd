@@ -30,7 +30,7 @@ def main():
         hashes.append(digest)
         for field in ('original_name', 'effect_summary_ru', 'outline_hex', 'page_url'):
             assert e[field] == previous[e['id']][field], (e['id'], field)
-        if e['mode'] == 'keep':
+        if e['mode'] == 'keep' and not e.get('pixelate_existing'):
             assert path.read_bytes() == (OLD / e['icon_file']).read_bytes(), e['id']
         if e['mode'] in ('generate', 'edit'):
             generated.append(e['id'])
@@ -42,13 +42,31 @@ def main():
     assert len(list((OUT / 'icons_256').glob('*.png'))) == 85
     associative = [e['id'] for e in entries if e['associative']]
     assert len(associative) == 22
+    baseline_path = OUT / 'before-pixelation/baseline.json'
+    pixelated = [e['id'] for e in entries if e.get('pixelate_existing')]
+    if pixelated:
+        baseline = json.loads(baseline_path.read_text(encoding='utf-8'))
+        assert len(pixelated) == 38
+        for e in entries:
+            if e.get('pixelate_existing'):
+                before = Image.open(OUT / 'before-pixelation' / f'{e["id"]:02d}.png').convert('RGBA')
+                actual = Image.open(OUT / e['file']).convert('RGBA')
+                a_box=actual.getchannel('A').point(lambda a:255 if a>=128 else 0).getbbox()
+                b_box=before.getchannel('A').point(lambda a:255 if a>=128 else 0).getbbox()
+                assert max(abs(a-b) for a,b in zip(a_box,b_box)) <= 10, e['id']
+                color=tuple(int(e['outline_hex'][k:k+2],16) for k in (1,3,5))+(255,)
+                assert any(c == color for _, c in actual.getcolors(65536)), e['id']
+                assert e['sha256'] != baseline[str(e['id'])], e['id']
+            else:
+                assert e['sha256'] == baseline[str(e['id'])], e['id']
     report = {
         'total': 85, 'unique_pngs': 85, 'rgba_size': [256, 256],
         'transparent_margins': True, 'original_effects_and_rarity_preserved': True,
         'modes': dict(Counter(e['mode'] for e in entries)),
         'generated_ids': generated, 'associative_ids': associative,
         'associative_percent': round(len(associative) / 85 * 100, 2),
-        'unchanged_images_byte_identical': True,
+        'pixelated_existing_ids': pixelated,
+        'other_images_byte_identical_to_previous_revision': bool(pixelated),
         'grid_size': list(Image.open(OUT / 'items-simple-grid.png').size),
     }
     (OUT / 'validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')

@@ -63,6 +63,14 @@ def outline(image,color):
     glow.putalpha(Image.fromarray((ndi.gaussian_filter(band.astype(float),1.2)*50).astype('uint8')))
     return clear_empty_rgb(Image.alpha_composite(Image.alpha_composite(glow,layer),image))
 
+def pixelate_existing(image,color,logical=40):
+    # Area sampling retains thin strokes; nearest enlargement keeps crisp blocks.
+    small=image.convert('RGBA').resize((logical,logical),Image.Resampling.BOX)
+    alpha=small.getchannel('A').point(lambda a:255 if a>=128 else 0)
+    rgb=small.convert('RGB').quantize(colors=24,method=Image.Quantize.MEDIANCUT,dither=Image.Dither.NONE).convert('RGB')
+    small=rgb.convert('RGBA');small.putalpha(alpha)
+    return outline(clear_empty_rgb(small.resize((256,256),Image.Resampling.NEAREST)),color)
+
 def main():
     plan=json.loads((OUT/'plan.json').read_text(encoding='utf-8'))
     (OUT/'icons_256').mkdir(exist_ok=True)
@@ -89,6 +97,9 @@ def main():
         else:
             shutil.copyfile(OLD/e['icon_file'],target)
             image=Image.open(target).convert('RGBA')
+        if e.get('pixelate_existing'):
+            image=pixelate_existing(image,e['outline_hex'],e['pixel_canvas_size'])
+            image.save(target)
         e['status']='complete'
         e['sha256']=hashlib.sha256(target.read_bytes()).hexdigest()
         done.append(e['id'])
@@ -98,7 +109,7 @@ def main():
         draw.text((x+10,y+9),str(e['id']),font=font,fill='white',stroke_width=2,stroke_fill='black')
     grid.save(OUT/'items-simple-grid.png')
     (OUT/'catalog.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')
-    fields=['id','original_name','new_name_en','new_name_ru','effect_summary_ru','page_url','outline_hex','outline_color_name','mode','associative','status','file']
+    fields=['id','original_name','new_name_en','new_name_ru','effect_summary_ru','page_url','outline_hex','outline_color_name','mode','pixelate_existing','associative','status','file']
     with (OUT/'catalog.csv').open('w',encoding='utf-8-sig',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');writer.writeheader();writer.writerows(plan)
     cards=''.join(f'<article><b>{e["id"]}</b><img src="{e["file"]}?v={e["sha256"][:10]}"><p>{html.escape(e["new_name_en"])}<br>{html.escape(e["new_name_ru"])}</p></article>' for e in plan if e['status']=='complete')
