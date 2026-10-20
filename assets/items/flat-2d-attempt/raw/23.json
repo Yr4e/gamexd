@@ -1,9 +1,10 @@
 {
   "id": 23,
+  "pass": 2,
   "method": "builtin-imagegen",
-  "intent": "style-transfer edit",
-  "generated_source": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-364fa53f-8841-4113-9472-27c83ceef9d6.png",
-  "target": "before/23.png",
-  "reference": "style-references.png",
+  "intent": "generate-from-original-reference",
+  "generated_source": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-fa521512-bde1-4410-a838-7861ce33cbb9.png",
+  "target": "D:/gamexd/assets/items/originals/23_bobs-light.png",
+  "style_reference": "approved-matte-style.png",
   "prompt": "prompts/23.txt"
 }

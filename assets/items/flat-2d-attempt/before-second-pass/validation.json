@@ -1,0 +1,25 @@
+{
+  "trial_ids": [
+    17,
+    20,
+    23,
+    27,
+    29
+  ],
+  "count": 5,
+  "main_replacements": [],
+  "main_clarity_fix_ids": [
+    1,
+    2
+  ],
+  "other_main_83_byte_identical": true,
+  "rgba_size": [
+    256,
+    256
+  ],
+  "palette_body_max": 16,
+  "rarity_edge_width": 3,
+  "transparent_margins": true,
+  "prompt_and_receipt_count": 5,
+  "method": "builtin-imagegen edits; coded normalization, one colored edge and layout"
+}
