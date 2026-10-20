@@ -1,0 +1,10 @@
+{
+  "id": 13,
+  "pass": 3,
+  "method": "builtin-imagegen",
+  "intent": "style-transfer edit",
+  "generated_source": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-c90ea90e-408c-42dc-bba8-268b449dc4c2.png",
+  "target": "D:/gamexd/assets/items/flat-2d-attempt/before/13.png",
+  "style_reference": "approved-matte-style.png",
+  "prompt": "prompts/13.txt"
+}

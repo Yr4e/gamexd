@@ -1,0 +1,43 @@
+{
+  "weapons": 30,
+  "items": 85,
+  "total_entities": 115,
+  "archived_glossy_variants": 85,
+  "unique_variant_ids": 200,
+  "unique_original_links": 115,
+  "flat_items": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13,
+    15,
+    16,
+    17,
+    20,
+    23,
+    27,
+    29,
+    38
+  ],
+  "individual_pngs_ours": 200,
+  "individual_pngs_originals": 115,
+  "individual_records": 200,
+  "individual_pages": 200,
+  "html_pages_checked": 204,
+  "local_links_verified": true,
+  "effect_and_names_present": true,
+  "hashes_verified": true,
+  "source_notes_items": [
+    4,
+    8,
+    31
+  ],
+  "version_separation_verified": true,
+  "default_resolution_verified": true,
+  "release_approval": "user_granted"
+}

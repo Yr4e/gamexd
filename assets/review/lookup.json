@@ -1,0 +1,2590 @@
+{
+  "schema_version": 1,
+  "name_matching": "Choose category, strip whitespace and casefold original Megabonk name.",
+  "by_original_name": {
+    "items": {
+      "anvil": {
+        "asset_id": "item_01",
+        "original_key": "megabonk:item:anvil",
+        "original_name": "Anvil",
+        "current_name_en": "Triune Gear",
+        "current_name_ru": "Тройная шестерня",
+        "default_set": "items-current",
+        "default_data_file": "items/data/01.json",
+        "default_png": "items/ours/01.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/01.json",
+            "png": "items/ours/01.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/01.json",
+            "png": "items-glossy-early/ours/01.png"
+          }
+        ]
+      },
+      "bloody cleaver": {
+        "asset_id": "item_02",
+        "original_key": "megabonk:item:bloody-cleaver",
+        "original_name": "Bloody Cleaver",
+        "current_name_en": "Hemoseal",
+        "current_name_ru": "Кровопечать",
+        "default_set": "items-current",
+        "default_data_file": "items/data/02.json",
+        "default_png": "items/ours/02.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/02.json",
+            "png": "items/ours/02.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/02.json",
+            "png": "items-glossy-early/ours/02.png"
+          }
+        ]
+      },
+      "dragonfire": {
+        "asset_id": "item_03",
+        "original_key": "megabonk:item:dragonfire",
+        "original_name": "Dragonfire",
+        "current_name_en": "Embercoal",
+        "current_name_ru": "Жар-уголь",
+        "default_set": "items-current",
+        "default_data_file": "items/data/03.json",
+        "default_png": "items/ours/03.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/03.json",
+            "png": "items/ours/03.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/03.json",
+            "png": "items-glossy-early/ours/03.png"
+          }
+        ]
+      },
+      "energy core": {
+        "asset_id": "item_04",
+        "original_key": "megabonk:item:energy-core",
+        "original_name": "Energy Core",
+        "current_name_en": "Noon",
+        "current_name_ru": "Полдень",
+        "default_set": "items-current",
+        "default_data_file": "items/data/04.json",
+        "default_png": "items/ours/04.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/04.json",
+            "png": "items/ours/04.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/04.json",
+            "png": "items-glossy-early/ours/04.png"
+          }
+        ]
+      },
+      "holy book": {
+        "asset_id": "item_05",
+        "original_key": "megabonk:item:holy-book",
+        "original_name": "Holy Book",
+        "current_name_en": "Mercy Bell",
+        "current_name_ru": "Колокол милосердия",
+        "default_set": "items-current",
+        "default_data_file": "items/data/05.json",
+        "default_png": "items/ours/05.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/05.json",
+            "png": "items/ours/05.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/05.json",
+            "png": "items-glossy-early/ours/05.png"
+          }
+        ]
+      },
+      "joe's dagger": {
+        "asset_id": "item_06",
+        "original_key": "megabonk:item:joes-dagger",
+        "original_name": "Joe's Dagger",
+        "current_name_en": "Fate Shears",
+        "current_name_ru": "Ножницы судьбы",
+        "default_set": "items-current",
+        "default_data_file": "items/data/06.json",
+        "default_png": "items/ours/06.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/06.json",
+            "png": "items/ours/06.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/06.json",
+            "png": "items-glossy-early/ours/06.png"
+          }
+        ]
+      },
+      "lightning orb": {
+        "asset_id": "item_07",
+        "original_key": "megabonk:item:lightning-orb",
+        "original_name": "Lightning Orb",
+        "current_name_en": "Storm Nail",
+        "current_name_ru": "Гвоздь грозы",
+        "default_set": "items-current",
+        "default_data_file": "items/data/07.json",
+        "default_png": "items/ours/07.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/07.json",
+            "png": "items/ours/07.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/07.json",
+            "png": "items-glossy-early/ours/07.png"
+          }
+        ]
+      },
+      "golden ring": {
+        "asset_id": "item_08",
+        "original_key": "megabonk:item:golden-ring",
+        "original_name": "Golden Ring",
+        "current_name_en": "Gilded Promise",
+        "current_name_ru": "Золотое обещание",
+        "default_set": "items-current",
+        "default_data_file": "items/data/08.json",
+        "default_png": "items/ours/08.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/08.json",
+            "png": "items/ours/08.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/08.json",
+            "png": "items-glossy-early/ours/08.png"
+          }
+        ]
+      },
+      "snek": {
+        "asset_id": "item_09",
+        "original_key": "megabonk:item:snek",
+        "original_name": "Snek",
+        "current_name_en": "Venom Abacus",
+        "current_name_ru": "Ядовитые счёты",
+        "default_set": "items-current",
+        "default_data_file": "items/data/09.json",
+        "default_png": "items/ours/09.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/09.json",
+            "png": "items/ours/09.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/09.json",
+            "png": "items-glossy-early/ours/09.png"
+          }
+        ]
+      },
+      "pot (stainless steel)": {
+        "asset_id": "item_10",
+        "original_key": "megabonk:item:pot-stainless-steel",
+        "original_name": "Pot (Stainless Steel)",
+        "current_name_en": "Limit Breaker",
+        "current_name_ru": "Взломщик предела",
+        "default_set": "items-current",
+        "default_data_file": "items/data/10.json",
+        "default_png": "items/ours/10.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/10.json",
+            "png": "items/ours/10.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/10.json",
+            "png": "items-glossy-early/ours/10.png"
+          }
+        ]
+      },
+      "soul harvester": {
+        "asset_id": "item_11",
+        "original_key": "megabonk:item:soul-harvester",
+        "original_name": "Soul Harvester",
+        "current_name_en": "Twin Wisps",
+        "current_name_ru": "Два блуждающих огня",
+        "default_set": "items-current",
+        "default_data_file": "items/data/11.json",
+        "default_png": "items/ours/11.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/11.json",
+            "png": "items/ours/11.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/11.json",
+            "png": "items-glossy-early/ours/11.png"
+          }
+        ]
+      },
+      "speed boi": {
+        "asset_id": "item_12",
+        "original_key": "megabonk:item:speed-boi",
+        "original_name": "Speed Boi",
+        "current_name_en": "Crisis Pendulum",
+        "current_name_ru": "Маятник кризиса",
+        "default_set": "items-current",
+        "default_data_file": "items/data/12.json",
+        "default_png": "items/ours/12.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/12.json",
+            "png": "items/ours/12.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/12.json",
+            "png": "items-glossy-early/ours/12.png"
+          }
+        ]
+      },
+      "sucky magnet": {
+        "asset_id": "item_13",
+        "original_key": "megabonk:item:sucky-magnet",
+        "original_name": "Sucky Magnet",
+        "current_name_en": "Shard Vortex",
+        "current_name_ru": "Воронка осколков",
+        "default_set": "items-current",
+        "default_data_file": "items/data/13.json",
+        "default_png": "items/ours/13.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/13.json",
+            "png": "items/ours/13.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/13.json",
+            "png": "items-glossy-early/ours/13.png"
+          }
+        ]
+      },
+      "za warudo": {
+        "asset_id": "item_14",
+        "original_key": "megabonk:item:za-warudo",
+        "original_name": "Za Warudo",
+        "current_name_en": "Stillheart Reliquary",
+        "current_name_ru": "Реликварий тишины",
+        "default_set": "items-current",
+        "default_data_file": "items/data/14.json",
+        "default_png": "items/ours/14.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/14.json",
+            "png": "items/ours/14.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/14.json",
+            "png": "items-glossy-early/ours/14.png"
+          }
+        ]
+      },
+      "overpowered lamp": {
+        "asset_id": "item_15",
+        "original_key": "megabonk:item:overpowered-lamp",
+        "original_name": "Overpowered Lamp",
+        "current_name_en": "Second Spark",
+        "current_name_ru": "Вторая искра",
+        "default_set": "items-current",
+        "default_data_file": "items/data/15.json",
+        "default_png": "items/ours/15.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/15.json",
+            "png": "items/ours/15.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/15.json",
+            "png": "items-glossy-early/ours/15.png"
+          }
+        ]
+      },
+      "big bonk": {
+        "asset_id": "item_16",
+        "original_key": "megabonk:item:big-bonk",
+        "original_name": "Big Bonk",
+        "current_name_en": "Thunder Ram",
+        "current_name_ru": "Громовой таран",
+        "default_set": "items-current",
+        "default_data_file": "items/data/16.json",
+        "default_png": "items/ours/16.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/16.json",
+            "png": "items/ours/16.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/16.json",
+            "png": "items-glossy-early/ours/16.png"
+          }
+        ]
+      },
+      "chonkplate": {
+        "asset_id": "item_17",
+        "original_key": "megabonk:item:chonkplate",
+        "original_name": "Chonkplate",
+        "current_name_en": "Crimson Cistern",
+        "current_name_ru": "Багровая цистерна",
+        "default_set": "items-current",
+        "default_data_file": "items/data/17.json",
+        "default_png": "items/ours/17.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/17.json",
+            "png": "items/ours/17.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/17.json",
+            "png": "items-glossy-early/ours/17.png"
+          }
+        ]
+      },
+      "giant fork": {
+        "asset_id": "item_18",
+        "original_key": "megabonk:item:giant-fork",
+        "original_name": "Giant Fork",
+        "current_name_en": "Third Knock",
+        "current_name_ru": "Третий стук",
+        "default_set": "items-current",
+        "default_data_file": "items/data/18.json",
+        "default_png": "items/ours/18.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/18.json",
+            "png": "items/ours/18.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/18.json",
+            "png": "items-glossy-early/ours/18.png"
+          }
+        ]
+      },
+      "ice cube": {
+        "asset_id": "item_19",
+        "original_key": "megabonk:item:ice-cube",
+        "original_name": "Ice Cube",
+        "current_name_en": "Long Pause",
+        "current_name_ru": "Долгая пауза",
+        "default_set": "items-current",
+        "default_data_file": "items/data/19.json",
+        "default_png": "items/ours/19.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/19.json",
+            "png": "items/ours/19.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/19.json",
+            "png": "items-glossy-early/ours/19.png"
+          }
+        ]
+      },
+      "power gloves": {
+        "asset_id": "item_20",
+        "original_key": "megabonk:item:power-gloves",
+        "original_name": "Power Gloves",
+        "current_name_en": "Shock Drum",
+        "current_name_ru": "Ударный барабан",
+        "default_set": "items-current",
+        "default_data_file": "items/data/20.json",
+        "default_png": "items/ours/20.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/20.json",
+            "png": "items/ours/20.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/20.json",
+            "png": "items-glossy-early/ours/20.png"
+          }
+        ]
+      },
+      "spicy meatball": {
+        "asset_id": "item_21",
+        "original_key": "megabonk:item:spicy-meatball",
+        "original_name": "Spicy Meatball",
+        "current_name_en": "Blast Capsule",
+        "current_name_ru": "Ударная капсула",
+        "default_set": "items-current",
+        "default_data_file": "items/data/21.json",
+        "default_png": "items/ours/21.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/21.json",
+            "png": "items/ours/21.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/21.json",
+            "png": "items-glossy-early/ours/21.png"
+          }
+        ]
+      },
+      "wizard's hat": {
+        "asset_id": "item_22",
+        "original_key": "megabonk:item:wizards-hat",
+        "original_name": "Wizard's Hat",
+        "current_name_en": "Northbound",
+        "current_name_ru": "На север",
+        "default_set": "items-current",
+        "default_data_file": "items/data/22.json",
+        "default_png": "items/ours/22.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/22.json",
+            "png": "items/ours/22.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/22.json",
+            "png": "items-glossy-early/ours/22.png"
+          }
+        ]
+      },
+      "bob's light": {
+        "asset_id": "item_23",
+        "original_key": "megabonk:item:bobs-light",
+        "original_name": "Bob's Light",
+        "current_name_en": "Dawn Prism",
+        "current_name_ru": "Призма рассвета",
+        "default_set": "items-current",
+        "default_data_file": "items/data/23.json",
+        "default_png": "items/ours/23.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/23.json",
+            "png": "items/ours/23.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/23.json",
+            "png": "items-glossy-early/ours/23.png"
+          }
+        ]
+      },
+      "cursed grabbies": {
+        "asset_id": "item_24",
+        "original_key": "megabonk:item:cursed-grabbies",
+        "original_name": "Cursed Grabbies",
+        "current_name_en": "Hex Grips",
+        "current_name_ru": "Руки порчи",
+        "default_set": "items-current",
+        "default_data_file": "items/data/24.json",
+        "default_png": "items/ours/24.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/24.json",
+            "png": "items/ours/24.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/24.json",
+            "png": "items-glossy-early/ours/24.png"
+          }
+        ]
+      },
+      "demonic soul": {
+        "asset_id": "item_25",
+        "original_key": "megabonk:item:demonic-soul",
+        "original_name": "Demonic Soul",
+        "current_name_en": "Borrowed Trace",
+        "current_name_ru": "Чужой след",
+        "default_set": "items-current",
+        "default_data_file": "items/data/25.json",
+        "default_png": "items/ours/25.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/25.json",
+            "png": "items/ours/25.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/25.json",
+            "png": "items-glossy-early/ours/25.png"
+          }
+        ]
+      },
+      "eagle claw": {
+        "asset_id": "item_26",
+        "original_key": "megabonk:item:eagle-claw",
+        "original_name": "Eagle Claw",
+        "current_name_en": "Paper Moon",
+        "current_name_ru": "Бумажная луна",
+        "default_set": "items-current",
+        "default_data_file": "items/data/26.json",
+        "default_png": "items/ours/26.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/26.json",
+            "png": "items/ours/26.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/26.json",
+            "png": "items-glossy-early/ours/26.png"
+          }
+        ]
+      },
+      "gamer goggles": {
+        "asset_id": "item_27",
+        "original_key": "megabonk:item:gamer-goggles",
+        "original_name": "Gamer Goggles",
+        "current_name_en": "Berserker Fuse",
+        "current_name_ru": "Фитиль берсерка",
+        "default_set": "items-current",
+        "default_data_file": "items/data/27.json",
+        "default_png": "items/ours/27.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/27.json",
+            "png": "items/ours/27.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/27.json",
+            "png": "items-glossy-early/ours/27.png"
+          }
+        ]
+      },
+      "gas mask": {
+        "asset_id": "item_28",
+        "original_key": "megabonk:item:gas-mask",
+        "original_name": "Gas Mask",
+        "current_name_en": "Last Stop",
+        "current_name_ru": "Последняя остановка",
+        "default_set": "items-current",
+        "default_data_file": "items/data/28.json",
+        "default_png": "items/ours/28.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/28.json",
+            "png": "items/ours/28.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/28.json",
+            "png": "items-glossy-early/ours/28.png"
+          }
+        ]
+      },
+      "grandma's secret tonic": {
+        "asset_id": "item_29",
+        "original_key": "megabonk:item:grandmas-secret-tonic",
+        "original_name": "Grandma's Secret Tonic",
+        "current_name_en": "Blast Brew",
+        "current_name_ru": "Взрывное пиво",
+        "default_set": "items-current",
+        "default_data_file": "items/data/29.json",
+        "default_png": "items/ours/29.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/29.json",
+            "png": "items/ours/29.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/29.json",
+            "png": "items-glossy-early/ours/29.png"
+          }
+        ]
+      },
+      "shattered knowledge": {
+        "asset_id": "item_30",
+        "original_key": "megabonk:item:shattered-knowledge",
+        "original_name": "Shattered Knowledge",
+        "current_name_en": "Side Road",
+        "current_name_ru": "Обходной путь",
+        "default_set": "items-current",
+        "default_data_file": "items/data/30.json",
+        "default_png": "items/ours/30.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/30.json",
+            "png": "items/ours/30.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/30.json",
+            "png": "items-glossy-early/ours/30.png"
+          }
+        ]
+      },
+      "slutty cannon": {
+        "asset_id": "item_31",
+        "original_key": "megabonk:item:slutty-cannon",
+        "original_name": "Slutty Cannon",
+        "current_name_en": "Vengeance Hive",
+        "current_name_ru": "Улей возмездия",
+        "default_set": "items-current",
+        "default_data_file": "items/data/31.json",
+        "default_png": "items/ours/31.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/31.json",
+            "png": "items/ours/31.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/31.json",
+            "png": "items-glossy-early/ours/31.png"
+          }
+        ]
+      },
+      "toxic barrel": {
+        "asset_id": "item_32",
+        "original_key": "megabonk:item:toxic-barrel",
+        "original_name": "Toxic Barrel",
+        "current_name_en": "Dry Season",
+        "current_name_ru": "Сухой сезон",
+        "default_set": "items-current",
+        "default_data_file": "items/data/32.json",
+        "default_png": "items/ours/32.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/32.json",
+            "png": "items/ours/32.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/32.json",
+            "png": "items-glossy-early/ours/32.png"
+          }
+        ]
+      },
+      "turbo skates": {
+        "asset_id": "item_33",
+        "original_key": "megabonk:item:turbo-skates",
+        "original_name": "Turbo Skates",
+        "current_name_en": "Backbeat",
+        "current_name_ru": "Затакт",
+        "default_set": "items-current",
+        "default_data_file": "items/data/33.json",
+        "default_png": "items/ours/33.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/33.json",
+            "png": "items/ours/33.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/33.json",
+            "png": "items-glossy-early/ours/33.png"
+          }
+        ]
+      },
+      "kevin": {
+        "asset_id": "item_34",
+        "original_key": "megabonk:item:kevin",
+        "original_name": "Kevin",
+        "current_name_en": "Spite Box",
+        "current_name_ru": "Коробка назло",
+        "default_set": "items-current",
+        "default_data_file": "items/data/34.json",
+        "default_png": "items/ours/34.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/34.json",
+            "png": "items/ours/34.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/34.json",
+            "png": "items-glossy-early/ours/34.png"
+          }
+        ]
+      },
+      "pumpkin": {
+        "asset_id": "item_35",
+        "original_key": "megabonk:item:pumpkin",
+        "original_name": "Pumpkin",
+        "current_name_en": "Reward Pot",
+        "current_name_ru": "Горшок награды",
+        "default_set": "items-current",
+        "default_data_file": "items/data/35.json",
+        "default_png": "items/ours/35.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/35.json",
+            "png": "items/ours/35.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/35.json",
+            "png": "items-glossy-early/ours/35.png"
+          }
+        ]
+      },
+      "backpack": {
+        "asset_id": "item_36",
+        "original_key": "megabonk:item:backpack",
+        "original_name": "Backpack",
+        "current_name_en": "Second Opinion",
+        "current_name_ru": "Второе мнение",
+        "default_set": "items-current",
+        "default_data_file": "items/data/36.json",
+        "default_png": "items/ours/36.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/36.json",
+            "png": "items/ours/36.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/36.json",
+            "png": "items-glossy-early/ours/36.png"
+          }
+        ]
+      },
+      "beacon": {
+        "asset_id": "item_37",
+        "original_key": "megabonk:item:beacon",
+        "original_name": "Beacon",
+        "current_name_en": "Fifth Corner",
+        "current_name_ru": "Пятый угол",
+        "default_set": "items-current",
+        "default_data_file": "items/data/37.json",
+        "default_png": "items/ours/37.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/37.json",
+            "png": "items/ours/37.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/37.json",
+            "png": "items-glossy-early/ours/37.png"
+          }
+        ]
+      },
+      "coward's cloak": {
+        "asset_id": "item_38",
+        "original_key": "megabonk:item:cowards-cloak",
+        "original_name": "Coward's Cloak",
+        "current_name_en": "Panic Whistle",
+        "current_name_ru": "Свисток паники",
+        "default_set": "items-current",
+        "default_data_file": "items/data/38.json",
+        "default_png": "items/ours/38.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/38.json",
+            "png": "items/ours/38.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/38.json",
+            "png": "items-glossy-early/ours/38.png"
+          }
+        ]
+      },
+      "demonic blade": {
+        "asset_id": "item_39",
+        "original_key": "megabonk:item:demonic-blade",
+        "original_name": "Demonic Blade",
+        "current_name_en": "Suture Needle",
+        "current_name_ru": "Игла сшивания",
+        "default_set": "items-current",
+        "default_data_file": "items/data/39.json",
+        "default_png": "items/ours/39.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/39.json",
+            "png": "items/ours/39.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/39.json",
+            "png": "items-glossy-early/ours/39.png"
+          }
+        ]
+      },
+      "demonic blood": {
+        "asset_id": "item_40",
+        "original_key": "megabonk:item:demonic-blood",
+        "original_name": "Demonic Blood",
+        "current_name_en": "Growth Marrow",
+        "current_name_ru": "Растущий костный мозг",
+        "default_set": "items-current",
+        "default_data_file": "items/data/40.json",
+        "default_png": "items/ours/40.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/40.json",
+            "png": "items/ours/40.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/40.json",
+            "png": "items-glossy-early/ours/40.png"
+          }
+        ]
+      },
+      "echo shard": {
+        "asset_id": "item_41",
+        "original_key": "megabonk:item:echo-shard",
+        "original_name": "Echo Shard",
+        "current_name_en": "Postal Wind",
+        "current_name_ru": "Почтовый ветер",
+        "default_set": "items-current",
+        "default_data_file": "items/data/41.json",
+        "default_png": "items/ours/41.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/41.json",
+            "png": "items/ours/41.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/41.json",
+            "png": "items-glossy-early/ours/41.png"
+          }
+        ]
+      },
+      "golden glove": {
+        "asset_id": "item_42",
+        "original_key": "megabonk:item:golden-glove",
+        "original_name": "Golden Glove",
+        "current_name_en": "Bounty Tag",
+        "current_name_ru": "Жетон добычи",
+        "default_set": "items-current",
+        "default_data_file": "items/data/42.json",
+        "default_png": "items/ours/42.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/42.json",
+            "png": "items/ours/42.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/42.json",
+            "png": "items-glossy-early/ours/42.png"
+          }
+        ]
+      },
+      "golden shield": {
+        "asset_id": "item_43",
+        "original_key": "megabonk:item:golden-shield",
+        "original_name": "Golden Shield",
+        "current_name_en": "Gilded Bruise",
+        "current_name_ru": "Золотой ушиб",
+        "default_set": "items-current",
+        "default_data_file": "items/data/43.json",
+        "default_png": "items/ours/43.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/43.json",
+            "png": "items/ours/43.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/43.json",
+            "png": "items-glossy-early/ours/43.png"
+          }
+        ]
+      },
+      "golden sneakers": {
+        "asset_id": "item_44",
+        "original_key": "megabonk:item:golden-sneakers",
+        "original_name": "Golden Sneakers",
+        "current_name_en": "Soft Landing",
+        "current_name_ru": "Мягкая посадка",
+        "default_set": "items-current",
+        "default_data_file": "items/data/44.json",
+        "default_png": "items/ours/44.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/44.json",
+            "png": "items/ours/44.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/44.json",
+            "png": "items-glossy-early/ours/44.png"
+          }
+        ]
+      },
+      "gym sauce": {
+        "asset_id": "item_45",
+        "original_key": "megabonk:item:gym-sauce",
+        "original_name": "Gym Sauce",
+        "current_name_en": "Ironroot",
+        "current_name_ru": "Железный корень",
+        "default_set": "items-current",
+        "default_data_file": "items/data/45.json",
+        "default_png": "items/ours/45.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/45.json",
+            "png": "items/ours/45.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/45.json",
+            "png": "items-glossy-early/ours/45.png"
+          }
+        ]
+      },
+      "idle juice": {
+        "asset_id": "item_46",
+        "original_key": "megabonk:item:idle-juice",
+        "original_name": "Idle Juice",
+        "current_name_en": "Quiet Guest",
+        "current_name_ru": "Тихий гость",
+        "default_set": "items-current",
+        "default_data_file": "items/data/46.json",
+        "default_png": "items/ours/46.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/46.json",
+            "png": "items/ours/46.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/46.json",
+            "png": "items-glossy-early/ours/46.png"
+          }
+        ]
+      },
+      "quin's mask": {
+        "asset_id": "item_47",
+        "original_key": "megabonk:item:quins-mask",
+        "original_name": "Quin's Mask",
+        "current_name_en": "Jester's Grin",
+        "current_name_ru": "Улыбка шута",
+        "default_set": "items-current",
+        "default_data_file": "items/data/47.json",
+        "default_png": "items/ours/47.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/47.json",
+            "png": "items/ours/47.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/47.json",
+            "png": "items-glossy-early/ours/47.png"
+          }
+        ]
+      },
+      "leeching crystal": {
+        "asset_id": "item_48",
+        "original_key": "megabonk:item:leeching-crystal",
+        "original_name": "Leeching Crystal",
+        "current_name_en": "Leechstone",
+        "current_name_ru": "Кровососный камень",
+        "default_set": "items-current",
+        "default_data_file": "items/data/48.json",
+        "default_png": "items/ours/48.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/48.json",
+            "png": "items/ours/48.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/48.json",
+            "png": "items-glossy-early/ours/48.png"
+          }
+        ]
+      },
+      "mirror": {
+        "asset_id": "item_49",
+        "original_key": "megabonk:item:mirror",
+        "original_name": "Mirror",
+        "current_name_en": "Ricochet Prism",
+        "current_name_ru": "Призма рикошета",
+        "default_set": "items-current",
+        "default_data_file": "items/data/49.json",
+        "default_png": "items/ours/49.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/49.json",
+            "png": "items/ours/49.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/49.json",
+            "png": "items-glossy-early/ours/49.png"
+          }
+        ]
+      },
+      "moldy gloves": {
+        "asset_id": "item_50",
+        "original_key": "megabonk:item:moldy-gloves",
+        "original_name": "Moldy Gloves",
+        "current_name_en": "Spore Grips",
+        "current_name_ru": "Споровые перчатки",
+        "default_set": "items-current",
+        "default_data_file": "items/data/50.json",
+        "default_png": "items/ours/50.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/50.json",
+            "png": "items/ours/50.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/50.json",
+            "png": "items-glossy-early/ours/50.png"
+          }
+        ]
+      },
+      "phantom shroud": {
+        "asset_id": "item_51",
+        "original_key": "megabonk:item:phantom-shroud",
+        "original_name": "Phantom Shroud",
+        "current_name_en": "Evasion Hood",
+        "current_name_ru": "Капюшон ускользания",
+        "default_set": "items-current",
+        "default_data_file": "items/data/51.json",
+        "default_png": "items/ours/51.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/51.json",
+            "png": "items/ours/51.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/51.json",
+            "png": "items-glossy-early/ours/51.png"
+          }
+        ]
+      },
+      "slippery ring": {
+        "asset_id": "item_52",
+        "original_key": "megabonk:item:slippery-ring",
+        "original_name": "Slippery Ring",
+        "current_name_en": "Smoke Button",
+        "current_name_ru": "Дымная пуговица",
+        "default_set": "items-current",
+        "default_data_file": "items/data/52.json",
+        "default_png": "items/ours/52.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/52.json",
+            "png": "items/ours/52.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/52.json",
+            "png": "items-glossy-early/ours/52.png"
+          }
+        ]
+      },
+      "slurp gloves": {
+        "asset_id": "item_53",
+        "original_key": "megabonk:item:slurp-gloves",
+        "original_name": "Slurp Gloves",
+        "current_name_en": "Low Tide",
+        "current_name_ru": "Отлив",
+        "default_set": "items-current",
+        "default_data_file": "items/data/53.json",
+        "default_png": "items/ours/53.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/53.json",
+            "png": "items/ours/53.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/53.json",
+            "png": "items-glossy-early/ours/53.png"
+          }
+        ]
+      },
+      "spiky shield": {
+        "asset_id": "item_54",
+        "original_key": "megabonk:item:spiky-shield",
+        "original_name": "Spiky Shield",
+        "current_name_en": "Sixth Sense",
+        "current_name_ru": "Шестое чувство",
+        "default_set": "items-current",
+        "default_data_file": "items/data/54.json",
+        "default_png": "items/ours/54.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/54.json",
+            "png": "items/ours/54.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/54.json",
+            "png": "items-glossy-early/ours/54.png"
+          }
+        ]
+      },
+      "thunder mitts": {
+        "asset_id": "item_55",
+        "original_key": "megabonk:item:thunder-mitts",
+        "original_name": "Thunder Mitts",
+        "current_name_en": "Long Weekend",
+        "current_name_ru": "Длинные выходные",
+        "default_set": "items-current",
+        "default_data_file": "items/data/55.json",
+        "default_png": "items/ours/55.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/55.json",
+            "png": "items/ours/55.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/55.json",
+            "png": "items-glossy-early/ours/55.png"
+          }
+        ]
+      },
+      "time bracelet": {
+        "asset_id": "item_56",
+        "original_key": "megabonk:item:time-bracelet",
+        "original_name": "Time Bracelet",
+        "current_name_en": "After Lunch",
+        "current_name_ru": "После обеда",
+        "default_set": "items-current",
+        "default_data_file": "items/data/56.json",
+        "default_png": "items/ours/56.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/56.json",
+            "png": "items/ours/56.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/56.json",
+            "png": "items-glossy-early/ours/56.png"
+          }
+        ]
+      },
+      "unstable transfusion": {
+        "asset_id": "item_57",
+        "original_key": "megabonk:item:unstable-transfusion",
+        "original_name": "Unstable Transfusion",
+        "current_name_en": "Scarlet Spindle",
+        "current_name_ru": "Алое веретено",
+        "default_set": "items-current",
+        "default_data_file": "items/data/57.json",
+        "default_png": "items/ours/57.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/57.json",
+            "png": "items/ours/57.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/57.json",
+            "png": "items-glossy-early/ours/57.png"
+          }
+        ]
+      },
+      "wrench": {
+        "asset_id": "item_58",
+        "original_key": "megabonk:item:wrench",
+        "original_name": "Wrench",
+        "current_name_en": "Shrine Adjuster",
+        "current_name_ru": "Ключ святилищ",
+        "default_set": "items-current",
+        "default_data_file": "items/data/58.json",
+        "default_png": "items/ours/58.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/58.json",
+            "png": "items/ours/58.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/58.json",
+            "png": "items-glossy-early/ours/58.png"
+          }
+        ]
+      },
+      "old mask": {
+        "asset_id": "item_59",
+        "original_key": "megabonk:item:old-mask",
+        "original_name": "Old Mask",
+        "current_name_en": "Between Lines",
+        "current_name_ru": "Между строк",
+        "default_set": "items-current",
+        "default_data_file": "items/data/59.json",
+        "default_png": "items/ours/59.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/59.json",
+            "png": "items/ours/59.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/59.json",
+            "png": "items-glossy-early/ours/59.png"
+          }
+        ]
+      },
+      "battery": {
+        "asset_id": "item_60",
+        "original_key": "megabonk:item:battery",
+        "original_name": "Battery",
+        "current_name_en": "Pulse Cell",
+        "current_name_ru": "Импульсная батарея",
+        "default_set": "items-current",
+        "default_data_file": "items/data/60.json",
+        "default_png": "items/ours/60.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/60.json",
+            "png": "items/ours/60.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/60.json",
+            "png": "items-glossy-early/ours/60.png"
+          }
+        ]
+      },
+      "beefy ring": {
+        "asset_id": "item_61",
+        "original_key": "megabonk:item:beefy-ring",
+        "original_name": "Beefy Ring",
+        "current_name_en": "Titan Vertebra",
+        "current_name_ru": "Позвонок титана",
+        "default_set": "items-current",
+        "default_data_file": "items/data/61.json",
+        "default_png": "items/ours/61.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/61.json",
+            "png": "items/ours/61.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/61.json",
+            "png": "items-glossy-early/ours/61.png"
+          }
+        ]
+      },
+      "beer": {
+        "asset_id": "item_62",
+        "original_key": "megabonk:item:beer",
+        "original_name": "Beer",
+        "current_name_en": "Reckless Pepper",
+        "current_name_ru": "Перец безрассудства",
+        "default_set": "items-current",
+        "default_data_file": "items/data/62.json",
+        "default_png": "items/ours/62.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/62.json",
+            "png": "items/ours/62.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/62.json",
+            "png": "items-glossy-early/ours/62.png"
+          }
+        ]
+      },
+      "bob (dead)": {
+        "asset_id": "item_63",
+        "original_key": "megabonk:item:bob-dead",
+        "original_name": "Bob (Dead)",
+        "current_name_en": "Wanderer",
+        "current_name_ru": "Бродяга",
+        "default_set": "items-current",
+        "default_data_file": "items/data/63.json",
+        "default_png": "items/ours/63.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/63.json",
+            "png": "items/ours/63.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/63.json",
+            "png": "items-glossy-early/ours/63.png"
+          }
+        ]
+      },
+      "borgar": {
+        "asset_id": "item_64",
+        "original_key": "megabonk:item:borgar",
+        "original_name": "Borgar",
+        "current_name_en": "Spare Minute",
+        "current_name_ru": "Запасная минута",
+        "default_set": "items-current",
+        "default_data_file": "items/data/64.json",
+        "default_png": "items/ours/64.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/64.json",
+            "png": "items/ours/64.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/64.json",
+            "png": "items-glossy-early/ours/64.png"
+          }
+        ]
+      },
+      "boss buster": {
+        "asset_id": "item_65",
+        "original_key": "megabonk:item:boss-buster",
+        "original_name": "Boss Buster",
+        "current_name_en": "Giantbreaker Wedge",
+        "current_name_ru": "Клин исполиноборца",
+        "default_set": "items-current",
+        "default_data_file": "items/data/65.json",
+        "default_png": "items/ours/65.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/65.json",
+            "png": "items/ours/65.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/65.json",
+            "png": "items-glossy-early/ours/65.png"
+          }
+        ]
+      },
+      "brass knuckles": {
+        "asset_id": "item_66",
+        "original_key": "megabonk:item:brass-knuckles",
+        "original_name": "Brass Knuckles",
+        "current_name_en": "Short Answer",
+        "current_name_ru": "Короткий ответ",
+        "default_set": "items-current",
+        "default_data_file": "items/data/66.json",
+        "default_png": "items/ours/66.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/66.json",
+            "png": "items/ours/66.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/66.json",
+            "png": "items-glossy-early/ours/66.png"
+          }
+        ]
+      },
+      "cactus": {
+        "asset_id": "item_67",
+        "original_key": "megabonk:item:cactus",
+        "original_name": "Cactus",
+        "current_name_en": "Spike Pouch",
+        "current_name_ru": "Мешочек шипов",
+        "default_set": "items-current",
+        "default_data_file": "items/data/67.json",
+        "default_png": "items/ours/67.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/67.json",
+            "png": "items/ours/67.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/67.json",
+            "png": "items-glossy-early/ours/67.png"
+          }
+        ]
+      },
+      "campfire": {
+        "asset_id": "item_68",
+        "original_key": "megabonk:item:campfire",
+        "original_name": "Campfire",
+        "current_name_en": "Quiet Embers",
+        "current_name_ru": "Тихие угли",
+        "default_set": "items-current",
+        "default_data_file": "items/data/68.json",
+        "default_png": "items/ours/68.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/68.json",
+            "png": "items/ours/68.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/68.json",
+            "png": "items-glossy-early/ours/68.png"
+          }
+        ]
+      },
+      "clover": {
+        "asset_id": "item_69",
+        "original_key": "megabonk:item:clover",
+        "original_name": "Clover",
+        "current_name_en": "Fortune Coin",
+        "current_name_ru": "Монета удачи",
+        "default_set": "items-current",
+        "default_data_file": "items/data/69.json",
+        "default_png": "items/ours/69.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/69.json",
+            "png": "items/ours/69.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/69.json",
+            "png": "items-glossy-early/ours/69.png"
+          }
+        ]
+      },
+      "credit card (green)": {
+        "asset_id": "item_70",
+        "original_key": "megabonk:item:credit-card-green",
+        "original_name": "Credit Card (Green)",
+        "current_name_en": "Fortune Pass",
+        "current_name_ru": "Пропуск удачи",
+        "default_set": "items-current",
+        "default_data_file": "items/data/70.json",
+        "default_png": "items/ours/70.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/70.json",
+            "png": "items/ours/70.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/70.json",
+            "png": "items-glossy-early/ours/70.png"
+          }
+        ]
+      },
+      "credit card (red)": {
+        "asset_id": "item_71",
+        "original_key": "megabonk:item:credit-card-red",
+        "original_name": "Credit Card (Red)",
+        "current_name_en": "Spoils Pass",
+        "current_name_ru": "Трофейный пропуск",
+        "default_set": "items-current",
+        "default_data_file": "items/data/71.json",
+        "default_png": "items/ours/71.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/71.json",
+            "png": "items/ours/71.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/71.json",
+            "png": "items-glossy-early/ours/71.png"
+          }
+        ]
+      },
+      "cursed doll": {
+        "asset_id": "item_72",
+        "original_key": "megabonk:item:cursed-doll",
+        "original_name": "Cursed Doll",
+        "current_name_en": "Hex Stitch",
+        "current_name_ru": "Стежок порчи",
+        "default_set": "items-current",
+        "default_data_file": "items/data/72.json",
+        "default_png": "items/ours/72.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/72.json",
+            "png": "items/ours/72.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/72.json",
+            "png": "items-glossy-early/ours/72.png"
+          }
+        ]
+      },
+      "electric plug": {
+        "asset_id": "item_73",
+        "original_key": "megabonk:item:electric-plug",
+        "original_name": "Electric Plug",
+        "current_name_en": "Live Plug",
+        "current_name_ru": "Живой контакт",
+        "default_set": "items-current",
+        "default_data_file": "items/data/73.json",
+        "default_png": "items/ours/73.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/73.json",
+            "png": "items/ours/73.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/73.json",
+            "png": "items-glossy-early/ours/73.png"
+          }
+        ]
+      },
+      "feathers": {
+        "asset_id": "item_74",
+        "original_key": "megabonk:item:feathers",
+        "original_name": "Feathers",
+        "current_name_en": "Spring Step",
+        "current_name_ru": "Пружинный шаг",
+        "default_set": "items-current",
+        "default_data_file": "items/data/74.json",
+        "default_png": "items/ours/74.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/74.json",
+            "png": "items/ours/74.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/74.json",
+            "png": "items-glossy-early/ours/74.png"
+          }
+        ]
+      },
+      "forbidden juice": {
+        "asset_id": "item_75",
+        "original_key": "megabonk:item:forbidden-juice",
+        "original_name": "Forbidden Juice",
+        "current_name_en": "Red Focus",
+        "current_name_ru": "Красный фокус",
+        "default_set": "items-current",
+        "default_data_file": "items/data/75.json",
+        "default_png": "items/ours/75.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/75.json",
+            "png": "items/ours/75.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/75.json",
+            "png": "items-glossy-early/ours/75.png"
+          }
+        ]
+      },
+      "ghost": {
+        "asset_id": "item_76",
+        "original_key": "megabonk:item:ghost",
+        "original_name": "Ghost",
+        "current_name_en": "Restless Wisp",
+        "current_name_ru": "Непоседливый дух",
+        "default_set": "items-current",
+        "default_data_file": "items/data/76.json",
+        "default_png": "items/ours/76.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/76.json",
+            "png": "items/ours/76.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/76.json",
+            "png": "items-glossy-early/ours/76.png"
+          }
+        ]
+      },
+      "ice crystal": {
+        "asset_id": "item_77",
+        "original_key": "megabonk:item:ice-crystal",
+        "original_name": "Ice Crystal",
+        "current_name_en": "Frost Splinter",
+        "current_name_ru": "Морозный скол",
+        "default_set": "items-current",
+        "default_data_file": "items/data/77.json",
+        "default_png": "items/ours/77.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/77.json",
+            "png": "items/ours/77.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/77.json",
+            "png": "items-glossy-early/ours/77.png"
+          }
+        ]
+      },
+      "key": {
+        "asset_id": "item_78",
+        "original_key": "megabonk:item:key",
+        "original_name": "Key",
+        "current_name_en": "Free Latch",
+        "current_name_ru": "Свободная защёлка",
+        "default_set": "items-current",
+        "default_data_file": "items/data/78.json",
+        "default_png": "items/ours/78.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/78.json",
+            "png": "items/ours/78.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/78.json",
+            "png": "items-glossy-early/ours/78.png"
+          }
+        ]
+      },
+      "medkit": {
+        "asset_id": "item_79",
+        "original_key": "megabonk:item:medkit",
+        "original_name": "Medkit",
+        "current_name_en": "Field Kit",
+        "current_name_ru": "Полевая аптечка",
+        "default_set": "items-current",
+        "default_data_file": "items/data/79.json",
+        "default_png": "items/ours/79.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/79.json",
+            "png": "items/ours/79.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/79.json",
+            "png": "items-glossy-early/ours/79.png"
+          }
+        ]
+      },
+      "moldy cheese": {
+        "asset_id": "item_80",
+        "original_key": "megabonk:item:moldy-cheese",
+        "original_name": "Moldy Cheese",
+        "current_name_en": "Sour Wedge",
+        "current_name_ru": "Кислый ломтик",
+        "default_set": "items-current",
+        "default_data_file": "items/data/80.json",
+        "default_png": "items/ours/80.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/80.json",
+            "png": "items/ours/80.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/80.json",
+            "png": "items-glossy-early/ours/80.png"
+          }
+        ]
+      },
+      "oats": {
+        "asset_id": "item_81",
+        "original_key": "megabonk:item:oats",
+        "original_name": "Oats",
+        "current_name_en": "Iron Wafer",
+        "current_name_ru": "Крепкий сухарь",
+        "default_set": "items-current",
+        "default_data_file": "items/data/81.json",
+        "default_png": "items/ours/81.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/81.json",
+            "png": "items/ours/81.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/81.json",
+            "png": "items-glossy-early/ours/81.png"
+          }
+        ]
+      },
+      "scarf": {
+        "asset_id": "item_82",
+        "original_key": "megabonk:item:scarf",
+        "original_name": "Scarf",
+        "current_name_en": "High Pin",
+        "current_name_ru": "Высотный штифт",
+        "default_set": "items-current",
+        "default_data_file": "items/data/82.json",
+        "default_png": "items/ours/82.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/82.json",
+            "png": "items/ours/82.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/82.json",
+            "png": "items-glossy-early/ours/82.png"
+          }
+        ]
+      },
+      "skuleg": {
+        "asset_id": "item_83",
+        "original_key": "megabonk:item:skuleg",
+        "original_name": "Skuleg",
+        "current_name_en": "Doom Die",
+        "current_name_ru": "Кость рока",
+        "default_set": "items-current",
+        "default_data_file": "items/data/83.json",
+        "default_png": "items/ours/83.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/83.json",
+            "png": "items/ours/83.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/83.json",
+            "png": "items-glossy-early/ours/83.png"
+          }
+        ]
+      },
+      "tactical glasses": {
+        "asset_id": "item_84",
+        "original_key": "megabonk:item:tactical-glasses",
+        "original_name": "Tactical Glasses",
+        "current_name_en": "Fresh Edge",
+        "current_name_ru": "Первое лезвие",
+        "default_set": "items-current",
+        "default_data_file": "items/data/84.json",
+        "default_png": "items/ours/84.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/84.json",
+            "png": "items/ours/84.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/84.json",
+            "png": "items-glossy-early/ours/84.png"
+          }
+        ]
+      },
+      "turbo socks": {
+        "asset_id": "item_85",
+        "original_key": "megabonk:item:turbo-socks",
+        "original_name": "Turbo Socks",
+        "current_name_en": "Gale Whorl",
+        "current_name_ru": "Клубок ветра",
+        "default_set": "items-current",
+        "default_data_file": "items/data/85.json",
+        "default_png": "items/ours/85.png",
+        "variants": [
+          {
+            "set_id": "items-current",
+            "is_default": true,
+            "data_file": "items/data/85.json",
+            "png": "items/ours/85.png"
+          },
+          {
+            "set_id": "items-glossy-early",
+            "is_default": false,
+            "data_file": "items-glossy-early/data/85.json",
+            "png": "items-glossy-early/ours/85.png"
+          }
+        ]
+      }
+    },
+    "weapons": {
+      "sword": {
+        "asset_id": "weapon_01",
+        "original_key": "megabonk:weapon:sword",
+        "original_name": "Sword",
+        "current_name_en": "Iron Fang",
+        "current_name_ru": "Железный клык",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/01.json",
+        "default_png": "weapons/ours/01.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/01.json",
+            "png": "weapons/ours/01.png"
+          }
+        ]
+      },
+      "firestaff": {
+        "asset_id": "weapon_02",
+        "original_key": "megabonk:weapon:firestaff",
+        "original_name": "Firestaff",
+        "current_name_en": "Ember Scepter",
+        "current_name_ru": "Угольный скипетр",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/02.json",
+        "default_png": "weapons/ours/02.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/02.json",
+            "png": "weapons/ours/02.png"
+          }
+        ]
+      },
+      "lightning staff": {
+        "asset_id": "weapon_03",
+        "original_key": "megabonk:weapon:lightning-staff",
+        "original_name": "Lightning Staff",
+        "current_name_en": "Stormspike",
+        "current_name_ru": "Грозовой шип",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/03.json",
+        "default_png": "weapons/ours/03.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/03.json",
+            "png": "weapons/ours/03.png"
+          }
+        ]
+      },
+      "flamewalker": {
+        "asset_id": "weapon_04",
+        "original_key": "megabonk:weapon:flamewalker",
+        "original_name": "Flamewalker",
+        "current_name_en": "Ashstep",
+        "current_name_ru": "Пепельный шаг",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/04.json",
+        "default_png": "weapons/ours/04.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/04.json",
+            "png": "weapons/ours/04.png"
+          }
+        ]
+      },
+      "chunkers": {
+        "asset_id": "weapon_05",
+        "original_key": "megabonk:weapon:chunkers",
+        "original_name": "Chunkers",
+        "current_name_en": "Stone Satellites",
+        "current_name_ru": "Каменные спутники",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/05.json",
+        "default_png": "weapons/ours/05.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/05.json",
+            "png": "weapons/ours/05.png"
+          }
+        ]
+      },
+      "bone": {
+        "asset_id": "weapon_06",
+        "original_key": "megabonk:weapon:bone",
+        "original_name": "Bone",
+        "current_name_en": "Gravebone",
+        "current_name_ru": "Могильная кость",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/06.json",
+        "default_png": "weapons/ours/06.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/06.json",
+            "png": "weapons/ours/06.png"
+          }
+        ]
+      },
+      "bow": {
+        "asset_id": "weapon_07",
+        "original_key": "megabonk:weapon:bow",
+        "original_name": "Bow",
+        "current_name_en": "Briarstring",
+        "current_name_ru": "Терновый лук",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/07.json",
+        "default_png": "weapons/ours/07.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/07.json",
+            "png": "weapons/ours/07.png"
+          }
+        ]
+      },
+      "revolver": {
+        "asset_id": "weapon_08",
+        "original_key": "megabonk:weapon:revolver",
+        "original_name": "Revolver",
+        "current_name_en": "Brass Six",
+        "current_name_ru": "Латунная шестёрка",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/08.json",
+        "default_png": "weapons/ours/08.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/08.json",
+            "png": "weapons/ours/08.png"
+          }
+        ]
+      },
+      "aegis": {
+        "asset_id": "weapon_09",
+        "original_key": "megabonk:weapon:aegis",
+        "original_name": "Aegis",
+        "current_name_en": "Wardstone",
+        "current_name_ru": "Каменный оплот",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/09.json",
+        "default_png": "weapons/ours/09.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/09.json",
+            "png": "weapons/ours/09.png"
+          }
+        ]
+      },
+      "bananarang": {
+        "asset_id": "weapon_10",
+        "original_key": "megabonk:weapon:bananarang",
+        "original_name": "Bananarang",
+        "current_name_en": "Golden Crescent",
+        "current_name_ru": "Золотой полумесяц",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/10.json",
+        "default_png": "weapons/ours/10.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/10.json",
+            "png": "weapons/ours/10.png"
+          }
+        ]
+      },
+      "aura": {
+        "asset_id": "weapon_11",
+        "original_key": "megabonk:weapon:aura",
+        "original_name": "Aura",
+        "current_name_en": "Halo Engine",
+        "current_name_ru": "Ядро ауры",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/11.json",
+        "default_png": "weapons/ours/11.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/11.json",
+            "png": "weapons/ours/11.png"
+          }
+        ]
+      },
+      "axe": {
+        "asset_id": "weapon_12",
+        "original_key": "megabonk:weapon:axe",
+        "original_name": "Axe",
+        "current_name_en": "Twin Cleaver",
+        "current_name_ru": "Двойной секач",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/12.json",
+        "default_png": "weapons/ours/12.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/12.json",
+            "png": "weapons/ours/12.png"
+          }
+        ]
+      },
+      "space noodle": {
+        "asset_id": "weapon_13",
+        "original_key": "megabonk:weapon:space-noodle",
+        "original_name": "Space Noodle",
+        "current_name_en": "Rift Lash",
+        "current_name_ru": "Разломная плеть",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/13.json",
+        "default_png": "weapons/ours/13.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/13.json",
+            "png": "weapons/ours/13.png"
+          }
+        ]
+      },
+      "sniper rifle": {
+        "asset_id": "weapon_14",
+        "original_key": "megabonk:weapon:sniper-rifle",
+        "original_name": "Sniper Rifle",
+        "current_name_en": "Longwatch",
+        "current_name_ru": "Дальний дозор",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/14.json",
+        "default_png": "weapons/ours/14.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/14.json",
+            "png": "weapons/ours/14.png"
+          }
+        ]
+      },
+      "slutty rocket": {
+        "asset_id": "weapon_15",
+        "original_key": "megabonk:weapon:slutty-rocket",
+        "original_name": "Slutty Rocket",
+        "current_name_en": "Red Comet",
+        "current_name_ru": "Красная комета",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/15.json",
+        "default_png": "weapons/ours/15.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/15.json",
+            "png": "weapons/ours/15.png"
+          }
+        ]
+      },
+      "shotgun": {
+        "asset_id": "weapon_16",
+        "original_key": "megabonk:weapon:shotgun",
+        "original_name": "Shotgun",
+        "current_name_en": "Scrapstorm",
+        "current_name_ru": "Шквал дроби",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/16.json",
+        "default_png": "weapons/ours/16.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/16.json",
+            "png": "weapons/ours/16.png"
+          }
+        ]
+      },
+      "mines": {
+        "asset_id": "weapon_17",
+        "original_key": "megabonk:weapon:mines",
+        "original_name": "Mines",
+        "current_name_en": "Redeye Charge",
+        "current_name_ru": "Красноглазый заряд",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/17.json",
+        "default_png": "weapons/ours/17.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/17.json",
+            "png": "weapons/ours/17.png"
+          }
+        ]
+      },
+      "wireless dagger": {
+        "asset_id": "weapon_18",
+        "original_key": "megabonk:weapon:wireless-dagger",
+        "original_name": "Wireless Dagger",
+        "current_name_en": "Ghost Needle",
+        "current_name_ru": "Призрачное жало",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/18.json",
+        "default_png": "weapons/ours/18.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/18.json",
+            "png": "weapons/ours/18.png"
+          }
+        ]
+      },
+      "frostwalker": {
+        "asset_id": "weapon_19",
+        "original_key": "megabonk:weapon:frostwalker",
+        "original_name": "Frostwalker",
+        "current_name_en": "Froststep",
+        "current_name_ru": "Ледяной шаг",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/19.json",
+        "default_png": "weapons/ours/19.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/19.json",
+            "png": "weapons/ours/19.png"
+          }
+        ]
+      },
+      "tornado": {
+        "asset_id": "weapon_20",
+        "original_key": "megabonk:weapon:tornado",
+        "original_name": "Tornado",
+        "current_name_en": "Whirlcore",
+        "current_name_ru": "Сердце вихря",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/20.json",
+        "default_png": "weapons/ours/20.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/20.json",
+            "png": "weapons/ours/20.png"
+          }
+        ]
+      },
+      "dexecutioner": {
+        "asset_id": "weapon_21",
+        "original_key": "megabonk:weapon:dexecutioner",
+        "original_name": "Dexecutioner",
+        "current_name_en": "Verdict",
+        "current_name_ru": "Приговор",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/21.json",
+        "default_png": "weapons/ours/21.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/21.json",
+            "png": "weapons/ours/21.png"
+          }
+        ]
+      },
+      "blood magic": {
+        "asset_id": "weapon_22",
+        "original_key": "megabonk:weapon:blood-magic",
+        "original_name": "Blood Magic",
+        "current_name_en": "Sanguine Heart",
+        "current_name_ru": "Алое сердце",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/22.json",
+        "default_png": "weapons/ours/22.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/22.json",
+            "png": "weapons/ours/22.png"
+          }
+        ]
+      },
+      "black hole": {
+        "asset_id": "weapon_23",
+        "original_key": "megabonk:weapon:black-hole",
+        "original_name": "Black Hole",
+        "current_name_en": "Voidwell",
+        "current_name_ru": "Колодец пустоты",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/23.json",
+        "default_png": "weapons/ours/23.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/23.json",
+            "png": "weapons/ours/23.png"
+          }
+        ]
+      },
+      "poison flask": {
+        "asset_id": "weapon_24",
+        "original_key": "megabonk:weapon:poison-flask",
+        "original_name": "Poison Flask",
+        "current_name_en": "Viper Flask",
+        "current_name_ru": "Колба гадюки",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/24.json",
+        "default_png": "weapons/ours/24.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/24.json",
+            "png": "weapons/ours/24.png"
+          }
+        ]
+      },
+      "katana": {
+        "asset_id": "weapon_25",
+        "original_key": "megabonk:weapon:katana",
+        "original_name": "Katana",
+        "current_name_en": "Crimson Arc",
+        "current_name_ru": "Багровая дуга",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/25.json",
+        "default_png": "weapons/ours/25.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/25.json",
+            "png": "weapons/ours/25.png"
+          }
+        ]
+      },
+      "dragon's breath": {
+        "asset_id": "weapon_26",
+        "original_key": "megabonk:weapon:dragons-breath",
+        "original_name": "Dragon's Breath",
+        "current_name_en": "Drakefire",
+        "current_name_ru": "Драконий огонь",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/26.json",
+        "default_png": "weapons/ours/26.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/26.json",
+            "png": "weapons/ours/26.png"
+          }
+        ]
+      },
+      "dice": {
+        "asset_id": "weapon_27",
+        "original_key": "megabonk:weapon:dice",
+        "original_name": "Dice",
+        "current_name_en": "Fatecube",
+        "current_name_ru": "Куб судьбы",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/27.json",
+        "default_png": "weapons/ours/27.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/27.json",
+            "png": "weapons/ours/27.png"
+          }
+        ]
+      },
+      "hero sword": {
+        "asset_id": "weapon_28",
+        "original_key": "megabonk:weapon:hero-sword",
+        "original_name": "Hero Sword",
+        "current_name_en": "Dawnhammer",
+        "current_name_ru": "Рассветный молот",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/28.json",
+        "default_png": "weapons/ours/28.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/28.json",
+            "png": "weapons/ours/28.png"
+          }
+        ]
+      },
+      "corrupted sword": {
+        "asset_id": "weapon_29",
+        "original_key": "megabonk:weapon:corrupted-sword",
+        "original_name": "Corrupted Sword",
+        "current_name_en": "Voidgrasp",
+        "current_name_ru": "Хватка бездны",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/29.json",
+        "default_png": "weapons/ours/29.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/29.json",
+            "png": "weapons/ours/29.png"
+          }
+        ]
+      },
+      "scythe": {
+        "asset_id": "weapon_30",
+        "original_key": "megabonk:weapon:scythe",
+        "original_name": "Scythe",
+        "current_name_en": "Moonreaper",
+        "current_name_ru": "Лунный жнец",
+        "default_set": "weapons-current",
+        "default_data_file": "weapons/data/30.json",
+        "default_png": "weapons/ours/30.png",
+        "variants": [
+          {
+            "set_id": "weapons-current",
+            "is_default": true,
+            "data_file": "weapons/data/30.json",
+            "png": "weapons/ours/30.png"
+          }
+        ]
+      }
+    }
+  }
+}
