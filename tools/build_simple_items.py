@@ -52,15 +52,15 @@ def normalize(image,extent,logical=None):
     canvas.paste(image,((256-image.width)//2,(256-image.height)//2))
     return clear_empty_rgb(canvas)
 
-def outline(image,color):
+def outline(image,color,width=3,glow_strength=50):
     solid=np.asarray(image.getchannel('A'))>=128
     distance=ndi.distance_transform_edt(~solid)
-    band=(distance>0)&(distance<=3)
+    band=(distance>0)&(distance<=width)
     rgb=tuple(int(color[k:k+2],16) for k in (1,3,5))
     layer=Image.new('RGBA',(256,256),rgb+(0,))
     layer.putalpha(Image.fromarray((band*255).astype('uint8')))
     glow=Image.new('RGBA',(256,256),rgb+(0,))
-    glow.putalpha(Image.fromarray((ndi.gaussian_filter(band.astype(float),1.2)*50).astype('uint8')))
+    glow.putalpha(Image.fromarray((ndi.gaussian_filter(band.astype(float),1.2)*glow_strength).astype('uint8')))
     return clear_empty_rgb(Image.alpha_composite(Image.alpha_composite(glow,layer),image))
 
 def pixelate_existing(image,color,logical=40):
@@ -70,6 +70,23 @@ def pixelate_existing(image,color,logical=40):
     rgb=small.convert('RGB').quantize(colors=24,method=Image.Quantize.MEDIANCUT,dither=Image.Dither.NONE).convert('RGB')
     small=rgb.convert('RGBA');small.putalpha(alpha)
     return outline(clear_empty_rgb(small.resize((256,256),Image.Resampling.NEAREST)),color)
+
+def balanced_icon(image,color,logical=48):
+    """Pixelate the visible subject once, with enough detail and equal margins."""
+    image=image.convert('RGBA')
+    mask=image.getchannel('A').point(lambda a:255 if a>=128 else 0)
+    image=image.crop(mask.getbbox())
+    ratio=logical/max(image.size)
+    small=image.resize((max(1,round(image.width*ratio)),max(1,round(image.height*ratio))),Image.Resampling.BOX)
+    alpha=small.getchannel('A').point(lambda a:255 if a>=112 else 0)
+    rgb=small.convert('RGB').quantize(colors=64 if logical==64 else 48,method=Image.Quantize.MEDIANCUT,dither=Image.Dither.NONE).convert('RGB')
+    small=rgb.convert('RGBA');small.putalpha(alpha)
+    # Exact 4x (regular) or 3x (light) enlargement, without changing aspect ratio.
+    factor=192//logical
+    small=small.resize((small.width*factor,small.height*factor),Image.Resampling.NEAREST)
+    canvas=Image.new('RGBA',(256,256))
+    canvas.paste(small,((256-small.width)//2,(256-small.height)//2))
+    return outline(clear_empty_rgb(canvas),color,width=2,glow_strength=18)
 
 def main():
     plan=json.loads((OUT/'plan.json').read_text(encoding='utf-8'))
@@ -81,7 +98,21 @@ def main():
         target=OUT/e['file']
         e['status']='pending'
         extent=198 if e['id'] in [9,11,34] else e['target_extent']
-        if e['mode'] in ['generate','edit']:
+        if e.get('restore_before_pixelation'):
+            shutil.copyfile(OUT/'before-pixelation'/f'{e["id"]:02d}.png',target)
+            image=Image.open(target).convert('RGBA')
+        elif e.get('balanced_fix'):
+            if e['id']==73:
+                source=OUT/'raw/73-lightning.png'
+                if not source.exists():continue
+                image=Image.open(source)
+            elif e['balanced_kind']=='recover' or e['id']==26:
+                image=Image.open(OUT/'raw'/f'{e["id"]:02d}.png')
+            else:
+                image=Image.open(OUT/'before-pixelation'/f'{e["id"]:02d}.png')
+            image=balanced_icon(image,e['outline_hex'],e['balanced_pixels'])
+            image.save(target)
+        elif e['mode'] in ['generate','edit']:
             raw=OUT/'raw'/f'{e["id"]:02d}.png'
             if not raw.exists():continue
             image=Image.open(raw).convert('RGBA')
@@ -109,15 +140,17 @@ def main():
         draw.text((x+10,y+9),str(e['id']),font=font,fill='white',stroke_width=2,stroke_fill='black')
     grid.save(OUT/'items-simple-grid.png')
     (OUT/'catalog.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')
-    fields=['id','original_name','new_name_en','new_name_ru','effect_summary_ru','page_url','outline_hex','outline_color_name','mode','pixelate_existing','associative','status','file']
+    fields=['id','original_name','new_name_en','new_name_ru','effect_summary_ru','page_url','outline_hex','outline_color_name','mode','balanced_kind','balanced_pixels','restore_before_pixelation','associative','status','file']
     with (OUT/'catalog.csv').open('w',encoding='utf-8-sig',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');writer.writeheader();writer.writerows(plan)
     cards=''.join(f'<article><b>{e["id"]}</b><img src="{e["file"]}?v={e["sha256"][:10]}"><p>{html.escape(e["new_name_en"])}<br>{html.escape(e["new_name_ru"])}</p></article>' for e in plan if e['status']=='complete')
     style='<style>body{margin:24px;background:#111;color:#ddd;font:14px system-ui}a{color:#8cf}.grid{display:grid;grid-template-columns:repeat(auto-fill,200px);gap:12px}article{position:relative;background:#000;border:1px solid #555}b{position:absolute;left:8px;top:6px}img{display:block;width:200px;height:200px;object-fit:contain;image-rendering:pixelated}p{text-align:center;margin:8px}.pair{display:flex}figure{margin:0;text-align:center}figcaption{color:#999;font-size:12px}</style>'
-    nav='<p><a href="items-simple-grid.png">Общий лист</a> · <a href="comparison.html">Сравнение</a> · <a href="catalog.csv">Таблица</a></p>'
+    nav='<p><a href="items-simple-grid.png">Общий лист</a> · <a href="balanced-comparison.html">Последние правки: до / после</a> · <a href="comparison.html">Все версии</a> · <a href="catalog.csv">Таблица</a></p>'
     (OUT/'preview.html').write_text('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Предметы — правки и упрощение</title>'+style+nav+f'<p>{len(done)} / 85</p><div class="grid">'+cards+'</div>',encoding='utf-8')
     pairs=''.join(f'<article><p>#{e["id"]} · {html.escape(e["new_name_ru"])}</p><div class="pair"><figure><img src="../individual-redesign/{e["crop_file"]}"><figcaption>Картинка 1</figcaption></figure><figure><img src="../individual-redesign/{e["icon_file"]}"><figcaption>Предыдущая версия</figcaption></figure><figure><img src="{e["file"]}?v={e["sha256"][:10]}"><figcaption>Правка</figcaption></figure></div><p>{html.escape(e["effect_summary_ru"])}</p></article>' for e in plan if e['status']=='complete')
     (OUT/'comparison.html').write_text('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Предметы — сравнение правок</title>'+style+'<style>.grid{grid-template-columns:repeat(auto-fill,420px)}.pair img{width:140px;height:140px}</style>'+nav+'<div class="grid">'+pairs+'</div>',encoding='utf-8')
+    latest=''.join(f'<article><p>#{e["id"]}</p><div class="pair"><figure><img src="before-balanced-fix/{e["id"]:02d}.png"><figcaption>До</figcaption></figure><figure><img src="{e["file"]}?v={e["sha256"][:10]}"><figcaption>После</figcaption></figure></div></article>' for e in plan if e['status']=='complete' and (e.get('balanced_fix') or e.get('restore_before_pixelation')))
+    (OUT/'balanced-comparison.html').write_text('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Мягкая пикселизация — до и после</title>'+style+'<style>.grid{grid-template-columns:repeat(auto-fill,320px)}.pair img{width:160px;height:160px}</style>'+nav+'<div class="grid">'+latest+'</div>',encoding='utf-8')
     print(f'Completed {len(done)}/85. Missing: {[e["id"] for e in plan if e["status"]!="complete"]}')
 
 if __name__=='__main__':main()

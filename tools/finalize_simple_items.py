@@ -30,7 +30,7 @@ def main():
         hashes.append(digest)
         for field in ('original_name', 'effect_summary_ru', 'outline_hex', 'page_url'):
             assert e[field] == previous[e['id']][field], (e['id'], field)
-        if e['mode'] == 'keep' and not e.get('pixelate_existing'):
+        if e['mode'] == 'keep' and not e.get('pixelate_existing') and not e.get('balanced_fix') and not e.get('restore_before_pixelation'):
             assert path.read_bytes() == (OLD / e['icon_file']).read_bytes(), e['id']
         if e['mode'] in ('generate', 'edit'):
             generated.append(e['id'])
@@ -59,6 +59,34 @@ def main():
                 assert e['sha256'] != baseline[str(e['id'])], e['id']
             else:
                 assert e['sha256'] == baseline[str(e['id'])], e['id']
+    balanced = [e['id'] for e in entries if e.get('balanced_fix')]
+    rolled_back = [e['id'] for e in entries if e.get('restore_before_pixelation')]
+    untouched = []
+    bounds = {}
+    if balanced:
+        expected_regular = {5,7,8,9,11,12,13,15,16,17,20,23,24,26,27,29,34,38,39,43,45,47,48,49,50,57,62,63,79,80}
+        assert set(balanced) == expected_regular | {31,42,51,73}
+        assert set(rolled_back) == {2,6,58,60,68,70,71,76}
+        latest_baseline = json.loads((OUT / 'before-balanced-fix/baseline.json').read_text(encoding='utf-8'))
+        original_baseline = json.loads(baseline_path.read_text(encoding='utf-8'))
+        for e in entries:
+            if e['id'] in balanced:
+                im = Image.open(OUT / e['file']).convert('RGBA')
+                box = im.getchannel('A').point(lambda a:255 if a>=128 else 0).getbbox()
+                longest = max(box[2]-box[0], box[3]-box[1])
+                assert 188 <= longest <= 198, (e['id'],longest)
+                bounds[e['id']] = [box[2]-box[0],box[3]-box[1]]
+                color = tuple(int(e['outline_hex'][k:k+2],16) for k in (1,3,5))+(255,)
+                assert any(c == color for _,c in im.getcolors(65536)), e['id']
+                assert e['sha256'] != latest_baseline[str(e['id'])], e['id']
+            elif e['id'] in rolled_back:
+                assert e['sha256'] == original_baseline[str(e['id'])], e['id']
+            else:
+                assert e['sha256'] == latest_baseline[str(e['id'])], e['id']
+                untouched.append(e['id'])
+        assert len(untouched) == 43
+        assert (OUT / 'raw/73-lightning.png').is_file()
+        assert (OUT / 'prompts/73-lightning.txt').is_file()
     report = {
         'total': 85, 'unique_pngs': 85, 'rgba_size': [256, 256],
         'transparent_margins': True, 'original_effects_and_rarity_preserved': True,
@@ -66,7 +94,12 @@ def main():
         'generated_ids': generated, 'associative_ids': associative,
         'associative_percent': round(len(associative) / 85 * 100, 2),
         'pixelated_existing_ids': pixelated,
-        'other_images_byte_identical_to_previous_revision': bool(pixelated),
+        'other_images_byte_identical_to_previous_revision': len(untouched)==43 if balanced else bool(pixelated),
+        'balanced_fix_ids': balanced,
+        'balanced_sprite_bounds': bounds,
+        'rolled_back_ids': rolled_back,
+        'untouched_ids': untouched,
+        'exact_scope_verified': bool(balanced),
         'grid_size': list(Image.open(OUT / 'items-simple-grid.png').size),
     }
     (OUT / 'validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')

@@ -39,9 +39,8 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/02.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "d07845d16d25a0ed84aa32ef9b8465a39ddf52a513c35ccca3580c33935d30b6"
+    "restore_before_pixelation": true,
+    "sha256": "b94cc5b931e4f2c3576d5a2bf7f249002901fec4acf51ddc2f7e12d2b613724b"
   },
   {
     "id": 3,
@@ -105,9 +104,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/05.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "fae27d0e4fb105029fd232f0e63ffefbf232513b73ad5f4e9da9d5058592a3f2"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "157d6bcaf5d293cc604e014272e9b5a99f6e8b88948523c25e7a0555290edf3c"
   },
   {
     "id": 6,
@@ -127,9 +127,8 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/06.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "37806b45b0a73a5017169ad27dfa0738156dd8d60734f01a48f16cf1372215d0"
+    "restore_before_pixelation": true,
+    "sha256": "2297634f07161b3ae3dbec4b32165d2df497081db91d38c08cb77c9dd24087c5"
   },
   {
     "id": 7,
@@ -149,9 +148,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/07.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "b19f9e40d10b451c8029c5c5c18eb5da3fe47e42df6f0af26656d10c5d41bae1"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "60fd4882bbaaa71b169c4c64c6df5aadd709f38be4ce376931454c8efe9c70a3"
   },
   {
     "id": 8,
@@ -171,9 +171,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/08.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "59a2f9620bd83fcf8c25d60d78dd09a52041cfd96f8b992397a1fb66ebe6cba5"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "41cf0189001374e1531cdbe1c45675bbd28c7672b704f8116d36f68d78323e67"
   },
   {
     "id": 9,
@@ -193,9 +194,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/09.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "766285edc4c9b1bef5b94a291ad2685f20996e298427677066581da3f15d1647"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "40fd4ad307fbc6f075bf8aea14cd7c070aa7a3e6ba6027f0fc84cf849fb0576b"
   },
   {
     "id": 10,
@@ -237,9 +239,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/11.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "c8322503bd7af4ae697ed8d102f4382648dfcf48452005eb0530f9caedd34aa4"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "1b3ab76ba9bfa4a03bcccc402952c4c334f91d9282684c272ee4f806b9e92e64"
   },
   {
     "id": 12,
@@ -259,9 +262,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/12.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "7340b9035356a3b3f51f54fca3d5cc845174dcdaa28f0515e83aaa1a5792b399"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "bcd720dab02ebc900f54fe7d9394852598e90839fa733e58ce50703864b63f8e"
   },
   {
     "id": 13,
@@ -281,9 +285,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/13.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "49370388e6c63509c13ced86475633752a37358862631f1661aaec38b08aea7e"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "1c7c45b38753157bf9de0ed931da5440fa366bd6503bcb4ba3eee45f823dbe3b"
   },
   {
     "id": 14,
@@ -325,9 +330,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/15.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "622d88c9055b0e98abc58a089b2aa0f71b400b48f811e9502e76b558d2676c74"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "efb21ffb9bc4124cd7a4ae7c63c743739d8d52c829050da4f81dfaa72a98de21"
   },
   {
     "id": 16,
@@ -347,9 +353,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/16.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "16eb21641c9a704842f645c715cacc482d4c91f5f838f69f625afce1565eb8ce"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "1c6b0b91c1362dd4181101147c9277370a732340ad86bbb6fd1d7509578eef55"
   },
   {
     "id": 17,
@@ -369,9 +376,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/17.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "25a67b0ab420e392410cf5e3c25c8fe4ff8d3bc59abe19ce11d44289586f1964"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "2d5ee9c644c29a0b4f60c7e016bb09e8969eacc5bf9c7a6d407f9ec9da45e1e6"
   },
   {
     "id": 18,
@@ -435,9 +443,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/20.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "56bad412e53eb14ce27fddf6393517faa3b7d6df6703763abf2f4fe9d9cb2478"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "4e7693a097668c98053cac8a8e79839425fe4e9d073de9cd50fb38089d7eeeb0"
   },
   {
     "id": 21,
@@ -501,9 +510,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/23.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "fca347760bea538bbd5924b75cd642688597a62f18a2839f3165e20f8185c146"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "73cee976bc8fc72c1945c55441a62237a6cbbd3f26ad8c93fbd344a41e2b3413"
   },
   {
     "id": 24,
@@ -523,9 +533,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/24.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "7c4e72f8294bb553766923b30005bd23552817a45500dceca701c017b1319d1e"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "f8d25700ad12193861ef82fe7e7ea097c808cf5ece3d35b3636627b0c506953c"
   },
   {
     "id": 25,
@@ -569,7 +580,10 @@
     "file": "icons_256/26.png",
     "subject": "ONE small plain silver padlock with a short navy shackle and one broad blue horizontal band. No keyhole detail beyond one black pixel notch. No glow or extra parts.",
     "prompt": "Create ONE very SIMPLE pixel-art roguelite inventory sprite. The attached tiny Megabonk icons are STYLE references only: match their ORIGINAL low-detail 32x32-game-sprite simplicity, NOT ornate high-resolution item illustration. Use roughly 24-32 logical pixels across the object, 8-12 colors maximum, 2 or3 broad shading tones per material, matte surfaces, thick clean silhouette. Avoid saturated glossy highlights, gold ornamentation, decorative jewelry, busy surface texture, dithering, microdetails, particles, floating sparks, trails and elaborate magic. No animals, insects, living creatures, nuts or seeds. ONE plain everyday object, clearly readable at32px. Neutral medium saturation, restrained contrast. Fully transparent background, whole object centered and visible with20 percent clear padding. No colored rarity outline or outside glow yet: code will add that. Fine dark contour is okay. No UI frame, text, letters, numerals or watermark.\n\nSUBJECT: ONE small plain silver padlock with a short navy shackle and one broad blue horizontal band. No keyhole detail beyond one black pixel notch. No glow or extra parts.\nThis is deliberately an associative item: do NOT add imagery explaining any gameplay mechanic. Draw only the plain described object.\nThe two attached tiny sprites are style references only, do not copy their subject.",
-    "sha256": "fd28f730019def63a253d8d0ecb738e0a251b55e0c80d04d0028ff18a9513a64"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "a3338a71254fe844dde4ccd826468d173cd995e7df29a1defd3fbbe773425f9a"
   },
   {
     "id": 27,
@@ -589,9 +603,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/27.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "7bf6e55a8da3f4f8331b26707ea41f7054c1fc52cd2c8681599a9d074129fb0c"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "dad73e26b9b805b0b6d6313b159f6cce1f50e82d6e6fcc832259653483fb0b0c"
   },
   {
     "id": 28,
@@ -633,9 +648,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/29.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "cc79befae42b0b2f61e63532dd0c0d3fd87474a6ad21cfb7bdb6bbf0e46fde33"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "f24317cdc40f406280e733839d4ac6258769f2f9ac4538ea9b756a108ab24b47"
   },
   {
     "id": 30,
@@ -679,7 +695,10 @@
     "file": "icons_256/31.png",
     "subject": "A simple squat dark-gray rectangular three-slot launcher with THREE small red missile tips. Only the body, three red circles and one plain brass band. No gold gemstones, exhaust, cables, tiny panels or effects.",
     "prompt": "Create ONE very SIMPLE pixel-art roguelite inventory sprite. The attached tiny Megabonk icons are STYLE references only: match their ORIGINAL low-detail 32x32-game-sprite simplicity, NOT ornate high-resolution item illustration. Use roughly 24-32 logical pixels across the object, 8-12 colors maximum, 2 or3 broad shading tones per material, matte surfaces, thick clean silhouette. Avoid saturated glossy highlights, gold ornamentation, decorative jewelry, busy surface texture, dithering, microdetails, particles, floating sparks, trails and elaborate magic. No animals, insects, living creatures, nuts or seeds. ONE plain everyday object, clearly readable at32px. Neutral medium saturation, restrained contrast. Fully transparent background, whole object centered and visible with20 percent clear padding. No colored rarity outline or outside glow yet: code will add that. Fine dark contour is okay. No UI frame, text, letters, numerals or watermark.\n\nSUBJECT: A simple squat dark-gray rectangular three-slot launcher with THREE small red missile tips. Only the body, three red circles and one plain brass band. No gold gemstones, exhaust, cables, tiny panels or effects.\nMechanic context ONLY, do not add literal VFX or illustrative diagrams: Убийства могут выпускать ракеты.\nThe two attached tiny sprites are style references only, do not copy their subject.",
-    "sha256": "1f41cc19539d53a5b8ea17695f0bec9db7b79708c09aa916431ae893ce3793db"
+    "balanced_fix": true,
+    "balanced_kind": "recover",
+    "balanced_pixels": 48,
+    "sha256": "76e8b79256c8c12402bcc980f4c5036f3ad9339c07d1de766b95c2dfa90168d9"
   },
   {
     "id": 32,
@@ -743,9 +762,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/34.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "3fb517904fd571cac1c88a16d314a4d0b9fefaf16a4da4def5c8395e9868681f"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "6ed82b0b0c3cccef1153fc788f1ec7acda75b3ef4d79157df79bdf3dca454a3d"
   },
   {
     "id": 35,
@@ -831,9 +851,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/38.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "1b7e76c91e7a3361bf7a9f28816a59322f85bc616e87ccc042bb287ed01508ef"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "3a5216bbeb0b59b0ccc2674a2bd363aea715d1ce61c5db3fd58501ffb9fde30d"
   },
   {
     "id": 39,
@@ -853,9 +874,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/39.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "8cf7cf256ce663360fa104a5e6214a19b3db5f1add386193f8530d5a1b27e45d"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "58da5383fcedef5ddc65af4527b77152e2b0cc38583ec8874a68071b14bc83f6"
   },
   {
     "id": 40,
@@ -921,7 +943,10 @@
     "file": "icons_256/42.png",
     "subject": "ONE large plain golden square tag with ONE flat green inset. No cord, no chain, no engraving or tiny rivets. Bold simple silhouette, three gold tones and one green tone.",
     "prompt": "Create ONE very SIMPLE pixel-art roguelite inventory sprite. The attached tiny Megabonk icons are STYLE references only: match their ORIGINAL low-detail 32x32-game-sprite simplicity, NOT ornate high-resolution item illustration. Use roughly 24-32 logical pixels across the object, 8-12 colors maximum, 2 or3 broad shading tones per material, matte surfaces, thick clean silhouette. Avoid saturated glossy highlights, gold ornamentation, decorative jewelry, busy surface texture, dithering, microdetails, particles, floating sparks, trails and elaborate magic. No animals, insects, living creatures, nuts or seeds. ONE plain everyday object, clearly readable at32px. Neutral medium saturation, restrained contrast. Fully transparent background, whole object centered and visible with20 percent clear padding. No colored rarity outline or outside glow yet: code will add that. Fine dark contour is okay. No UI frame, text, letters, numerals or watermark.\n\nSUBJECT: ONE large plain golden square tag with ONE flat green inset. No cord, no chain, no engraving or tiny rivets. Bold simple silhouette, three gold tones and one green tone.\nMechanic context ONLY, do not add literal VFX or illustrative diagrams: Больше золота за убийства.\nThe two attached tiny sprites are style references only, do not copy their subject.",
-    "sha256": "998e044eadff0ddc8fb9ea2a49f6a810b8715dcd54a651c9623d6dd00d34f483"
+    "balanced_fix": true,
+    "balanced_kind": "recover",
+    "balanced_pixels": 48,
+    "sha256": "5888bbc3e6a70c0533586649b61ef27b85d314c8cc4351969f08bae0a43f7db5"
   },
   {
     "id": 43,
@@ -941,9 +966,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/43.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "54ba7babba2b9cd3c047be8347ba2d3232944c7b3a6efa567c866cda69e0ca8f"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "caffb7485ef05b42fe76bcee288f9696c6133ab84b487de08d21a8e6ee6069d9"
   },
   {
     "id": 44,
@@ -985,9 +1011,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/45.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "83bd072c8a45ad7cdc2ea988dbbffb98aff7282658a518acf077d692fb9fa152"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "6cce364593c62d7c3b2eb9ebec8fbf634b3ab87859f09dc4af6a7204bc460a2b"
   },
   {
     "id": 46,
@@ -1029,9 +1056,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/47.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "1c9c7cee0ae1b6ac200ae5927f30249c5ca51f2f49d9806ce740782813d60313"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "c100171c7456937fc7f1f96292d3a19bd7c8f5571e1b79a19f46ea1276096372"
   },
   {
     "id": 48,
@@ -1051,9 +1079,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/48.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "b44f6e0c7edab54f5f09812b259f0dea62591b44b4351915245193cb5ea415aa"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "70bcc9c381040d7e0f2d6809f0c68e445649b95b2a7fa9ec572fe532501c0f5b"
   },
   {
     "id": 49,
@@ -1073,9 +1102,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/49.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "21624072a14ffa94532587a3e726dff61bcebf67e801eca206591e36e9f4216d"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "cd69b59db57396f334d37d4d790796e2b8b5ec8323e8568752eabb6b58dc4386"
   },
   {
     "id": 50,
@@ -1095,9 +1125,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/50.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "e035058186fd27d16b5356a4d0ffeb9107c1e0f9948fece7a79b0489686ed779"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "ffd92cd50ba28fa563cff11c7e8881b7a9d0fe204b150f469f34e176d18c52d6"
   },
   {
     "id": 51,
@@ -1117,9 +1148,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/51.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "14a455433b80acac0502746efd26e75ade9c327ba03f04839eb37b5bf0a5f870"
+    "balanced_fix": true,
+    "balanced_kind": "light",
+    "balanced_pixels": 64,
+    "sha256": "be19c70eee20addbcbd6acdf12aa0f83fb620f60778001a49046395baf23b1f2"
   },
   {
     "id": 52,
@@ -1249,9 +1281,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/57.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "6c9ecf9b78ed58113f0db979b74d211959d6db60143810b64d734b6eff428f18"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "b2814ae229211c9348f9b8de0ed9e06cf29fd600c03df7330e56bb509d835418"
   },
   {
     "id": 58,
@@ -1271,9 +1304,8 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/58.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "71361bf62b6134d5aeb90d0fb292914eb2d26829a57f623d2d7f34faa83f0604"
+    "restore_before_pixelation": true,
+    "sha256": "270599eef9c06e2d2b8e0bc64e9248170d2bbad0e52a86bea2824b564fc9d377"
   },
   {
     "id": 59,
@@ -1315,9 +1347,8 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/60.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "dae3a378c97c641a5d27fb145c764c94b4ce8aa7468b65388fdea6962b965aa8"
+    "restore_before_pixelation": true,
+    "sha256": "cc07385370310722b2275957c320c78236fed73569ef3f8a9e114264c5a6cc8f"
   },
   {
     "id": 61,
@@ -1359,9 +1390,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/62.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "e05cf02154bcd297ba40873404b71e5618663b51fc7c70b9423b8534e98d5ec8"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "84ccb64afab48037a73e11529f6d2b07660700d2050055da72c9496cbc4061a3"
   },
   {
     "id": 63,
@@ -1381,9 +1413,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/63.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "51f3ed3f95bf68704a792f4034f4f97a8078d93bf5fcf77ab82365fa22f64405"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "584c599a8b7d2e3c58707c71cecbe6a3966767d134c40582bb34227ad25221c9"
   },
   {
     "id": 64,
@@ -1491,9 +1524,8 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/68.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "f6e5cb40c9a6164381d9ba101864bb70425826d1d484fcaf706a9a1b92d7873d"
+    "restore_before_pixelation": true,
+    "sha256": "b3bbdf1c60cc8701884eabe435e4dd296b8d6152d58216ca9d84b879c88219f8"
   },
   {
     "id": 69,
@@ -1535,9 +1567,8 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/70.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "4154141bc971e3d74411e916ac534ee586412e60ac97d16eacd305f3cf384b49"
+    "restore_before_pixelation": true,
+    "sha256": "e956ac0e5dcd12636120e8b158609251495fbe4f3cef6047bfb61ae02adae8fa"
   },
   {
     "id": 71,
@@ -1557,9 +1588,8 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/71.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "58e35b10af7c279f598598889f9eb3c9bcae676700dbe7e1d2d1d5c756aa7430"
+    "restore_before_pixelation": true,
+    "sha256": "6de25372d0736a4f431b9b9560415b7aa9622ed5528bdab5a01843a426075da6"
   },
   {
     "id": 72,
@@ -1603,7 +1633,10 @@
     "file": "icons_256/73.png",
     "subject": "ONE plain dark-blue electric plug with TWO short copper pins and a single pale-blue side stripe. No cord clutter, no electric arcs, no fancy fuse or effects. Stay close to the original electric-plug idea.",
     "prompt": "Create ONE very SIMPLE pixel-art roguelite inventory sprite. The attached tiny Megabonk icons are STYLE references only: match their ORIGINAL low-detail 32x32-game-sprite simplicity, NOT ornate high-resolution item illustration. Use roughly 24-32 logical pixels across the object, 8-12 colors maximum, 2 or3 broad shading tones per material, matte surfaces, thick clean silhouette. Avoid saturated glossy highlights, gold ornamentation, decorative jewelry, busy surface texture, dithering, microdetails, particles, floating sparks, trails and elaborate magic. No animals, insects, living creatures, nuts or seeds. ONE plain everyday object, clearly readable at32px. Neutral medium saturation, restrained contrast. Fully transparent background, whole object centered and visible with20 percent clear padding. No colored rarity outline or outside glow yet: code will add that. Fine dark contour is okay. No UI frame, text, letters, numerals or watermark.\n\nSUBJECT: ONE plain dark-blue electric plug with TWO short copper pins and a single pale-blue side stripe. No cord clutter, no electric arcs, no fancy fuse or effects. Stay close to the original electric-plug idea.\nMechanic context ONLY, do not add literal VFX or illustrative diagrams: Получение урона вызывает электрический разряд вокруг.\nThe two attached tiny sprites are style references only, do not copy their subject.",
-    "sha256": "0ecb5cb4adc97f5104a4e3877f6e134a688e4f28f801338a1279c3f4293ac63c"
+    "balanced_fix": true,
+    "balanced_kind": "plug",
+    "balanced_pixels": 48,
+    "sha256": "515efdc5c9d34f1b6f13d5b99a05e4a1ef5466a1d22bf52c8e4f772f9190dc79"
   },
   {
     "id": 74,
@@ -1667,9 +1700,8 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/76.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "3c81f136d10e3a51e334036bdb581dd738190455fd9e5253c9c89b2d7d1d1226"
+    "restore_before_pixelation": true,
+    "sha256": "0493af3f2bbef785b54c92634330899ffeed3c135ba92c2f2046f08e18f7ec52"
   },
   {
     "id": 77,
@@ -1733,9 +1765,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/79.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "f1a7d1d19eff83c4aed6d4234f44873dd4a1425a525acbdd4e36283a9c9e54b2"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "ae422e268e9b097288846b5dd3afda58a5fde7db262552e6129235b0bc30561d"
   },
   {
     "id": 80,
@@ -1755,9 +1788,10 @@
     "associative": false,
     "status": "complete",
     "file": "icons_256/80.png",
-    "pixelate_existing": true,
-    "pixel_canvas_size": 40,
-    "sha256": "5967a04a6a1f6fb5d03ccd747fd74ab7ce89252b293040c36d08cf64c5b04642"
+    "balanced_fix": true,
+    "balanced_kind": "regular",
+    "balanced_pixels": 48,
+    "sha256": "7e11badf4ecb8db972cd65a1e02eca0220e21e91d1c14319cebd090546386599"
   },
   {
     "id": 81,
