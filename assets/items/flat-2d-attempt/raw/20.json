@@ -1,0 +1,9 @@
+{
+  "id": 20,
+  "method": "builtin-imagegen",
+  "intent": "style-transfer edit",
+  "generated_source": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-45382754-1bc3-4760-a393-9e057ec0877c.png",
+  "target": "before/20.png",
+  "reference": "style-references.png",
+  "prompt": "prompts/20.txt"
+}

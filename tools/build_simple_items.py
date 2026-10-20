@@ -121,7 +121,10 @@ def main():
         target=OUT/e['file']
         e['status']='pending'
         extent=198 if e['id'] in [9,11,34] else e['target_extent']
-        if e.get('edge_cleanup'):
+        if e.get('clarity_restore'):
+            shutil.copyfile(OUT/'before-outline-fix'/f'{e["id"]:02d}.png',target)
+            image=Image.open(target).convert('RGBA')
+        elif e.get('edge_cleanup'):
             image=natural_item_edge(e)
             image.save(target)
         elif e.get('restore_before_pixelation'):
@@ -169,12 +172,12 @@ def main():
         grid.save(OUT/'items-outline-fixed-grid.png')
         grid.save(OUT/'items-natural-edge-grid.png')
     (OUT/'catalog.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')
-    fields=['id','original_name','new_name_en','new_name_ru','effect_summary_ru','page_url','outline_hex','outline_color_name','mode','balanced_kind','balanced_pixels','restore_before_pixelation','edge_cleanup','edge_style','slight_pixel_body','associative','status','file']
+    fields=['id','original_name','new_name_en','new_name_ru','effect_summary_ru','page_url','outline_hex','outline_color_name','mode','balanced_kind','balanced_pixels','restore_before_pixelation','edge_cleanup','edge_style','slight_pixel_body','clarity_restore','associative','status','file']
     with (OUT/'catalog.csv').open('w',encoding='utf-8-sig',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');writer.writeheader();writer.writerows(plan)
     cards=''.join(f'<article><b>{e["id"]}</b><img src="{e["file"]}?v={e["sha256"][:10]}"><p>{html.escape(e["new_name_en"])}<br>{html.escape(e["new_name_ru"])}</p></article>' for e in plan if e['status']=='complete')
     style='<style>body{margin:24px;background:#111;color:#ddd;font:14px system-ui}a{color:#8cf}.grid{display:grid;grid-template-columns:repeat(auto-fill,200px);gap:12px}article{position:relative;background:#000;border:1px solid #555}b{position:absolute;left:8px;top:6px}img{display:block;width:200px;height:200px;object-fit:contain;image-rendering:pixelated}p{text-align:center;margin:8px}.pair{display:flex}figure{margin:0;text-align:center}figcaption{color:#999;font-size:12px}</style>'
-    nav='<p><a href="items-simple-grid.png">Общий лист</a> · <a href="outline-comparison.html">Обводка: до / после</a> · <a href="balanced-comparison.html">Пикселизация: до / после</a> · <a href="comparison.html">Все версии</a> · <a href="catalog.csv">Таблица</a></p>'
+    nav='<p><a href="items-simple-grid.png">Общий лист</a> · <a href="clarity-01-02.png">Чёткость №1 и 2</a> · <a href="../flat-2d-attempt/preview.html">Отдельная 2D-проба</a> · <a href="outline-comparison.html">Обводка: до / после</a> · <a href="balanced-comparison.html">Пикселизация: до / после</a> · <a href="comparison.html">Все версии</a> · <a href="catalog.csv">Таблица</a></p>'
     (OUT/'preview.html').write_text('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Предметы — правки и упрощение</title>'+style+nav+f'<p>{len(done)} / 85</p><div class="grid">'+cards+'</div>',encoding='utf-8')
     pairs=''.join(f'<article><p>#{e["id"]} · {html.escape(e["new_name_ru"])}</p><div class="pair"><figure><img src="../individual-redesign/{e["crop_file"]}"><figcaption>Картинка 1</figcaption></figure><figure><img src="../individual-redesign/{e["icon_file"]}"><figcaption>Предыдущая версия</figcaption></figure><figure><img src="{e["file"]}?v={e["sha256"][:10]}"><figcaption>Правка</figcaption></figure></div><p>{html.escape(e["effect_summary_ru"])}</p></article>' for e in plan if e['status']=='complete')
     (OUT/'comparison.html').write_text('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Предметы — сравнение правок</title>'+style+'<style>.grid{grid-template-columns:repeat(auto-fill,420px)}.pair img{width:140px;height:140px}</style>'+nav+'<div class="grid">'+pairs+'</div>',encoding='utf-8')

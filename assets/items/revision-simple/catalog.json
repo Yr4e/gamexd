@@ -22,7 +22,8 @@
     "edge_cleanup": true,
     "slight_pixel_body": 44,
     "edge_style": "natural_no_dark",
-    "sha256": "8a1b8d2fd9d7ed60cf9ef7fbb4c9f5dd3c1f2e5da14e1ce2dc52f906b63589a0"
+    "clarity_restore": true,
+    "sha256": "cba94b961b094d14167072c73a7e9184ef3d8ee2d37145ac7114d5bb1524bff6"
   },
   {
     "id": 2,
@@ -46,7 +47,8 @@
     "edge_cleanup": true,
     "slight_pixel_body": 56,
     "edge_style": "natural_no_dark",
-    "sha256": "525e75bc932e10a9d52954354498804473567381ce1bdcdd04ae809acffc72a2"
+    "clarity_restore": true,
+    "sha256": "b94cc5b931e4f2c3576d5a2bf7f249002901fec4acf51ddc2f7e12d2b613724b"
   },
   {
     "id": 3,

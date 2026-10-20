@@ -130,6 +130,19 @@ def main():
             assert not np.any(np.all(a==[16,17,24,255],axis=2)), e['id']
         assert len(untouched)==64
         assert (OUT / 'icons_256/76.png').read_bytes() == (OUT / 'before-outline-fix/76.png').read_bytes()
+    clarity_ids = [e['id'] for e in entries if e.get('clarity_restore')]
+    clarity_untouched = []
+    if clarity_ids:
+        assert set(clarity_ids)=={1,2}
+        baseline=json.loads((OUT/'before-clarity-fix/baseline.json').read_text(encoding='utf-8'))
+        for e in entries:
+            if e['id'] in clarity_ids:
+                assert (OUT/e['file']).read_bytes()==(OUT/'before-outline-fix'/f'{e["id"]:02d}.png').read_bytes(), e['id']
+                assert e['sha256']!=baseline[str(e['id'])], e['id']
+            else:
+                assert e['sha256']==baseline[str(e['id'])], e['id']
+                clarity_untouched.append(e['id'])
+        assert len(clarity_untouched)==83
     report = {
         'total': 85, 'unique_pngs': 85, 'rgba_size': [256, 256],
         'transparent_margins': True, 'original_effects_and_rarity_preserved': True,
@@ -146,6 +159,8 @@ def main():
         'edge_cleanup_ids': edge_ids,
         'single_separated_outer_rarity_band_verified': bool(edge_ids) and not natural_edges,
         'natural_edges_without_added_dark_separator': natural_edges,
+        'latest_clarity_restore_ids': clarity_ids,
+        'latest_clarity_untouched_ids': clarity_untouched,
         'grid_size': list(Image.open(OUT / 'items-simple-grid.png').size),
     }
     (OUT / 'validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -155,6 +170,11 @@ def main():
         for path in sorted(OUT.rglob('*')):
             if path.is_file() and 'raw' not in path.relative_to(OUT).parts:
                 z.write(path, 'revision-simple/' + path.relative_to(OUT).as_posix())
+        flat_trial=ROOT/'assets/items/flat-2d-attempt'
+        if (flat_trial/'preview.html').exists():
+            for path in sorted(flat_trial.rglob('*')):
+                if path.is_file() and 'raw' not in path.relative_to(flat_trial).parts:
+                    z.write(path,'flat-2d-attempt/'+path.relative_to(flat_trial).as_posix())
         for relative in sorted({e[key] for e in entries for key in ('crop_file', 'icon_file')}):
             z.write(OLD / relative, 'individual-redesign/' + relative)
         z.writestr('OPEN.txt', 'Open revision-simple/preview.html for the gallery, or comparison.html for all three versions.\nIndividual transparent PNGs are in revision-simple/icons_256/.\n')
