@@ -1,0 +1,72 @@
+[
+  {
+    "pass": 1,
+    "file": "pass-01.png",
+    "count": 20,
+    "size": [
+      1402,
+      1122
+    ],
+    "sha256": "213bad644865337929ccd8d90e4f8c3712e1fcfef9d58d0090ab962eab40939d"
+  },
+  {
+    "pass": 2,
+    "file": "pass-02.png",
+    "count": 20,
+    "size": [
+      1402,
+      1122
+    ],
+    "sha256": "4b68817d39bd89dd5266e23ed611346883db3adbe89b5d6f015778f5564297ac"
+  },
+  {
+    "pass": 3,
+    "file": "pass-03.png",
+    "count": 20,
+    "size": [
+      1402,
+      1122
+    ],
+    "sha256": "729bc12989a7ec5c3587d561d124ecf0aef25e29b6efa8144f477074c731873a"
+  },
+  {
+    "pass": 4,
+    "file": "pass-04.png",
+    "count": 25,
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "3e8c576ca133e1a88cb2c8238ee8b74e49be226070e57780fe1af5d395060203"
+  },
+  {
+    "pass": 5,
+    "file": "pass-05.png",
+    "count": 85,
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "4b5e5bd42e6fb352546794b06023120a0949506668d95a427cc65655eef845a1"
+  },
+  {
+    "pass": 6,
+    "file": "pass-06.png",
+    "count": 85,
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "bd1b9d9a489cdb3422f256905960560e41206caa2e9a48c010b6a1012f1b1c20"
+  },
+  {
+    "pass": 7,
+    "file": "pass-07.png",
+    "count": 85,
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "439c7c5a632ada34561bf617fdf99336e7a251850ae0163c280d5eb0ae896786"
+  }
+]

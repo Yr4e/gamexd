@@ -1,0 +1,15 @@
+Use case: style-transfer. This is PASS FIVE: an INDEPENDENT NEW redesign of ALL 85 source items starting fresh from the ORIGINAL COMPLETE SHEET, not a montage of previous redesigns.
+Image 1: full Megabonk source item sheet. Image 2: our chunky pixel-art weapon style reference. Reimagine EACH object as an original inventory item in the weapon reference's visual language: deliberate crisp square pixel clusters, clear geometric stylized volume, strong simple highlight planes, rich shadows, chunky recognizable silhouette, limited palette. Same category and base colors per source icon but refreshed shapes/details/materials. Pixel art, NEVER a smooth photoreal/3D icon.
+Preserve exact individual source silhouette OUTLINE HUE and a restrained soft glow of that hue, because these signify rarity. Follow EACH ICON'S ACTUAL visible outline, not generalized rarity rules: gold/yellow, vivid magenta/pink, blue, mint/green. Keep inside object palette distinct from border. No random stars.
+LAYOUT IS INVIOLABLE: Exactly TEN COLUMNS. NINE ROWS total; first EIGHT ROWS have TEN ICONS EACH; LAST ROW has FIVE ICONS in LEFTMOST FIVE slots and empty BLACK right half. TOTAL EXACTLY 85 unique objects, once each, in original order. Do not fill empty five positions, don't duplicate, omit, merge, swap or add items.
+SQUARE black overall canvas with 85 square cells in the same positions as image 1. Simple thin neutral gray frames, pure black backgrounds, generous inner padding around each complete item and integral effects. No clipping or stretching, no ornate frames. No text, names, titles, numbers, labels, footer, watermarks or typography anywhere.
+Object list by row, for verification only, never print:
+Row 1: Anvil; Bloody Cleaver; Dragonfire; Energy Core; Holy Book; Joe's Dagger; Lightning Orb; Golden Ring; Snek; Pot (Stainless Steel)
+Row 2: Soul Harvester; Speed Boi; Sucky Magnet; Za Warudo; Overpowered Lamp; Big Bonk; Chonkplate; Giant Fork; Ice Cube; Power Gloves
+Row 3: Spicy Meatball; Wizard's Hat; Bob's Light; Cursed Grabbies; Demonic Soul; Eagle Claw; Gamer Goggles; Gas Mask; Grandma's Secret Tonic; Shattered Knowledge
+Row 4: Slutty Cannon; Toxic Barrel; Turbo Skates; Kevin; Pumpkin; Backpack; Beacon; Coward's Cloak; Demonic Blade; Demonic Blood
+Row 5: Echo Shard; Golden Glove; Golden Shield; Golden Sneakers; Gym Sauce; Idle Juice; Quin's Mask; Leeching Crystal; Mirror; Moldy Gloves
+Row 6: Phantom Shroud; Slippery Ring; Slurp Gloves; Spiky Shield; Thunder Mitts; Time Bracelet; Unstable Transfusion; Wrench; Old Mask; Battery
+Row 7: Beefy Ring; Beer; Bob (Dead); Borgar; Boss Buster; Brass Knuckles; Cactus; Campfire; Clover; Credit Card (Green)
+Row 8: Credit Card (Red); Cursed Doll; Electric Plug; Feathers; Forbidden Juice; Ghost; Ice Crystal; Key; Medkit; Moldy Cheese
+Row 9: Oats; Scarf; Skuleg; Tactical Glasses; Turbo Socks

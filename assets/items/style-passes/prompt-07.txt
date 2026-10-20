@@ -1,0 +1,14 @@
+Use case: style-transfer. PASS SEVEN, FINAL cohesive art-direction pass on ALL85 items. Image1 = pass6 redesign to finalize, image2 = original85-item sheet to verify identities and individual rarity outline colors, image3 = our approved weapon icon STYLE. Bring every item from image1 fully into the style of image3: confident chunky PIXEL ART, large intentional pixel clusters, angular faceted highlights, strong shaded volume, rich saturated base colors, bold instantly recognizable silhouette, crisp edges. Retain redesigned identity and details from pass6, refine them coherently as one family. Don't revert to the crude source sprites; don't make smooth 3D. This final pass should be visibly more deliberate and cohesive, not an unaltered copy.
+EXACT85 icons, fixed10-column grid, 8 full rows+last row of5 LEFTMOST icons and blank black right half. EXACTLY same placement as image1. No duplication, omissions, additions, changed item identity or order. Every object complete and padded, no stretching or crop.
+Rarity hue LOCK, thin colored silhouette stroke plus subtle same-hue edge glow. Do NOT recolor object body. The following is the authoritative OUTLINE color map, row-major, follow per-cell, NOT rarity metadata:
+Row 1: yellow yellow yellow yellow yellow yellow yellow yellow yellow yellow
+Row 2: yellow yellow yellow yellow yellow yellow yellow yellow yellow yellow
+Row 3: yellow yellow pink pink pink pink pink pink pink pink
+Row 4: pink pink pink blue blue blue blue blue blue blue
+Row 5: blue mint blue blue mint blue pink blue pink blue
+Row 6: blue mint pink pink blue mint blue mint mint mint
+Row 7: pink blue pink mint mint blue mint blue mint pink
+Row 8: blue mint blue blue mint blue mint mint mint mint
+Row 9: mint pink mint mint mint
+YELLOW means saturated warm yellow/gold, PINK means vivid magenta/pink, BLUE means royal/cyan blue, MINT means mint green/cyan-green. Particularly row5 col6 cocktail cup must have BLUE edge, not pink; row5 col8 purple leech crystal must have BLUE edge, not pink. Row2 col1 scythe has yellow outer rarity stroke and may retain pink inner magic. Each item keeps its original body colors.
+Black #000000 background, thin plain neutral gray square frames, no decorative corners or stars, no labels, typography, numbers, names, title, footer or watermark. Overall square sheet. Match restrained glow and chunky volume of our weapon reference while strictly preserving color map and all85 items.

@@ -1,0 +1,30 @@
+Use case: style-transfer, original roguelite item concept sheet. Image 1 is the source item sheet to reimagine. Image 2 is OUR WEAPON STYLE reference only, a chunky pixel-art golden hammer: match this visual language, clean deliberate square pixel clusters, dimensional hand-painted pixel shading, punchy readable silhouettes, strong highlights and rich shadows, subtle low-poly volume expressed as PIXEL ART. No realistic or smooth 3D rendering.
+REWORK EVERY source item into an original fresh interpretation of the SAME OBJECT CATEGORY, retain its recognizable function and dominant colors, redesign small shape/material/details rather than merely upscale or copy source pixels. Keep the set cohesive with our weapon reference. Each item should be one coherent isolated icon, fully visible with generous 12 percent padding.
+CRITICAL RARITY COLORS: match the OUTLINE COLOR OF EACH INDIVIDUAL SOURCE ICON exactly in hue, regardless of what rarity its name might suggest. Some source items have unusual outline colors; do NOT normalize these. Preserve yellow/gold, vivid pink/magenta, royal blue or mint/green edge as it appears for that exact icon in image 1. Use a thin crisp colored silhouette outline plus a restrained same-hue soft glow, NEVER a rectangular colored border. Do not flood the whole object with rarity color; preserve object base palette.
+Presentation: pure BLACK #000000 backgrounds, each cell simple plain thin neutral-gray SQUARE frame. No ornamental frame corners, no ambient stars, no decorative sparkles. No TEXT, names, numbers, titles, logos, labels or footer. Preserve exact source order row by row, and exact number of slots, no substitutions or repeats. Never clip an object, stretch it, or spill glow into adjacent cells. This is a fresh DESIGN pass, not final production cutout.
+This is PASS 4. EXACTLY 25 icons arranged in FIVE COLUMNS and 5 ROWS. One icon per square cell. Maintain order of image 1. Contents for auditing only, DO NOT PRINT THESE WORDS:
+1. Beefy Ring
+2. Beer
+3. Bob (Dead)
+4. Borgar
+5. Boss Buster
+6. Brass Knuckles
+7. Cactus
+8. Campfire
+9. Clover
+10. Credit Card (Green)
+11. Credit Card (Red)
+12. Cursed Doll
+13. Electric Plug
+14. Feathers
+15. Forbidden Juice
+16. Ghost
+17. Ice Crystal
+18. Key
+19. Medkit
+20. Moldy Cheese
+21. Oats
+22. Scarf
+23. Skuleg
+24. Tactical Glasses
+25. Turbo Socks
