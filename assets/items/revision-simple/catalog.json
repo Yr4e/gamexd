@@ -21,7 +21,8 @@
     "prompt": "Create ONE very SIMPLE pixel-art roguelite inventory sprite. The attached tiny Megabonk icons are STYLE references only: match their ORIGINAL low-detail 32x32-game-sprite simplicity, NOT ornate high-resolution item illustration. Use roughly 24-32 logical pixels across the object, 8-12 colors maximum, 2 or3 broad shading tones per material, matte surfaces, thick clean silhouette. Avoid saturated glossy highlights, gold ornamentation, decorative jewelry, busy surface texture, dithering, microdetails, particles, floating sparks, trails and elaborate magic. No animals, insects, living creatures, nuts or seeds. ONE plain everyday object, clearly readable at32px. Neutral medium saturation, restrained contrast. Fully transparent background, whole object centered and visible with20 percent clear padding. No colored rarity outline or outside glow yet: code will add that. Fine dark contour is okay. No UI frame, text, letters, numerals or watermark.\n\nSUBJECT: Keep the same single bronze gear and the three circular sockets inside it, including the one cyan inset. REMOVE the entire long diagonal silver lever, rod and handle. Fill its former crossing area with plain bronze. No rod protruding beyond gear. Simplify shading to three tones and keep the gear readable.\nMechanic context ONLY, do not add literal VFX or illustrative diagrams: Дополнительная характеристика при улучшении оружия.\nImage1 is the edit target, image2/3 are simplicity references. Preserve required main elements; remove only the specified components and simplify surface detail.",
     "edge_cleanup": true,
     "slight_pixel_body": 44,
-    "sha256": "99240c666945d51f3b1212e8184c341c2b0bc97936d9a8e95b3b012d9fef0e8b"
+    "edge_style": "natural_no_dark",
+    "sha256": "8a1b8d2fd9d7ed60cf9ef7fbb4c9f5dd3c1f2e5da14e1ce2dc52f906b63589a0"
   },
   {
     "id": 2,
@@ -44,7 +45,8 @@
     "restore_before_pixelation": true,
     "edge_cleanup": true,
     "slight_pixel_body": 56,
-    "sha256": "4f14daffb1446c8fbb2e5c844c1b67c00d6e84f15e9427f42596832032f387f8"
+    "edge_style": "natural_no_dark",
+    "sha256": "525e75bc932e10a9d52954354498804473567381ce1bdcdd04ae809acffc72a2"
   },
   {
     "id": 3,
@@ -112,7 +114,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "05699df759d473ca1375aac467039344f44443f7f8bf9f44ef1b9af668d378e7"
+    "edge_style": "natural_no_dark",
+    "sha256": "0a3ce4c986ffd3b7d77aef179150fda3f5f88f1bb0428909130c75854d60ab14"
   },
   {
     "id": 6,
@@ -135,7 +138,8 @@
     "restore_before_pixelation": true,
     "edge_cleanup": true,
     "slight_pixel_body": 56,
-    "sha256": "ef967b6858c9df124705bcad1385d1a8a1b773995eb12bef87d1642df9325aba"
+    "edge_style": "natural_no_dark",
+    "sha256": "2b3d9e21eb532f171d02cfffa076099aaef9bccb1343a2e80c3e6547202ff981"
   },
   {
     "id": 7,
@@ -159,7 +163,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "42a7f595c411fbbbd3e96ba8ee18c1d4a9f6f15a9afdb9c129c1a5539656b943"
+    "edge_style": "natural_no_dark",
+    "sha256": "2a2e44060f886be888f6624cbc1d7b774eeda6b846c6bb2f2f7becccd695a49a"
   },
   {
     "id": 8,
@@ -183,7 +188,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "027aaabd41c09efa052c3ca23b7492118847397974f35033fa3adbbf5d31ff3d"
+    "edge_style": "natural_no_dark",
+    "sha256": "03b05428dfd79fca59d8a3f54bd4955f410f84ed811bdceb90e57a1e049b5a2f"
   },
   {
     "id": 9,
@@ -207,7 +213,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "175de82f4fc5867aba0ecbfbdda5b822a73e0089820ed70c0591abed8aaef205"
+    "edge_style": "natural_no_dark",
+    "sha256": "b3eee6cc968b6c5ac3bf4a534cc361306014d3305998b886029217caf56084db"
   },
   {
     "id": 10,
@@ -276,7 +283,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "0053ed59e1b19ce3671eaaad8ac525b59638abe47148f8234b28c20727bb509f"
+    "edge_style": "natural_no_dark",
+    "sha256": "2606258fda7a8f12dc0d9ac5918a8e3257cedf8e10d122abb35ddd81cf5c0db0"
   },
   {
     "id": 13,
@@ -300,7 +308,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "55bba4fa012e3ae654bf8cf5700bb41f486a13857c052debf42395aa6e2395a8"
+    "edge_style": "natural_no_dark",
+    "sha256": "44edb881a88aa427099cc8b6efb871b2e67c89531837517fa16f38d9b2f29548"
   },
   {
     "id": 14,
@@ -549,7 +558,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "34335fdecad308e09b74133c6230b91adc0f8cc15cbed5321e2c63e52d6e3337"
+    "edge_style": "natural_no_dark",
+    "sha256": "6303a54eb2ee1ae5eb0300094f1c7aafd84def61f218de52d9cd1f66d92ff64d"
   },
   {
     "id": 25,
@@ -620,7 +630,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "42c5dc492034bc89989f64f3edb22638cbb9106b6ed5c78c4ffd070c7060c5e7"
+    "edge_style": "natural_no_dark",
+    "sha256": "de885984b418c56d7978aa3d72e1379eba701a1284d589873bc00125e31f0935"
   },
   {
     "id": 28,
@@ -666,7 +677,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "d28c54d24d63b9667e4cb555837e40193704d364e68f849d83f9fb0e1be6777d"
+    "edge_style": "natural_no_dark",
+    "sha256": "eac97c8b682d4b4c534c00067d1cfc93a321ce9eac6e33020417d7dc24078339"
   },
   {
     "id": 30,
@@ -870,7 +882,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "a62832c08284a4ed3ea9867614be5777a7ff3fcfacaf6d74caef88419d5ff0b9"
+    "edge_style": "natural_no_dark",
+    "sha256": "13283b26a06200898656f6ef0dc8b5066ca5b515b625999881f696b4f64b686a"
   },
   {
     "id": 39,
@@ -1076,7 +1089,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "8805945c903b20aac7b5d501bd038dd38f2dfcaf23b23603172fe9bb249b16ca"
+    "edge_style": "natural_no_dark",
+    "sha256": "75b489cbc543f2ad282ca6bc520e80ba6faa78db9467a4afd58c9d4f78e1cfba"
   },
   {
     "id": 48,
@@ -1146,7 +1160,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "b1dba248c12a0acca82ea46a5f71c2842cd1f7801ecb6dc4df6ed5b4fe508ff7"
+    "edge_style": "natural_no_dark",
+    "sha256": "1d3aa05d1faee677a9b48246f3fa8a112ba087a0b8bbe834c09a28eb5bb310b4"
   },
   {
     "id": 51,
@@ -1170,7 +1185,8 @@
     "balanced_kind": "light",
     "balanced_pixels": 64,
     "edge_cleanup": true,
-    "sha256": "1be65676fce866ae6e4524bc7bcaa1b908bbb29ca39ed9f18714ccedbb933bf8"
+    "edge_style": "natural_no_dark",
+    "sha256": "bd7dc5c6834e87d69493392e50ccc508e9c605fb86ea458bd8b93933a986f6d3"
   },
   {
     "id": 52,
@@ -1436,7 +1452,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "e129e12988fba944606700a04bb4e49f97454d1b7c404360735735a3a84d8ca6"
+    "edge_style": "natural_no_dark",
+    "sha256": "eea83e6ec275433ba692d41f472132b1bbbdc31286df457ea880f5e09cf34de3"
   },
   {
     "id": 64,
@@ -1722,7 +1739,8 @@
     "file": "icons_256/76.png",
     "restore_before_pixelation": true,
     "edge_cleanup": true,
-    "sha256": "60a80195be2134810153e6fd8eae63bd87c5592da9003c223a60c6bdc203a28f"
+    "edge_style": "natural_no_dark",
+    "sha256": "0493af3f2bbef785b54c92634330899ffeed3c135ba92c2f2046f08e18f7ec52"
   },
   {
     "id": 77,
@@ -1790,7 +1808,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "f5d538d985fda9bde9c5df839b3cce099304fa929fa0b97c455b2974c10955e2"
+    "edge_style": "natural_no_dark",
+    "sha256": "e93f2f256b5ef8edd53ad4aab1c8fb405f13591b48bb8800607ecb05db72a97f"
   },
   {
     "id": 80,
@@ -1814,7 +1833,8 @@
     "balanced_kind": "regular",
     "balanced_pixels": 48,
     "edge_cleanup": true,
-    "sha256": "9020d2122302db97847cfe9bbeb991db59315cfb9805f366648e8f592128fcf3"
+    "edge_style": "natural_no_dark",
+    "sha256": "1abbadda6cab0613d8beeae82a8dcc1cdc7e7e47b926c1206d6e3dfd3fa271a3"
   },
   {
     "id": 81,
@@ -1925,6 +1945,7 @@
     "subject": "ONE plain solid turquoise spiral wind-stone with a small charcoal tab at its base. Two cyan planes and one dark plane. REMOVE all golden mounting loops, tail trails, floating particles and ornate details.",
     "prompt": "Create ONE very SIMPLE pixel-art roguelite inventory sprite. The attached tiny Megabonk icons are STYLE references only: match their ORIGINAL low-detail 32x32-game-sprite simplicity, NOT ornate high-resolution item illustration. Use roughly 24-32 logical pixels across the object, 8-12 colors maximum, 2 or3 broad shading tones per material, matte surfaces, thick clean silhouette. Avoid saturated glossy highlights, gold ornamentation, decorative jewelry, busy surface texture, dithering, microdetails, particles, floating sparks, trails and elaborate magic. No animals, insects, living creatures, nuts or seeds. ONE plain everyday object, clearly readable at32px. Neutral medium saturation, restrained contrast. Fully transparent background, whole object centered and visible with20 percent clear padding. No colored rarity outline or outside glow yet: code will add that. Fine dark contour is okay. No UI frame, text, letters, numerals or watermark.\n\nSUBJECT: ONE plain solid turquoise spiral wind-stone with a small charcoal tab at its base. Two cyan planes and one dark plane. REMOVE all golden mounting loops, tail trails, floating particles and ornate details.\nMechanic context ONLY, do not add literal VFX or illustrative diagrams: Повышение скорости движения.\nThe two attached tiny sprites are style references only, do not copy their subject.",
     "edge_cleanup": true,
-    "sha256": "77c8cc83bd762ba427253b0e1b30223e2860aa97929c20431231ad521fa4488e"
+    "edge_style": "natural_no_dark",
+    "sha256": "7a5c929e978294f76d95c36801daeeff7675239ab865817f207ec2036f48e418"
   }
 ]

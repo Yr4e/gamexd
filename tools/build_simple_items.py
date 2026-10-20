@@ -4,7 +4,6 @@ import csv, hashlib, json, shutil, html
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 from scipy import ndimage as ndi
-import colorsys
 
 ROOT=Path(__file__).resolve().parents[1]
 OLD=ROOT/'assets/items/individual-redesign'
@@ -72,7 +71,7 @@ def pixelate_existing(image,color,logical=40):
     small=rgb.convert('RGBA');small.putalpha(alpha)
     return outline(clear_empty_rgb(small.resize((256,256),Image.Resampling.NEAREST)),color)
 
-def balanced_icon(image,color,logical=48):
+def balanced_icon(image,color,logical=48,add_rarity=True):
     """Pixelate the visible subject once, with enough detail and equal margins."""
     image=image.convert('RGBA')
     mask=image.getchannel('A').point(lambda a:255 if a>=128 else 0)
@@ -87,57 +86,30 @@ def balanced_icon(image,color,logical=48):
     small=small.resize((small.width*factor,small.height*factor),Image.Resampling.NEAREST)
     canvas=Image.new('RGBA',(256,256))
     canvas.paste(small,((256-small.width)//2,(256-small.height)//2))
-    return outline(clear_empty_rgb(canvas),color,width=2,glow_strength=18)
+    return outline(clear_empty_rgb(canvas),color,width=2,glow_strength=18) if add_rarity else clear_empty_rgb(canvas)
 
-def clean_item_edge(image,color,logical=None,preserve_effect=False):
-    """Strip only boundary-connected rarity paint, then rebuild one separated rim."""
-    a=np.array(image.convert('RGBA'))
-    solid=a[:,:,3]>=128
-    original_solid=solid.copy()
-    rgb=np.array([int(color[k:k+2],16) for k in (1,3,5)],dtype=float)/255
-    hue=colorsys.rgb_to_hsv(*rgb)[0]
-    values=a[:,:,:3].astype(float)/255
-    hi=values.max(2);lo=values.min(2);delta=hi-lo
-    sat=delta/np.maximum(hi,1e-6)
-    h=np.zeros_like(hi)
-    for channel,offset in ((0,0),(1,2),(2,4)):
-        selected=(values.argmax(2)==channel)&(delta>0)
-        numerator=values[:,:,(channel+1)%3]-values[:,:,(channel+2)%3]
-        h[selected]=(numerator[selected]/delta[selected]+offset)/6
-    h%=1
-    dh=np.abs(h-hue);dh=np.minimum(dh,1-dh)
-    matching=(dh<.105)&(sat>.30)&(hi>.28)
-    near=ndi.distance_transform_edt(solid)<=5
-    eligible=(~solid)|(matching&near)
-    connected=ndi.binary_propagation(~solid,mask=eligible)
-    if not preserve_effect:
-        solid&=~(connected&matching&near)
-        # Do not punch holes through highlights or fine object details.
-        original_holes=ndi.binary_fill_holes(original_solid)&~original_solid
-        solid|=ndi.binary_fill_holes(solid)&~solid&~original_holes&original_solid
-    a[:,:,3]=np.where(solid,255,0).astype('uint8')
-    a[~solid,:3]=0
-    body=Image.fromarray(a)
-    if logical:
-        box=body.getchannel('A').getbbox();crop=body.crop(box)
-        ratio=logical/max(crop.size)
+def natural_item_edge(entry):
+    """Rebuild from before the failed cleanup; never paint a dark separator."""
+    item_id=entry['id']
+    color=entry['outline_hex']
+    if item_id in (1,85):
+        logical=entry.get('slight_pixel_body',entry['logical_size'])
+        image=normalize(Image.open(OUT/'raw'/f'{item_id:02d}.png'),192,logical)
+        return outline(image,color,width=1,glow_strength=14)
+    if item_id in (2,6):
+        image=Image.open(OUT/'before-outline-fix'/f'{item_id:02d}.png').convert('RGBA')
+        box=image.getchannel('A').point(lambda a:255 if a>=128 else 0).getbbox()
+        crop=image.crop(box)
+        logical=entry['slight_pixel_body'];ratio=logical/max(crop.size)
         small=crop.resize((max(1,round(crop.width*ratio)),max(1,round(crop.height*ratio))),Image.Resampling.BOX)
-        alpha=small.getchannel('A').point(lambda x:255 if x>=128 else 0)
-        small=small.convert('RGB').quantize(colors=64,method=Image.Quantize.MEDIANCUT,dither=Image.Dither.NONE).convert('RGBA');small.putalpha(alpha)
         small=small.resize(crop.size,Image.Resampling.NEAREST)
-        body=Image.new('RGBA',(256,256));body.paste(small,(box[0],box[1]))
-    a=np.array(body);solid=a[:,:,3]>=128
-    dark=np.array((16,17,24),dtype='uint8')
-    inner=solid&(ndi.distance_transform_edt(solid)<=2)
-    a[inner,:3]=dark
-    distance=ndi.distance_transform_edt(~solid)
-    exterior=~ndi.binary_fill_holes(solid)
-    dark_band=exterior&(distance>0)&(distance<=1)
-    rarity_band=exterior&(distance>1)&(distance<=3)
-    a[dark_band,:3]=dark;a[dark_band,3]=255
-    a[rarity_band,:3]=np.round(rgb*255).astype('uint8');a[rarity_band,3]=255
-    # The body layer remains separate for inspection; no second glowing contour.
-    return clear_empty_rgb(Image.fromarray(a)),Image.fromarray((solid*255).astype('uint8'))
+        canvas=Image.new('RGBA',(256,256));canvas.paste(small,(box[0],box[1]))
+        return clear_empty_rgb(canvas)
+    if item_id==76:
+        return Image.open(OUT/'before-outline-fix/76.png').convert('RGBA')
+    # The source already contains its original colored edge. Do not stack another.
+    image=Image.open(OUT/'before-pixelation'/f'{item_id:02d}.png')
+    return balanced_icon(image,color,entry['balanced_pixels'],add_rarity=False)
 
 def main():
     plan=json.loads((OUT/'plan.json').read_text(encoding='utf-8'))
@@ -150,10 +122,7 @@ def main():
         e['status']='pending'
         extent=198 if e['id'] in [9,11,34] else e['target_extent']
         if e.get('edge_cleanup'):
-            source=OUT/'before-outline-fix'/f'{e["id"]:02d}.png'
-            image,bodymask=clean_item_edge(Image.open(source),e['outline_hex'],e.get('slight_pixel_body'),preserve_effect=e['id']==76)
-            (OUT/'edge-masks').mkdir(exist_ok=True)
-            bodymask.save(OUT/'edge-masks'/f'{e["id"]:02d}.png')
+            image=natural_item_edge(e)
             image.save(target)
         elif e.get('restore_before_pixelation'):
             shutil.copyfile(OUT/'before-pixelation'/f'{e["id"]:02d}.png',target)
@@ -198,8 +167,9 @@ def main():
     grid.save(OUT/'items-simple-grid.png')
     if any(e.get('edge_cleanup') for e in plan):
         grid.save(OUT/'items-outline-fixed-grid.png')
+        grid.save(OUT/'items-natural-edge-grid.png')
     (OUT/'catalog.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')
-    fields=['id','original_name','new_name_en','new_name_ru','effect_summary_ru','page_url','outline_hex','outline_color_name','mode','balanced_kind','balanced_pixels','restore_before_pixelation','edge_cleanup','slight_pixel_body','associative','status','file']
+    fields=['id','original_name','new_name_en','new_name_ru','effect_summary_ru','page_url','outline_hex','outline_color_name','mode','balanced_kind','balanced_pixels','restore_before_pixelation','edge_cleanup','edge_style','slight_pixel_body','associative','status','file']
     with (OUT/'catalog.csv').open('w',encoding='utf-8-sig',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');writer.writeheader();writer.writerows(plan)
     cards=''.join(f'<article><b>{e["id"]}</b><img src="{e["file"]}?v={e["sha256"][:10]}"><p>{html.escape(e["new_name_en"])}<br>{html.escape(e["new_name_ru"])}</p></article>' for e in plan if e['status']=='complete')
@@ -210,7 +180,7 @@ def main():
     (OUT/'comparison.html').write_text('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Предметы — сравнение правок</title>'+style+'<style>.grid{grid-template-columns:repeat(auto-fill,420px)}.pair img{width:140px;height:140px}</style>'+nav+'<div class="grid">'+pairs+'</div>',encoding='utf-8')
     latest=''.join(f'<article><p>#{e["id"]}</p><div class="pair"><figure><img src="before-balanced-fix/{e["id"]:02d}.png"><figcaption>До</figcaption></figure><figure><img src="{e["file"]}?v={e["sha256"][:10]}"><figcaption>После</figcaption></figure></div></article>' for e in plan if e['status']=='complete' and (e.get('balanced_fix') or e.get('restore_before_pixelation')))
     (OUT/'balanced-comparison.html').write_text('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Мягкая пикселизация — до и после</title>'+style+'<style>.grid{grid-template-columns:repeat(auto-fill,320px)}.pair img{width:160px;height:160px}</style>'+nav+'<div class="grid">'+latest+'</div>',encoding='utf-8')
-    edges=''.join(f'<article><p>#{e["id"]}</p><div class="pair"><figure><img src="before-outline-fix/{e["id"]:02d}.png"><figcaption>До</figcaption></figure><figure><img src="{e["file"]}?v={e["sha256"][:10]}"><figcaption>После</figcaption></figure></div></article>' for e in plan if e['status']=='complete' and e.get('edge_cleanup'))
+    edges=''.join(f'<article><p>#{e["id"]}</p><div class="pair"><figure><img src="before-no-dark-fix/{e["id"]:02d}.png"><figcaption>Отменённая окантовка</figcaption></figure><figure><img src="{e["file"]}?v={e["sha256"][:10]}"><figcaption>Естественный край</figcaption></figure></div></article>' for e in plan if e['status']=='complete' and e.get('edge_cleanup'))
     (OUT/'outline-comparison.html').write_text('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Обводка — до и после</title>'+style+'<style>.grid{grid-template-columns:repeat(auto-fill,400px)}</style>'+nav+'<div class="grid">'+edges+'</div>',encoding='utf-8')
     print(f'Completed {len(done)}/85. Missing: {[e["id"] for e in plan if e["status"]!="complete"]}')
 

@@ -227,7 +227,8 @@
     80,
     85
   ],
-  "single_separated_outer_rarity_band_verified": true,
+  "single_separated_outer_rarity_band_verified": false,
+  "natural_edges_without_added_dark_separator": true,
   "grid_size": [
     2560,
     2560

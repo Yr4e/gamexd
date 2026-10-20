@@ -20,7 +20,8 @@
     "subject": "Keep the same single bronze gear and the three circular sockets inside it, including the one cyan inset. REMOVE the entire long diagonal silver lever, rod and handle. Fill its former crossing area with plain bronze. No rod protruding beyond gear. Simplify shading to three tones and keep the gear readable.",
     "prompt": "Create ONE very SIMPLE pixel-art roguelite inventory sprite. The attached tiny Megabonk icons are STYLE references only: match their ORIGINAL low-detail 32x32-game-sprite simplicity, NOT ornate high-resolution item illustration. Use roughly 24-32 logical pixels across the object, 8-12 colors maximum, 2 or3 broad shading tones per material, matte surfaces, thick clean silhouette. Avoid saturated glossy highlights, gold ornamentation, decorative jewelry, busy surface texture, dithering, microdetails, particles, floating sparks, trails and elaborate magic. No animals, insects, living creatures, nuts or seeds. ONE plain everyday object, clearly readable at32px. Neutral medium saturation, restrained contrast. Fully transparent background, whole object centered and visible with20 percent clear padding. No colored rarity outline or outside glow yet: code will add that. Fine dark contour is okay. No UI frame, text, letters, numerals or watermark.\n\nSUBJECT: Keep the same single bronze gear and the three circular sockets inside it, including the one cyan inset. REMOVE the entire long diagonal silver lever, rod and handle. Fill its former crossing area with plain bronze. No rod protruding beyond gear. Simplify shading to three tones and keep the gear readable.\nMechanic context ONLY, do not add literal VFX or illustrative diagrams: Дополнительная характеристика при улучшении оружия.\nImage1 is the edit target, image2/3 are simplicity references. Preserve required main elements; remove only the specified components and simplify surface detail.",
     "edge_cleanup": true,
-    "slight_pixel_body": 44
+    "slight_pixel_body": 44,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 2,
@@ -42,7 +43,8 @@
     "file": "icons_256/02.png",
     "restore_before_pixelation": true,
     "edge_cleanup": true,
-    "slight_pixel_body": 56
+    "slight_pixel_body": 56,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 3,
@@ -107,7 +109,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 6,
@@ -129,7 +132,8 @@
     "file": "icons_256/06.png",
     "restore_before_pixelation": true,
     "edge_cleanup": true,
-    "slight_pixel_body": 56
+    "slight_pixel_body": 56,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 7,
@@ -152,7 +156,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 8,
@@ -175,7 +180,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 9,
@@ -198,7 +204,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 10,
@@ -264,7 +271,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 13,
@@ -287,7 +295,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 14,
@@ -525,7 +534,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 25,
@@ -593,7 +603,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 28,
@@ -637,7 +648,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 30,
@@ -832,7 +844,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 39,
@@ -1029,7 +1042,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 48,
@@ -1096,7 +1110,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 51,
@@ -1119,7 +1134,8 @@
     "balanced_fix": true,
     "balanced_kind": "light",
     "balanced_pixels": 64,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 52,
@@ -1373,7 +1389,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 64,
@@ -1646,7 +1663,8 @@
     "status": "pending",
     "file": "icons_256/76.png",
     "restore_before_pixelation": true,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 77,
@@ -1711,7 +1729,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 80,
@@ -1734,7 +1753,8 @@
     "balanced_fix": true,
     "balanced_kind": "regular",
     "balanced_pixels": 48,
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   },
   {
     "id": 81,
@@ -1840,6 +1860,7 @@
     "file": "icons_256/85.png",
     "subject": "ONE plain solid turquoise spiral wind-stone with a small charcoal tab at its base. Two cyan planes and one dark plane. REMOVE all golden mounting loops, tail trails, floating particles and ornate details.",
     "prompt": "Create ONE very SIMPLE pixel-art roguelite inventory sprite. The attached tiny Megabonk icons are STYLE references only: match their ORIGINAL low-detail 32x32-game-sprite simplicity, NOT ornate high-resolution item illustration. Use roughly 24-32 logical pixels across the object, 8-12 colors maximum, 2 or3 broad shading tones per material, matte surfaces, thick clean silhouette. Avoid saturated glossy highlights, gold ornamentation, decorative jewelry, busy surface texture, dithering, microdetails, particles, floating sparks, trails and elaborate magic. No animals, insects, living creatures, nuts or seeds. ONE plain everyday object, clearly readable at32px. Neutral medium saturation, restrained contrast. Fully transparent background, whole object centered and visible with20 percent clear padding. No colored rarity outline or outside glow yet: code will add that. Fine dark contour is okay. No UI frame, text, letters, numerals or watermark.\n\nSUBJECT: ONE plain solid turquoise spiral wind-stone with a small charcoal tab at its base. Two cyan planes and one dark plane. REMOVE all golden mounting loops, tail trails, floating particles and ornate details.\nMechanic context ONLY, do not add literal VFX or illustrative diagrams: Повышение скорости движения.\nThe two attached tiny sprites are style references only, do not copy their subject.",
-    "edge_cleanup": true
+    "edge_cleanup": true,
+    "edge_style": "natural_no_dark"
   }
 ]

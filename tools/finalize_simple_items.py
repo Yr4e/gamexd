@@ -66,6 +66,7 @@ def main():
     untouched = []
     bounds = {}
     edge_ids = [e['id'] for e in entries if e.get('edge_cleanup')]
+    natural_edges = bool(edge_ids) and all(e.get('edge_style')=='natural_no_dark' for e in entries if e.get('edge_cleanup'))
     if balanced and not edge_ids:
         expected_regular = {5,7,8,9,11,12,13,15,16,17,20,23,24,26,27,29,34,38,39,43,45,47,48,49,50,57,62,63,79,80}
         assert set(balanced) == expected_regular | {31,42,51,73}
@@ -90,7 +91,7 @@ def main():
         assert len(untouched) == 43
         assert (OUT / 'raw/73-lightning.png').is_file()
         assert (OUT / 'prompts/73-lightning.txt').is_file()
-    if edge_ids:
+    if edge_ids and not natural_edges:
         assert set(edge_ids) == {1,2,5,6,7,8,9,12,13,24,27,29,38,47,50,51,63,76,79,80,85}
         assert {e['id'] for e in entries if e.get('slight_pixel_body')} == {1,2,6}
         baseline = json.loads((OUT / 'before-outline-fix/baseline.json').read_text(encoding='utf-8'))
@@ -116,6 +117,19 @@ def main():
             box = image.getchannel('A').getbbox()
             assert max(abs(x-y) for x,y in zip(old_box,box)) <= 7, (e['id'],old_box,box)
         assert len(untouched) == 64
+    if natural_edges:
+        assert set(edge_ids) == {1,2,5,6,7,8,9,12,13,24,27,29,38,47,50,51,63,76,79,80,85}
+        baseline = json.loads((OUT / 'before-no-dark-fix/baseline.json').read_text(encoding='utf-8'))
+        for e in entries:
+            if e['id'] not in edge_ids:
+                assert e['sha256'] == baseline[str(e['id'])], e['id']
+                untouched.append(e['id'])
+                continue
+            assert e['sha256'] != baseline[str(e['id'])], e['id']
+            a=np.asarray(Image.open(OUT / e['file']).convert('RGBA'))
+            assert not np.any(np.all(a==[16,17,24,255],axis=2)), e['id']
+        assert len(untouched)==64
+        assert (OUT / 'icons_256/76.png').read_bytes() == (OUT / 'before-outline-fix/76.png').read_bytes()
     report = {
         'total': 85, 'unique_pngs': 85, 'rgba_size': [256, 256],
         'transparent_margins': True, 'original_effects_and_rarity_preserved': True,
@@ -130,7 +144,8 @@ def main():
         'untouched_ids': untouched,
         'exact_scope_verified': bool(balanced),
         'edge_cleanup_ids': edge_ids,
-        'single_separated_outer_rarity_band_verified': bool(edge_ids),
+        'single_separated_outer_rarity_band_verified': bool(edge_ids) and not natural_edges,
+        'natural_edges_without_added_dark_separator': natural_edges,
         'grid_size': list(Image.open(OUT / 'items-simple-grid.png').size),
     }
     (OUT / 'validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
