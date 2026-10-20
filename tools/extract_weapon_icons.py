@@ -96,6 +96,18 @@ def main():
         icon = extract(sheet.crop((left, top, right, bottom)), index)
         slug = EN[index-1].lower().replace(' ', '-')
         name = f'{index:02d}_{slug}.png'
+        replacement = OUT/'revisions'/name
+        if replacement.exists():
+            revised = Image.open(replacement).convert('RGBA')
+            # Generated sprites can have invisible 1/255-alpha specks far
+            # outside the art. Exclude those from sizing, retain glow padding.
+            visible = revised.getchannel('A').point(lambda a: 255 if a > 2 else 0)
+            x0,y0,x1,y1 = visible.getbbox()
+            revised = revised.crop((max(0,x0-16),max(0,y0-16),min(revised.width,x1+16),min(revised.height,y1+16)))
+            scale = min(208/revised.width, 208/revised.height)
+            revised = revised.resize((max(1,round(revised.width*scale)),max(1,round(revised.height*scale))), Image.Resampling.NEAREST)
+            icon = Image.new('RGBA',(256,256))
+            icon.paste(revised,((256-revised.width)//2,(256-revised.height)//2))
         icon.save(icons/name)
         assert icon.size == (256,256)
         alpha = np.array(icon.getchannel('A'))
