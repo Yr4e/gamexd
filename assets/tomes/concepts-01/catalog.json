@@ -1,0 +1,67 @@
+{
+  "stage": "family-selection",
+  "count": 5,
+  "selected_candidate": null,
+  "candidates": [
+    {
+      "candidate_id": 1,
+      "name_ru": "Футляр",
+      "variation_potential_ru": "Тонкий / толстый; открытый / закрытый",
+      "file": "icons_256/01.png",
+      "raw_file": "raw/01.png",
+      "prompt_file": "prompts/01.txt",
+      "generation_mode": "built-in-imagegen",
+      "status": "candidate-not-selected",
+      "is_game_asset": false,
+      "sha256": "369b675e89d314a4cc525a47c4b5ab164f4f61dcac9f202efc8cc043188215bc"
+    },
+    {
+      "candidate_id": 2,
+      "name_ru": "Свиток",
+      "variation_potential_ru": "Узкий / широкий; свёрнутый / развёрнутый",
+      "file": "icons_256/02.png",
+      "raw_file": "raw/02.png",
+      "prompt_file": "prompts/02.txt",
+      "generation_mode": "built-in-imagegen",
+      "status": "candidate-not-selected",
+      "is_game_asset": false,
+      "sha256": "db2cecfdbcd9475ce9b544f5f3fc36299ca6203ccdf82f8950f8509f71e931fc"
+    },
+    {
+      "candidate_id": 3,
+      "name_ru": "Медальон",
+      "variation_potential_ru": "Плоский / объёмный; открытый / закрытый",
+      "file": "icons_256/03.png",
+      "raw_file": "raw/03.png",
+      "prompt_file": "prompts/03.txt",
+      "generation_mode": "built-in-imagegen",
+      "status": "candidate-not-selected",
+      "is_game_asset": false,
+      "sha256": "019e19190dd013293eb8317dce2f88b3d794ca64a27997daf42acfe74ac8d90d"
+    },
+    {
+      "candidate_id": 4,
+      "name_ru": "Мешочек",
+      "variation_potential_ru": "Плоский / полный; завязанный / раскрытый",
+      "file": "icons_256/04.png",
+      "raw_file": "raw/04.png",
+      "prompt_file": "prompts/04.txt",
+      "generation_mode": "built-in-imagegen",
+      "status": "candidate-not-selected",
+      "is_game_asset": false,
+      "sha256": "b0e4362648911830a8e0b1cda7be8f60ea15c13a0f8701d771ee1b1856202f0b"
+    },
+    {
+      "candidate_id": 5,
+      "name_ru": "Картридж",
+      "variation_potential_ru": "Тонкий / толстый; цельный / со вставкой",
+      "file": "icons_256/05.png",
+      "raw_file": "raw/05.png",
+      "prompt_file": "prompts/05.txt",
+      "generation_mode": "built-in-imagegen",
+      "status": "candidate-not-selected",
+      "is_game_asset": false,
+      "sha256": "5b9ded59613ceeb1562da7aac9a1b0af39bcb6a7a8374f485be174b36fdf4a29"
+    }
+  ]
+}

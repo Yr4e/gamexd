@@ -1,0 +1,30 @@
+{
+  "id": 10,
+  "asset_id": "tome_10",
+  "original_key": "megabonk:tome:regen-tome",
+  "original_name": "Regen Tome",
+  "source_url": "https://megabonk.org/database/tomes/regen-tome",
+  "original_file": "originals/10_regen-tome.png",
+  "original_effect_ru": "+40 здоровья в минуту",
+  "selected_set": null,
+  "variants": [
+    {
+      "set_id": "tomes-cards-v1",
+      "variant_id": "tome_10@cards-v1",
+      "new_name_en": "Renewal Deck",
+      "new_name_ru": "Колода обновления",
+      "our_file": "cards/icons_256/10.png",
+      "data_file": "cards/data/10.json",
+      "entry_file": "cards/entries/10.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_10@seals-v1",
+      "new_name_en": "Renewal Seal",
+      "new_name_ru": "Печать обновления",
+      "our_file": "seals/icons_256/10.png",
+      "data_file": "seals/data/10.json",
+      "entry_file": "seals/entries/10.html"
+    }
+  ]
+}

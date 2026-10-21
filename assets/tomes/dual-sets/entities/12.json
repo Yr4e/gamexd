@@ -1,0 +1,30 @@
+{
+  "id": 12,
+  "asset_id": "tome_12",
+  "original_key": "megabonk:tome:silver-tome",
+  "original_name": "Silver Tome",
+  "source_url": "https://megabonk.org/database/tomes/silver-tome",
+  "original_file": "originals/12_silver-tome.png",
+  "original_effect_ru": "+12% к получению серебра",
+  "selected_set": null,
+  "variants": [
+    {
+      "set_id": "tomes-cards-v1",
+      "variant_id": "tome_12@cards-v1",
+      "new_name_en": "Argent Deck",
+      "new_name_ru": "Колода серебра",
+      "our_file": "cards/icons_256/12.png",
+      "data_file": "cards/data/12.json",
+      "entry_file": "cards/entries/12.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_12@seals-v1",
+      "new_name_en": "Argent Seal",
+      "new_name_ru": "Печать серебра",
+      "our_file": "seals/icons_256/12.png",
+      "data_file": "seals/data/12.json",
+      "entry_file": "seals/entries/12.html"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "agility tome": {
+    "asset_id": "tome_01",
+    "original_key": "megabonk:tome:agility-tome",
+    "data_file": "data/01.json"
+  },
+  "cooldown tome": {
+    "asset_id": "tome_02",
+    "original_key": "megabonk:tome:cooldown-tome",
+    "data_file": "data/02.json"
+  },
+  "damage tome": {
+    "asset_id": "tome_03",
+    "original_key": "megabonk:tome:damage-tome",
+    "data_file": "data/03.json"
+  },
+  "evasion tome": {
+    "asset_id": "tome_04",
+    "original_key": "megabonk:tome:evasion-tome",
+    "data_file": "data/04.json"
+  },
+  "golden tome": {
+    "asset_id": "tome_05",
+    "original_key": "megabonk:tome:golden-tome",
+    "data_file": "data/05.json"
+  },
+  "health tome": {
+    "asset_id": "tome_06",
+    "original_key": "megabonk:tome:health-tome",
+    "data_file": "data/06.json"
+  },
+  "knockback tome": {
+    "asset_id": "tome_07",
+    "original_key": "megabonk:tome:knockback-tome",
+    "data_file": "data/07.json"
+  },
+  "precision tome": {
+    "asset_id": "tome_08",
+    "original_key": "megabonk:tome:precision-tome",
+    "data_file": "data/08.json"
+  },
+  "projectile speed tome": {
+    "asset_id": "tome_09",
+    "original_key": "megabonk:tome:projectile-speed-tome",
+    "data_file": "data/09.json"
+  },
+  "regen tome": {
+    "asset_id": "tome_10",
+    "original_key": "megabonk:tome:regen-tome",
+    "data_file": "data/10.json"
+  },
+  "shield tome": {
+    "asset_id": "tome_11",
+    "original_key": "megabonk:tome:shield-tome",
+    "data_file": "data/11.json"
+  },
+  "silver tome": {
+    "asset_id": "tome_12",
+    "original_key": "megabonk:tome:silver-tome",
+    "data_file": "data/12.json"
+  },
+  "size tome": {
+    "asset_id": "tome_13",
+    "original_key": "megabonk:tome:size-tome",
+    "data_file": "data/13.json"
+  },
+  "armor tome": {
+    "asset_id": "tome_14",
+    "original_key": "megabonk:tome:armor-tome",
+    "data_file": "data/14.json"
+  },
+  "attraction tome": {
+    "asset_id": "tome_15",
+    "original_key": "megabonk:tome:attraction-tome",
+    "data_file": "data/15.json"
+  },
+  "bloody tome": {
+    "asset_id": "tome_16",
+    "original_key": "megabonk:tome:bloody-tome",
+    "data_file": "data/16.json"
+  },
+  "chaos tome": {
+    "asset_id": "tome_17",
+    "original_key": "megabonk:tome:chaos-tome",
+    "data_file": "data/17.json"
+  },
+  "cursed tome": {
+    "asset_id": "tome_18",
+    "original_key": "megabonk:tome:cursed-tome",
+    "data_file": "data/18.json"
+  },
+  "duration tome": {
+    "asset_id": "tome_19",
+    "original_key": "megabonk:tome:duration-tome",
+    "data_file": "data/19.json"
+  },
+  "luck tome": {
+    "asset_id": "tome_20",
+    "original_key": "megabonk:tome:luck-tome",
+    "data_file": "data/20.json"
+  },
+  "quantity tome": {
+    "asset_id": "tome_21",
+    "original_key": "megabonk:tome:quantity-tome",
+    "data_file": "data/21.json"
+  },
+  "thorns tome": {
+    "asset_id": "tome_22",
+    "original_key": "megabonk:tome:thorns-tome",
+    "data_file": "data/22.json"
+  },
+  "xp tome": {
+    "asset_id": "tome_23",
+    "original_key": "megabonk:tome:xp-tome",
+    "data_file": "data/23.json"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": 4,
+  "asset_id": "tome_04",
+  "original_key": "megabonk:tome:evasion-tome",
+  "original_name": "Evasion Tome",
+  "source_url": "https://megabonk.org/database/tomes/evasion-tome",
+  "original_file": "originals/04_evasion-tome.png",
+  "original_effect_ru": "+10% к уклонению",
+  "selected_set": null,
+  "variants": [
+    {
+      "set_id": "tomes-cards-v1",
+      "variant_id": "tome_04@cards-v1",
+      "new_name_en": "Veil Pair",
+      "new_name_ru": "Пара завесы",
+      "our_file": "cards/icons_256/04.png",
+      "data_file": "cards/data/04.json",
+      "entry_file": "cards/entries/04.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_04@seals-v1",
+      "new_name_en": "Veil Seal",
+      "new_name_ru": "Печать завесы",
+      "our_file": "seals/icons_256/04.png",
+      "data_file": "seals/data/04.json",
+      "entry_file": "seals/entries/04.html"
+    }
+  ]
+}

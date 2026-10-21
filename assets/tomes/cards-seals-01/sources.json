@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "code": "К1",
+    "group": "cards",
+    "generation_mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-e7b21f23-ab14-4d63-befb-bad78cfbb480.png",
+    "prompt_file": "prompts/01.txt",
+    "transparent_background": true,
+    "style_reference": "assets/items/revision-simple/icons_256/25.png"
+  },
+  {
+    "id": 2,
+    "code": "К2",
+    "group": "cards",
+    "generation_mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-3b82179c-ea03-4237-9275-d71d08a3228a.png",
+    "prompt_file": "prompts/02.txt",
+    "transparent_background": true,
+    "style_reference": "assets/items/revision-simple/icons_256/25.png"
+  },
+  {
+    "id": 3,
+    "code": "К3",
+    "group": "cards",
+    "generation_mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-8d1cde09-baa5-4067-a387-82b4924ba30c.png",
+    "prompt_file": "prompts/03.txt",
+    "transparent_background": true,
+    "style_reference": "assets/items/revision-simple/icons_256/25.png"
+  },
+  {
+    "id": 4,
+    "code": "К4",
+    "group": "cards",
+    "generation_mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-946fc43e-a3c3-43e2-998d-105f4a90d9d7.png",
+    "prompt_file": "prompts/04.txt",
+    "transparent_background": true,
+    "style_reference": "assets/items/revision-simple/icons_256/25.png"
+  },
+  {
+    "id": 5,
+    "code": "К5",
+    "group": "cards",
+    "generation_mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-a288e042-fd13-49b0-95aa-b0ebbf248f83.png",
+    "prompt_file": "prompts/05.txt",
+    "transparent_background": true,
+    "style_reference": "assets/items/revision-simple/icons_256/25.png"
+  },
+  {
+    "id": 1,
+    "code": "П1",
+    "group": "seals",
+    "generation_mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-dff668ac-0f4e-48de-a2d3-c68460b2c002.png",
+    "prompt_file": "prompts/01.txt",
+    "transparent_background": true,
+    "style_reference": "assets/items/revision-simple/icons_256/25.png"
+  },
+  {
+    "id": 2,
+    "code": "П2",
+    "group": "seals",
+    "generation_mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-6b32d180-ea9a-42c5-b18b-d74378bdfc9f.png",
+    "prompt_file": "prompts/02.txt",
+    "transparent_background": true,
+    "style_reference": "assets/items/revision-simple/icons_256/25.png"
+  },
+  {
+    "id": 3,
+    "code": "П3",
+    "group": "seals",
+    "generation_mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-0ca9c00f-6afb-4012-9a9a-5e4603c220eb.png",
+    "prompt_file": "prompts/03.txt",
+    "transparent_background": true,
+    "style_reference": "assets/items/revision-simple/icons_256/25.png"
+  },
+  {
+    "id": 4,
+    "code": "П4",
+    "group": "seals",
+    "generation_mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-eb8697b1-0de2-4411-b5fc-9387733100ac.png",
+    "prompt_file": "prompts/04.txt",
+    "transparent_background": true,
+    "style_reference": "assets/items/revision-simple/icons_256/25.png"
+  },
+  {
+    "id": 5,
+    "code": "П5",
+    "group": "seals",
+    "generation_mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-937f3b94-ca04-4ec5-a947-460da060749b.png",
+    "prompt_file": "prompts/05.txt",
+    "transparent_background": true,
+    "style_reference": "assets/items/revision-simple/icons_256/25.png"
+  }
+]

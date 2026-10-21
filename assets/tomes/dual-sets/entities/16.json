@@ -1,0 +1,30 @@
+{
+  "id": 16,
+  "asset_id": "tome_16",
+  "original_key": "megabonk:tome:bloody-tome",
+  "original_name": "Bloody Tome",
+  "source_url": "https://megabonk.org/database/tomes/bloody-tome",
+  "original_file": "originals/16_bloody-tome.png",
+  "original_effect_ru": "+10% к краже жизни",
+  "selected_set": null,
+  "variants": [
+    {
+      "set_id": "tomes-cards-v1",
+      "variant_id": "tome_16@cards-v1",
+      "new_name_en": "Crimson Card",
+      "new_name_ru": "Карта крови",
+      "our_file": "cards/icons_256/16.png",
+      "data_file": "cards/data/16.json",
+      "entry_file": "cards/entries/16.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_16@seals-v1",
+      "new_name_en": "Crimson Seal",
+      "new_name_ru": "Печать крови",
+      "our_file": "seals/icons_256/16.png",
+      "data_file": "seals/data/16.json",
+      "entry_file": "seals/entries/16.html"
+    }
+  ]
+}

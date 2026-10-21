@@ -1,0 +1,11 @@
+{
+  "id": 4,
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-d4ef0f18-2204-4e6e-88f2-cc4c98e7e7d8.png",
+  "prompt_file": "prompts/04.txt",
+  "transparent_background": true,
+  "style_references": [
+    "assets/items/flat-2d-attempt/icons_256/02.png",
+    "assets/items/revision-simple/icons_256/25.png"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "count": 10,
+  "cards": 5,
+  "seals": 5,
+  "unique_codes": 10,
+  "pngs_transparent": true,
+  "square_256": true,
+  "preview_links_verified": true,
+  "generation_mode": "built-in-imagegen",
+  "selected_candidate": null
+}

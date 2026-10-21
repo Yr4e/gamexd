@@ -1,0 +1,12 @@
+{
+  "id": 13,
+  "variant_id": "tome_13@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-aee9ff3d-290b-44f2-9508-552d9aee79b2.png",
+  "prompt_file": "seals/prompts/13.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\04.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\13_size-tome.png"
+  ],
+  "transparent_background": true
+}

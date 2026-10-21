@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "code": "П2",
+  "group": "seals",
+  "generation_mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-6b32d180-ea9a-42c5-b18b-d74378bdfc9f.png",
+  "prompt_file": "prompts/02.txt",
+  "transparent_background": true,
+  "style_reference": "assets/items/revision-simple/icons_256/25.png"
+}

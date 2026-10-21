@@ -1,0 +1,30 @@
+{
+  "id": 18,
+  "asset_id": "tome_18",
+  "original_key": "megabonk:tome:cursed-tome",
+  "original_name": "Cursed Tome",
+  "source_url": "https://megabonk.org/database/tomes/cursed-tome",
+  "original_file": "originals/18_cursed-tome.png",
+  "original_effect_ru": "+3,5% к сложности",
+  "selected_set": null,
+  "variants": [
+    {
+      "set_id": "tomes-cards-v1",
+      "variant_id": "tome_18@cards-v1",
+      "new_name_en": "Burden Deck",
+      "new_name_ru": "Колода бремени",
+      "our_file": "cards/icons_256/18.png",
+      "data_file": "cards/data/18.json",
+      "entry_file": "cards/entries/18.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_18@seals-v1",
+      "new_name_en": "Burden Seal",
+      "new_name_ru": "Печать бремени",
+      "our_file": "seals/icons_256/18.png",
+      "data_file": "seals/data/18.json",
+      "entry_file": "seals/entries/18.html"
+    }
+  ]
+}

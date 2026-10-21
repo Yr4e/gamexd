@@ -1,0 +1,12 @@
+{
+  "id": 20,
+  "variant_id": "tome_20@cards-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-b25a1e62-835f-4e11-b570-6e2ac8743c94.png",
+  "prompt_file": "cards/prompts/20.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\cards\\icons_256\\04.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\20_luck-tome.png"
+  ],
+  "transparent_background": true
+}
