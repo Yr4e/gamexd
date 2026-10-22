@@ -1,0 +1,30 @@
+{
+  "id": 14,
+  "asset_id": "tome_14",
+  "original_key": "megabonk:tome:armor-tome",
+  "original_name": "Armor Tome",
+  "source_url": "https://megabonk.org/database/tomes/armor-tome",
+  "original_file": "originals/14_armor-tome.png",
+  "original_effect_ru": "+12% к броне",
+  "selected_set": "tomes-cards-v3",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v3",
+      "variant_id": "tome_14@cards-v3",
+      "new_name_en": "Bulwark Card",
+      "new_name_ru": "Карта бастиона",
+      "our_file": "cards/icons_256/14.png",
+      "data_file": "cards/data/14.json",
+      "entry_file": "cards/entries/14.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_14@seals-v1",
+      "new_name_en": "Bulwark Seal",
+      "new_name_ru": "Печать бастиона",
+      "our_file": "seals/icons_256/14.png",
+      "data_file": "seals/data/14.json",
+      "entry_file": "seals/entries/14.html"
+    }
+  ]
+}

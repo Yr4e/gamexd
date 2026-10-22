@@ -1,0 +1,271 @@
+{
+  "selected_set": "tomes-cards-v3",
+  "id_order_preserved": true,
+  "changes": [
+    1,
+    4,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    19,
+    23
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "original_name": "Agility Tome",
+      "original_key": "megabonk:tome:agility-tome",
+      "effect": "Скорость передвижения",
+      "new_name_en": "Fleet Card",
+      "new_name_ru": "Карта прыти",
+      "changed_in_v3": true,
+      "direction": "Recolor the blue card to SPRING LIME GREEN face, warm ivory edge, two bold cream forward chevrons for MOVEMENT SPEED. Card leans LEFT, opposite the input lean. Keep the icon plain and energetic, no ribbons.",
+      "our_file": "cards/icons_256/01.png"
+    },
+    {
+      "id": 2,
+      "original_name": "Cooldown Tome",
+      "original_key": "megabonk:tome:cooldown-tome",
+      "effect": "Скорость атаки",
+      "new_name_en": "Quickbeat Fan",
+      "new_name_ru": "Веер темпа",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/02.png"
+    },
+    {
+      "id": 3,
+      "original_name": "Damage Tome",
+      "original_key": "megabonk:tome:damage-tome",
+      "effect": "Множитель урона",
+      "new_name_en": "Breaker Card",
+      "new_name_ru": "Карта натиска",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/03.png"
+    },
+    {
+      "id": 4,
+      "original_name": "Evasion Tome",
+      "original_key": "megabonk:tome:evasion-tome",
+      "effect": "Уклонение",
+      "new_name_en": "Veil Pair",
+      "new_name_ru": "Пара завесы",
+      "changed_in_v3": true,
+      "direction": "Keep the two charcoal gray rectangular cards and split-crescent evasion emblem. Make the front card nearly upright; add ONE small believable triangular TEAR at its upper-right paper edge. Back card angles left. No dark cracks across the face.",
+      "our_file": "cards/icons_256/04.png"
+    },
+    {
+      "id": 5,
+      "original_name": "Golden Tome",
+      "original_key": "megabonk:tome:golden-tome",
+      "effect": "Получение золота",
+      "new_name_en": "Gilded Card",
+      "new_name_ru": "Карта золота",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/05.png"
+    },
+    {
+      "id": 6,
+      "original_name": "Health Tome",
+      "original_key": "megabonk:tome:health-tome",
+      "effect": "Максимальное здоровье",
+      "new_name_en": "Heart Card",
+      "new_name_ru": "Карта сердца",
+      "changed_in_v3": true,
+      "direction": "Keep this warm ivory card with its pink heart for MAXIMUM HEALTH. Add ONE small FOLDED-DOWN upper-left paper corner showing plain cream underside and a simple short crease. Change lean slightly LEFT. No overall crumpling, stains or texture noise.",
+      "our_file": "cards/icons_256/06.png"
+    },
+    {
+      "id": 7,
+      "original_name": "Knockback Tome",
+      "original_key": "megabonk:tome:knockback-tome",
+      "effect": "Отбрасывание",
+      "new_name_en": "Repulse Fan",
+      "new_name_ru": "Веер отпора",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/07.png"
+    },
+    {
+      "id": 8,
+      "original_name": "Precision Tome",
+      "original_key": "megabonk:tome:precision-tome",
+      "effect": "Шанс критического удара",
+      "new_name_en": "Keen Card",
+      "new_name_ru": "Карта меткости",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/08.png"
+    },
+    {
+      "id": 9,
+      "original_name": "Projectile Speed Tome",
+      "original_key": "megabonk:tome:projectile-speed-tome",
+      "effect": "Скорость снарядов",
+      "new_name_en": "Rush Pair",
+      "new_name_ru": "Пара стремительности",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/09.png"
+    },
+    {
+      "id": 10,
+      "original_name": "Regen Tome",
+      "original_key": "megabonk:tome:regen-tome",
+      "effect": "Восстановление здоровья",
+      "new_name_en": "Renewal Card",
+      "new_name_ru": "Карта обновления",
+      "changed_in_v3": true,
+      "direction": "Replace the entire carton with ONE thin PORTRAIT PLAYING CARD. Matte warm pink field, ivory border, one broad dark-rose circular renewal-arrow emblem with blank center, for HEALTH REGENERATION. Card nearly vertical, tiny left lean. NO box, pocket, packet, stacked sheets or open lid.",
+      "our_file": "cards/icons_256/10.png"
+    },
+    {
+      "id": 11,
+      "original_name": "Shield Tome",
+      "original_key": "megabonk:tome:shield-tome",
+      "effect": "Щит",
+      "new_name_en": "Bastion Card",
+      "new_name_ru": "Карта оплота",
+      "changed_in_v3": true,
+      "direction": "Keep the shield card for SHIELD CAPACITY: dark midnight navy face, muted STEEL SILVER border, single broad pale-teal shield emblem. Make the card almost UPRIGHT, narrow thin edge, no glossy metallic sheen. Keep this as the one blue defensive card.",
+      "our_file": "cards/icons_256/11.png"
+    },
+    {
+      "id": 12,
+      "original_name": "Silver Tome",
+      "original_key": "megabonk:tome:silver-tome",
+      "effect": "Получение серебра",
+      "new_name_en": "Argent Card",
+      "new_name_ru": "Карта серебра",
+      "changed_in_v3": true,
+      "direction": "This is SILVER GAIN. Replace all teal and blue with a PALE PEARL GRAY face, charcoal-gray inset panel and ONE wide pale-SILVER horizontal ingot-shaped BAR emblem. Warm-gray thin rim. Tilt LEFT opposite input. No cyan, blue or turquoise anywhere, no white glare.",
+      "our_file": "cards/icons_256/12.png"
+    },
+    {
+      "id": 13,
+      "original_name": "Size Tome",
+      "original_key": "megabonk:tome:size-tome",
+      "effect": "Размер атак",
+      "new_name_en": "Broad Card",
+      "new_name_ru": "Карта размаха",
+      "changed_in_v3": true,
+      "direction": "SIZE OF ATTACKS. Keep the dark-brown face and gold expanding-arrow emblem, ivory gold border. Make this a noticeably BROADER portrait rectangle, width-to-height0.82, slightly larger broad face than ordinary cards while still a flat playing card. Tilt gently LEFT. One clean centered expanding-arrow emblem, no tiny symbols.",
+      "our_file": "cards/icons_256/13.png"
+    },
+    {
+      "id": 14,
+      "original_name": "Armor Tome",
+      "original_key": "megabonk:tome:armor-tome",
+      "effect": "Броня",
+      "new_name_en": "Bulwark Card",
+      "new_name_ru": "Карта бастиона",
+      "changed_in_v3": true,
+      "direction": "ARMOR. Recolor the blue-gray card into matte COPPER BROWN and burnt-orange panel, warm ivory narrow edge, one broad pale BEIGE stepped-wall chevron emblem. Card leans LEFT, opposite input, narrow side edge only. No blue, teal, silver armor shine, box or pocket.",
+      "our_file": "cards/icons_256/14.png"
+    },
+    {
+      "id": 15,
+      "original_name": "Attraction Tome",
+      "original_key": "megabonk:tome:attraction-tome",
+      "effect": "Радиус подбора",
+      "new_name_en": "Lure Pair",
+      "new_name_ru": "Пара притяжения",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/15.png"
+    },
+    {
+      "id": 16,
+      "original_name": "Bloody Tome",
+      "original_key": "megabonk:tome:bloody-tome",
+      "effect": "Кража жизни",
+      "new_name_en": "Crimson Card",
+      "new_name_ru": "Карта крови",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/16.png"
+    },
+    {
+      "id": 17,
+      "original_name": "Chaos Tome",
+      "original_key": "megabonk:tome:chaos-tome",
+      "effect": "Случайное улучшение характеристики",
+      "new_name_en": "Wild Fan",
+      "new_name_ru": "Веер хаоса",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/17.png"
+    },
+    {
+      "id": 18,
+      "original_name": "Cursed Tome",
+      "original_key": "megabonk:tome:cursed-tome",
+      "effect": "Сложность",
+      "new_name_en": "Burden Card",
+      "new_name_ru": "Карта бремени",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/18.png"
+    },
+    {
+      "id": 19,
+      "original_name": "Duration Tome",
+      "original_key": "megabonk:tome:duration-tome",
+      "effect": "Длительность эффектов",
+      "new_name_en": "Lingering Pair",
+      "new_name_ru": "Пара длительности",
+      "changed_in_v3": true,
+      "direction": "Keep the navy blue double-card pair and ivory hourglass for EFFECT DURATION. REMOVE the hanging loop and top tab so these are genuine complete plain rectangular playing cards, no tags. Front card leans LEFT, back card upright and offset right. Preserve two flat hourglass triangles with empty waist.",
+      "our_file": "cards/icons_256/19.png"
+    },
+    {
+      "id": 20,
+      "original_name": "Luck Tome",
+      "original_key": "megabonk:tome:luck-tome",
+      "effect": "Удача",
+      "new_name_en": "Fortune Card",
+      "new_name_ru": "Карта удачи",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/20.png"
+    },
+    {
+      "id": 21,
+      "original_name": "Quantity Tome",
+      "original_key": "megabonk:tome:quantity-tome",
+      "effect": "Количество снарядов",
+      "new_name_en": "Echo Fan",
+      "new_name_ru": "Веер эха",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/21.png"
+    },
+    {
+      "id": 22,
+      "original_name": "Thorns Tome",
+      "original_key": "megabonk:tome:thorns-tome",
+      "effect": "Ответный урон шипами",
+      "new_name_en": "Thorn Card",
+      "new_name_ru": "Карта шипов",
+      "changed_in_v3": false,
+      "direction": "Сохранён дизайн из v2",
+      "our_file": "cards/icons_256/22.png"
+    },
+    {
+      "id": 23,
+      "original_name": "XP Tome",
+      "original_key": "megabonk:tome:xp-tome",
+      "effect": "Получение опыта",
+      "new_name_en": "Insight Card",
+      "new_name_ru": "Карта прозрения",
+      "changed_in_v3": true,
+      "direction": "EXPERIENCE GAIN. Recolor the teal card into a matte dusty VIOLET face, darker plum inner panel, ivory narrow rim and ONE broad ivory UPWARD CHEVRON symbol. Lean LEFT, opposite input. No teal, turquoise, green, blue or glitter. Simple readable emblem.",
+      "our_file": "cards/icons_256/23.png"
+    }
+  ]
+}

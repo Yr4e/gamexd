@@ -1,0 +1,12 @@
+{
+  "id": 15,
+  "variant_id": "tome_15@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-308ebc84-65a3-4df7-9b83-3ae0caad3178.png",
+  "prompt_file": "seals/prompts/15.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\05.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\15_attraction-tome.png"
+  ],
+  "transparent_background": true
+}

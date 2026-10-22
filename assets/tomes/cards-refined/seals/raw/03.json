@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "variant_id": "tome_03@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-070623ab-732f-49d5-9af1-fc9f0c24517c.png",
+  "prompt_file": "seals/prompts/03.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\04.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\03_damage-tome.png"
+  ],
+  "transparent_background": true
+}

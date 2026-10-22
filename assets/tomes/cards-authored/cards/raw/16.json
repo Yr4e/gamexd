@@ -1,0 +1,12 @@
+{
+  "id": 16,
+  "variant_id": "tome_16@cards-v3",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-17f21f8f-d967-425c-b415-d6ab3b185c6c.png",
+  "prompt_file": "cards/prompts/16.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\cards\\icons_256\\01.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\16_bloody-tome.png"
+  ],
+  "transparent_background": true
+}

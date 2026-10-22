@@ -1,0 +1,12 @@
+{
+  "id": 19,
+  "variant_id": "tome_19@cards-v2",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-acc09f9c-cfbc-4785-9830-d33da2e08f2c.png",
+  "prompt_file": "cards/prompts/19.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\cards\\icons_256\\05.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\19_duration-tome.png"
+  ],
+  "transparent_background": true
+}

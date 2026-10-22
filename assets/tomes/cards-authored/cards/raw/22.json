@@ -1,0 +1,12 @@
+{
+  "id": 22,
+  "variant_id": "tome_22@cards-v3",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-3a203aa1-a06a-4c55-a814-26a1f9736906.png",
+  "prompt_file": "cards/prompts/22.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\cards\\icons_256\\01.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\22_thorns-tome.png"
+  ],
+  "transparent_background": true
+}

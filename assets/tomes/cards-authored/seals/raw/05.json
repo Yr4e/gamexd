@@ -1,0 +1,12 @@
+{
+  "id": 5,
+  "variant_id": "tome_05@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-8994fecf-7f2f-4694-b963-1b19980ade1e.png",
+  "prompt_file": "seals/prompts/05.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\05.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\05_golden-tome.png"
+  ],
+  "transparent_background": true
+}

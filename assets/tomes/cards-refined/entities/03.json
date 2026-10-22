@@ -1,0 +1,30 @@
+{
+  "id": 3,
+  "asset_id": "tome_03",
+  "original_key": "megabonk:tome:damage-tome",
+  "original_name": "Damage Tome",
+  "source_url": "https://megabonk.org/database/tomes/damage-tome",
+  "original_file": "originals/03_damage-tome.png",
+  "original_effect_ru": "+0,08× к множителю урона",
+  "selected_set": "tomes-cards-v2",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v2",
+      "variant_id": "tome_03@cards-v2",
+      "new_name_en": "Breaker Card",
+      "new_name_ru": "Карта натиска",
+      "our_file": "cards/icons_256/03.png",
+      "data_file": "cards/data/03.json",
+      "entry_file": "cards/entries/03.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_03@seals-v1",
+      "new_name_en": "Breaker Seal",
+      "new_name_ru": "Печать натиска",
+      "our_file": "seals/icons_256/03.png",
+      "data_file": "seals/data/03.json",
+      "entry_file": "seals/entries/03.html"
+    }
+  ]
+}

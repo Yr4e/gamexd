@@ -1,0 +1,30 @@
+{
+  "id": 20,
+  "asset_id": "tome_20",
+  "original_key": "megabonk:tome:luck-tome",
+  "original_name": "Luck Tome",
+  "source_url": "https://megabonk.org/database/tomes/luck-tome",
+  "original_file": "originals/20_luck-tome.png",
+  "original_effect_ru": "+7% к удаче",
+  "selected_set": "tomes-cards-v2",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v2",
+      "variant_id": "tome_20@cards-v2",
+      "new_name_en": "Fortune Card",
+      "new_name_ru": "Карта удачи",
+      "our_file": "cards/icons_256/20.png",
+      "data_file": "cards/data/20.json",
+      "entry_file": "cards/entries/20.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_20@seals-v1",
+      "new_name_en": "Fortune Seal",
+      "new_name_ru": "Печать удачи",
+      "our_file": "seals/icons_256/20.png",
+      "data_file": "seals/data/20.json",
+      "entry_file": "seals/entries/20.html"
+    }
+  ]
+}

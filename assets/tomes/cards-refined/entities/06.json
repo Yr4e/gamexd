@@ -1,0 +1,30 @@
+{
+  "id": 6,
+  "asset_id": "tome_06",
+  "original_key": "megabonk:tome:health-tome",
+  "original_name": "Health Tome",
+  "source_url": "https://megabonk.org/database/tomes/health-tome",
+  "original_file": "originals/06_health-tome.png",
+  "original_effect_ru": "+25 к максимальному здоровью",
+  "selected_set": "tomes-cards-v2",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v2",
+      "variant_id": "tome_06@cards-v2",
+      "new_name_en": "Heart Card",
+      "new_name_ru": "Карта сердца",
+      "our_file": "cards/icons_256/06.png",
+      "data_file": "cards/data/06.json",
+      "entry_file": "cards/entries/06.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_06@seals-v1",
+      "new_name_en": "Heart Seal",
+      "new_name_ru": "Печать сердца",
+      "our_file": "seals/icons_256/06.png",
+      "data_file": "seals/data/06.json",
+      "entry_file": "seals/entries/06.html"
+    }
+  ]
+}

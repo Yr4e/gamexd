@@ -1,0 +1,12 @@
+{
+  "id": 17,
+  "variant_id": "tome_17@cards-v2",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-eb007df8-2930-401f-92d1-724be4b3be25.png",
+  "prompt_file": "cards/prompts/17.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\cards\\icons_256\\02.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\17_chaos-tome.png"
+  ],
+  "transparent_background": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": 11,
+  "asset_id": "tome_11",
+  "original_key": "megabonk:tome:shield-tome",
+  "original_name": "Shield Tome",
+  "source_url": "https://megabonk.org/database/tomes/shield-tome",
+  "original_file": "originals/11_shield-tome.png",
+  "original_effect_ru": "+25 к щиту",
+  "selected_set": "tomes-cards-v2",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v2",
+      "variant_id": "tome_11@cards-v2",
+      "new_name_en": "Bastion Card",
+      "new_name_ru": "Карта оплота",
+      "our_file": "cards/icons_256/11.png",
+      "data_file": "cards/data/11.json",
+      "entry_file": "cards/entries/11.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_11@seals-v1",
+      "new_name_en": "Bastion Seal",
+      "new_name_ru": "Печать оплота",
+      "our_file": "seals/icons_256/11.png",
+      "data_file": "seals/data/11.json",
+      "entry_file": "seals/entries/11.html"
+    }
+  ]
+}
