@@ -1,0 +1,30 @@
+{
+  "id": 22,
+  "asset_id": "tome_22",
+  "original_key": "megabonk:tome:thorns-tome",
+  "original_name": "Thorns Tome",
+  "source_url": "https://megabonk.org/database/tomes/thorns-tome",
+  "original_file": "originals/22_thorns-tome.png",
+  "original_effect_ru": "+15 к урону шипами",
+  "selected_set": "tomes-cards-v3",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v3",
+      "variant_id": "tome_22@cards-v3",
+      "new_name_en": "Thorn Card",
+      "new_name_ru": "Карта шипов",
+      "our_file": "cards/icons_256/22.png",
+      "data_file": "cards/data/22.json",
+      "entry_file": "cards/entries/22.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_22@seals-v1",
+      "new_name_en": "Thorn Seal",
+      "new_name_ru": "Печать шипов",
+      "our_file": "seals/icons_256/22.png",
+      "data_file": "seals/data/22.json",
+      "entry_file": "seals/entries/22.html"
+    }
+  ]
+}

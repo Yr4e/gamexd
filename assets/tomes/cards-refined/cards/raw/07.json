@@ -1,0 +1,12 @@
+{
+  "id": 7,
+  "variant_id": "tome_07@cards-v2",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-726ee793-fce3-4358-b1c0-cee1f9d53929.png",
+  "prompt_file": "cards/prompts/07.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\cards\\icons_256\\02.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\07_knockback-tome.png"
+  ],
+  "transparent_background": true
+}

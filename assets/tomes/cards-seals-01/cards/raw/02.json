@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "code": "К2",
+  "group": "cards",
+  "generation_mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-3b82179c-ea03-4237-9275-d71d08a3228a.png",
+  "prompt_file": "prompts/02.txt",
+  "transparent_background": true,
+  "style_reference": "assets/items/revision-simple/icons_256/25.png"
+}

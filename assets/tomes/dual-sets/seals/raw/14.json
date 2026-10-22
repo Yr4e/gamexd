@@ -1,0 +1,12 @@
+{
+  "id": 14,
+  "variant_id": "tome_14@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-017029bb-904c-4ff9-8746-9f9c7a8397d4.png",
+  "prompt_file": "seals/prompts/14.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\03.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\14_armor-tome.png"
+  ],
+  "transparent_background": true
+}

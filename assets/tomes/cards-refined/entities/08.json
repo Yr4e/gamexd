@@ -1,0 +1,30 @@
+{
+  "id": 8,
+  "asset_id": "tome_08",
+  "original_key": "megabonk:tome:precision-tome",
+  "original_name": "Precision Tome",
+  "source_url": "https://megabonk.org/database/tomes/precision-tome",
+  "original_file": "originals/08_precision-tome.png",
+  "original_effect_ru": "+7% к шансу крита по таблице; +2% по карточке источника",
+  "selected_set": "tomes-cards-v2",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v2",
+      "variant_id": "tome_08@cards-v2",
+      "new_name_en": "Keen Card",
+      "new_name_ru": "Карта меткости",
+      "our_file": "cards/icons_256/08.png",
+      "data_file": "cards/data/08.json",
+      "entry_file": "cards/entries/08.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_08@seals-v1",
+      "new_name_en": "Keen Seal",
+      "new_name_ru": "Печать меткости",
+      "our_file": "seals/icons_256/08.png",
+      "data_file": "seals/data/08.json",
+      "entry_file": "seals/entries/08.html"
+    }
+  ]
+}

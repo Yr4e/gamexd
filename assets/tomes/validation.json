@@ -1,0 +1,17 @@
+{
+  "count": 23,
+  "unique_ids": 23,
+  "unique_original_keys": 23,
+  "png_hashes_verified": true,
+  "png_bytes_unchanged": true,
+  "local_links_verified": true,
+  "grid_size": [
+    1600,
+    1600
+  ],
+  "source_conflicts": [
+    "Precision Tome"
+  ],
+  "stage": "original-reference",
+  "new_icons_created": 0
+}

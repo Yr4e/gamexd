@@ -1,0 +1,30 @@
+{
+  "id": 2,
+  "asset_id": "tome_02",
+  "original_key": "megabonk:tome:cooldown-tome",
+  "original_name": "Cooldown Tome",
+  "source_url": "https://megabonk.org/database/tomes/cooldown-tome",
+  "original_file": "originals/02_cooldown-tome.png",
+  "original_effect_ru": "+7,5% к скорости атаки",
+  "selected_set": "tomes-cards-v3",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v3",
+      "variant_id": "tome_02@cards-v3",
+      "new_name_en": "Quickbeat Fan",
+      "new_name_ru": "Веер темпа",
+      "our_file": "cards/icons_256/02.png",
+      "data_file": "cards/data/02.json",
+      "entry_file": "cards/entries/02.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_02@seals-v1",
+      "new_name_en": "Quickbeat Seal",
+      "new_name_ru": "Печать темпа",
+      "our_file": "seals/icons_256/02.png",
+      "data_file": "seals/data/02.json",
+      "entry_file": "seals/entries/02.html"
+    }
+  ]
+}

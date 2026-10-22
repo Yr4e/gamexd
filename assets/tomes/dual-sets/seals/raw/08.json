@@ -1,0 +1,12 @@
+{
+  "id": 8,
+  "variant_id": "tome_08@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-84d7ce23-be69-4376-952a-283bf752e7dd.png",
+  "prompt_file": "seals/prompts/08.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\04.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\08_precision-tome.png"
+  ],
+  "transparent_background": true
+}

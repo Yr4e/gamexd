@@ -1,0 +1,30 @@
+{
+  "id": 15,
+  "asset_id": "tome_15",
+  "original_key": "megabonk:tome:attraction-tome",
+  "original_name": "Attraction Tome",
+  "source_url": "https://megabonk.org/database/tomes/attraction-tome",
+  "original_file": "originals/15_attraction-tome.png",
+  "original_effect_ru": "+75% к радиусу подбора",
+  "selected_set": null,
+  "variants": [
+    {
+      "set_id": "tomes-cards-v1",
+      "variant_id": "tome_15@cards-v1",
+      "new_name_en": "Lure Pair",
+      "new_name_ru": "Пара притяжения",
+      "our_file": "cards/icons_256/15.png",
+      "data_file": "cards/data/15.json",
+      "entry_file": "cards/entries/15.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_15@seals-v1",
+      "new_name_en": "Lure Seal",
+      "new_name_ru": "Печать притяжения",
+      "our_file": "seals/icons_256/15.png",
+      "data_file": "seals/data/15.json",
+      "entry_file": "seals/entries/15.html"
+    }
+  ]
+}

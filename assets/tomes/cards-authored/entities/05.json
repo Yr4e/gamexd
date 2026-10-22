@@ -1,0 +1,30 @@
+{
+  "id": 5,
+  "asset_id": "tome_05",
+  "original_key": "megabonk:tome:golden-tome",
+  "original_name": "Golden Tome",
+  "source_url": "https://megabonk.org/database/tomes/golden-tome",
+  "original_file": "originals/05_golden-tome.png",
+  "original_effect_ru": "+12% к получению золота",
+  "selected_set": "tomes-cards-v3",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v3",
+      "variant_id": "tome_05@cards-v3",
+      "new_name_en": "Gilded Card",
+      "new_name_ru": "Карта золота",
+      "our_file": "cards/icons_256/05.png",
+      "data_file": "cards/data/05.json",
+      "entry_file": "cards/entries/05.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_05@seals-v1",
+      "new_name_en": "Gilded Seal",
+      "new_name_ru": "Печать золота",
+      "our_file": "seals/icons_256/05.png",
+      "data_file": "seals/data/05.json",
+      "entry_file": "seals/entries/05.html"
+    }
+  ]
+}

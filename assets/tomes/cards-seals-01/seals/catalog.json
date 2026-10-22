@@ -1,0 +1,83 @@
+{
+  "stage": "family-selection",
+  "count": 5,
+  "selected_candidate": null,
+  "candidates": [
+    {
+      "candidate_id": 1,
+      "name_ru": "Восковая печать",
+      "variation_potential_ru": "Круглая / угловатая; целая / треснувшая",
+      "file": "icons_256/01.png",
+      "raw_file": "raw/01.png",
+      "prompt_file": "prompts/01.txt",
+      "generation_mode": "built-in-imagegen",
+      "status": "candidate-not-selected",
+      "is_game_asset": false,
+      "sha256": "6d05d6077e0a0ff0bf7a4647b983f6af8693eaa5eb58e6b4b0849413887b7656",
+      "code": "П1",
+      "group": "seals",
+      "receipt_file": "raw/01.json"
+    },
+    {
+      "candidate_id": 2,
+      "name_ru": "Штамп с ручкой",
+      "variation_potential_ru": "Короткая / длинная ручка; разная подошва",
+      "file": "icons_256/02.png",
+      "raw_file": "raw/02.png",
+      "prompt_file": "prompts/02.txt",
+      "generation_mode": "built-in-imagegen",
+      "status": "candidate-not-selected",
+      "is_game_asset": false,
+      "sha256": "3ce81a4d3a1e7cd152c19e217e0f7e44b13d758f3f9d8fc7e77822fb5d67b0d6",
+      "code": "П2",
+      "group": "seals",
+      "receipt_file": "raw/02.json"
+    },
+    {
+      "candidate_id": 3,
+      "name_ru": "Подвесная печать",
+      "variation_potential_ru": "Одна / двойная; разные ленты и формы",
+      "file": "icons_256/03.png",
+      "raw_file": "raw/03.png",
+      "prompt_file": "prompts/03.txt",
+      "generation_mode": "built-in-imagegen",
+      "status": "candidate-not-selected",
+      "is_game_asset": false,
+      "sha256": "de859b5d6e30a3510d641b435b3b340ab8af1bebe2534011f8be1c024c715391",
+      "code": "П3",
+      "group": "seals",
+      "receipt_file": "raw/03.json"
+    },
+    {
+      "candidate_id": 4,
+      "name_ru": "Каменная печать",
+      "variation_potential_ru": "Плоская / толстая; целая / со сколом",
+      "file": "icons_256/04.png",
+      "raw_file": "raw/04.png",
+      "prompt_file": "prompts/04.txt",
+      "generation_mode": "built-in-imagegen",
+      "status": "candidate-not-selected",
+      "is_game_asset": false,
+      "sha256": "75c9110ca37af0f7804797a4bf9f2c062b3fa5f94862b46fe24ee030559db1a7",
+      "code": "П4",
+      "group": "seals",
+      "receipt_file": "raw/04.json"
+    },
+    {
+      "candidate_id": 5,
+      "name_ru": "Перстень-печатка",
+      "variation_potential_ru": "Узкий / массивный; круглый / квадратный щиток",
+      "file": "icons_256/05.png",
+      "raw_file": "raw/05.png",
+      "prompt_file": "prompts/05.txt",
+      "generation_mode": "built-in-imagegen",
+      "status": "candidate-not-selected",
+      "is_game_asset": false,
+      "sha256": "3514cba32df2d697c39c5e5c7c7e2f15c2bb846d61231a0d4827b0c668c6eae0",
+      "code": "П5",
+      "group": "seals",
+      "receipt_file": "raw/05.json"
+    }
+  ],
+  "group": "seals"
+}

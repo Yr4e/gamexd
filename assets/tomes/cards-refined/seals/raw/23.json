@@ -1,0 +1,12 @@
+{
+  "id": 23,
+  "variant_id": "tome_23@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-5c53aaeb-9f39-4feb-ab8e-99c5af8cb012.png",
+  "prompt_file": "seals/prompts/23.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\04.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\23_xp-tome.png"
+  ],
+  "transparent_background": true
+}

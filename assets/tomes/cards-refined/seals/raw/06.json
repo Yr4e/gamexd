@@ -1,0 +1,12 @@
+{
+  "id": 6,
+  "variant_id": "tome_06@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-f4ee3553-c4d9-4efc-8919-4401d80ef77e.png",
+  "prompt_file": "seals/prompts/06.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\01.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\06_health-tome.png"
+  ],
+  "transparent_background": true
+}

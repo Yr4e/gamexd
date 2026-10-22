@@ -1,0 +1,30 @@
+{
+  "id": 19,
+  "asset_id": "tome_19",
+  "original_key": "megabonk:tome:duration-tome",
+  "original_name": "Duration Tome",
+  "source_url": "https://megabonk.org/database/tomes/duration-tome",
+  "original_file": "originals/19_duration-tome.png",
+  "original_effect_ru": "+15% к длительности эффектов",
+  "selected_set": "tomes-cards-v2",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v2",
+      "variant_id": "tome_19@cards-v2",
+      "new_name_en": "Lingering Pair",
+      "new_name_ru": "Пара длительности",
+      "our_file": "cards/icons_256/19.png",
+      "data_file": "cards/data/19.json",
+      "entry_file": "cards/entries/19.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_19@seals-v1",
+      "new_name_en": "Lingering Seal",
+      "new_name_ru": "Печать длительности",
+      "our_file": "seals/icons_256/19.png",
+      "data_file": "seals/data/19.json",
+      "entry_file": "seals/entries/19.html"
+    }
+  ]
+}

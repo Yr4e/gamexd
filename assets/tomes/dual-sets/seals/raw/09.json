@@ -1,0 +1,12 @@
+{
+  "id": 9,
+  "variant_id": "tome_09@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-da9a18ca-27ea-47e3-b595-26bbc191ae4f.png",
+  "prompt_file": "seals/prompts/09.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\03.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\09_projectile-speed-tome.png"
+  ],
+  "transparent_background": true
+}

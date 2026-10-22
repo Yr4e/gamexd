@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-e1226b69-5454-4b44-9518-fa2e7542d37a.png",
+    "prompt_file": "prompts/01.txt",
+    "transparent_background": true,
+    "style_references": [
+      "assets/items/flat-2d-attempt/icons_256/02.png",
+      "assets/items/revision-simple/icons_256/25.png"
+    ]
+  },
+  {
+    "id": 2,
+    "mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-6637c69d-c121-49cf-ad17-2bb4d8f968c5.png",
+    "prompt_file": "prompts/02.txt",
+    "transparent_background": true,
+    "style_references": [
+      "assets/items/flat-2d-attempt/icons_256/02.png",
+      "assets/items/revision-simple/icons_256/25.png"
+    ]
+  },
+  {
+    "id": 3,
+    "mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-3a2cfa77-bd10-4701-93bd-8de51cc4b6d1.png",
+    "prompt_file": "prompts/03.txt",
+    "transparent_background": true,
+    "style_references": [
+      "assets/items/flat-2d-attempt/icons_256/02.png",
+      "assets/items/revision-simple/icons_256/25.png"
+    ]
+  },
+  {
+    "id": 4,
+    "mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-d4ef0f18-2204-4e6e-88f2-cc4c98e7e7d8.png",
+    "prompt_file": "prompts/04.txt",
+    "transparent_background": true,
+    "style_references": [
+      "assets/items/flat-2d-attempt/icons_256/02.png",
+      "assets/items/revision-simple/icons_256/25.png"
+    ]
+  },
+  {
+    "id": 5,
+    "mode": "built-in-imagegen",
+    "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-6cc774bd-573f-4765-9ced-96cf49914ea0.png",
+    "prompt_file": "prompts/05.txt",
+    "transparent_background": true,
+    "style_references": [
+      "assets/items/flat-2d-attempt/icons_256/02.png",
+      "assets/items/revision-simple/icons_256/25.png"
+    ]
+  }
+]

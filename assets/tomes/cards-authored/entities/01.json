@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "asset_id": "tome_01",
+  "original_key": "megabonk:tome:agility-tome",
+  "original_name": "Agility Tome",
+  "source_url": "https://megabonk.org/database/tomes/agility-tome",
+  "original_file": "originals/01_agility-tome.png",
+  "original_effect_ru": "+15% к скорости передвижения",
+  "selected_set": "tomes-cards-v3",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v3",
+      "variant_id": "tome_01@cards-v3",
+      "new_name_en": "Fleet Card",
+      "new_name_ru": "Карта прыти",
+      "our_file": "cards/icons_256/01.png",
+      "data_file": "cards/data/01.json",
+      "entry_file": "cards/entries/01.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_01@seals-v1",
+      "new_name_en": "Fleet Seal",
+      "new_name_ru": "Печать прыти",
+      "our_file": "seals/icons_256/01.png",
+      "data_file": "seals/data/01.json",
+      "entry_file": "seals/entries/01.html"
+    }
+  ]
+}

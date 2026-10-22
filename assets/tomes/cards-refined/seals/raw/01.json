@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "variant_id": "tome_01@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-536c8f64-00a2-45d8-b7a7-b833205eebe1.png",
+  "prompt_file": "seals/prompts/01.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\01.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\01_agility-tome.png"
+  ],
+  "transparent_background": true
+}

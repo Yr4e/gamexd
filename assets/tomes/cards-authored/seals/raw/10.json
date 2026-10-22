@@ -1,0 +1,12 @@
+{
+  "id": 10,
+  "variant_id": "tome_10@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-ad460f3f-3cef-4794-afc2-68c998f9302d.png",
+  "prompt_file": "seals/prompts/10.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\05.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\10_regen-tome.png"
+  ],
+  "transparent_background": true
+}

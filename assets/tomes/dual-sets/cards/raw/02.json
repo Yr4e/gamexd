@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "variant_id": "tome_02@cards-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-4fe1ea8a-470d-4e66-a588-65f24308fda4.png",
+  "prompt_file": "cards/prompts/02.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\cards\\icons_256\\02.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\02_cooldown-tome.png"
+  ],
+  "transparent_background": true
+}

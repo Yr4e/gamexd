@@ -1,0 +1,30 @@
+{
+  "id": 7,
+  "asset_id": "tome_07",
+  "original_key": "megabonk:tome:knockback-tome",
+  "original_name": "Knockback Tome",
+  "source_url": "https://megabonk.org/database/tomes/knockback-tome",
+  "original_file": "originals/07_knockback-tome.png",
+  "original_effect_ru": "+20% к отбрасыванию",
+  "selected_set": "tomes-cards-v3",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v3",
+      "variant_id": "tome_07@cards-v3",
+      "new_name_en": "Repulse Fan",
+      "new_name_ru": "Веер отпора",
+      "our_file": "cards/icons_256/07.png",
+      "data_file": "cards/data/07.json",
+      "entry_file": "cards/entries/07.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_07@seals-v1",
+      "new_name_en": "Repulse Seal",
+      "new_name_ru": "Печать отпора",
+      "our_file": "seals/icons_256/07.png",
+      "data_file": "seals/data/07.json",
+      "entry_file": "seals/entries/07.html"
+    }
+  ]
+}

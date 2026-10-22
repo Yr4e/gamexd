@@ -1,0 +1,30 @@
+{
+  "id": 9,
+  "asset_id": "tome_09",
+  "original_key": "megabonk:tome:projectile-speed-tome",
+  "original_name": "Projectile Speed Tome",
+  "source_url": "https://megabonk.org/database/tomes/projectile-speed-tome",
+  "original_file": "originals/09_projectile-speed-tome.png",
+  "original_effect_ru": "+15% к скорости снарядов",
+  "selected_set": null,
+  "variants": [
+    {
+      "set_id": "tomes-cards-v1",
+      "variant_id": "tome_09@cards-v1",
+      "new_name_en": "Rush Pair",
+      "new_name_ru": "Пара стремительности",
+      "our_file": "cards/icons_256/09.png",
+      "data_file": "cards/data/09.json",
+      "entry_file": "cards/entries/09.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_09@seals-v1",
+      "new_name_en": "Rush Seal",
+      "new_name_ru": "Печать стремительности",
+      "our_file": "seals/icons_256/09.png",
+      "data_file": "seals/data/09.json",
+      "entry_file": "seals/entries/09.html"
+    }
+  ]
+}

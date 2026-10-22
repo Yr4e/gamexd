@@ -1,0 +1,12 @@
+{
+  "id": 12,
+  "variant_id": "tome_12@cards-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-d60001d7-a0f6-42c5-9b7d-cb2344d19db3.png",
+  "prompt_file": "cards/prompts/12.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\cards\\icons_256\\03.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\12_silver-tome.png"
+  ],
+  "transparent_background": true
+}

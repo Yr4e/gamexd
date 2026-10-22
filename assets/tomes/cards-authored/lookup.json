@@ -1,0 +1,696 @@
+{
+  "entity_category": "tomes",
+  "selected_set": "tomes-cards-v3",
+  "by_original_name": {
+    "agility tome": {
+      "id": 1,
+      "asset_id": "tome_01",
+      "original_key": "megabonk:tome:agility-tome",
+      "original_name": "Agility Tome",
+      "source_url": "https://megabonk.org/database/tomes/agility-tome",
+      "original_file": "originals/01_agility-tome.png",
+      "original_effect_ru": "+15% к скорости передвижения",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_01@cards-v3",
+          "new_name_en": "Fleet Card",
+          "new_name_ru": "Карта прыти",
+          "our_file": "cards/icons_256/01.png",
+          "data_file": "cards/data/01.json",
+          "entry_file": "cards/entries/01.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_01@seals-v1",
+          "new_name_en": "Fleet Seal",
+          "new_name_ru": "Печать прыти",
+          "our_file": "seals/icons_256/01.png",
+          "data_file": "seals/data/01.json",
+          "entry_file": "seals/entries/01.html"
+        }
+      ]
+    },
+    "cooldown tome": {
+      "id": 2,
+      "asset_id": "tome_02",
+      "original_key": "megabonk:tome:cooldown-tome",
+      "original_name": "Cooldown Tome",
+      "source_url": "https://megabonk.org/database/tomes/cooldown-tome",
+      "original_file": "originals/02_cooldown-tome.png",
+      "original_effect_ru": "+7,5% к скорости атаки",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_02@cards-v3",
+          "new_name_en": "Quickbeat Fan",
+          "new_name_ru": "Веер темпа",
+          "our_file": "cards/icons_256/02.png",
+          "data_file": "cards/data/02.json",
+          "entry_file": "cards/entries/02.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_02@seals-v1",
+          "new_name_en": "Quickbeat Seal",
+          "new_name_ru": "Печать темпа",
+          "our_file": "seals/icons_256/02.png",
+          "data_file": "seals/data/02.json",
+          "entry_file": "seals/entries/02.html"
+        }
+      ]
+    },
+    "damage tome": {
+      "id": 3,
+      "asset_id": "tome_03",
+      "original_key": "megabonk:tome:damage-tome",
+      "original_name": "Damage Tome",
+      "source_url": "https://megabonk.org/database/tomes/damage-tome",
+      "original_file": "originals/03_damage-tome.png",
+      "original_effect_ru": "+0,08× к множителю урона",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_03@cards-v3",
+          "new_name_en": "Breaker Card",
+          "new_name_ru": "Карта натиска",
+          "our_file": "cards/icons_256/03.png",
+          "data_file": "cards/data/03.json",
+          "entry_file": "cards/entries/03.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_03@seals-v1",
+          "new_name_en": "Breaker Seal",
+          "new_name_ru": "Печать натиска",
+          "our_file": "seals/icons_256/03.png",
+          "data_file": "seals/data/03.json",
+          "entry_file": "seals/entries/03.html"
+        }
+      ]
+    },
+    "evasion tome": {
+      "id": 4,
+      "asset_id": "tome_04",
+      "original_key": "megabonk:tome:evasion-tome",
+      "original_name": "Evasion Tome",
+      "source_url": "https://megabonk.org/database/tomes/evasion-tome",
+      "original_file": "originals/04_evasion-tome.png",
+      "original_effect_ru": "+10% к уклонению",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_04@cards-v3",
+          "new_name_en": "Veil Pair",
+          "new_name_ru": "Пара завесы",
+          "our_file": "cards/icons_256/04.png",
+          "data_file": "cards/data/04.json",
+          "entry_file": "cards/entries/04.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_04@seals-v1",
+          "new_name_en": "Veil Seal",
+          "new_name_ru": "Печать завесы",
+          "our_file": "seals/icons_256/04.png",
+          "data_file": "seals/data/04.json",
+          "entry_file": "seals/entries/04.html"
+        }
+      ]
+    },
+    "golden tome": {
+      "id": 5,
+      "asset_id": "tome_05",
+      "original_key": "megabonk:tome:golden-tome",
+      "original_name": "Golden Tome",
+      "source_url": "https://megabonk.org/database/tomes/golden-tome",
+      "original_file": "originals/05_golden-tome.png",
+      "original_effect_ru": "+12% к получению золота",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_05@cards-v3",
+          "new_name_en": "Gilded Card",
+          "new_name_ru": "Карта золота",
+          "our_file": "cards/icons_256/05.png",
+          "data_file": "cards/data/05.json",
+          "entry_file": "cards/entries/05.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_05@seals-v1",
+          "new_name_en": "Gilded Seal",
+          "new_name_ru": "Печать золота",
+          "our_file": "seals/icons_256/05.png",
+          "data_file": "seals/data/05.json",
+          "entry_file": "seals/entries/05.html"
+        }
+      ]
+    },
+    "health tome": {
+      "id": 6,
+      "asset_id": "tome_06",
+      "original_key": "megabonk:tome:health-tome",
+      "original_name": "Health Tome",
+      "source_url": "https://megabonk.org/database/tomes/health-tome",
+      "original_file": "originals/06_health-tome.png",
+      "original_effect_ru": "+25 к максимальному здоровью",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_06@cards-v3",
+          "new_name_en": "Heart Card",
+          "new_name_ru": "Карта сердца",
+          "our_file": "cards/icons_256/06.png",
+          "data_file": "cards/data/06.json",
+          "entry_file": "cards/entries/06.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_06@seals-v1",
+          "new_name_en": "Heart Seal",
+          "new_name_ru": "Печать сердца",
+          "our_file": "seals/icons_256/06.png",
+          "data_file": "seals/data/06.json",
+          "entry_file": "seals/entries/06.html"
+        }
+      ]
+    },
+    "knockback tome": {
+      "id": 7,
+      "asset_id": "tome_07",
+      "original_key": "megabonk:tome:knockback-tome",
+      "original_name": "Knockback Tome",
+      "source_url": "https://megabonk.org/database/tomes/knockback-tome",
+      "original_file": "originals/07_knockback-tome.png",
+      "original_effect_ru": "+20% к отбрасыванию",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_07@cards-v3",
+          "new_name_en": "Repulse Fan",
+          "new_name_ru": "Веер отпора",
+          "our_file": "cards/icons_256/07.png",
+          "data_file": "cards/data/07.json",
+          "entry_file": "cards/entries/07.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_07@seals-v1",
+          "new_name_en": "Repulse Seal",
+          "new_name_ru": "Печать отпора",
+          "our_file": "seals/icons_256/07.png",
+          "data_file": "seals/data/07.json",
+          "entry_file": "seals/entries/07.html"
+        }
+      ]
+    },
+    "precision tome": {
+      "id": 8,
+      "asset_id": "tome_08",
+      "original_key": "megabonk:tome:precision-tome",
+      "original_name": "Precision Tome",
+      "source_url": "https://megabonk.org/database/tomes/precision-tome",
+      "original_file": "originals/08_precision-tome.png",
+      "original_effect_ru": "+7% к шансу крита по таблице; +2% по карточке источника",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_08@cards-v3",
+          "new_name_en": "Keen Card",
+          "new_name_ru": "Карта меткости",
+          "our_file": "cards/icons_256/08.png",
+          "data_file": "cards/data/08.json",
+          "entry_file": "cards/entries/08.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_08@seals-v1",
+          "new_name_en": "Keen Seal",
+          "new_name_ru": "Печать меткости",
+          "our_file": "seals/icons_256/08.png",
+          "data_file": "seals/data/08.json",
+          "entry_file": "seals/entries/08.html"
+        }
+      ]
+    },
+    "projectile speed tome": {
+      "id": 9,
+      "asset_id": "tome_09",
+      "original_key": "megabonk:tome:projectile-speed-tome",
+      "original_name": "Projectile Speed Tome",
+      "source_url": "https://megabonk.org/database/tomes/projectile-speed-tome",
+      "original_file": "originals/09_projectile-speed-tome.png",
+      "original_effect_ru": "+15% к скорости снарядов",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_09@cards-v3",
+          "new_name_en": "Rush Pair",
+          "new_name_ru": "Пара стремительности",
+          "our_file": "cards/icons_256/09.png",
+          "data_file": "cards/data/09.json",
+          "entry_file": "cards/entries/09.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_09@seals-v1",
+          "new_name_en": "Rush Seal",
+          "new_name_ru": "Печать стремительности",
+          "our_file": "seals/icons_256/09.png",
+          "data_file": "seals/data/09.json",
+          "entry_file": "seals/entries/09.html"
+        }
+      ]
+    },
+    "regen tome": {
+      "id": 10,
+      "asset_id": "tome_10",
+      "original_key": "megabonk:tome:regen-tome",
+      "original_name": "Regen Tome",
+      "source_url": "https://megabonk.org/database/tomes/regen-tome",
+      "original_file": "originals/10_regen-tome.png",
+      "original_effect_ru": "+40 здоровья в минуту",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_10@cards-v3",
+          "new_name_en": "Renewal Card",
+          "new_name_ru": "Карта обновления",
+          "our_file": "cards/icons_256/10.png",
+          "data_file": "cards/data/10.json",
+          "entry_file": "cards/entries/10.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_10@seals-v1",
+          "new_name_en": "Renewal Seal",
+          "new_name_ru": "Печать обновления",
+          "our_file": "seals/icons_256/10.png",
+          "data_file": "seals/data/10.json",
+          "entry_file": "seals/entries/10.html"
+        }
+      ]
+    },
+    "shield tome": {
+      "id": 11,
+      "asset_id": "tome_11",
+      "original_key": "megabonk:tome:shield-tome",
+      "original_name": "Shield Tome",
+      "source_url": "https://megabonk.org/database/tomes/shield-tome",
+      "original_file": "originals/11_shield-tome.png",
+      "original_effect_ru": "+25 к щиту",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_11@cards-v3",
+          "new_name_en": "Bastion Card",
+          "new_name_ru": "Карта оплота",
+          "our_file": "cards/icons_256/11.png",
+          "data_file": "cards/data/11.json",
+          "entry_file": "cards/entries/11.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_11@seals-v1",
+          "new_name_en": "Bastion Seal",
+          "new_name_ru": "Печать оплота",
+          "our_file": "seals/icons_256/11.png",
+          "data_file": "seals/data/11.json",
+          "entry_file": "seals/entries/11.html"
+        }
+      ]
+    },
+    "silver tome": {
+      "id": 12,
+      "asset_id": "tome_12",
+      "original_key": "megabonk:tome:silver-tome",
+      "original_name": "Silver Tome",
+      "source_url": "https://megabonk.org/database/tomes/silver-tome",
+      "original_file": "originals/12_silver-tome.png",
+      "original_effect_ru": "+12% к получению серебра",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_12@cards-v3",
+          "new_name_en": "Argent Card",
+          "new_name_ru": "Карта серебра",
+          "our_file": "cards/icons_256/12.png",
+          "data_file": "cards/data/12.json",
+          "entry_file": "cards/entries/12.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_12@seals-v1",
+          "new_name_en": "Argent Seal",
+          "new_name_ru": "Печать серебра",
+          "our_file": "seals/icons_256/12.png",
+          "data_file": "seals/data/12.json",
+          "entry_file": "seals/entries/12.html"
+        }
+      ]
+    },
+    "size tome": {
+      "id": 13,
+      "asset_id": "tome_13",
+      "original_key": "megabonk:tome:size-tome",
+      "original_name": "Size Tome",
+      "source_url": "https://megabonk.org/database/tomes/size-tome",
+      "original_file": "originals/13_size-tome.png",
+      "original_effect_ru": "+10% к размеру атак",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_13@cards-v3",
+          "new_name_en": "Broad Card",
+          "new_name_ru": "Карта размаха",
+          "our_file": "cards/icons_256/13.png",
+          "data_file": "cards/data/13.json",
+          "entry_file": "cards/entries/13.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_13@seals-v1",
+          "new_name_en": "Broad Seal",
+          "new_name_ru": "Печать размаха",
+          "our_file": "seals/icons_256/13.png",
+          "data_file": "seals/data/13.json",
+          "entry_file": "seals/entries/13.html"
+        }
+      ]
+    },
+    "armor tome": {
+      "id": 14,
+      "asset_id": "tome_14",
+      "original_key": "megabonk:tome:armor-tome",
+      "original_name": "Armor Tome",
+      "source_url": "https://megabonk.org/database/tomes/armor-tome",
+      "original_file": "originals/14_armor-tome.png",
+      "original_effect_ru": "+12% к броне",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_14@cards-v3",
+          "new_name_en": "Bulwark Card",
+          "new_name_ru": "Карта бастиона",
+          "our_file": "cards/icons_256/14.png",
+          "data_file": "cards/data/14.json",
+          "entry_file": "cards/entries/14.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_14@seals-v1",
+          "new_name_en": "Bulwark Seal",
+          "new_name_ru": "Печать бастиона",
+          "our_file": "seals/icons_256/14.png",
+          "data_file": "seals/data/14.json",
+          "entry_file": "seals/entries/14.html"
+        }
+      ]
+    },
+    "attraction tome": {
+      "id": 15,
+      "asset_id": "tome_15",
+      "original_key": "megabonk:tome:attraction-tome",
+      "original_name": "Attraction Tome",
+      "source_url": "https://megabonk.org/database/tomes/attraction-tome",
+      "original_file": "originals/15_attraction-tome.png",
+      "original_effect_ru": "+75% к радиусу подбора",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_15@cards-v3",
+          "new_name_en": "Lure Pair",
+          "new_name_ru": "Пара притяжения",
+          "our_file": "cards/icons_256/15.png",
+          "data_file": "cards/data/15.json",
+          "entry_file": "cards/entries/15.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_15@seals-v1",
+          "new_name_en": "Lure Seal",
+          "new_name_ru": "Печать притяжения",
+          "our_file": "seals/icons_256/15.png",
+          "data_file": "seals/data/15.json",
+          "entry_file": "seals/entries/15.html"
+        }
+      ]
+    },
+    "bloody tome": {
+      "id": 16,
+      "asset_id": "tome_16",
+      "original_key": "megabonk:tome:bloody-tome",
+      "original_name": "Bloody Tome",
+      "source_url": "https://megabonk.org/database/tomes/bloody-tome",
+      "original_file": "originals/16_bloody-tome.png",
+      "original_effect_ru": "+10% к краже жизни",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_16@cards-v3",
+          "new_name_en": "Crimson Card",
+          "new_name_ru": "Карта крови",
+          "our_file": "cards/icons_256/16.png",
+          "data_file": "cards/data/16.json",
+          "entry_file": "cards/entries/16.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_16@seals-v1",
+          "new_name_en": "Crimson Seal",
+          "new_name_ru": "Печать крови",
+          "our_file": "seals/icons_256/16.png",
+          "data_file": "seals/data/16.json",
+          "entry_file": "seals/entries/16.html"
+        }
+      ]
+    },
+    "chaos tome": {
+      "id": 17,
+      "asset_id": "tome_17",
+      "original_key": "megabonk:tome:chaos-tome",
+      "original_name": "Chaos Tome",
+      "source_url": "https://megabonk.org/database/tomes/chaos-tome",
+      "original_file": "originals/17_chaos-tome.png",
+      "original_effect_ru": "Одна случайная характеристика за уровень",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_17@cards-v3",
+          "new_name_en": "Wild Fan",
+          "new_name_ru": "Веер хаоса",
+          "our_file": "cards/icons_256/17.png",
+          "data_file": "cards/data/17.json",
+          "entry_file": "cards/entries/17.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_17@seals-v1",
+          "new_name_en": "Wild Seal",
+          "new_name_ru": "Печать хаоса",
+          "our_file": "seals/icons_256/17.png",
+          "data_file": "seals/data/17.json",
+          "entry_file": "seals/entries/17.html"
+        }
+      ]
+    },
+    "cursed tome": {
+      "id": 18,
+      "asset_id": "tome_18",
+      "original_key": "megabonk:tome:cursed-tome",
+      "original_name": "Cursed Tome",
+      "source_url": "https://megabonk.org/database/tomes/cursed-tome",
+      "original_file": "originals/18_cursed-tome.png",
+      "original_effect_ru": "+3,5% к сложности",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_18@cards-v3",
+          "new_name_en": "Burden Card",
+          "new_name_ru": "Карта бремени",
+          "our_file": "cards/icons_256/18.png",
+          "data_file": "cards/data/18.json",
+          "entry_file": "cards/entries/18.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_18@seals-v1",
+          "new_name_en": "Burden Seal",
+          "new_name_ru": "Печать бремени",
+          "our_file": "seals/icons_256/18.png",
+          "data_file": "seals/data/18.json",
+          "entry_file": "seals/entries/18.html"
+        }
+      ]
+    },
+    "duration tome": {
+      "id": 19,
+      "asset_id": "tome_19",
+      "original_key": "megabonk:tome:duration-tome",
+      "original_name": "Duration Tome",
+      "source_url": "https://megabonk.org/database/tomes/duration-tome",
+      "original_file": "originals/19_duration-tome.png",
+      "original_effect_ru": "+15% к длительности эффектов",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_19@cards-v3",
+          "new_name_en": "Lingering Pair",
+          "new_name_ru": "Пара длительности",
+          "our_file": "cards/icons_256/19.png",
+          "data_file": "cards/data/19.json",
+          "entry_file": "cards/entries/19.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_19@seals-v1",
+          "new_name_en": "Lingering Seal",
+          "new_name_ru": "Печать длительности",
+          "our_file": "seals/icons_256/19.png",
+          "data_file": "seals/data/19.json",
+          "entry_file": "seals/entries/19.html"
+        }
+      ]
+    },
+    "luck tome": {
+      "id": 20,
+      "asset_id": "tome_20",
+      "original_key": "megabonk:tome:luck-tome",
+      "original_name": "Luck Tome",
+      "source_url": "https://megabonk.org/database/tomes/luck-tome",
+      "original_file": "originals/20_luck-tome.png",
+      "original_effect_ru": "+7% к удаче",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_20@cards-v3",
+          "new_name_en": "Fortune Card",
+          "new_name_ru": "Карта удачи",
+          "our_file": "cards/icons_256/20.png",
+          "data_file": "cards/data/20.json",
+          "entry_file": "cards/entries/20.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_20@seals-v1",
+          "new_name_en": "Fortune Seal",
+          "new_name_ru": "Печать удачи",
+          "our_file": "seals/icons_256/20.png",
+          "data_file": "seals/data/20.json",
+          "entry_file": "seals/entries/20.html"
+        }
+      ]
+    },
+    "quantity tome": {
+      "id": 21,
+      "asset_id": "tome_21",
+      "original_key": "megabonk:tome:quantity-tome",
+      "original_name": "Quantity Tome",
+      "source_url": "https://megabonk.org/database/tomes/quantity-tome",
+      "original_file": "originals/21_quantity-tome.png",
+      "original_effect_ru": "+1 снаряд",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_21@cards-v3",
+          "new_name_en": "Echo Fan",
+          "new_name_ru": "Веер эха",
+          "our_file": "cards/icons_256/21.png",
+          "data_file": "cards/data/21.json",
+          "entry_file": "cards/entries/21.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_21@seals-v1",
+          "new_name_en": "Echo Seal",
+          "new_name_ru": "Печать эха",
+          "our_file": "seals/icons_256/21.png",
+          "data_file": "seals/data/21.json",
+          "entry_file": "seals/entries/21.html"
+        }
+      ]
+    },
+    "thorns tome": {
+      "id": 22,
+      "asset_id": "tome_22",
+      "original_key": "megabonk:tome:thorns-tome",
+      "original_name": "Thorns Tome",
+      "source_url": "https://megabonk.org/database/tomes/thorns-tome",
+      "original_file": "originals/22_thorns-tome.png",
+      "original_effect_ru": "+15 к урону шипами",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_22@cards-v3",
+          "new_name_en": "Thorn Card",
+          "new_name_ru": "Карта шипов",
+          "our_file": "cards/icons_256/22.png",
+          "data_file": "cards/data/22.json",
+          "entry_file": "cards/entries/22.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_22@seals-v1",
+          "new_name_en": "Thorn Seal",
+          "new_name_ru": "Печать шипов",
+          "our_file": "seals/icons_256/22.png",
+          "data_file": "seals/data/22.json",
+          "entry_file": "seals/entries/22.html"
+        }
+      ]
+    },
+    "xp tome": {
+      "id": 23,
+      "asset_id": "tome_23",
+      "original_key": "megabonk:tome:xp-tome",
+      "original_name": "XP Tome",
+      "source_url": "https://megabonk.org/database/tomes/xp-tome",
+      "original_file": "originals/23_xp-tome.png",
+      "original_effect_ru": "+7% к получению опыта",
+      "selected_set": "tomes-cards-v3",
+      "variants": [
+        {
+          "set_id": "tomes-cards-v3",
+          "variant_id": "tome_23@cards-v3",
+          "new_name_en": "Insight Card",
+          "new_name_ru": "Карта прозрения",
+          "our_file": "cards/icons_256/23.png",
+          "data_file": "cards/data/23.json",
+          "entry_file": "cards/entries/23.html"
+        },
+        {
+          "set_id": "tomes-seals-v1",
+          "variant_id": "tome_23@seals-v1",
+          "new_name_en": "Insight Seal",
+          "new_name_ru": "Печать прозрения",
+          "our_file": "seals/icons_256/23.png",
+          "data_file": "seals/data/23.json",
+          "entry_file": "seals/entries/23.html"
+        }
+      ]
+    }
+  }
+}

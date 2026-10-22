@@ -1,0 +1,12 @@
+{
+  "id": 21,
+  "variant_id": "tome_21@cards-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-f8715384-4c2f-4c41-a1dc-60b60e439d42.png",
+  "prompt_file": "cards/prompts/21.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\cards\\icons_256\\02.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\21_quantity-tome.png"
+  ],
+  "transparent_background": true
+}

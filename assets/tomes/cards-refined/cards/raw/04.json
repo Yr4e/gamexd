@@ -1,0 +1,12 @@
+{
+  "id": 4,
+  "variant_id": "tome_04@cards-v2",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-30712b4e-70cd-4200-b28c-4c8c5b60c4ef.png",
+  "prompt_file": "cards/prompts/04.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\cards\\icons_256\\05.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\04_evasion-tome.png"
+  ],
+  "transparent_background": true
+}

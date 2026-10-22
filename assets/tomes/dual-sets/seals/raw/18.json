@@ -1,0 +1,12 @@
+{
+  "id": 18,
+  "variant_id": "tome_18@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-72818efc-5738-4f2d-8c22-46af5e02b04d.png",
+  "prompt_file": "seals/prompts/18.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\04.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\18_cursed-tome.png"
+  ],
+  "transparent_background": true
+}

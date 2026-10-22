@@ -1,0 +1,30 @@
+{
+  "id": 23,
+  "asset_id": "tome_23",
+  "original_key": "megabonk:tome:xp-tome",
+  "original_name": "XP Tome",
+  "source_url": "https://megabonk.org/database/tomes/xp-tome",
+  "original_file": "originals/23_xp-tome.png",
+  "original_effect_ru": "+7% к получению опыта",
+  "selected_set": "tomes-cards-v2",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v2",
+      "variant_id": "tome_23@cards-v2",
+      "new_name_en": "Insight Card",
+      "new_name_ru": "Карта прозрения",
+      "our_file": "cards/icons_256/23.png",
+      "data_file": "cards/data/23.json",
+      "entry_file": "cards/entries/23.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_23@seals-v1",
+      "new_name_en": "Insight Seal",
+      "new_name_ru": "Печать прозрения",
+      "our_file": "seals/icons_256/23.png",
+      "data_file": "seals/data/23.json",
+      "entry_file": "seals/entries/23.html"
+    }
+  ]
+}

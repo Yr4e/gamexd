@@ -1,0 +1,12 @@
+{
+  "id": 11,
+  "variant_id": "tome_11@seals-v1",
+  "mode": "built-in-imagegen",
+  "source_path": "C:\\Users\\yr4e\\.codex\\generated_images\\01a15a2b-45dd-7fc1-bcd8-b0244fc287dd\\exec-4033fb28-5b55-45cf-9c6d-05d4f39e476b.png",
+  "prompt_file": "seals/prompts/11.txt",
+  "references": [
+    "D:\\gamexd\\assets\\tomes\\cards-seals-01\\seals\\icons_256\\01.png",
+    "D:\\gamexd\\assets\\tomes\\originals\\11_shield-tome.png"
+  ],
+  "transparent_background": true
+}

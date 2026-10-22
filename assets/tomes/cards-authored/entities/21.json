@@ -1,0 +1,30 @@
+{
+  "id": 21,
+  "asset_id": "tome_21",
+  "original_key": "megabonk:tome:quantity-tome",
+  "original_name": "Quantity Tome",
+  "source_url": "https://megabonk.org/database/tomes/quantity-tome",
+  "original_file": "originals/21_quantity-tome.png",
+  "original_effect_ru": "+1 снаряд",
+  "selected_set": "tomes-cards-v3",
+  "variants": [
+    {
+      "set_id": "tomes-cards-v3",
+      "variant_id": "tome_21@cards-v3",
+      "new_name_en": "Echo Fan",
+      "new_name_ru": "Веер эха",
+      "our_file": "cards/icons_256/21.png",
+      "data_file": "cards/data/21.json",
+      "entry_file": "cards/entries/21.html"
+    },
+    {
+      "set_id": "tomes-seals-v1",
+      "variant_id": "tome_21@seals-v1",
+      "new_name_en": "Echo Seal",
+      "new_name_ru": "Печать эха",
+      "our_file": "seals/icons_256/21.png",
+      "data_file": "seals/data/21.json",
+      "entry_file": "seals/entries/21.html"
+    }
+  ]
+}
