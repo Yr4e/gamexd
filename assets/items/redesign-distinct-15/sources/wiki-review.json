@@ -1,0 +1,24 @@
+{
+  "url": "https://megabonk.wiki/wiki/Items",
+  "reviewed_on": "2026-10-22",
+  "access_method": "Web search indexed page text; direct fetch unavailable",
+  "scope_ids": [
+    24,
+    29,
+    47,
+    48,
+    50,
+    51,
+    58,
+    60,
+    63,
+    68,
+    70,
+    71,
+    76,
+    79,
+    80
+  ],
+  "comparison_result": "Qualitative effects match the preserved item mappings. Numerical balance values were not revised.",
+  "rarity_policy": "Preserve the previous per-ID outline_hex. Do not reinterpret existing rarity/color discrepancies during artwork redesign."
+}
