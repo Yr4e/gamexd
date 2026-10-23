@@ -1,0 +1,8 @@
+Use case: stylized-concept. Asset type: videogame environment asset board.
+Input images: official Megabonk screenshot1 is a VISUAL STYLE REFERENCE only, not an edit target. Match the coarse low-resolution pixel UV textures on rocks, ground, bark and foliage, inexpensive rough 3D game rendering.
+A clean aligned 4 columns by 3 rows grid with EXACTLY 12 separate isolated forest props, fully visible, equal space on plain dark desaturated blue-green background. No cell lines.
+ORDER left to right row1: a giant tree with simple thin bare branch and a few rough leaf clumps; a bare branch with hanging tan rope grab loop; one plain stump; one straight fallen log.
+Row2: a very low simple root; one mossy gray rock; a small fern with only four crude flat fronds; tiny grass tuft made of three flat blades.
+Row3: two plain small brown mushrooms; one broken branch; flat patch of coarse leaves; three stacked plain cut logs.
+FEWER DETAILS PER MODEL. Rough very simple low-poly geometry. Obvious chunky pixel UV textures, as official game reference, leaf and bark patterns are blocky and limited-color. Not flat solid-color models. Only plain game light, no studio shadows or ambient occlusion. Edges have slight pixel stair steps, true perspective 3D.
+No labels, numbers, text, buildings, watermark, ornamental carving, intricate roots, photorealism, cinematic lighting, polished cute toy render, smooth flat-color lowpoly, 2D pixelart.

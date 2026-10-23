@@ -1,0 +1,7 @@
+Use case: stylized-concept. Asset type: videogame enemy board.
+Input images: official Megabonk gameplay screenshots are VISUAL STYLE REFERENCES only, not edit targets. Match their rough low-poly monsters, coarse low-resolution UV pixel texture and simple cheap game lighting. This is NOT cute flat-shaded lowpoly.
+Exactly six separate full-body low-poly game enemy models in aligned 3 columns by 2 rows grid on plain desaturated blue-gray background. Front three-quarter view, plenty of separation, no pedestal.
+Top row ORDER: brown four-legged root crawler with simple dark eye sockets; lanky ordinary green frog jumper with small dark eyes; low dark-purple beetle with only a few simple leg segments.
+Bottom row ORDER: tall rough wood humanoid brute with normal SMALL head, long arms, simple fingers and a few leaves; ordinary low-poly forest moth with plain green wings and small dark eyes; thin walking brown mushroom stalk with arms and legs and small dark slits below cap.
+FEWER DETAILS per model: crude game meshes with visibly coarse pixel bark, insect shell and leaf texture. Restrained green brown purple. Keep elongated limbs and small heads where humanoid. Do not give huge friendly eyes or smile. Rugged weird videogame monsters. Slightly jagged pixel edges. Basic game render, minimal flat shadows.
+No labels, numbers, text, watermark, cute chibi, toy proportions, smooth flat colors, studio AO, ornate equipment, intricate organic detail, realistic fur or insects, photorealism, 2D pixelart, cinematic painting.

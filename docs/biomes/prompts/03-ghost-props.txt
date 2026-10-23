@@ -1,0 +1,8 @@
+Use case: stylized-concept. Asset type: game decoration reference board.
+Input image: official Megabonk screenshot is a VISUAL STYLE REFERENCE only, not an edit target. Apply original rough retro low-poly 3D, coarse low-resolution pixel UV textures, ordinary cheap game lighting.
+Exactly TWELVE separate full props in 4 columns by 3 rows grid, no visible lines, no text. Plain very dark desaturated green background. Each object complete and separate.
+Row1 ORDER: simple pine tree three crude angular foliage tiers; sparse crooked pine with only two foliage tiers; bare straight forked dead tree; simple white polygon cobweb between two short sticks.
+Row2 ORDER: three PLAIN small cream candles; one plain thick cream candle with flat pixel flame; low dark root with just two arms; group of three simple charcoal rocks.
+Row3 ORDER: tiny three-blade gray-green grass tuft; a small flat rock with one pale translucent green angular fog wisp; one plain fallen pine branch with one needle patch; small simple pale-green flame above one dark pebble.
+FEWER DETAILS PER MODEL. Conspicuous square pixel UV pattern inside tree leaf/bark/rock surfaces, a few flat faces per mesh. Plain simple low-budget game asset look matching screenshot, slightly jagged pixel edges. Restrained gloomy colors. No soft studio shadows or ambient occlusion. Not a polished low-poly asset pack.
+Strictly no pumpkins, buildings, castles, gravestones, ornament, runes, cute eyes, smiling faces, toy render, smooth flat untextured surfaces, elaborate texture detail, realistic fire or smoke, photorealism, 2D pixelart, text, labels, numbers, UI, watermark.
