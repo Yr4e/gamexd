@@ -6,10 +6,10 @@
 
 | Набор | Количество | Предпросмотр | Данные |
 | --- | ---: | --- | --- |
-| Пушки | 30 | [Смотреть пушки](assets/review/weapons/preview.html) | [Каталог](assets/review/manifest.json) |
-| Айтемы | 85 | [Смотреть айтемы](assets/review/items/preview.html) | [Каталог](assets/review/manifest.json) |
+| Пушки | 30 | [Смотреть пушки](https://yr4e.github.io/gamexd/assets/review/weapons/preview.html) | [Каталог](assets/review/manifest.json) |
+| Айтемы | 85 | [Смотреть айтемы](https://yr4e.github.io/gamexd/assets/review/items/preview.html) | [Каталог](assets/review/manifest.json) |
 | Характеристики | 33 | [Открытый предпросмотр](https://yr4e.github.io/gamexd/stat-icons/) | [Каталог](docs/stat-icons/catalog.json) |
-| Карты | 23 | [Смотреть актуальные карты](assets/tomes/cards-authored/cards/preview.html) | [Каталог карт](assets/tomes/cards-authored/manifest.json) |
+| Карты | 23 | [Смотреть актуальные карты](https://yr4e.github.io/gamexd/assets/tomes/cards-authored/cards/preview.html) | [Каталог карт](assets/tomes/cards-authored/manifest.json) |
 
 ## Иконки характеристик
 
@@ -23,13 +23,13 @@
 
 ## Пушки
 
-[Предпросмотр 30 пушек](assets/review/weapons/preview.html) с названиями и соответствиями оригинальному оружию Megabonk.
+[Предпросмотр 30 пушек](https://yr4e.github.io/gamexd/assets/review/weapons/preview.html) с названиями и соответствиями оригинальному оружию Megabonk.
 
 ## Айтемы
 
-[Основной набор из 85 айтемов](assets/review/items/preview.html).
+[Основной набор из 85 айтемов](https://yr4e.github.io/gamexd/assets/review/items/preview.html).
 
-Для **15 позиций** дополнительно подготовлены новые образы: [сравнение оригинала, прежней и новой иконки](assets/items/redesign-distinct-15/preview.html) · [все 85 айтемов с новыми вариантами в общей сетке](assets/items/redesign-distinct-15/context-grid-85.png) · [данные новых вариантов](assets/items/redesign-distinct-15/manifest.json).
+Для **15 позиций** дополнительно подготовлены новые образы: [сравнение оригинала, прежней и новой иконки](https://yr4e.github.io/gamexd/assets/items/redesign-distinct-15/preview.html) · [все 85 айтемов с новыми вариантами в общей сетке](assets/items/redesign-distinct-15/context-grid-85.png) · [данные новых вариантов](assets/items/redesign-distinct-15/manifest.json).
 
 Эти 15 вариантов пока собраны отдельно: основной предпросмотр из 85 айтемов содержит прежние изображения этих позиций. Это варианты тех же предметов, поэтому общее количество айтемов — **85**.
 
@@ -37,9 +37,9 @@
 
 Актуальный набор — **23 карты `tomes-cards-v3`**. Каждая карта соответствует одному тому Megabonk; ID, порядок и исходные эффекты сохранены.
 
-[Предпросмотр карт](assets/tomes/cards-authored/cards/preview.html) · [Сравнение с оригиналами](assets/tomes/cards-authored/comparison.html) · [Поиск по оригинальному названию](assets/tomes/cards-authored/lookup.json)
+[Предпросмотр карт](https://yr4e.github.io/gamexd/assets/tomes/cards-authored/cards/preview.html) · [Сравнение с оригиналами](https://yr4e.github.io/gamexd/assets/tomes/cards-authored/comparison.html) · [Поиск по оригинальному названию](assets/tomes/cards-authored/lookup.json)
 
-[![23 актуальные карты](assets/tomes/cards-authored/cards/grid.png)](assets/tomes/cards-authored/cards/preview.html)
+[![23 актуальные карты](assets/tomes/cards-authored/cards/grid.png)](https://yr4e.github.io/gamexd/assets/tomes/cards-authored/cards/preview.html)
 
 ## Соответствия оригиналам
 
