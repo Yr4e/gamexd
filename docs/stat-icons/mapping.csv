@@ -1,0 +1,34 @@
+﻿id,asset_id,key,name_ru,name_en,group,group_ru,description_ru,file,width,height,sha256
+1,stat_01,max-health,Макс. здоровье,Max Health,defense,Защита,Максимальный запас здоровья.,icons/01_max-health.png,256,256,badb10985ed9024b2b4959c1d4e5e58aa493dbcf83697731daf62cf6ae8a1d11
+2,stat_02,regeneration,Регенерация,Health Regeneration,defense,Защита,Восстановление здоровья со временем.,icons/02_regeneration.png,256,256,b8013122db59cc6cea49b3e00dcee7a52cdea5c3573886cbeda034497d774d7e
+3,stat_03,armor,Броня,Armor,defense,Защита,Защита персонажа бронёй.,icons/03_armor.png,256,256,73c2dfa4d87183259fda65c6bca51cb6b7c4e3af85b8063ed511c3ba158e3fc1
+4,stat_04,shield,Щит,Shield,defense,Защита,Дополнительный защитный щит.,icons/04_shield.png,256,256,dd6dc7699349b896abb1cee335e6fb2222505fc5b92458882e003dcfa239bc7b
+5,stat_05,overheal,Сверхлечение,Overheal,defense,Защита,Лечение сверх обычного запаса здоровья.,icons/05_overheal.png,256,256,accd0e3a09a0810538259b57b7b8c34e14443e50b0edb92c287453d474b52a27
+6,stat_06,evasion,Уклонение,Evasion,defense,Защита,Вероятность уклониться от удара.,icons/06_evasion.png,256,256,b249615b6a3c735cff5e44bab4290f83db4c55b1313918f2aed2409597a782be
+7,stat_07,lifesteal,Вампиризм,Lifesteal,defense,Защита,Восстановление здоровья за счёт нанесённого урона.,icons/07_lifesteal.png,256,256,99337fe9b001431de0ec2968ce4876ba981906dd5047b1ea3a335b1ac63cf6d2
+8,stat_08,thorns,Шипы,Thorns,defense,Защита,Ответный урон атакующему противнику.,icons/08_thorns.png,256,256,474d98b327a804c0347094ba586cf02713120d290c0a371c0475345fcd599930
+9,stat_09,damage-taken,Получаемый урон,Damage Taken,defense,Защита,Множитель входящего урона.,icons/09_damage-taken.png,256,256,40e3e9dc7a54064a55974cc3e2e34e4ef201e402cb01fa6589ffb66fd4a7094d
+10,stat_10,damage,Урон,Damage,attack,Атака,Сила наносимого урона.,icons/10_damage.png,256,256,d42e4c12154b6785f80ce328b34c2696afde21b0732070bcf06606c722c3a625
+11,stat_11,attack-speed,Скорость атаки,Attack Speed,attack,Атака,Частота атак.,icons/11_attack-speed.png,256,256,4b7dbe9dd4a70cefe4a2cf6d7767d66fb2b79b607d22ea080aaadf0df99d4be0
+12,stat_12,crit-chance,Шанс крита,Critical Chance,attack,Атака,Вероятность критического удара.,icons/12_crit-chance.png,256,256,bb68eff99a1a719c28d26d6e08aa7d573cdb5ee225139adac688be3b34d3f1ca
+13,stat_13,crit-damage,Урон крита,Critical Damage,attack,Атака,Сила критического удара.,icons/13_crit-damage.png,256,256,f477887d82ce2827ae0cbf3b078db1cf7e1bcb25cbcf1848f8b4505e67e1bb99
+14,stat_14,projectiles,Снаряды,Projectile Count,attack,Атака,Количество выпускаемых снарядов.,icons/14_projectiles.png,256,256,5be336d8da7281f59a8193b25ab17db0a483ab24a2dba5d37e84990ecdb0f7e7
+15,stat_15,size,Размер,Projectile Size,attack,Атака,Размер снарядов и атак.,icons/15_size.png,256,256,918aa50b9a63bc0d5f7422258043a05678c4e2243c6bfcb76b3d592269d3f88f
+16,stat_16,projectile-speed,Скорость снарядов,Projectile Speed,attack,Атака,Скорость полёта снарядов.,icons/16_projectile-speed.png,256,256,656453601d8c5afa89802015b7d70c6f195f07313b106fab537048f0c046b8f7
+17,stat_17,duration,Длительность,Duration,attack,Атака,Продолжительность действия атак или эффектов.,icons/17_duration.png,256,256,c352d1ba9938be92dd047a6e4ba0da6c80417272b920c5db409a2e62fd2c8f2b
+18,stat_18,elite-damage,Урон по элите,Damage to Elites,attack,Атака,Урон по элитным противникам.,icons/18_elite-damage.png,256,256,bd3c5094fe6310f6fcad917d88b41beb7a5ae1a86c9e5c6a0e809838a90c2d78
+19,stat_19,knockback,Отбрасывание,Knockback,attack,Атака,Сила отталкивания противников.,icons/19_knockback.png,256,256,18923826364261e2d63456e992fdb8bf2e3f4c35d37336991ed6f9f1404a8a34
+20,stat_20,ricochet,Отскоки снарядов,Projectile Bounces,attack,Атака,Количество отскоков снарядов.,icons/20_ricochet.png,256,256,03f8fd6e87b282d460a2e82cd510612520980b3e6be0e52fc6759c23293afd78
+21,stat_21,move-speed,Скорость бега,Movement Speed,movement,Движение,Скорость передвижения персонажа.,icons/21_move-speed.png,256,256,104776c532f045d3cd688ee5e0fdab12ddeadcc6a34f8726a127b6f439b29cdd
+22,stat_22,jump-height,Высота прыжка,Jump Height,movement,Движение,Высота одного прыжка.,icons/22_jump-height.png,256,256,d44d0378adfa8c7cf42ee62e0b94f4be6eb302acd2916f081b5c766bf9dc4d58
+23,stat_23,extra-jumps,Доп. прыжки,Extra Jumps,movement,Движение,Количество дополнительных прыжков.,icons/23_extra-jumps.png,256,256,53bfe78d69b2b49371cf6b2dc3740e649268a273dffc6eebbcaf9a7602e5bc83
+24,stat_24,xp-gain,Получение опыта,XP Gain,development,Развитие,Количество получаемого опыта.,icons/24_xp-gain.png,256,256,883465310be8d25820fd0ae166c579e365bfe98201fd9b776ce6aa0c0b3c03fa
+25,stat_25,pickup-radius,Радиус подбора,Pickup Radius,development,Развитие,Расстояние автоматического подбора.,icons/25_pickup-radius.png,256,256,5f5b6b16600f5288693f5cfaacc9c777476624df2b4e72aeb09aeba44d8f3092
+26,stat_26,luck,Удача,Luck,development,Развитие,Характеристика удачи.,icons/26_luck.png,256,256,4aaf51e2802ec493a2c164364e818ecc27294ac799f7b55f1feb347c856b25a3
+27,stat_27,gold-gain,Добыча золота,Gold Gain,development,Развитие,Количество получаемого золота.,icons/27_gold-gain.png,256,256,2e0260b3dfd1b794a9955a8f4f62ee7db1062472ab26f6caa23bb54555ccb5bb
+28,stat_28,silver-gain,Добыча серебра,Silver Gain,development,Развитие,Количество получаемого серебра.,icons/28_silver-gain.png,256,256,32a26ace76cc4fe790f705c9d11c2e49b7aa4e473abde6f7106ce1ab01cb1b1d
+29,stat_29,difficulty,Сложность,Difficulty,risk,Риск,Уровень сложности.,icons/29_difficulty.png,256,256,55e08894b9f126fdc5d6d74535762f9ebd3deb879dc302f325c7577d3eeda610
+30,stat_30,elite-spawn,Появление элиты,Elite Spawn Chance,risk,Риск,Частота появления элитных противников.,icons/30_elite-spawn.png,256,256,6c9abf4699dace2f5d50f3ef3797782b0bd7acfdc73b33229ad375ba9d3e467c
+31,stat_31,boost-power,Сила усилений,Powerup Strength,boosts,Усиления,Сила временных усилений.,icons/31_boost-power.png,256,256,14fd21fbea6315fdc2e696b11bf1845ac9bab2abf422c07995fee0b58a07056f
+32,stat_32,boost-chance,Шанс усилений,Powerup Chance,boosts,Усиления,Вероятность получения временного усиления.,icons/32_boost-chance.png,256,256,7eef2dd0cb7983d6b45368de71ecd35807c474d49dd692cc5223e8446d18c5f2
+33,stat_33,shrine-charge,Зарядка святилищ,Shrine Charge,other,Прочее,Характеристика зарядки святилищ.,icons/33_shrine-charge.png,256,256,1500de367b68e425629ac77562d2dc6737f74688d98da5ef67abc794f594db78
